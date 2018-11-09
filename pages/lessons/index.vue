@@ -4,7 +4,13 @@
     <v-card-title primary-title>
       <h3 class="papyrus myheader">Learn Kuvalayananda</h3>
       </v-card-title>
-      <v-btn v-for="item in alankaras" :key="item.sl_num" :to="item.to" large color="secondary" class="text-capitalize font-weight-bold" round>{{item.title}}</v-btn>
+  <v-container fluid grid-list-sm>
+          <v-layout row wrap>
+            <v-flex v-for="item,i in alankaras" :key="i" xs4>
+              <v-btn :to="item.to" large color="secondary" class="text-capitalize font-weight-bold" round>{{item.title}}</v-btn>
+            </v-flex>
+          </v-layout>
+        </v-container>
   </v-card>
   </v-container>
 </template>
