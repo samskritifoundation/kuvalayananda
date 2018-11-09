@@ -46,7 +46,7 @@
       >
         <v-card flat>
           <v-card-text class="devanagari" v-html="n.text_sans"></v-card-text>
-          <v-img :src='n.ex_img' width="100%"></v-img>
+          <v-img :src='n.ex' width="100%"></v-img>
         </v-card>
       </v-tab-item>
     </v-tabs>
