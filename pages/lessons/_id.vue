@@ -83,7 +83,7 @@ export default {
     this.next_lesson = this.$store.state.lessons[this.index + 1]
     this.length = this.$store.state.lessons.length
     this.previous = this.index > 1 ? '/lessons/' + (this.prev_lesson.id) : '/lessons/1'
-    this.next = this.index < this.length ? '/lessons/' + (this.next_lesson.id) : '/lessons/18'
+    this.next = this.index < this.length ? '/lessons/' + (this.next_lesson.id) : '/'
     // console.log(this.index)
     // console.log(this.prev_lesson)
     // console.log(this.next_lesson.id)

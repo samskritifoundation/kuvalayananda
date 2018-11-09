@@ -8,17 +8,16 @@
         <v-card-title class="myheader2 devanagari text-xs-center"कुवलयानन्द-शिक्षकः - परस्परव्यवहारपूर्वकशिक्षणम्</v-card-title>
         <v-card-title class="myheader2 papyrus text-xs-center">Interactive tutorial for Kuvalayananda</v-card-title>
         <v-card-text>
-          <p>Interactive self learning software for learning poetic ornamentation used in Sanskrit poetry.</p>
+          <p>Interactive self learning software for learning rhetorics used in Sanskrit poetry.</p>
           <hr class="my-3">
         </v-card-text>
         <v-card-actions>
           <v-dialog v-model="dialog" scrollable>
-          <v-btn slot="activator" round color="accent" class="text-capitalize font-weight-bold" large :ripple="{ class: 'error--text' }"> About <br> Vrittaratnakara</v-btn>
+          <v-btn slot="activator" round color="accent" class="text-capitalize font-weight-bold" large :ripple="{ class: 'error--text' }"> About <br> Kuvalayananda</v-btn>
           <v-card color="info" class="papyrus bg1" light>
-            <v-card-title class="myheader papyrus">Vrittaratnakara</v-card-title>
+            <v-card-title class="myheader papyrus">Kuvalayananda</v-card-title>
             <v-divider></v-divider>
-            <v-card-text class="subheading papyrus font-weight-bold">Vritta Ratnakara of Kedara Bhatta (14th Century CE) is one of
-the most popular texts on Sanskrit prosody. Though there are many books on Sanskrit prosody by eminent authors like Kalidasa, Kshemendra, etc, Vritta Ratankara continues to be an essential text for Sanskrit students. A speciality of this work is that the definition and illustration of a meter is given in one and the same verse. The verse defining a particular metre is composed in that particular meter itself. This is very helpful for a student of Sanskrit prosody. Another specialty of this work is that it is very brief – there are merely 136 verses. The author has covered all the prominent metres of Sanskrit literature in these verses.</v-card-text>
+            <v-card-text class="subheading papyrus font-weight-bold"></v-card-text>
             <v-divider></v-divider>
             <v-card-actions>
               <v-spacer></v-spacer>

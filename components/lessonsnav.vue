@@ -228,14 +228,12 @@
           {
             title: '१९ निदर्शनालङ्कारः',
             sl_num: '18',
-            group: false,
             to: '/lessons/18'
           },
           {
-            title: '१९ निदर्शनालङ्कारः',
+            title: ' ',
             sl_num: '19',
-            group: false,
-            to: '/'
+            to: '/exercises'
           }
         ],
         mini: false,
