@@ -5,10 +5,10 @@
 <sflogo title="संस्कृति-प्रतिष्ठानम्" subtitle1="Samskriti Foundation" subtitle2="presents" />
       </div>
       <v-card class = "bordered text-xs-center" color="primary" dark>
-        <v-card-title class="myheader2 devanagari text-xs-center">वृत्तरत्नाकर-शिक्षकः - परस्परव्यवहारपूर्वकशिक्षणम्</v-card-title>
-        <v-card-title class="myheader2 papyrus text-xs-center">Interactive tutorial for Vrittaratnakara</v-card-title>
+        <v-card-title class="myheader2 devanagari text-xs-center"कुवलयानन्द-शिक्षकः - परस्परव्यवहारपूर्वकशिक्षणम्</v-card-title>
+        <v-card-title class="myheader2 papyrus text-xs-center">Interactive tutorial for Kuvalayananda</v-card-title>
         <v-card-text>
-          <p>Interactive self learning software for learning Sanskrit prosody, various types of meters used in poetry.</p>
+          <p>Interactive self learning software for learning poetic ornamentation used in Sanskrit poetry.</p>
           <hr class="my-3">
         </v-card-text>
         <v-card-actions>

@@ -2,28 +2,27 @@ export const state = () => ({
   sidebar: false,
   lessons: [
     {
-      title_sans: 'छन्दःशास्त्रः - भूमिका',
-      title_eng: 'Introduction to Sanskrit Prosody',
+      title_sans: 'श्रीगणेशाय नमः',
+      title_eng: ' ',
       id: 1,
-      definition_sans: '',
-      definition_eng: '<p>Sanskrit prosody or Chandas refers to one of the six Vedangas, or limbs of Vedic studies. It is the study of poetic metres and verse in Sanskrit.</p><p>Almost all Sanskrit poetry is based on following a certain meter, or arrangement of syllables. The Chandas or the metre is an essential element of versified poetry. Rigorous description of the form of the poems helps to preserve their shape over time. This description evolved into the formal study of meter. Both meter and the study of meter are called chandas.</p><p>A poetical stanza or verse in Sanskrit is called <em>padya</em>. Generally a <em>padya</em> or verse contains four <em>pādas</em> or quarters or metrical lines. Sanskrit verses are classified into groups and sub-groups according to: <ol type="a"><li>the number of syllables or syllabic instants they contain in each quarter and </li><li>the position or placement of short or long syllables within the verse</li></ol></p><p>Such groups and sub-groups are called <em>chandas</em></p>',
-      example_sans: ''
+      definition_sans: 'अमरीकबरीभारभ्रमरीकृतम्‌।<br>दूरीकरोतु दुरितं गौरीचरणपङ्कजम्‌॥१॥<br>परस्परतपःसम्पत्फलायितपरस्परौ।<br>प्रपञ्चमातापितरौ प्राञ्चौ जायापती स्तुमः॥२॥<br>उद्धाटुअ योगकलया हृदयाब्जकोशं धन्यैशइरादपि यथारुचि गृहमाणः।<br>यः प्रस्फुरित्यविरतं परिपूर्णरुपः श्रेयः स मे दिशतु शाश्वतिकं मुकुन्दः॥३॥<br>अलङ्कारेषु बालानामवगाहनसिद्धये।<br>ललितः क्रियते तेषां लक्ष्यलक्षणसंग्रहः॥४॥<br>येषां चन्द्रालिके दृश्यन्ते लक्ष्यलक्षणश्लोकाः।<br>प्रायस्त एव तेषामितरेषां त्वभिनवा विरच्यन्ते॥५॥',
+      definition_eng: ''
     },
     {
-      title_sans: 'गुरुलक्षणम्',
-      title_eng: 'Identifying a Guru',
+      title_sans: '१. उपमालङ्कारः',
+      title_eng: ' ',
       id: 2,
-      definition_sans: '<ul><li>अनुस्वारेण सहितो वर्णः – अं, कं, खं, गं…</li><li>विसर्गान्तः – अः, कः,..</li><li>दीर्घः – आ, ई, ऊ,…</li><li>संयुक्तपदः – ष्ण, क्त, ...</li><li>पद्यस्य चरणान्ते स्थितो लघुः</li></ul>',
-      definition_eng: '<ul><li>Vowel or consonant followed by anusvāra - aṃ, kaṃ, khaṃ, gaṃ, etc  </li><li>Vowel or consonant followed by Visarga - aḥ, kaḥ, etc </li><li>The vowels ā, ī, ū, etc… are long. Whenever any of these is used in a verse separately or with one or more consonants, it will be considered as long. Eg: kā, kī, etc are long syllables </li><li>A conjunct consonant – ṣṇa, kta, etc</li><li>At the end of a quarter a short syllable can be considered as long.</li></ul>',
+      definition_sans: '<p>उपमा यत्र सादृश्यलक्ष्मीरुल्लसति द्वयोः। हंसीव कृष्ण! ते कीर्तिः स्वर्गङ्गामवगाहते॥६॥ यत्रोपमानोपमेययोः सहृदयहृदयाह्लादकत्वेन चारुसादृश्यमुउद्भूततयोल्लसति व्यङ्ग्यमर्यादा विना स्पष्टं प्रकाशत तत्रोपमालङ्कारः।हंसीवेत्युदाहरणम्‌। इयं च पूर्णोपमेत्युच्यते।हंसी कीर्तिः स्वर्गङ्गावगाहनमिवशब्दश्चेत्येतेषामुपमानोपमेयसाधारणधर्मोपमावाचकानां चतुर्णामप्युपादानात्‌।‘गुणदोषौ बुधो गृह्णन्निन्दुक्ष्वेडाविवेश्वरः।शिरसा श्लाघ्यते पूर्वं परं कण्ठे नियच्छति॥’</p>अत्र यद्यप्युपमानोपमेययोर्नैकः साधारणो धर्मः उपमाने ईश्वरे चन्द्रगरलयोर्ग्रहणमुपादानं तयोर्मध्ये पूर्वस्य चन्द्रस्य शिरसा श्लाघनं <br />शिरःकम्पनेनाभिनन्दनमुत्तरस्य दोषस्य कण्ठे नियमनं कण्ठादुपरि वाचानुद्धाटनमिति भेदात्‌।<br />तथापि चन्द्रगरलयोश्च बिब्मप्रतिबिम्बभावेनाभेदादुपादानज्ञानादीनां गृह्यन्नित्येकशब्दोपादानेनाभेदावसायाच्च साधारणधर्मतेति पूर्वस्माद्विशेषः <br />वस्तुतो भिन्नयोरुपमानोपमेयधर्मयोः परस्परसादृश्यादभिन्नयोः पृथगुपादानं बिम्बप्रतिबिम्बभाव इत्यालङ्कारिकसमयः॥६॥<br />वर्ण्योपमानधर्माणामुपमावाचकस्य च।<br />एकद्वित्र्यनुपादानैर्भिन्ना लुप्तोपमाष्टधा॥७॥<br />तडिद्गौरीन्दुतुल्यास्या कर्पूरन्ती दृशोर्मम।<br />कान्त्या स्मरवधूयन्ती दृष्टा तन्वी रहो मया॥८॥<br />यत्तया मेलनं तत्र लाभो मे यश्च तद्रतेः। <br />तदेतत्काकतालीअमवितर्कितसंभवम्‌॥९॥<br />उपमेयादीनां चतुर्णां मध्ये एकस्य द्वयोस्त्रयाणां वा प्रतिपादकशब्दाभावेन लुप्तोपमेत्युच्यते।<br />सा चाष्टधा।<br />यथा – वाचकलुप्ता १, धर्मलुप्ता २, धर्मवाचकलुप्ता ३, वाचलोपमेयलुप्ता ४, उपमानलुप्ता ५, वाचकोपमानलुप्ता ६, धर्मोपमानलुप्ता ७, धर्मोपमानवाचकलुप्ता च ८ इति।<br />तत्रोपमानलोपरहिताश्चत्वारो भेदाः ‘तडिद्गौरी’ – इत्यादिश्लोकेन प्रदर्शिताः।<br />तद्वन्तो भेदा उत्तरश्लोकेन दर्शिताः।<br />तत्र ‘तडिद्गौरी’ इत्यत्र वाचकलोपस्तडिदिव गौरीत्यर्थे ‘उपमानामि सामान्यवचनैः (पा. २।१।५५) इति समासविधायकशास्त्रकृतः। <br />‘इन्दुतुल्यास्या’ इत्यत्र धर्मलोपः, स त्वैच्छिको न शास्त्रकृतः, कान्त्या इन्दुतुप्यास्येत्यपि वक्तुं शक्यत्वात्‌।<br />‘कर्पूरन्ती’ इत्यत्र धर्मवाचकलोपः कर्पूरमिवाचरन्तीत्यर्थे विहितस्य कर्पूरवदानन्दात्मकाचारार्थकस्य किप्‌ इवशब्देन सह लोपात्‌।<br />अत्र धर्मलोप; ऐ्च्छिकः, ननयोरानन्दात्मकतया कर्पूरन्तीति तदुपादानस्यापि संभावादिति।<br />‘कान्त्या स्मरवधूयन्ती’ इत्यत्र वाचकोपमेयलोपः अत्र कान्त्येति विशेषणसामर्थ्यात्स्वात्मानं कामवधूमिवाचरन्तीत्यर्थस्य गम्यमानतया स्वात्मन उपमेयस्य सहोपमावाचकेनानुपादानात्स त्वैच्छिकः; स्वात्मानं स्मरवधूयन्तीत्युपमेयोपादानस्यापि संभवात्‌।<br />‘काकतालीय’ इत्यत्र काकतालशब्दौ वृत्तिविषये काकतालसमवेतक्रियावर्तिनौ, तेन काकागमनमिव तालपतनमिव काकतालमितीवार्थे ‘समासाच्च तद्विषयात्‌’ (पा. ५।३।१०६) इति ज्ञापकात्समासः। <br />उभयत्रोपमेयं स्वस्य क्वचिद्गमनं तत्रैव रहसि तन्व्या अवस्थानं च।<br />तेन स्वस्य तस्याश्च समागमः काकतालसमागमसदृश इति फलति। <br />ततः ‘ काकतालमिव काकतालीय‌म्‌’ इति द्वितीयस्मिन्निवार्थे ‘समासाच्च तद्विषयात्‌’ (पा. ५।३।१०६) इति सूत्रेण ‘इवे प्रतिकृतौ’ (पा. ५।३।९६) इत्यधिकारस्थेन छप्रत्ययः।<br />तथा च पतनदलितं तालफलं यथा काकेनोपभुक्तम्‌, एवं रहोदर्शनक्षुभितहृदया तन्वी तालफलोपभोगरुपस्य हओपमानस्यानुपादानात्प्रत्ययार्थोपमायामुपमानलोपः, समासार्थोपमायां वाचकपमानलोपः।<br />सर्वोऽप्ययं लोपश्छप्रत्ययविधायकशास्त्रकृतः, अवितर्कितसंभवमिति साधारणधर्मस्यानुपादाने प्रत्ययार्थोपमायां धर्मोपमानलोपः।<br>समासार्थोपमायां धरोमपमानवाचकलोप इति सूक्ष्मया दृष्ट्यावधारितम्‌।<br>एतेषामुदाहरणान्तराणि विस्तरभयान्न लिख्यन्ते॥७-९॥</p>',
+      definition_eng: ' ',
       example_sans: ''
     },
     {
-      title_sans: 'लघुलक्षणम्',
-      title_eng: 'Identifying a Laghu',
+      title_sans: '२ अनन्वयालङ्कारः।',
+      title_eng: ' ',
       id: 3,
-      definition_sans: '<ul><li>एकमात्रिकः</li><li>ह्रस्वः – अ, इ, उ,..</li></ul>',
-      definition_eng: '<ul><li>Laghu consists of a single syllabic instant (1 mātrā).</li><li>The  vowels a, i, u, ṛ, lṛ are short. Whenever any of these is used in a verse separately or with one or more consonants it will be considered as a short syllable. Eg: ka, ki, etc.</li></ul>',
-      example_sans: ''
+      definition_sans: 'उपमानोपमेयत्वं यदेकस्यैव वस्तुनः।<br>इन्दुरिन्दुरिव श्रीमानित्यादौ तदनन्वयः॥१०॥<br>एकस्यैव वस्तुनः उपमानोपमेयत्ववर्णनमनन्वयः।<br>वर्ण्यमानमपि स्वस्य स्वेन साधर्म्यं नान्वेतीति व्युत्पत्तेः।<br>अनन्वयिनोऽप्यर्थस्याभिधानं सदृशान्तरव्यवच्छेदेनानुपमत्वद्योतनाय।<br>‘इन्दुरिन्दुरिव श्रीमान्‌’ इत्युक्ते श्रीमत्त्वेन चन्द्रस्य नान्यः सदृशोऽस्तीति सदृशान्तरव्यवच्छेदो लक्ष्यते।<br>ततश्च स्वस्य स्वेनापि सादृश्यासंभवादनुपमेयत्वे पर्यवसानम्‌॥ ',
+      definition_eng: ' ',
+      example_sans: ' यथा वा - गगनं गगनाकारः सागरः सागरोपमः।<br>रामरावणयोर्युद्धं रामरावणयोरिव॥<br><br>पूर्वोदाहरणे श्रीमत्त्वस्य धर्मस्योपादानमस्ति। <br>इह तु गगनादिषु वैपुल्यादेर्धर्मस्य तन्नास्तीति विशेषः॥१०॥'
     },
     {
       title_sans: 'छन्दोविभागाः',
@@ -206,14 +205,89 @@ export const state = () => ({
       title_eng: 'Trishtup',
       id: '4.1.i.XI',
       definition_sans: '',
-      definition_eng: ''
+      definition_eng: '',
+      types: 16,
+      type: [
+        {
+          text_sans: '<h3>इन्द्रवज्रा Indravajra</h3><p>द्वौ तगणौ ततो जगणगुरु पुनरेको गुरुश्चेत् सा इन्द्रवज्रा नाम</p><p>Each quarter of this meter contains 11 syllables. Here, the 1st, 2nd, 4th, 5th, 8th, 10th and 11th syllables of each quarter are long and the others short. There should be a pause after the 5th and last syllables of each quarter.</p>',
+          ex_img: '/indravajra.png'
+        },
+        {
+          text_sans: '<h3>उपेन्द्रवज्रा Upendravajra</h3><p>जगण-तगण-जगणाः स्युः, ततो द्वौ च गुरु स्याताम्, तदा उपेन्द्रवज्रा नाम छन्द उच्यते।</p><p>This metre is similar to the previous one, Indravajra. The difference between two is that in it first syllable of each quarter is short, whereas it is long in indravajra. The places of pause are also same in both.',
+          ex_img: '/upendravajra.png'
+        },
+        {
+          text_sans: '<h3>Upajati</h3><p>एकः पादः इन्द्रवज्राया एकादिर्वोपेन्द्रवज्रायाः ता “उपजातयो” नाम मताः। </p><p>एताश्चतुरक्षरप्रस्तारवत्प्रस्तारे आद्यन्तयोर्भेदयोः केवलेन्द्रवज्रोपेन्द्रवज्रयोस्त्यागात् चतुर्दश भेदा भवन्ति। तथाहि-</p><ol><li>इ इ इ इ       (इन्द्रवज्रा) </li><li>उ इ इ इ       (कीर्त्तिः) १</li><li>इ उ इ इ        (वाणी) २</li><li>उ उ इ इ       (माला) ३</li><li>इ इ उ इ (शाला) ४</li><li>इ इ उ इ       (हंसी) ५</li><li>इ उ उ इ       (माया) ६</li><li>उ उ उ इ       (जाया) ७</li><li>इ इ इ उ       (बाला) ८</li><li>उ इ इ उ       (आर्द्रा) ९</li><li>इ उ इ उ       (भद्रा) १०</li><li>उ उ इ उ       (रामा) ११</li><li>इ इ उ उ             १२</li><li>उ इ उ उ       (ऋद्धिः) १३</li><li>इ उ उ उ       (बुद्धिः) १४</li><li>उ उ उ उ       (उपेन्द्रवज्रा) </li></ol><br><p>उक्तञ्च वृद्धैः-</p>एकत्र पादे चरणद्वये वापादत्रये वान्यतरः स्थितश्चेत्।<br>तयोरिहान्यत्र तथोहनीयाश्चतुर्दशोक्ता उपजातिभेदाः॥इति॥<br><br><p>उदाहरणं यथा वा-</p>(इ०)      काचिन्मुरारेर्वदनारविन्दं <br>(उ०) संक्रान्तमालोक्य जले निवोढा। <br>   (इ०) व्यक्तं सलज्जा परिचुम्बितुं तत्॥ <br>         (उ०) तदर्थमेवाम्भसि निर्ममज्ज॥(अच्युतचरिते) <br><br><p>इत्येवमस्याश्चतुर्दश भेदाः प्रायो महाकव्येषु सन्तो ज्ञेयाः॥</p>'
+        },
+        {
+          text_sans: '<h3>सुमुखी</h3><p>आदौ नगणः, ततो जगणौ, तत एको लघुः,एको गुरुः स्यात्, सा “सुमुखी” इत्युच्यते। पञ्चभिः षड्भिश्च यतिरिति सम्प्रदायः। </p>',
+          ex_img: '/sumukhi.png'
+        },
+        {
+          text_sans: '<h3>दोधकवृत्तम्</h3><p>भगणत्रयात् ऊर्ध्वे द्वौ गुरु स्यातां चेत् इदं “दोधकवृत्तम्” नाम भवति। पादन्ते यतिः।</p>',
+          ex_img: '/dodhaka.png'
+        },
+        {
+          text_sans: '<h3>शालिनी Shalini</h3><p>मगणः तगणश्च, तगणः गुरुश्च, पुनरप्येको गुरुः अर्थात् म-त-तानामुत्तरं गुरुद्वयञ्चेत् तदा “शालिनी” नाम छन्द उक्तम्। चतुर्भिः सप्तभिश्च यतिरिति शेषः।</p><p>This metre has eleven syllables in each quarter. Here except the sixth and ninth syllables of each quarter, all other syllabels are long. There should be a pause after the 4th and last syllables of each quarter.',
+          ex_img: '/shalini.png'
+        },
+        {
+          text_sans: '<h3>वातोर्मी</h3><p>मगणः भगणश्च, तगणः गुरुश्च, पुनरप्येको गुरुश्चेत्, इयम् “वातोर्मी” उच्यते। यतिः शालिनीवत्।</p>',
+          ex_img: '/vatormi.png'
+        },
+        {
+          text_sans: '<h3>श्रीः</h3><p>भगण- तगण- नगणैः द्वाभ्यां गुरुभ्याञ्च “श्रीः” नाम छन्दः। पञ्चभिः षड्भिश्च यतिः।</p>',
+          ex_img: '/shri.png'
+        },
+        {
+          text_sans: '<h3>भ्रमरविलसिता</h3><p>मगणभगणौ, नगणलघू, अन्ते गुरुश्चैकश्चेत् सा भ्रमरविलसिता इत्युच्यते। चतुर्भिः, सप्तभिश्च यतिरित्याम्नायः। </p>',
+          ex_img: '/bhramara.png'
+        },
+        {
+          text_sans: '<h3>रथोद्धता Rathoddhata</h3><p>रगणात् नगणरगणौ स्याताम्, एको लघुः, एको गुरुश्चेत्, छन्दःशास्त्रे “रथोद्धता” नाम । पादे यतिः ।</p><p>This metre has 11 syllables in each quarter. Here the 1st, 3rd, 7th, 9th and 11th syllables of each quarter are long and others short. There should be a pause after the 4th and last syllables of each quarter.</p>',
+          ex_img: '/rathodhata.png'
+        },
+        {
+          text_sans: '<h3>स्वागता</h3><p>रगण- नगण- भगणेभ्यः परं गुरुद्वयं चेत् सा “स्वागता” ज्ञेया । पादे यतिः।</p>',
+          ex_img: '/svagata.png'
+        },
+        {
+          text_sans: '<h3>वृत्ता</h3><p>यदि द्वौ नगणौ, एकः सगणः, द्वौ गुरु, एतैः रचिता “वृत्ता” सा उच्यते । चतुर्भिः सप्तभिश्च यतिः। अस्यैव छन्दसो “वृत्तम्” इति नामान्तरम्। </p>',
+          ex_img: '/vritta.png'
+        },
+        {
+          text_sans: '<h3>भद्रिका</h3><p>द्वाभ्यां नगणाभ्याम् एकेन रगणेन, एकेन च गुरुणा “भद्रिका” नाम भवति । पादे यतिः।</p>',
+          ex_img: '/bhadrika.png'
+        },
+        {
+          text_sans: '<h3>श्येनिका</h3><p>रगणजगणौ रगण लघू अर्थात् एको रगणः, एको लघुः, एकश्च गुरुः स्यात् तदा “श्येनिका” इत्युच्यते। श्येनिका । पादे यतिः।</p>',
+          ex_img: '/shyenika.png'
+        },
+        {
+          text_sans: '<h3>मौक्तिकमाला</h3><p>भगण-तगण- नगणात् परं द्वौ गुरु स्यातां तदा “मौक्तिकमाला” भवति । पञ्चभिः षड्भिश्च यतिः ।</p>',
+          ex_img: '/mouktika.png'
+        },
+        {
+          text_sans: '<h3>उपस्थितम्</h3><p>जगणसगणौ, ततः तगणात् परं द्वौ गुरु स्यातां चेत् तदा “उपस्थितम्” इत्युच्यते छन्दः। पादे यतिः । </p>',
+          ex_img: '/upasthita.PNG'
+        }
+      ]
     },
     {
-      title_sans: '',
+      title_sans: 'जगती',
       title_eng: 'Jagati',
       id: '4.1.i.XII',
       definition_sans: '',
-      definition_eng: ''
+      definition_eng: '',
+      types: 5,
+      type: [
+        {
+          text_sans: '<h3>चन्द्रवर्त्म</h3><p>रगण- नगण- भगण- सगणैः कृत्वा “चन्द्रवर्त्म” नाम छन्दो कथितम् । चतुर्भिरष्टभिश्च यतिः।</p>'
+        },
+        {
+          text_sans: '<h3>वंशस्थं</h3><p>जगणतगणौ जगणरगणौ स्याताम् तदा "वंशस्थं" नाम छन्द उक्तम्। पादे यतिः।</p>'
+        }
+      ]
     },
     {
       title_sans: '',
