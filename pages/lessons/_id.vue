@@ -18,8 +18,8 @@
             <div class="font-weight-bold px-1" v-html=lesson.definition_eng></div>
             </v-flex>
           </v-layout>
-          <v-layout class="myheader3" v-html=lesson.common></v-layout>
-          <img :src='lesson.example_img' width="100%" />
+          <v-layout class="myheader3 devanagari" v-html=lesson.common></v-layout>
+          
 
       <div v-if="lesson.types" class="myheader3">
         <div class="text-xs-center mt-3">
@@ -83,7 +83,7 @@ export default {
     this.next_lesson = this.$store.state.lessons[this.index + 1]
     this.length = this.$store.state.lessons.length
     this.previous = this.index > 1 ? '/lessons/' + (this.prev_lesson.id) : '/lessons/1'
-    this.next = this.index < this.length ? '/lessons/' + (this.next_lesson.id) : '/'
+    this.next = this.index < this.length - 1 ? '/lessons/' + (this.next_lesson.id) : '/lessons/19'
     // console.log(this.index)
     // console.log(this.prev_lesson)
     // console.log(this.next_lesson.id)

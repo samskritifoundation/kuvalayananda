@@ -231,7 +231,7 @@
             to: '/lessons/18'
           },
           {
-            title: ' ',
+            title: 'End',
             sl_num: '19',
             to: '/exercises'
           }
