@@ -7,23 +7,84 @@
   </v-layout>
 <v-card color="accent lighten-4" class="mt-0 pt-0 bordered">
     <v-card-title primary-title>
-        <h3 class="papyrus myheader">{{lesson.id}}. <span class="devanagari">{{lesson.title_sans}}</span> <br>{{lesson.title_eng}}</h3>
+        <h3 class="myheader"><span class="devanagari">{{lesson.title_sans}}</span> <br>{{lesson.title_eng}}</h3>
         </v-card-title>
-
-      <v-layout row class="myheader3">
-            <v-flex xs6>
-            <div class="devanagari px-1" v-html=lesson.definition_sans></div>
-            </v-flex>
-            <v-flex xs6>
-            <div class="font-weight-bold px-1" v-html=lesson.definition_eng></div>
-            </v-flex>
+<v-layout row>
+  <v-flex xs12 lg5 mb-3 v-for="(sloka,i) in lesson.slokas" :key="i">
+      <v-expansion-panel popout>
+        <v-expansion-panel-content>
+          <div slot="header">Sloka {{i + 1}}          </div>
+          <v-card>
+              <v-card-text v-html="sloka.sloka" ></v-card-text>
+            </v-card>
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+      <v-expansion-panel popout>
+        <v-expansion-panel-content>
+          <div slot="header">Explanation of Sloka(s)</div>
+          <v-card>
+              <v-card-text v-html="sloka.sloka_explanation.sans"></v-card-text>
+            </v-card>
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+      <v-expansion-panel popout>
+        <v-expansion-panel-content>
+          <div slot="header">Example(s)</div>
+<v-layout align-center>
+    <v-item-group
+      v-model="window"
+      class="shrink mr-4"
+      mandatory
+      tag="v-flex"
+    >
+      <v-item
+        v-for="n in sloka.examples.length"
+        :key="n"
+      >
+        <div slot-scope="{ active, toggle }">
+          <v-btn
+            :input-value="active"
+            icon
+            @click="toggle"
+          >
+            <v-icon>mdi-record</v-icon>
+          </v-btn>
+        </div>
+      </v-item>
+    </v-item-group>
+    <v-flex>
+      <v-window
+        v-model="window"
+        class="elevation-1"
+        vertical
+      >
+        <v-window-item
+          v-for="n in sloka.examples.length"
+          :key="n"
+        >
+          <v-card flat>
+            <v-card-text>
+              <v-layout align-center mb-3  v-for="example,i in sloka.examples" :key="i">
+                <strong class="title">Example {{ n }}</strong>
+              <div>
+                <p v-html="example.text"></p>
+                <p v-html="example.explanation"></p>
+              </div>
+              </v-layout>
+            </v-card-text>
+          </v-card>
+        </v-window-item>
+      </v-window>
+    </v-flex>
           </v-layout>
-          <v-layout class="myheader3 devanagari" v-html=lesson.common></v-layout>
-          
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+  </v-flex>
+</v-layout>
 
       <div v-if="lesson.types" class="myheader3">
         <div class="text-xs-center mt-3">
-      <v-btn @click="nexttab">next tab</v-btn>
+        <v-btn @click="nexttab">next tab</v-btn>
     </div>
     <v-tabs
       v-model="active"
@@ -68,7 +129,10 @@ export default {
       next_lesson: '',
       length: '',
       previous: '/',
-      next: '/'
+      next: '/',
+      items: ['sloka', 'explanation', 'example', 'explanation'],
+      length1: 3,
+      window: 0
     }
   },
   layout: 'lessons',

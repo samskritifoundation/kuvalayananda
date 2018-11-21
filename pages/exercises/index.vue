@@ -2,16 +2,23 @@
   <v-container class="mt-0 pt-0">
   <v-card color="accent lighten-4" class="bordered papyrus mt-0 pt-0">
     <v-card-title primary-title>
-      <h3 class="papyrus myheader">Vrittaratnakara Exercises</h3>
+      <h3 class="papyrus myheader">Kuvalayananda Exercises</h3>
       </v-card-title>
       <v-btn to="/exercises/1" large color="secondary" class="text-capitalize font-weight-bold" round> Start exercises</v-btn>
+      <v-btn @click="playcorrect">Click me</v-btn>
   </v-card>
   </v-container>
 </template>
 
 <script>
 export default {
-  layout: 'lessons'
+  layout: 'lessons',
+  methods: {
+    playcorrect () {
+      let audio = new Audio('https://s3.ap-south-1.amazonaws.com/quiz-sounds/correct.wav')
+      audio.play()
+    }
+  }
 }
 </script>
 
