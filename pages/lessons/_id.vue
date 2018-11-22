@@ -10,10 +10,10 @@
         <h3 class="myheader"><span class="devanagari">{{lesson.title_sans}}</span> <br>{{lesson.title_eng}}</h3>
         </v-card-title>
 <v-layout row>
-  <v-flex xs12 lg5 mb-3 v-for="(sloka,i) in lesson.slokas" :key="i">
+  <v-flex xs12 mb-3 v-for="(sloka,i) in lesson.slokas" :key="i">
       <v-expansion-panel popout>
         <v-expansion-panel-content>
-          <div slot="header">Sloka {{i + 1}}          </div>
+          <div slot="header">Sloka {{i + 1}}</div>
           <v-card>
               <v-card-text v-html="sloka.sloka" ></v-card-text>
             </v-card>
@@ -30,53 +30,44 @@
       <v-expansion-panel popout>
         <v-expansion-panel-content>
           <div slot="header">Example(s)</div>
-<v-layout align-center>
-    <v-item-group
-      v-model="window"
-      class="shrink mr-4"
-      mandatory
-      tag="v-flex"
+    <v-tabs
+      fixed-tabs
+      v-model="active"
+      color="brown"
+      dark
+      slider-color="yellow"
     >
-      <v-item
+      <v-tab
         v-for="n in sloka.examples.length"
         :key="n"
+        ripple
       >
-        <div slot-scope="{ active, toggle }">
-          <v-btn
-            :input-value="active"
-            icon
-            @click="toggle"
-          >
-            <v-icon>mdi-record</v-icon>
-          </v-btn>
-        </div>
-      </v-item>
-    </v-item-group>
-    <v-flex>
-      <v-window
-        v-model="window"
-        class="elevation-1"
-        vertical
+        Example {{ n }}
+
+      </v-tab>
+      <v-tab-item
+        v-for="example in sloka.examples"
+        :key="example"
       >
-        <v-window-item
-          v-for="n in sloka.examples.length"
-          :key="n"
-        >
-          <v-card flat>
-            <v-card-text>
-              <v-layout align-center mb-3  v-for="example,i in sloka.examples" :key="i">
-                <strong class="title">Example {{ n }}</strong>
-              <div>
-                <p v-html="example.text"></p>
-                <p v-html="example.explanation"></p>
-              </div>
-              </v-layout>
-            </v-card-text>
-          </v-card>
-        </v-window-item>
-      </v-window>
-    </v-flex>
-          </v-layout>
+        <v-card flat>
+          <v-card-title class="headline mb-0" v-html="example.text"></v-card-title>
+          <v-card-title>Explanation</v-card-title>
+          <v-card-text>
+            <v-tabs centered hide-slider="true">
+              <v-tab
+                v-for="n in ['Sanskrit','English']"
+                :key="n"
+              >
+                {{ n }}
+              </v-tab>
+              <v-tab-item v-for="lang in example.explanation" :key="lang">
+                <p v-html="lang"></p>
+              </v-tab-item>
+            </v-tabs>
+          </v-card-text>
+        </v-card>
+      </v-tab-item>
+    </v-tabs>
         </v-expansion-panel-content>
       </v-expansion-panel>
   </v-flex>
