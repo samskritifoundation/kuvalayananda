@@ -23,7 +23,19 @@
         <v-expansion-panel-content>
           <div slot="header">Explanation of Sloka(s)</div>
           <v-card>
-              <v-card-text v-html="sloka.sloka_explanation.sans"></v-card-text>
+              <v-card-text>
+                <v-tabs centered hide-slider="true">
+              <v-tab
+                v-for="n in ['Sanskrit','English']"
+                :key="n"
+              >
+                {{ n }}
+              </v-tab>
+              <v-tab-item v-for="lang in sloka.sloka_explanation" :key="lang">
+                <p v-html="lang"></p>
+              </v-tab-item>
+            </v-tabs>
+              </v-card-text>
             </v-card>
         </v-expansion-panel-content>
       </v-expansion-panel>
@@ -51,11 +63,10 @@
       >
         <v-card flat>
           <v-card-title class="headline mb-0" v-html="example.text"></v-card-title>
-          <v-card-title>Explanation</v-card-title>
           <v-card-text>
             <v-tabs centered hide-slider="true">
               <v-tab
-                v-for="n in ['Sanskrit','English']"
+                v-for="n in ['Explanation in Sanskrit','Explanation in English']"
                 :key="n"
               >
                 {{ n }}
