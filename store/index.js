@@ -119,32 +119,105 @@ export const state = () => ({
     },
     {
       title_sans: 'प्रतीपालङ्कारः',
-      title_eng: 'Pratīpālaṅkāra',
+      title_eng: 'Pratīpālaṅkāra - Converse',
       id: 5,
-      definition_sans: '',
-      definition_eng: '',
-      common: '',
-      types: 3,
+      slokas: [
+        {
+          sloka: 'प्रतीपमुपमानस्योपमेयत्वप्रकल्पनम्‌।<br>त्वल्लोचनसमं पद्म त्वद्वक्त्रसदृशो विधुः॥',
+          sloka_explanation: {
+            sans: 'प्रसिद्धोपमानोपमेयभावः प्रातिलोम्यात्प्रतीपम्‌।',
+            eng: '<h3>Word Meanings</h3><table><tr><td>उपमानस्य - </td><td>Of the object compared to</td></tr><tr><td>उपमेयत्वप्रकल्पनम् - </td><td>Assumption as the object compared</td></tr><tr><td>प्रतीपम् - </td><td>The figure converse </td></tr><tr><td>पद्मम् - </td><td>Lotus</td></tr><tr><td>विधुः - </td><td>Moon</td></tr><tr><td>त्वल्लोचनसमम् - </td><td>Equal to thy eye</td></tr><tr><td>त्वद्वक्त्रसदृशः - </td><td>Equal to thy face</td></tr></table><h3>Definition:</h3><p>The assumption of the object compared to as the object compared‘ i.e., when Upamana (moon &c.) is compared to Upameya (Face &c.), or in other words, when the usual form of comparison is inverted, it is the Converse.</p>'
+          },
+          examples: [
+            {
+              text: 'त्वल्लोचनसमं पद्म त्वद्वक्त्रसदृशो विधुः',
+              explanation: {
+                sans: '',
+                eng: '(Lady ! ) The lotus is like thy eyes ; and the moon is like thy face.'
+              }
+            },
+            {
+              text: 'यत्त्वन्नेत्रसमानकान्ति सलिले मग्नं तदिन्दीवरं<br>          मेघैरन्तरितः प्रिये! तव मुखच्छायानुकारी शशी।<br>येऽपि त्वद्गमनानुसारिगतयस्ते राजहंसा गता-<br>स्त्वत्सादृश्यविनोदमात्रमपि मे दैवेन न क्षम्यते॥',
+              explanation: {
+                sans: '',
+                eng: ''
+              }
+            }
+          ]
+        }
+      ],
+      types: 4,
       type: [
         {
-          text_sans: '<p>प्रतीपमुपमानस्योपमेयत्वप्रकल्पनम्‌।<br>त्वल्लोचनसमं पद्म त्वद्वक्त्रसदृशो विधुः॥१२॥</p><p>प्रसिद्धोपमानोपमेयभावः प्रातिलोम्यात्प्रतीपम्‌।</p>',
-          ex: 'यथा वा – <br><p>यत्त्वन्नेत्रसमानकान्ति सलिले मग्नं तदिन्दीवरं<br>मेघैरन्तरितः प्रिये! तव मुखच्छायानुकारी शशी।</p><p>येऽपि त्वद्गमनानुसारिगतयस्ते राजहंसा गता-<br>स्त्वत्सादृश्यविनोदमात्रमपि मे दैवेन न क्षम्यते॥१२॥</p><p>अन्योपमेयलाभेन वर्ण्यस्यानादरश्च तत्‌।<br>अलं गर्वेण ते वक्त्र! कान्त्या चन्द्रोऽपि तादृशः॥१३॥</p>'
+          sloka: 'अन्योपमेयलाभेन वर्ण्यस्यानादरश्च तत्‌।<br>अलं गर्वेण ते वक्त्र! कान्त्या चन्द्रोऽपि तादृशः॥',
+          sloka_explanation: {
+            sans: '<p>अत्युत्कृष्टगुणतया वर्ण्यमानस्यान्यत्र स्वसादृश्यमसहमानस्योपमेयं किंचित्प्रदर्श्य तावता तस्य तिरस्कारो द्वितीयं प्रतीपं पूर्वस्मादपि विच्छित्तिविशेषशालि।</p>',
+            eng: '<h3>Word meanings</h3><table><tr><td>अन्योपमेयलाभेन - </td><td>By reason of gain of another, i.e., the object compared to as the object compared</td></tr><tr><td>वर्ण्यस्य - </td><td>Of the object on hand (face & c)</td></tr><tr><td>अनादरः - </td><td>Disregard</td></tr><tr><td>च</td><td>Also</td></tr><tr><td>तत् - </td><td>That i.e., the figure converse</td></tr><tr><td>वक्त्र! - </td><td>Face!</td></tr><tr><td>ते - </td><td>Thy</td></tr><tr><td>गर्वेण - </td><td>By the pride</td></tr><tr><td>अलम् - </td><td>Enough</td></tr><tr><td>कान्त्या - </td><td>In splendor</td></tr><tr><td>चन्द्रः - </td><td>The moon</td></tr><tr><td>भवादृशः - </td><td>Like thee</td></tr></table><h3>Definition</h3><p>When the subject on hand (face &c.) is disregarded by reason-of the gain of another object (i.e., moon &c.) which is not the subject under discourse it is also termed Converse.</p>'
+          },
+          examples: [
+            {
+              text: 'अलं गर्वेण ते वक्त्र! कान्त्या चन्द्रोऽपि तादृशः॥',
+              explanation_sans: '',
+              explanation_eng: 'O Face! enough of thy pride ; (there is) the moon equal to thee in splendor.'
+            },
+            {
+              text: 'गर्वमसंवाह्यमिमं लोचनयुगलेन किं वहसि भद्रे! ।<br>सन्तीदृशानि दिशि दिशि सर;सु ननु नीलनलिनानि॥',
+            }
+          ]
         },
         {
-          text_sans: 'अत्युत्कृष्टगुणतया वर्ण्यमानस्यान्यत्र स्वसादृश्यमसहमानस्योपमेयं किंचित्प्रदर्श्य <br>तावता तस्य तिरस्कारो द्वितीयं प्रतीपं पूर्वस्मादपि विच्छित्तिविशेषशालि।',
-          ex: 'यथा वा (रुद्रटालं०) गर्वमसंवाह्यमिमं लोचनयुगलेन किं वहसि भद्रे! ।<br>सन्तीदृशानि दिशि दिशि सर;सु ननु नीलनलिनानि॥१२॥'
+          sloka: 'वर्ण्योपमेयलाभेन तथान्यस्याप्यनादरः ।<br>कः क्रौर्यदर्पस्ते मृत्यो! त्वत्तुल्याः सन्ति हि स्त्रियः॥',
+          sloka_explanation: {
+            sans: 'अत्युत्कृष्टगुणतया द्वचिदप्युपप्मानभावमसहमानस्यावर्ण्यस्य वर्ण्योपमेयं परिकल्प्य तावता तस्य तिरस्कारः पूर्वप्रतीपवैपरीत्येन तृतीयं प्रतीपम्‌।',
+            eng: '<h3>Word meanings</h3><table><tr><td>वर्ण्योपमेयलाभेन</td><td>By reason of the gain of the object compared which is the subject on hand</td></tr><tr><td>अन्यस्य - </td><td>Of the object which is not the subject on hand</td></tr><tr><td>अपि</td><td>Also</td></tr><tr><td>अनादरः - </td><td>Disregard</td></tr><tr><td>तथा - </td><td>So, i.e., the converse</td></tr><tr><td>मृत्यो! - </td><td>Death!</td></tr><tr><td>ते - </td><td>Thy</td></tr><tr><td>क्रौर्यदर्पः - </td><td>Pride on account of cruelty</td></tr><tr><td>कः - </td><td>What</td></tr><tr><td>हि - </td><td>Because</td></tr><tr><td>स्त्रियः - </td><td>Women</td></tr><tr><td>त्वत्तुल्याः - </td><td>Equal to you</td></tr><tr><td>सन्ति - </td><td>There are</td></tr></table><h3>Definition</h3><p>When the object which is not the subject on hand is disregarded by reason of gain of another object which is the subject on hand, it is declared the third kind of Converse.</p>'
+          },
+          examples: [
+            {
+              text: 'कः क्रौर्यदर्पस्ते मृत्यो त्वत्तुल्याः सन्ति हि स्त्रियः',
+              explanation_sans: '',
+              explanation_eng: '<p>O death! wherefore dost thou bear the pride on account of cruelty; because, there are (many) Women equal to thee (in cruelty).</p>'
+            },
+            {
+              text: 'अहमेव गुरुः सुदारुणानामिति हालाहल! तात ! मा स्म दृप्यः।<br>ननु सन्ति भवादृशानि भूयो भुवनेऽस्मिन्वचनानि दुर्जनानाम्‌॥'
+            }
+          ]
         },
         {
-          text_sans: 'वर्ण्योपमेयलाभेन तथान्यस्याप्यनादरः ।<br>कः क्रौर्यदर्पस्ते मृत्यो! त्वत्तुल्याः सन्ति हि स्त्रियः॥१४॥<br>अत्युत्कृष्टगुणतया द्वचिदप्युपप्मानभावमसहमानस्यावर्ण्यस्य वर्ण्योपमेयं परिकल्प्य<br>तावता तस्य तिरस्कारः पूर्वप्रतीपवैपरीत्येन तृतीयं प्रतीपम्‌।',
-          ex: 'यथा वा- अहमेव गुरुः सुदारुणानामिति हालाहल! तात ! मा स्म दृप्यः।<br>ननु सन्ति भवादृशानि भूयो भुवनेऽस्मिन्वचनानि दुर्जनानाम्‌॥१४॥'
+          sloka: 'वर्ण्येनान्यस्योपमाया अनिष्पत्तिवचश्च तत्‌।<br>मुधापवादो मुग्धाक्षि! त्वन्मुखाभं किलाम्बुजम्‌॥',
+          sloka_explanation: {
+            sans: 'अवर्ण्ये वर्ण्योपमित्यनिष्पत्तिवचनं पूर्वेभ्य उत्कर्षशालि चतुर्थं प्रतीपम्‌।',
+            eng: '<h3>Word Meanings</h3><table><tr><td>वर्ण्येन - </td><tdBy the object on hand (i.e., face & c.)</td></tr><tr><td>अन्यस्य - </td><td>Of the object not on hand</td></tr><tr><td>उपमायाः - </td><td>Of the resemblance</td></tr><tr><td>अनिष्पत्तिवचः - </td><td>The assertion of non accomplishment</td></tr><tr><td>च - </td><td>Also</td></tr><tr><td>तत् - </td><td>That i.e., the converse</td></tr><tr><td>सुग्धाक्षि! - </td><td>O beautiful-eyed lady!</td></tr><tr><td>अंबुजम् - </td><td>Lotus</td></tr><tr><td>त्वन्मुखाभम् - </td><td>Equal to thy face</td></tr><tr><td>मिथ्यावादः - </td><td>Untrue assertion</td><td>किल - </td><td>Truly</td></tr></table><h3>Definition</h3><p>The assertion of non-accomplishment of the resemblance of the object not on hand with the object on hand is also termed the Converse.</p>'
+          },
+          examples: [
+            {
+              text: 'मिथ्यावादो हि मुग्धाक्षि ! त्वन्मुखाभं किलांबुजम् ॥',
+              explanation_sans: 'उदाहरणे मुदापवादत्वोक्त्योपमित्यनिष्पत्तिरुद्धाटिता।',
+              explanation_eng: 'O beautiful-eyed lady! The assertion that the lotus has the likeness of thy face is an untrue one. Hence, we see here that the resemblance between the two objects lotus and face being stated as untrue becomes an unaccomplished one and so it is the Converse.'
+            },
+            {
+              text: 'आकर्णय सरोजाक्षी वचनीयमिदं भुवि।<br>शशाङ्कस्त्वव वक्त्रेण पामरैरुपमीयते॥'
+            }
+          ]
         },
         {
-          text_sans: 'वर्ण्येनान्यस्योपमाया अनिष्पत्तिवचश्च तत्‌।<br>मुधापवादो मुग्धाक्षि! त्वन्मुखाभं किलाम्बुजम्‌॥१५॥<br>अवर्ण्ये वर्ण्योपमित्यनिष्पत्तिवचनं पूर्वेभ्य उत्कर्षशालि चतुर्थं प्रतीपम्‌।<br>उदाहरणे मुदापवादत्वोक्त्योपमित्यनिष्पत्तिरुद्धाटिता।',
-          ex: 'यथा वा- आकर्णय सरोजाक्षी वचनीयमिदं भुवि।<br>शशाङ्कस्त्वव वक्त्रेण पामरैरुपमीयते॥१५॥'
-        },
-        {
-          text_sans: 'प्रतीपमुपमानस्य कैमर्थ्यमपि मन्वते।<br>दृष्टम चेद्वदनं तस्याः किं पद्मेन किमिन्दुना॥१६॥<br>उपमेयस्यैवोपमानप्रयोजनधूर्वहत्वेनोपमानकैमर्थ्यमुपमानप्रातिलोम्यात्‌ पञ्चमं प्रतीपम्‌।',
-          ex: 'यथा वा – <br>(नै० १-१४) तदोजसस्तद्यशसः स्थिताविमौ वृथेति चित्ते कुरुते यदा यदा।<br>तनोति भानोः परिवेषकैतवा- त्तदा विधिः कुण्डलनाम विधोरपि॥<br>केचिदनन्वयोपमेयोपमाप्रतीपानामुपमाविशेषत्वेन तदन्तर्भावं मन्यते।<br>अन्ये तु पञ्चमं प्रतीपमुपमानाक्षेपरुपत्वादाक्षेपालङ्कारमाहुः॥१६॥'
+          sloka: 'प्रतीपमुपमानस्य कैमर्थ्यमपि मन्वते।<br>दृष्टम चेद्वदनं तस्याः किं पद्मेन किमिन्दुना॥',
+          sloka_explanation: {
+            sans: 'उपमेयस्यैवोपमानप्रयोजनधूर्वहत्वेनोपमानकैमर्थ्यमुपमानप्रातिलोम्यात्‌ पञ्चमं प्रतीपम्‌।',
+            eng: '<table><tr><td>उपमानस्य - </td><td>Of the object compared to</td></tr><tr><td>कैमर्थ्यम् - </td><td>The sense of “what is the use of”</td></tr><tr><td>अपि</td><td>also</td></tr><tr><td>प्रतीपम् - </td><td>the Converse</td></tr><tr><td>मन्यते - </td><td>Is considered</td></tr><tr><td>तन्व्याः</td><td>Of that slender lady</td></tr><tr><td>वदनम् - </td><td>The face</td></tr><tr><td>दृष्टं चेत् - </td><td>If seen</td></tr><tr><td>पद्मेन किम् - </td><td>What with the lotus</td></tr><tr><td>इन्दुना किम् - </td><td>What with the moon</td></tr></table><p>The assertion ‘ what is the use of the upamana ’ (With reference to the upameya which is the subject on hand) is also considered as one of the Pratipas.</p>'
+          },
+          examples: [
+            {
+              text: 'दृष्टं चेद्वदनं तन्व्याः किं पद्मेन किमिन्दुना ॥',
+              explanation_sans: '',
+              explanation_eng: 'When the face of that slender lady was seen, what is the use of the lotus or of the moon.'
+            },
+            {
+              text: 'तदोजसस्तद्यशसः स्थिताविमौ वृथेति चित्ते कुरुते यदा यदा।<br>तनोति भानोः परिवेषकैतवा- त्तदा विधिः कुण्डलनाम विधोरपि॥'
+            },
+            {
+              text: 'केचिदनन्वयोपमेयोपमाप्रतीपानामुपमाविशेषत्वेन तदन्तर्भावं मन्यते।<br>अन्ये तु पञ्चमं प्रतीपमुपमानाक्षेपरुपत्वादाक्षेपालङ्कारमाहुः॥'
+            }
+          ]
         }
       ]
     },

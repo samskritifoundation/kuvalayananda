@@ -86,30 +86,55 @@
 
       <div v-if="lesson.types" class="myheader3">
         <div class="text-xs-center mt-3">
+          <h3>Types</h3>
         <v-btn @click="nexttab">next tab</v-btn>
     </div>
     <v-tabs
       v-model="active"
       color="accent"
-      dark
+      dark fixed-tabs
       slider-color="yellow"
     >
       <v-tab
-        v-for="n in lesson.types"
-        :key="n"
+        v-for="m in lesson.types"
+        :key="lesson.types"
         ripple
         class="font-weight-bold"
       >
-        {{ n }}
+        {{ m }}
 
       </v-tab>
       <v-tab-item
-        v-for="n in lesson.type"
-        :key="n"
+        v-for="(p,j) in lesson.type"
+        :key="j"
       >
         <v-card flat>
-          <v-card-text class="devanagari" v-html="n.text_sans"></v-card-text>
-          <v-img :src='n.ex' width="100%"></v-img>
+          <v-card-text class="devanagari">
+            <h3>Type {{j+1}}</h3>
+            <p v-html="p.sloka"></p>
+            <p class="text-xs-center">
+              Sloka Explanation:
+              </p>
+          <v-tabs centered hide-slider>
+              <v-tab
+                v-for="l in ['Sanskrit','English']"
+                :key="l"
+              >
+                <v-btn color="accent darken-3">{{ l }}</v-btn>
+              </v-tab>
+              <v-tab-item v-for="lang in p.sloka_explanation" :key="lang">
+                <p class="mt-3 subheading" v-html="lang"></p>
+              </v-tab-item>
+            </v-tabs>
+            <p class="text-xs-center">
+              Examples:
+              </p>
+              <div v-for="ex in p.examples" :key="ex">
+                <div v-for="prop in ex" :key="prop">
+                  <p v-html="prop"></p>
+                </div>
+              </div>
+            </v-card-text>
         </v-card>
       </v-tab-item>
     </v-tabs>
