@@ -11,37 +11,37 @@
         </v-card-title>
 <v-layout row v-for="(sloka,i) in lesson.slokas" :key="i">
   <v-flex xs12 mb-3>
-      <v-expansion-panel popout>
-        <v-expansion-panel-content>
-          <div slot="header" class="primary--text">Sloka {{i + 1}}</div>
-          <v-card dark color="primary">
+      <v-expansion-panel popout focusable>
+        <v-expansion-panel-content ripple="true" >
+          <div slot="header" class="secondary--text subheading font-weight-bold">Sloka {{i + 1}}</div>
+          <v-card color="accent lighten-5" class="title text-xs-center">
               <v-card-text v-html="sloka.sloka" ></v-card-text>
             </v-card>
         </v-expansion-panel-content>
       </v-expansion-panel>
-      <v-expansion-panel popout>
+      <v-expansion-panel popout focusable>
         <v-expansion-panel-content>
-          <div slot="header" class="secondary--text">Explanation of Sloka(s)</div>
-          <v-card dark color="secondary">
+          <div slot="header" class="secondary--text subheading font-weight-bold">Explanation of Sloka</div>
+          <v-card color="accent lighten-3">
               <v-card-text>
-                <v-tabs centered hide-slider="true" color="secondary">
+                <v-tabs centered hide-slider="true" color="accent lighten-3">
               <v-tab
                 v-for="n in ['Sanskrit','English']"
                 :key="n"
               >
-                <v-btn color="secondary lighten-3">{{ n }}</v-btn>
+                <v-btn color="accent darken-3">{{ n }}</v-btn>
               </v-tab>
               <v-tab-item v-for="lang in sloka.sloka_explanation" :key="lang">
-                <p class="mt-3" v-html="lang"></p>
+                <p class="mt-3 subheading" v-html="lang"></p>
               </v-tab-item>
             </v-tabs>
               </v-card-text>
             </v-card>
         </v-expansion-panel-content>
       </v-expansion-panel>
-      <v-expansion-panel popout>
+      <v-expansion-panel popout focusable>
         <v-expansion-panel-content>
-          <div slot="header" class="accent--text">Example(s)</div>
+          <div slot="header" class="secondary--text subheading font-weight-bold">Example(s)</div>
     <v-tabs
       fixed-tabs
       v-model="active"
@@ -61,8 +61,8 @@
         v-for="example in sloka.examples"
         :key="example"
       >
-        <v-card flat color="warning">
-          <v-card-title class="headline mb-0" v-html="example.text"></v-card-title>
+        <v-card xs12 flat color="warning">
+          <v-card-title class="title mb-0 text-xs-center" v-html="example.text"></v-card-title>
           <v-card-text>
             <v-tabs centered hide-slider="true" color="warning">
               <v-tab
@@ -72,7 +72,7 @@
                 <v-btn color="accent darken-5">{{ n }}</v-btn>
               </v-tab>
               <v-tab-item v-for="lang in example.explanation" :key="lang">
-                <p v-html="lang"></p>
+                <p class="subheading" v-html="lang"></p>
               </v-tab-item>
             </v-tabs>
           </v-card-text>
@@ -180,7 +180,4 @@ export default {
   margin-top: -10%;
 }
 
-table {
-  border: 1px solid black;
-}
 </style>
