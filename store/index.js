@@ -241,30 +241,85 @@ export const state = () => ({
       ]
     },
     {
-      title_sans: 'रुपकालङ्कारः ',
+      title_sans: 'रूपकालङ्कारः ',
       title_eng: 'Rūpakālaṅkāraḥ - Metaphor',
       id: 6,
-      definition_sans: '<p>विषय्यभेदताद्रूप्यञ्जनं विषयस्य यत्‌।<br>रुपकं तत्त्रिधाधिक्यन्यूनत्वानुभयोक्तिभिः॥१७॥</p><p>अयं हि धूर्जटिः साक्षाद्येन दग्धाः पुरःक्षणात्‌।<br>अयमास्ते विना शम्भुस्तार्तीयीकं विलोचनम्‌॥१८॥</p><p>शम्भुर्विश्वमवत्यद्य स्वीकृत्य समदृष्टिताम्‌।<br>अस्या मुखेन्दुना लब्धे नेत्रानन्दे किमिन्दुना॥१९॥</p><p>साध्वीयमपरा लक्ष्मीरसुधासागरोदिता।<br>अयम कलङ्किनश्चन्द्रान्मुखचन्द्रोऽतिरिच्यते॥२०॥</p><p>विषय्युपमानभूतं पद्मादि, विषयस्तदुपमेयभूतं वर्णनीयं मुखादि।<br>विषयिणो रुपेण विषयस्य रञ्जनं रुपकम्‌, अन्यरुपेण रुपवत्त्वकरणात्‌।</p><p>तच्च क्वचित्प्रसिद्धविषय्यभेदे पर्यवसितं, क्वचिद्भेदे प्रतीयमान एव तदीयधर्मारोपमात्रे पर्यवसितम्‌।<br>ततश्च रुपकं तावद्विधम्‌ – अभेदरुपकं ताद्रूप्यरुपकं चेति।</p><p>द्विविधमपि प्रत्येकं त्रिविधम्‌।</p><p>प्रसिद्धविषय्याधिक्यवर्णनेन तन्न्यूनत्ववर्णनेनानुभयोक्त्या चैवम रुपकं षड्विधम्‌।</p><p>‘अयं हि’ इत्यादिसार्धश्लोकेन अभेदरुपकाणि</p><p>‘अस्या मुखेन्दुना इत्यादिसार्धश्लोकेन ताद्रूप्यरुपकाणि</p><p>आधिक्यन्युनत्वानिभयोक्त्युद्देशक्रमपातिलोम्येनोदाहृतानि।</p><p>‘येन दग्धा’ इति विशेषणेन वर्णनीये राज्ञि प्रसिद्धशिवाभेदानुरञ्जनाच्छिवस्य पूर्वावास्थातो<p>वर्णनीयराजभावावस्थायां न्यूनत्वाधिक्ययोरवर्णनाच्चानुभयाभेदरुपकमाद्यम्‌।</p><p>तृतीयलोचनप्रहाणोक्त्या पूर्वावस्थातो न्यूनताप्रदर्शनान्न्यूनाभेदरुपकं द्वितीयम्‌।</p><p>न्यूनत्ववर्णनमप्यभ्ददार्ढ्यापादकत्वाच्चमत्कारि।</p><p>विषमदृष्टित्वपरित्यागेन जगद्रक्षकत्वोक्त्या शिवस्य पूर्वावस्थातो वर्णनीयराहभावावस्थायामुत्कर्षविभावनादधिकाभ्दरुपकं तृतीयम्‌। </p><p>एवमुत्तरेषु ताद्रूप्यरुपकोदाहरणेष्वपि क्रमेणानुभयन्यूनाधिकभावा उन्नेयाः।</p><p>रुपकस्य सावयवत्वनिरवयत्वादिभेदप्रपञ्चनं तु चित्रमीमांसायां द्रष्टव्यम्‌॥१७-२०॥</p>',
-      definition_eng: '',
-      types: 2,
-      type: [
+      slokas: [
         {
-          text_sans: '<h3>अभेदरुपकं</h3>',
-          ex: '<p>1. चन्द्रज्योत्स्नाविशदपुलिने सैकतेऽस्मिञ्छरय्वा वादद्यूतं चिरतरमभूत्सिद्धयूनोः कयोश्चित्‌।<br>एको वक्ति प्रथमनिहतं कैटभं कंसमन्य- स्तत्त्वं स त्वं कथय भगवन्‌! को हत्स्तत्र पूर्वम्‌॥</p><br>अत्र ‘स त्वम्‌’ इत्यन्बेन यः कंसकैटभयोर्हन्ता पौर्वापर्यप्रश्नव्याजेन तत्तादात्म्यदार्ढ्यकरणात्पूर्वावस्थात उत्कर्षापकर्षयोरविभावनाच्चानुभयाभेदरुपकम्‌।<p>2. वेधा द्वेधा भ्रमम चक्रे कान्तासु कनकेषु च।<br>तासु तेष्वप्यनासक्तः साक्षाद्भर्गो नराकृतिः।।<br><p>अत्र साक्षादिति विशेषणेन विरक्तर्य प्रसिद्धशिवतादात्म्यमुपदर्श्य नराकृतिरिति दिव्यमूर्तिवैकल्यप्रतिपादनान्न्यूनाभेदरुपकम्‌।</p><p>3. त्वय्यागते किमिति वेपत एष सिन्धुस्त्वं सेतुमन्थकृदत; किमसौ बिभेति।<br>द्वीपान्तरेऽपि न हि तेऽस्त्यवशंवदोऽद्य त्वां राजपुङ्गव! निषेवत एव लक्ष्मीः॥<br>अत्र ‘त्वम सेतुमन्थकृत्‌’ इति सेतोर्मन्थनस्य च कर्त्रा पुरुषोत्तमेन सह वर्णनीयस्य तादात्म्यमुक्त्वा तथापि त्वदागमनं सेतुबन्धनाय वा मन्थनाय वेति समुद्रेण न भेतव्यम्‌।<br>द्वीपान्तराणामपि त्वद्वशंवदत्वएन पूर्ववद्द्वीपान्तरे जेतव्याभावात्‌ प्राप्तलक्ष्मीकत्वेन मन्थनप्रसक्त्यभावाच्चेति पूर्वावस्थात उत्कर्षविभावनादधिकाभेदरुपकम्‌।</p>'
-        },
-        {
-          text_sans: '<h3> ताद्रूप्यरुपकं </h3>',
-          ex: '<p>1. किं पद्मस्य रुधिं न हन्ति नयनानन्दं विधत्ते न किं वृद्धि वा झषकेतनस्य कुरुते नालोकमात्रेण किम्‌।<br>वक्त्रेन्दौ तव सत्ययं यदपरः शीतांशुरुज्जृम्भते दर्पः स्यादमृतेन चेदिह तदप्यस्त्येव बिम्बाधरे॥</p><p>अत्र ‘अपरः शीतांशुः’ इत्यनेन वक्त्रेन्दोः प्रसिद्धचन्द्राद्भेदमाविष्कृत्य तस्य च प्रसिद्धचन्द्रकार्यकारित्वमात्रप्रतिपादनेनोत्कर्षापकर्षयोरप्रदर्थनाद्दनुभयताद्रूप्यरुपकम्‌।</p><p>2. अचतुर्वदनो ब्रह्मा द्विबाहुरपरो हरिः।<br>अभाललोचनः शम्भुर्भगवान्बादरायणः॥</p><br>अत्रहर्यादौ ‘अपर’ इति विशेषणात्त्रिष्वपि ताद्रूप्यमात्रविवक्षा विभाविता, चतुर्वदनत्वादिवैकल्यं चोक्तमिति न्यूनताद्रूप्यरुपकम्‌।<br>इदं विशेषोक्त्युदाहरणमिति वामनमतम्‌।</p><p>3. किमसुभिर्ग्लपितैर्जड! मन्यसे मयि निमज्जतु भीमसुतामनः।<br>मम किल श्रुतिमाह तदर्थिकां नलमुखेन्दुपरां विबुधः स्मरः॥<br>(नै० ४।५२) अत्र दमयन्तीकृतचन्द्रोपालम्भे प्रसिद्धचन्द्रो न निर्याणकालिकमनः प्रव्शश्रुतितात्पर्यविषयः, किंतु नलमुखचन्द्र एवेति ततोऽस्याधिक्यप्रतिपादनादधिकताद्रुप्यरुपकम्‌।</p>'
+          sloka: 'विषय्यभेदताद्रूप्यरञ्जनं विषयस्य यत्‌।<br>रूपकं तत्त्रिधाधिक्यन्यूनत्वानुभयोक्तिभिः॥',
+          sloka_explanation: {
+            sans: '<p>विषय्युपमानभूतं पद्मादि, विषयस्तदुपमेयभूतं वर्णनीयं मुखादि।</p><p>विषयिणो रुपेण विषयस्य रञ्जनं रूपकम्‌, अन्यरूपेण रूपवत्त्वकरणात्‌।</p><p>तच्च क्वचित्प्रसिद्धविषय्यभेदे पर्यवसितं, क्वचिद्भेदे प्रतीयमान एव तदीयधर्मारोपमात्रे पर्यवसितम्‌।</p><p>ततश्च रूपकं तावद्विधम्‌ – </p><ul><li>अभेदरूपकं </li><li>ताद्रूप्यरूपकं चेति।</li></ul><p>द्विविधमपि प्रत्येकं त्रिविधम्‌।</p><p>प्रसिद्धविषय्याधिक्यवर्णनेन तन्न्यूनत्ववर्णनेनानुभयोक्त्या चैवम रूपकं षड्विधम्‌।</p>',
+            eng: '<h3>Word meanings</h3><table><tr><td>वत् - </td><td>Which</td></tr><tr><td>विषयस्य - </td><td>Of the object compared</td></tr><tr><td>विषय्यभेदरञ्जनम् - </td><td>The gratifying representation as non different from the object compared to</td></tr><tr><td>विषयिताद्रूप्यरञ्जनम्- </td><td>The gratifying representation as identifical with the object compared to</td></tr><tr><td>तत् - </td><td>That</td></tr><tr><td>रूपकम् - </td><td>The metaphor</td></tr><tr><td>तत् - </td><td>That (metaphor)</td></tr><tr><td>आधिक्य न्यूनत्व अनुभयोक्तिभिः - </td><td>In point of superiority, inferiority and the absence of both</td></tr><tr><td>विधा - </td><td>Is three fold</td></tr></table><h3>Definition</h3><p>The gratifying representation of the object compared (1) as non-different from, and (2) as identical with, the object compared to is termed Rupaka. And each (of the said two kinds) is again three-fold in point of (1) superiority, (2) inferiority and (3) the absence of both.</p><p>The Metaphor is first hold two-fold :-</p><ol><li>अभेदरूपकम् </li><li>ताद्रूप्यरूपकम् </li></ol><br><p>Each of these is again three-fold in point of superiority &c., of the object compared over the object compared to. </p><p>Hence the Metaphor is six-fold which are :-</p><ol><li>अधिकाभेदरूपकम् </li><li>न्यूनाभेदरूपकम् </li><li>अनुभयाभेदरूपकम् </li><li>अधिकताद्रूप्यरूपकम् </li><li>न्यूनताद्रूप्यरूपकम् </li><li>अनुभयताद्रूप्यरूपकम् </li></ol>'
+          },
+          examples: [
+            {
+              text: 'अयं हि धूर्जटिः साक्षाद्येन दग्धाः पुरःक्षणात्‌।',
+              explanation: {
+                sans: '<h3>अनुभयाभेदरूपकम् ।</h3><p>‘अयं हि’ इत्यादिसार्धश्लोकेनाभेदरूपकाणि - ‘येन दग्धा’ इति विशेषणेन वर्णनीये राज्ञि प्रसिद्धशिवाभेदानुरञ्जनाच्छिवस्य पूर्वावास्थातो वर्णनीयराजभावावस्थायां न्यूनत्वाधिक्ययोरवर्णनाच्चानुभयाभेदरूपकमाद्यम्‌।</p>',
+                eng: '<h3>अनुभयाभेदरूपकम् ।</h3><h3>Word meanings</h3><table><tr><td>अयम् (राजा) - </td><td>This (king)</td></tr><tr><td>साक्षात् - </td><td>In person, in bodily form</td></tr><tr><td>धूर्जटिः</td><td>The God Siva</td></tr><tr><td>हि - </td><td>Indeed</td></tr><tr><td>येन - </td><td>By whom</td></tr><tr><td>क्षणात् - </td><td>In a moment</td></tr><tr><td>पुरः - </td><td>The cities (of his foes)</td></tr><tr><td>दग्धाः - </td><td>Were burnt</td></tr></table><p>This (king) is indeed the very God Siva in bodily form ; because by him the cities (of his foes) were burnt.</p><p>Here, the king, the upameya, who is said to have burnt the cities of his foes is represented as non-different from the God Siva, the upamana, the destroyer of the three cities of gold, silver and iron of the demon Tripura, and in the absence of any superiority or of inferiority between these two objects, we have the example of Rupaka No. 3.</p>'
+              }
+            },
+            {
+              text: 'अयमास्ते विना शम्भुस्तार्तीयीकं विलोचनम्‌॥',
+              explanation: {
+                sans: '<h3>न्यूनाभेदरूपकम्</h3><p>तृतीयलोचनप्रहाणोक्त्या पूर्वावस्थातो न्यूनताप्रदर्शनान्न्यूनाभेदरुपकं द्वितीयम्‌।</p><p>न्यूनत्ववर्णनमप्यभेदादार्ढ्यापादकत्वाच्चमत्कारि।</p>',
+                eng: '<h3>न्यूनाभेदरूपकम्</h3><table><tr><td>अयम् (राजा) - </td><td>This (king)</td></tr><tr><td>तर्त्तीयौकम् - </td><td>Third</td></tr><tr><td>विलोचनम् - </td><td>Eye</td></tr><tr><td>विना - </td><td>Without</td></tr><tr><td>शंभुः - </td><td>God Siva</td></tr><tr><td>आस्ते - </td><td>Is or stands</td></tr></table><p>Here stands (before us) this (king), the God Sarnbhu himself without his third eye. </p><p>Here, the king, the upameya, having only two eyes is represented as non-different from the God Sambhu, the upamana, in the absence of his third eye, i.e., with an inferiority in respect of eyes. Hence, this is the example of Rupaka No. 2.</p>'
+              }
+            },
+            {
+              text: 'शम्भुर्विश्वमवत्यद्य स्वीकृत्य समदृष्टिताम्‌।',
+              explanation: {
+                sans: '<h3>अधिकाभेदरूपकम् </h3><p>विषमदृष्टित्वपरित्यागेन जगद्रक्षकत्वोक्त्या शिवस्य पूर्वावस्थातो वर्णनीयराहभावावस्थायामुत्कर्षविभावनादधिकाभेदरुपकं तृतीयम्‌।</p>',
+                eng: '<h3>अधिकाभेदरूपकम् </h3><h3>Word meanings</h3><table><tr><td>एषः -</td><td> This (king)</td></tr><tr><td>शंभुः - </td><td>The God Sambhu</td></tr><tr><td>समदृष्टिताम् - </td><td>Equality, even eyes,impartiality</td></tr><tr><td>स्वीकृत्य - </td><td>Having assumed</td></tr><tr><td>विश्वम् - </td><td>The universe</td></tr><tr><td>अवति - </td><td>protects</td></tr></table><p>This (king), the God Sambhu himself, protects the world assuming impartiality (lit. even eyes).</p><p>Here, the God Sambhu is said to have assumed two eyes in protecting the world While his third fiery eye clever in consuming the world was now removed in as much as his present Work is the protection of the world and not consuming. Hence, We have here the superiority, i.e., the protection of the world with reference to the destruction of the world with the विषमदृष्टि uneven eyes or three eyes, and so this is the example of Rupaka No. 1.</p>'
+              }
+            },
+            {
+              text: 'अस्या मुखेन्दुना लब्धे नेत्रानन्दे किमिन्दुना॥',
+              explanation: {
+                sans: '<h3>अनुभयताद्रूप्यरूपकम् </h3><p>‘अस्या मुखेन्दुना इत्यादिसार्धश्लोकेन ताद्रूप्यरूपकाणि - एवमुत्तरेषु ताद्रूप्यरुपकोदाहरणेष्वपि क्रमेणानुभयन्यूनाधिकभावा उन्नेयाः।</p>',
+                eng: '<h3>अनुभयताद्रूप्यरूपकम् </h3><h3>Word meanings</h3><table><tr><td>अस्याः - </td><td>Of this (lady)</td></tr><tr><td>मुखेन्दुना -</td><td>Face-moon</td></tr><tr><td>नेत्रानन्दे - </td><td>The delight of (our) eyes</td></tr><tr><td>लब्धे - </td><td>When attained</td></tr><tr><td>इन्दुना - </td><td>By the moon</td></tr><tr><td>किम् - </td><td>what</td></tr></table><p>When the delight of (our) eyes has been attained by (seeing) the face-moon of this (lady), What is the good of seeing the moon.</h3>Here, the face of the lady in question is represented as identical with the moon and in the absence of any superiority or of inferiority between them, we have here Rupaka No. 6.</p>'
+              }
+            },
+            {
+              text: 'साध्वीयमपरा लक्ष्मीरसुधासागरोदिता।',
+              explanation: {
+                sans: '',
+                eng: '<h3>न्यूनताद्रूप्यरूपकम् </h3><h3>Word meanings</h3><table><tr><td>इयं साध्वौ - </td><td>This virtuous women</td></tr><tr><td>असुधासागरोदिता - </td><td>Not born of the Milky Sea.</td></tr><tr><td>अपरा - </td><td>A second</td></tr><tr><td>लक्ष्मीः - </td><td>Goddess of fortune</td></tr></table><p>This virtuous woman is a second Lakshmi (Goddess of fortune) not born of the Milky Sea. </p><p>Here, two different objects, the virtuous woman and the Goddess of fortune, are represented as identical with an inferiority in as much as the former is not born of the Milky Sea and We have therefore here the example of Rupaka No.5.</p>'
+              }
+            },
+            {
+              text: 'अयम कलङ्किनश्चन्द्रान्मुखचन्द्रोऽतिरिच्यते॥',
+              explanation: {
+                sans: '',
+                eng: '<h3>अधिकताद्रूप्यरूपकम् </h3><h3>Word meanings</h3><table><tr><td>अयम्</td><td>This</td></tr><tr><td>मुखचन्द्रः - </td><td>Face –moon</td></tr><tr><td>कलंकिनः - </td><td>Spotted</td></tr><tr><td>चन्द्रात् - </td><td>From the moon</td></tr><tr><td>अतिरिच्यते - </td><td>Is superior to</td></tr></table><p>This face-moon (of this lovely woman) is superior to the spotted moon.</p><p>Here, we have the ‘superiority expressed in the example which needs no comment.</p>'
+              }
+            }
+          ]
         }
       ]
     },
     {
       title_sans: 'परिणामालङ्कारः',
-      title_eng: 'Pariṇāmālaṅkāra',
+      title_eng: 'Pariṇāmālaṅkāra - Commutation',
       id: 7,
-      definition_sans: 'परिणामः क्रियार्थश्चेद्विषयी विषयात्मना।<br>प्रसन्नेन दृगब्जेन वीक्षते मदिरेक्षणा॥२१॥<br><br>यत्रारोप्यमाणो विषयी किंचित्कार्योपयोगित्वेन निबध्यमानः स्वतस्तस्य तदुपयोगित्वासंभवात्प्रकृतात्मना परिणतिमपेक्षते तत्र परिणामालङ्कारः।<br>अत्रोदाहरणम्‌ – प्रसन्नेति।<br>अत्र हि अब्जस्य वीक्षणोपयोगित्वं निबध्यते, न तु दृशः।मयूरव्यंसकादिसमासेनोत्तरपदार्थप्राधान्यात्‌।<br>न चोपमितसमासाश्रयेण दृगब्जमिवेति पूर्वपदार्थप्राधान्यमस्तीति वाच्यम्‌ ।<br>प्रसन्नेति सामान्यधर्मप्रयोगात्‌।<br>‘उपमितं व्याघ्रादिभिः सामान्याप्रयोगे’ (पा० २।१।५६) इति तदप्रयोग एवोपमितसमासानुशासनात्‌।<br>अब्जस्य वीक्षणोपयोगित्वं न स्वात्मना संभवति।<br>अतस्तस्य प्रकृतदृगात्मना परिणत्यपेक्षणात्‌ परिनामालङ्कारः।',
-      definition_eng: '',
-      common: 'यथा वा – तीर्त्वा भूतेशमौलिस्रजममरधुनीमात्मनासौ तृतीय - स्तम्बहि सौमित्रिमैत्रीमयमुपकृतवानातरं नाविकाय। <br>व्यामग्राह्यस्तनीबिः शबरयुवतिभिः कौतुकोदञ्चदक्षं कृच्छ्रादन्वीयमानः क्षणमचलमथो चित्रकूटं प्रतस्थे॥<br>अत्रारोप्यमाण आतरः सौमित्रिमैत्रीरुपतापत्त्या गुहोपकारलक्षणकार्योपयोगी न<br>स्वात्मना, गुहस्य रघुनाथप्रसादैकार्थित्वेन वेतनार्थित्वाभावात्‌॥२१॥'
+      slokas: [
+        {
+          sloka: 'परिणामः क्रियार्थश्चेद् विषयी विषयात्मना ।<br>प्रसन्नेन दृगब्जेन वीक्षते मदिरेक्षणा॥',
+          sloka_explanation: {
+            sans: '<p>यत्रारोप्यमाणो विषयी किंचित्कार्योपयोगित्वेन निबध्यमानः स्वतस्तस्य तदुपयोगित्वासंभवात्प्रकृतात्मना परिणतिमपेक्षते तत्र परिणामालङ्कारः।</p>',
+            eng: '<h3>Word meanings</h3><table><tr><td>विषयी - </td><td>The object compared to</td></tr><tr><td>विषयात्मना - </td><td>Under the character of the object compared</td></tr><tr><td>क्रियार्थः - </td><td>Serving the purpose on hand</td></tr><tr><td>चेत् - </td><td>If</td></tr><tr><td>परिणामः - </td><td>The figure commutation</td></tr><tr><td>मदिरेचणा - </td><td>This lovely-lady</td></tr><tr><td>प्रसन्नेन - </td><td>Bright</td></tr><tr><td>दृगब्जेन - </td><td>Eye-lotus</td></tr><tr><td>दीक्षते - </td><td>sees</td></tr></table><h3>Definition</h3><p> When the upamana (i.e., the lotus &c., the object superimposed) is identified with the upameya. (i.e., the eye &o., the subject of superimposition) and serves the purpose on hand (i.e., seeing &c.) it is the Commutation.</p>'
+          },
+          examples: [
+            {
+              text: 'प्रसन्नेन दृगब्जेन वीक्षते मदिरेक्षणा॥',
+              explanation: {
+                sans: '<p>अत्रोदाहरणम्‌ – प्रसन्नेति।</p><p>अत्र हि अब्जस्य वीक्षणोपयोगित्वं निबध्यते, न तु दृशः। मयूरव्यंसकादिसमासेन उत्तरपदार्थप्राधान्यात्‌।</p><p>न चोपमितसमासाश्रयेण दृगब्जमिवेति पूर्वपदार्थप्राधान्यमस्तीति वाच्यम्‌ ।</p><p>प्रसन्नेति सामान्यधर्मप्रयोगात्‌।</p><p>‘उपमितं व्याघ्रादिभिः सामान्याप्रयोगे’ (पा० २।१।५६) इति तदप्रयोग एवोपमितसमासानुशासनात्‌।</p><p>अब्जस्य वीक्षणोपयोगित्वं न स्वात्मना संभवति।</p><p>अतस्तस्य प्रकृतदृगात्मना परिणत्यपेक्षणात्‌ परिनामालङ्कारः।</p>',
+                eng: '<p>This lady of lovely eyes beholds with her bright eye-lotus.</p><p>Here, the superimposed lotus not possessed of the power of beholding is identified with the lady’s eye, the subject of superimposition, and is made to serve the purpose on hand, i.e., the act of beholding. In the Rupaka, as per instance in the sentence ‘दृगञ्जं वीक्षे I see the eye-lotus,’ the imposed lotus served only to gratify the expression. In this figure, the act of seeing belonging to the subject of superimposition, the eye, is transferred to the object superimposed, the lotus, as in the present example.</p>'
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       title_sans: 'उल्लेखालङ्कारः',
