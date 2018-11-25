@@ -51,7 +51,7 @@
           </v-layout>
         </v-expansion-panel-content>
       </v-expansion-panel>
-      <v-expansion-panel popout focusable>
+      <v-expansion-panel popout focusable v-if="sloka.examples">
         <v-expansion-panel-content>
           <div slot="header" class="secondary--text subheading font-weight-bold">Example(s)</div>
         <v-layout xs12 row>
@@ -61,7 +61,7 @@
       v-model="active"
       color="accent"
       dark
-      slider-color="yellow"
+      slider-color="yellow" 
     >
       <v-tab
         v-for="n in sloka.examples.length"
