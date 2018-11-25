@@ -161,7 +161,7 @@ export const state = () => ({
               explanation_eng: 'O Face! enough of thy pride ; (there is) the moon equal to thee in splendor.'
             },
             {
-              text: 'गर्वमसंवाह्यमिमं लोचनयुगलेन किं वहसि भद्रे! ।<br>सन्तीदृशानि दिशि दिशि सर;सु ननु नीलनलिनानि॥',
+              text: 'गर्वमसंवाह्यमिमं लोचनयुगलेन किं वहसि भद्रे! ।<br>सन्तीदृशानि दिशि दिशि सर;सु ननु नीलनलिनानि॥'
             }
           ]
         },
