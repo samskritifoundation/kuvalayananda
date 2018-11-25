@@ -1,27 +1,37 @@
 <template>
-<v-container class="mt-0 pt-0">
+<v-container xs12 class="mt-0 pt-0">
   <v-layout row class="neg_margin">
   <v-btn color="accent darken-2" :ripple="{ class: 'error--text' }"  :to=previous><b>Previous</b></v-btn>
   <v-spacer></v-spacer>
   <v-btn color="accent darken-2" :ripple="{ class: 'error--text' }" :to=next><b>Next</b></v-btn>
   </v-layout>
-<v-card color="accent lighten-4" class="mt-0 pt-0 bordered">
+<v-card xs12 color="accent lighten-4" class="mt-0 pt-0 bordered">
     <v-card-title primary-title>
+      <v-layout class="text-wrap text-xs-center" xs12 row>
+        <v-flex>
         <h3 class="myheader"><span class="devanagari">{{lesson.title_sans}}</span> <br>{{lesson.title_eng}}</h3>
+        </v-flex>
+        </v-layout>
         </v-card-title>
 <v-layout row v-for="(sloka,i) in lesson.slokas" :key="i">
   <v-flex xs12 mb-3>
       <v-expansion-panel popout focusable>
         <v-expansion-panel-content ripple="true" >
           <div slot="header" class="secondary--text subheading font-weight-bold">Sloka {{i + 1}}</div>
+          <v-layout xs12 row>
+        <v-flex>
           <v-card color="accent lighten-5" class="title text-xs-center">
               <v-card-text v-html="sloka.sloka" ></v-card-text>
             </v-card>
+        </v-flex>
+          </v-layout>
         </v-expansion-panel-content>
       </v-expansion-panel>
       <v-expansion-panel popout focusable>
         <v-expansion-panel-content>
           <div slot="header" class="secondary--text subheading font-weight-bold">Explanation of Sloka</div>
+          <v-layout xs12 row>
+        <v-flex>
           <v-card color="accent lighten-3">
               <v-card-text>
                 <v-tabs centered hide-slider="true" color="accent lighten-3">
@@ -37,11 +47,15 @@
             </v-tabs>
               </v-card-text>
             </v-card>
+        </v-flex>
+          </v-layout>
         </v-expansion-panel-content>
       </v-expansion-panel>
       <v-expansion-panel popout focusable>
         <v-expansion-panel-content>
           <div slot="header" class="secondary--text subheading font-weight-bold">Example(s)</div>
+        <v-layout xs12 row>
+        <v-flex>  
     <v-tabs
       fixed-tabs
       v-model="active"
@@ -54,7 +68,7 @@
         :key="n"
         ripple
       >
-        Example {{ n }}
+        {{ n }}
 
       </v-tab>
       <v-tab-item
@@ -64,9 +78,12 @@
         <v-card xs12 flat color="warning">
           <v-card-title class="title mb-0 text-xs-center" v-html="example.text"></v-card-title>
           <v-card-text>
+            <v-layout xs12 row>
+        <v-flex>
+          <h3 class="text-xs-center">Explanation</h3>
             <v-tabs centered hide-slider="true" color="warning">
               <v-tab
-                v-for="n in ['Explanation in Sanskrit','Explanation in English']"
+                v-for="n in ['Sanskrit','English']"
                 :key="n"
               >
                 <v-btn color="accent darken-5">{{ n }}</v-btn>
@@ -75,16 +92,22 @@
                 <p class="subheading" v-html="lang"></p>
               </v-tab-item>
             </v-tabs>
+        </v-flex>
+            </v-layout>
           </v-card-text>
         </v-card>
       </v-tab-item>
     </v-tabs>
+        </v-flex>
+        </v-layout>
         </v-expansion-panel-content>
       </v-expansion-panel>
   </v-flex>
 </v-layout>
 
       <div v-if="lesson.types" class="myheader3">
+        <v-layout row>
+  <v-flex xs12 mb-3>
         <div class="text-xs-center mt-3">
           <h3>Types</h3>
         <v-btn @click="nexttab">next tab</v-btn>
@@ -109,7 +132,7 @@
         :key="j"
       >
         <v-card flat>
-          <v-card-text class="devanagari">
+          <v-card-text class="devanagari text-wrap">
             <h3>Type {{j+1}}</h3>
             <p v-html="p.sloka"></p>
             <p class="text-xs-center">
@@ -123,7 +146,11 @@
                 <v-btn color="accent darken-3">{{ l }}</v-btn>
               </v-tab>
               <v-tab-item v-for="lang in p.sloka_explanation" :key="lang">
-                <p class="mt-3 subheading" v-html="lang"></p>
+                <v-layout row xs12>
+                  <v-flex>
+                <p class="mt-3" v-html="lang"></p>
+                  </v-flex>
+                </v-layout>
               </v-tab-item>
             </v-tabs>
             <p class="text-xs-center">
@@ -138,7 +165,8 @@
         </v-card>
       </v-tab-item>
     </v-tabs>
-
+</v-flex>
+</v-layout>
   </div>
   </v-card>
 </v-container>
@@ -203,6 +231,10 @@ export default {
 
  .neg_margin {
   margin-top: -10%;
+}
+
+.text-wrap {
+  word-wrap: break-word;
 }
 
 </style>
