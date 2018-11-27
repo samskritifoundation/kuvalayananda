@@ -17,7 +17,7 @@
   <v-flex xs12 mb-3>
       <v-expansion-panel popout focusable>
         <v-expansion-panel-content ripple="true" >
-          <div slot="header" class="secondary--text subheading font-weight-bold">Sloka {{i + 1}}</div>
+          <div slot="header" class="secondary--text subheading font-weight-bold" v-if="sloka">Sloka {{i + 1}}</div>
           <v-layout xs12 row>
         <v-flex>
           <v-card color="accent lighten-5" class="title text-xs-center">
@@ -109,13 +109,13 @@
         <v-layout row>
   <v-flex xs12 mb-3>
         <div class="text-xs-center mt-3">
-          <h3>Types</h3>
+          <h3>Types: {{lesson.types}}</h3>
         <v-btn @click="nexttab">next tab</v-btn>
     </div>
     <v-tabs
       v-model="active"
       color="accent"
-      dark fixed-tabs
+      dark centered
       slider-color="yellow"
     >
       <v-tab

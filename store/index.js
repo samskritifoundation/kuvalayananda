@@ -323,48 +323,193 @@ export const state = () => ({
     },
     {
       title_sans: 'उल्लेखालङ्कारः',
-      title_eng: 'Ullekhālaṅkāra',
+      title_eng: 'Ullekhālaṅkāra - Representation',
       id: 8,
-      definition_sans: 'बहुभिर्बहुधोल्लेखादेकस्योल्लेख इष्यते।<br>स्त्रीभिः कामोऽर्थिभिः स्वर्द्रुः कालः शत्रुभिरैक्षि सः॥२२॥<br>यत्र नानाविधधर्मयोग्येकं वस्तु तत्तद्धर्मयोगरुपनिमित्तभेदेनानेकेन ग्रहीत्रानेकधोल्लिख्यते तत्रोल्लेखः।<br>अनेकधोल्लेखने रुच्यर्थित्वभयादिकं यथार्हं प्रयोजकम्‌।<br>रुचिरबिह्रतिः अर्थित्वं लिप्सा।<br>‘स्त्रीभिः’ इत्याद्युदाहरणम्‌ अतैक एव राजा सौन्दर्यवितरणपराक्रमशालीति कृत्वा<br>स्त्रीभिरर्थिभिः प्रत्यर्थिभिश्च रुच्यर्थित्वभयैः कामकल्पतरुकालरुपो दृष्टः।',
-      definition_eng: ' ',
-      common: 'यथा वा – गजत्रातेति वृद्धाभिः श्रीकान्त इति यौवतैः।<br>यथास्थितश्च बालाभिर्दृष्टः शौरिः सकौतुकम्‌॥<br>अत्र यस्तथा भीतं भक्तं गजं त्वरया त्रायते स्म सोऽयमादिपुरुषोत्तम इति ‘वृद्धाभिः संसारभीत्या तदभयार्थिनीभिः कृष्णोऽयं मथुरापुरं प्रविशन्‌ दृष्टः।<br>यस्तथा चञ्चलत्वेन प्रसिद्धायाः श्रियोऽपि कामोपचारवैदग्ध्येन नित्यं वल्लभः सोऽयं दिव्ययुवेति युवतिसमूहैः सोत्कण्ठैर्दृष्टः।<br>बालाभिस्तु तद्बाह्यगतरुपवेषालङ्कारदर्शनमात्रलालसाभिर्यथास्थितवेषादियुक्तो दृष्ट इति बहुधोल्लेखः।<br>पूर्वः कामत्वाद्यारोपरुपकसंकीर्णः।<br>अयं तु शुद्ध इति भेदः॥२२॥<br> एकेन बहुधोल्लेखेऽप्यसौ विषयभेदतः।<br> गुरुर्वचस्यर्जुनो कीर्तौ भीष्मः शरासने॥२३॥<br> ग्रहीतृभेदाभावेऽपि विषयभेदाद्बहुधोल्लेखनादसावुल्लेखः।<br> उदाहरणं श्लेषसंकीर्णम्‌।वचोविषये महान्पटुरित्यादिवद्बृहस्पतिरित्याद्यर्थान्तरस्यापि क्रोडीकरणात्‌। <br> शुद्धो यथा- अकृशं कुचयोः कृशं विलग्ने विपुलं चक्षुषि विस्तृतं नितम्बे।<br> अधरेऽरुणमाविरस्तु चित्ते करुणाशालि कपालिभागधेयम्‌॥२३॥'
+      slokas: [
+        {
+          sloka: 'बहुभिर्बहुधोल्लेखादेकस्योल्लेख इष्यते ।<br>स्त्रीभिः कामोऽर्थिभिः स्वर्द्रुः कालः शत्रुभिरैक्षि सः ॥',
+          sloka_explanation: {
+            sans: '<p>यत्र नानाविधधर्मयोग्येकं वस्तु तत्तद्धर्मयोगरूपनिमित्तभेदेन अनेकेन ग्रहीत्रानेकधा उल्लिख्यते तत्र उल्लेखः।</p><p>अनेकधोल्लेखने रुच्यर्थित्वभयादिकं यथार्हं प्रयोजकम्‌। </p><p>रुचिरबिह्रतिः अर्थित्वं लिप्सा।</p>',
+            eng: '<h3>Word meanings</h3><table><tr><td>एकस्य - </td><td>Of one (object)</td></tr><tr><td>बहभिः - </td><td>By different persons</td></tr><tr><td>बहुधा - </td><td>Under different characters</td></tr><tr><td>उल्लेखात् - </td><td>By delineating</td></tr><tr><td>उल्लेखः - </td><td>Representation</td></tr><tr><td>इष्यते - </td><td>Is regarded</td></tr><tr><td>सः - </td><td>That God Krishna</td></tr><tr><td>स्त्रीभिः - </td><td>By the women</td></tr><tr><td>कामः - </td><td>As God of love</td></tr><tr><td>ऐक्षि - </td><td>Was seen</td></tr><tr><td>अर्थिभिः - </td><td>By the mendicants</td></tr><tr><td>स्वर्द्रुः - </td><td>As the tree of paradise</td></tr><tr><td>शत्रुभिः - </td><td>By (his) foes</td></tr><tr><td>कालः - </td><td>As God of death</td></tr></table><h3>Definition</h3><p>When an object is delineated by different people under different characters, it is termed Representation.</p>'
+          },
+          examples: [
+            {
+              text: 'स्त्रीभिः कामोऽर्थिभिः स्वर्द्रुः कालः शत्रुभिरैक्षि सः ॥',
+              explanation: {
+                sans: '<p>‘स्त्रीभिः’ इत्याद्युदाहरणम्‌ अतैक एव राजा सौन्दर्यवितरणपराक्रमशालीति कृत्वा स्त्रीभिरर्थिभिः प्रत्यर्थिभिश्च रुच्यर्थित्वभयैः कामकल्पतरुकालरूपो दृष्टः।</p>',
+                eng: '<p>He (God Krishna) was regarded as the God of love by the women, as the tree of paradise by the mendicants, and as the God of death by (his) foes.</p><p>Here, the one and the same object is represented as distinct by different beholders on different occasions according to their liking or taste.</p>'
+              }
+            }
+          ]
+        }
+      ],
+      types: 1,
+      type: [
+        {
+          sloka: 'एकेन बहुधोल्लेखेऽप्यसौ विषयभेदतः ।<br>गुरुर्वचस्यर्जुनोऽयं कीर्त्तौ भीष्मः शरासने ॥',
+          sloka_explanation: {
+            sans: '<p>ग्रहीतृभेदाभावेऽपि विषयभेदाद्बहुधोल्लेखनादसावुल्लेखः।</p>',
+            eng: '<h3>Word meanings</h3><table><tr><td>(एकस्य - </td><td>Of one object)</td></tr><tr><td>एकेन - </td><td>By one person</td></tr><tr><td>विषयभेदतः - </td><td>Through difference of peculiarities</td></tr><tr><td>बहुधा</td><td>Under various characters</td></tr><tr><td>उल्लेखे - </td><td>In the delineation</td></tr><tr><td>अपि - </td><td>Also</td></tr><tr><td>असौ - </td><td>That i.e., Representation</td></tr><tr><td>अयं (राजा) - </td><td>This (King)</td></tr><tr><td>वचसि- </td><td>In speech</td></tr><tr><td>गुरूः - </td><td>(is) grave or Brihaspati</td></tr><tr><td>कीर्त्तौ - </td><td>In fame</td></tr><tr><td>अर्जुनः - </td><td>(is) white or Arjuna</td></tr><tr><td>शरासने</td><td>In bow</td></tr><tr><td>भीष्मः</td><td>(is) terrible or Bhishma</td></tr></table><h3>Definition</h3><p>When an object is delineated by one person, i.e., by one perceiver, under various characters through difference of peculiarities. it is also termed Representation.</p>'
+          },
+          examples: [
+            {
+              text: 'गुरुर्वचस्यर्जुनो कीर्तौ भीष्मः शरासने॥',
+              explanation_sans: 'उदाहरणं श्लेषसंकीर्णम्‌।वचोविषये महान्पटुरित्यादिवद्बृहस्पतिरित्याद्यर्थान्तरस्यापि क्रोडीकरणात्‌।',
+              explanation_eng: '<p>He ( the king ) is grave ( Brihaspati ) in speech, white ( Arjuna  in fame, and terrible ( Bhishma ) in bow.</p><p>Here, one and the same king is represented as distinct by one and the same beholder but through difference of peculiarities belonging to the object delineated.</p>'
+            }
+          ]
+        }
+      ]
     },
     {
       title_sans: 'स्मृति-भ्रान्ति- संदेहालङ्काराः',
-      title_eng: 'Smṛti-bhrānti- saṃdehālaṅkārā',
+      title_eng: 'Smṛti (Reminiscence or Rhetorical Recollection) - bhrānti (Mistaker) - saṃdehālaṅkārā (Doubt)',
       id: 9,
-      definition_sans: 'स्यात्स्मृतिभ्रान्तिसंदेहैस्तदङ्कालङ्कृतित्रयम्‌। <br> पङ्कजं पश्यतः कान्तामुखं मे गाहते मनः॥२४॥ <br> अयं प्रमत्तमधुपस्त्वन्मुखं वेत्ति पङ्कजम्‌। <br> पङ्कजं वा सुधांशुर्वेत्यस्माकं तु न निर्णयः॥२५॥ <br> स्मृतिभ्रान्तिसंदेहैः सादृश्यान्निबध्यमानैः स्मृतिभ्रान्तिमान्संदेह इति स्मृत्यादिपदाङ्कितमलङ्कारत्रयं भवति।',
-      definition_eng: '',
-      common: 'तच्च क्रमेणोदाहृतम्‌। <br> यथा वा <br> (माघ० ८।६४) - दिव्यानामपि कृतविस्मयां पुरस्ताद- म्बह्स्तः स्फुरदरविन्दचारुहस्ताम्‌।<br> उद्वीक्ष्य श्रियमिव काञ्चिदुत्तरन्ती- मस्मार्षीज्जनिधिमन्थनस्य शौरिः॥ <br> पूर्वत्र स्मृतिमदुदाहरणे सदृशस्यैव स्मृतिरत्र सदृशलक्ष्मीस्मृतिपूर्वकं तत्सम्बन्धिनो जलनिधिमन्थनस्यापि स्मृतिरिति भेदः। <br> पलाशामुकुलभ्रान्त्या शुकतुण्डे पतत्यलिः। <br> सोऽपि जम्बूफलभ्रान्त्या तमलिं धर्तुमिच्छति॥ <br>       अत्रान्योन्यविषयभ्रान्तिनिबन्धनः पूर्वोदाहरणाद्विशेषः। <br> जीवनग्रहणे नम्रा गृहीत्वाअ पुनरुन्नताः। <br> किमु ज्येष्ठा घटीयन्त्रस्य दुर्जनाः॥ <br>      पूर्वोदाहृतसंदेहः प्रसिद्धकोटिकः, अयंतु कल्पितकोटिक इति भेदः॥२४-२५॥'
+      slokas: [
+        {
+          sloka: 'स्यात्स्मृतिभ्रान्तिसंदेहैस्तदङ्कालङ्कृतित्रयम्‌।<br>पङ्कजं पश्यतः कान्तामुखं मे गाहते मनः॥',
+          sloka_explanation: {
+            sans: 'स्मृतिभ्रान्तिसंदेहैः सादृश्यान्निबध्यमानैः स्मृतिभ्रान्तिमान्संदेह इति स्मृत्यादि-पदाङ्कितम्‌ अलङ्कार-त्रयं भवति।',
+            eng: '<h3>Word meanings</h3><table><tr><td>स्मृति-भ्रान्ति-सन्देहैः - </td><td>By (expressions of) recollection, mistake and doubt</td></tr><tr><td>तदंकालङ्कृतित्रयम् - </td><td>Three figures that go by the names of Recollection, Mistaker and Doubt (respectively)</td></tr></table><h3>Definition</h3><p>(1) Expressions of a certain object capable of arousing an impression in the mind favoring a recollection, (2) mistaking a certain object to be something else similar to it, and (3) doubting the certainty of an object are respectively termed Reminiscence, the Mistaker and Doubt. Or in other words :-</p><ol><li>A recollection of an object, experienced before, that arises from the sight of some other object similar to it, is termed Reminiscence.</li><li>The Mistaker is the representation of an object, i.e., face &c. as something else, i.e., lotus &c., as suggested by the skill of the poet, on account of the close resemblance of those two objects.</li><li>When the certainty of an object under delineation is doubted through poetical skill, it is called Doubt.</li></ol>'
+          },
+          examples: [
+            {
+              text: 'पङ्कजं पश्यतः कान्तामुखं मे गाहते मनः॥',
+              explanation: {
+                sans: '',
+                eng: '<h3>Example of Reminiscence</h3><h3.Word meanings</h3><table><tr><td>पंकजम् - </td><td>Lotus</td></tr><tr><td>पश्यतः - </td><td>Seeing</td></tr><tr><td>मे मनः - </td><td>My mind</td></tr><tr><td>कांतामुखम् - </td><td>The face of the beloved</td></tr><tr><td>गाहते - </td><td>Enters, i.e., recollects</td></tr></table><h3>Meaning</h3><p>Seeing this lotus, my mind recollects the face of my beloved.</p>'
+              }
+            },
+            {
+              text: 'अयं प्रमत्तमधुपस्त्वन्मुखं वेत्ति पङ्कजम् ।',
+              explanation: {
+                sans: '',
+                eng: '<h3>Example of the Mistaker</h3><h3>Word meanings</h3><table><tr><td>अयम् - </td><td>this</td></tr><tr><td>प्रमत्तमधुपः - </td><td>Intoxicated bee</td></tr><tr><td>त्वन्मुखम् - </td><td>Thy face</td></tr><tr><td>पंकजम् - </td><td>Lotus</td></tr><tr><td>वेत्ति - </td><td>Understands</td></tr></table><h3>Meaning</h3><p> (Lady ! ) this intoxicated bee understands thy face to be the lotus (through mistake). </p><p>The difference between this figure and the Rupaka (V) is, that, in the latter, we identify the face with the lotus without mistaking the one for the other, whereas, in this figure, the mistake is clearly expressed as in the foregoing example.</p>'
+              }
+            },
+            {
+              text: 'पङ्कजं वा सुधांशुर्वेत्यस्माकं तु न निर्णयः ।',
+              explanation: {
+                sans: '',
+                eng: '<h3>Example of Doubt</h3><h3>Word meanings</h3><table><tr><td>अस्माकम् - </td><td>To us</td></tr><tr><td>पंकजम् - </td><td>Lotus</td></tr><tr><td>वा - </td><td>Or</td></tr><tr><td>सुधांशुः - </td><td>Moon</td></tr><tr><td>वा - </td><td>Or</td></tr><tr><td>इति - </td><td>So</td></tr><tr><td>निर्णयः - </td><td>Decision</td></tr><tr><td>न - </td><td>Not.</td></tr></table><h3>Meaning</h3><p>We are not able to decide whether (the object before us) is the lotus or the moon nectar-rayed.</p><p>Thus, we sec that these three figures are founded upon the close resemblance, of the objects seen and experienced before, that gave rise to a recollection, mistake or doubt.</p>'
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       title_sans: 'अपह्नुत्यलङ्कारः',
-      title_eng: 'Apahnutyalaṅkāra',
+      title_eng: 'Apahnutyalaṅkāra - Concealment',
       id: 10,
-      definition_sans: 'शुद्धापह्नुतिरन्यस्यारोपार्थो धर्मनिह्नवः। <br>नायं सुधांशुः किं तर्हि? व्योमगङ्गासरोरुहम्‌॥२६॥ <br>वर्णनीये वस्तुनि तत्सदृशधर्मारोपफलकस्तदीयधर्मनिह्नवः कविमतिविकासोत्प्रेक्षितधर्मान्तरस्यापि निह्नवः शुद्धापह्नुतिः।',
-      definition_eng: ' ',
-      common: 'यथा चन्द्रे वियन्नदीपुण्डरीकत्वारोपफलकस्तदीयधर्मस्य चन्द्रत्वस्यापह्नवः। <br> यथा वा - अङ्कं केऽपि शशङ्किरे, जलनिधेः पङ्कं परे मेनिरे, सारंगं कतिचिच्च संजगदिरे, भूच्छायमैच्छन्‌ परे। <br> इन्दौ यद्दलितेन्द्रनीलशकलश्यामं दरीदृश्यते तत्सान्द्रं निशि पीतमन्धतमां कुक्षिस्थमाचक्ष्महे॥ <br>       अत्रौत्प्रेक्षिकधर्माणामप्यपह्नवःपरपक्षत्वोपन्यासादर्थसिद्धः॥२६॥ <br> स एव युक्तिपूर्वश्चेदुच्यते हेत्वपह्नुतिः। <br> नेन्दुस्तीव्रो न निश्यर्कः सिन्धोरौर्वोऽयमुत्थितः॥२७॥ <br> अत्र चन्द्र एव तीव्रत्वनैशत्वयुक्तिभ्यां चन्द्रत्वसूर्यत्वापह्नवो वडवानलत्वारोपार्थः। <br> यथा वा - मन्थानभूमिधरमूलशिलासहस्र- संघट्टनव्रणकिणः स्फुरतीन्दुमध्ये। <br> छायामृगः शशक इत्यतिपामरोक्ति- स्तेषां कथंचिदपि तत्र हि न प्रसक्तिः॥ <br> अत्र चन्द्रमध्ये मन्थनकालिकमन्दरशिलासंघट्टनव्रणकिणस्यैव छायादीनां सम्भवो नास्तीति छायात्वाद्यपह्नवः पामरवचनत्वोपन्यासेनाविष्कृतः॥२७॥ <br> अन्यत्र त्स्यारोपार्थः पर्यस्तापह्नुतिस्तु सः‌॥२८॥ <br> यत्र क्वचिद्वस्तुनि तदीयधर्मनिह्नवः अन्यत्र वर्णनीये वस्तुनि तस्य धर्मस्यारोपार्थः स पर्यस्तापह्नुतिः। <br> यथा चन्द्रे चन्द्रत्वनिह्नवो वणनीये मुखे तदारोपार्थः। <br> यथा वा- हालाहलो नैव विषं, विषं रमा, जनाः परं व्यत्ययमत्र मन्वते। <br> निपीय जागर्ति सुखेन तं शिवः, पृशन्निमां मुह्यति निद्रया हरिः॥ <br> पूर्वोदाहरणे हेतूक्तिर्नास्ति, अत्र तु सास्तीति विशेषः। <br> ततश्च पूर्वापह्नुतिवदत्रापि द्वैविध्यमपि द्रष्टवयम्‌ ॥२८॥ <br> भ्रान्तापह्नुतिरन्यस्य शङ्कायां भ्रान्तिवारणे। <br> तापं करोति सोत्कम्पं, ज्वर किं? न, सखि! स्मरः॥१९॥ <br> अत्र तापं करोतीति स्मरवृत्तान्ते कथिते तस्य ज्वरसाधारण्यादृजुबुद्ध्या सख्या ‘ज्वरः किम्‌’ इति पृष्टे, ‘न सखि! स्मरः” इति तत्त्वोक्त्या भ्रान्तिवारणं कृतम्‌। <br> यथा वा - नागरिक! समधिकोन्नतिरिह महिषः कोऽयमुभयतः पुच्छः। <br> नहि नहि करिकलभोऽयं शुण्डादण्डोऽयमस्य न तु पुच्छम्‌॥ <br> इदं सम्भवद्‌ भ्रान्तिपूर्विकायां भ्रान्तापह्नुतावुदाहरणम्‌। <br> कल्पित भ्रान्तिपूर्वा यथा- जटा नेयं वेणीकृतकचकलापो न गरलं गले कस्तूरीयं शिरसि शशिलेखा न कुसुमम्‌। <br> इयं भूतिर्नाङ्गे प्रियविरहजन्मा धवलिमा पुरारातिभ्रान्त्या कुसुमशर! किं मां प्रहरसि॥ <br> अत्र कल्पितभ्रान्तिः ‘जटा नेयम्‌’ इत्यादिनिषेधमात्रोन्नेया, पूर्ववत्प्रश्नाभावात्‌। <br> दण्डी त्वत्र तत्त्वाख्यानोपमेत्युपमाभेदं मेने। <br> यदाह - ‘न पद्मं मुखमेवेदम, न भृङ्गो चक्षुषी इमे। <br> इति विस्पष्टसादृश्यात्तत्त्वाख्यानोपमैव सा’॥२६॥ <br> इति छेकापह्नुतिरन्यस्य शङ्कातस्तथ्यनिह्नवे। <br> प्रजल्पनमत्पदे लगनः कान्तः किं? नहि नूपुरः॥३०॥ <br> कस्यचित्कञ्चित्प्रति रहस्योक्तावन्येन श्रुतायां स्वोक्तेस्तात्पर्यान्तरवर्णनेन तथ्य निह्नवे छेकापह्नुतिः। <br> यथा नायिकाया नर्मसखीं प्रति ‘प्रजल्पनमत्पदे लग्नः इति स्वनायकवृत्तान्ते निगद्यमाने तदाकर्ण्य ‘कान्तः किम्‌’ इति शङ्कितवतीमन्यां प्रति ‘नहि, नूपुरः’ इति निह्नवः। <br> सीत्कारं शिक्षयति व्रणयत्यधरं तनोति रोमाञ्चम्‌। <br> नागरिकः किं मिलितो? नहि नहि, सखि! हैमनः पवनः॥ <br> इदमर्थयोजनया तथ्यनिह्नवे उदाहरणम्‌। <br> शब्दयोजनया यथा – पद्मे! त्वन्नयने स्मरामि सततं भावो भवत्कुन्तले नीले मुह्यति किं करोमि महितं क्रीतोऽस्मि ते विभ्रमैः। <br> इत्युस्वप्नवचो निशम्य सरुषा निर्भर्त्सितो राधया कृष्णस्तत्परमेव तद्व्यपदिह्सन्‌ क्रीडाविटः पातु वः॥ <br>  सर्वमिदं विषयान्तरयोजने उदाहरणम्‌। <br> विषयैक्येऽप्यवस्थाभेदेन योजने यथा - वदन्ती जारवृत्तान्तं पत्यौ धूर्ता सखीधिया। <br> पतिं बुद्ध्वा, ‘सखि! ततः प्रबुद्धास्मी’त्यपूरयत्‌॥३०॥ <br> कैतवापह्नुतिर्व्यक्तौ व्याजाद्यैर्निह्नुतेः पदैः। <br> निर्यान्ति स्मरनाराचाः कान्तादृक्पातकैतवात्‌॥३१॥ <br>      अत्रासत्यत्वाभिधायिना, ‘कैतव’ पदेन ;नेमे कान्ताकटाक्षाः, किन्तु स्मरनाराचाः’ इत्यपह्नवः प्रतीयते। <br> यथा वा – रिक्तेषु वारिकथया विपिनोदरेषु मध्याह्नजृम्भितमहातपतापतप्ताः। <br> स्कन्धान्तरोत्थितदवागिन्शिखाच्छलेन जिह्वाम प्रसार्य तरवो जलमर्थयन्ते ॥३१॥'
+      types: 6,
+      type: [
+        {
+          sloka: '<h3>शुद्धापह्नुतिः - Concealment pure</h3>शुद्धापह्नुतिरन्यस्यारोपार्थो धर्मनिह्नवः।<br>नायं सुधांशुः किं तर्हि? व्योमगङ्गासरोरुहम्‌॥',
+          sloka_explanation: {
+            sans: '<p>वर्णनीये वस्तुनि तत्सदृश-धर्मारोप-फलकस्तदीय-धर्म-निह्नवः  कविमति-विकासोत्प्रेक्षित-धर्मान्तरस्यापि निह्नवः शुद्धापह्नुतिः।</p>',
+            eng: '<h3>Word meanings</h3><table><tr><td>अन्यस्य - </td><td>Of the object not on hand</td></tr><tr><td>आरोपार्थः - </td><td>Causing superimposition</td></tr><tr><td>धर्मनिह्नवः - </td><td>Denial of the character</td></tr><tr><td>शुद्धा</td><td>Pure</td></tr><tr><td>अपह्नुतिः - </td><td>Concealment</td></tr><tr><td>अयं - </td><td>This</td></tr><tr><td>सुधांशुः - </td><td>Moon</td></tr><tr><td>न - </td><td>Not</td></tr><tr><td>किं तर्हि - </td><td>Then, what is that</td></tr><tr><td>व्योमगंगासरोरुहम् - </td><td>The lotus of the celestial Ganges.</td></tr></table><h3>Definition</h3><p>Pure Concealment is the denial of the real character (of an object on hand such as moon & c.) for the purpose of superimposing (upon it) the character of another (object lotus &c., not on hand). </p>'
+          },
+          examples: [
+            {
+              text: 'नायं सुधांशुः किं तर्हि? व्योमगङ्गासरोरुहम्‌॥',
+              explanation_sans: 'यथा चन्द्रे वियन्नदीपुण्डरीकत्वारोपफलकस्तदीयधर्मस्य चन्द्रत्वस्यापह्नवः।',
+              explanation_eng: '<p>This (the object before us) is not the moon (nectar-rayed) but it is the lotus of the celestial Ganges. </p>'
+            }
+          ]
+        },
+        {
+          sloka: '<h3>हेत्वपह्नुतिः- Concealment with a reason</h3>स एव युक्तिपूर्वश्चेदुच्यते हेत्वपह्नुतिः।<br>नेन्दुस्तीव्रो न निश्यर्कः सिन्धोरौर्वोऽयमुत्थितः॥',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word Meanings</h3><table><tr><td>सः (धर्मनिह्नवः) - </td><td>The same i.e., the denial of the character</td></tr><tr><td>युक्तिपूर्वः - </td><td>Based upon the reasoning</td></tr><tr><td>चेत् - </td><td>If</td></tr><tr><td>हेत्वपह्नुतिः - </td><td>Concealment with a reason</td></tr><tr><td>उच्यते - </td><td>Is called</td></tr><tr><td>अयम् - </td><td>This</td></tr><tr><td>इन्दुः - </td><td>Moon</td></tr><tr><td>न - </td><td>Not</td></tr><tr><td>तीव्रः - </td><td>Hot</td></tr><tr><td>निशि - </td><td>At night</td></tr><tr><td>अर्कः - </td><td>Sun</td></tr><tr><td>न - </td><td>Not</td></tr><tr><td>सिन्धोः - </td><td>Not from the ocean</td></tr><tr><td>उत्थितः - </td><td>Sprung up</td></tr><tr><td>और्वः - </td><td>The submarine fire.</td></tr></table><h3>Definition</h3><p>The above, i.e., the ‘Concealment pure’ when based upon a reasoning, is termed हेत्वपह्नुतिः ।</p>'
+          },
+          examples: [
+            {
+              text: 'नेन्दुस्तीव्रो न निश्यर्कः सिंधोरौर्वोयमुत्थितः ॥',
+              explanation_sans: 'अत्र चन्द्र एव तीव्रत्वनैशत्वयुक्तिभ्यां चन्द्रत्वसूर्यत्वापह्नवो वडवानलत्वारोपार्थः।',
+              explanation_eng: 'This is not the moon, (because it is) hot ; (not even) the sun, (because it is) night ; but it is the submarine fire come out of the ocean.'
+            }
+          ]
+        },
+        {
+          sloka: '<h3>पर्यस्तापह्नुतिः - Concealment transferred</h3>अन्यत्र तस्यारोपार्थः पर्यस्तापह्नुतिश्च सः ।<br>नायं सुधांशुः किं तर्हि सुधांशुः प्रेयसीसुखम् ॥',
+          sloka_explanation: {
+            sans: '<p>यत्र क्वचिद्वस्तुनि तदीयधर्मनिह्नवः अन्यत्र वर्णनीये वस्तुनि तस्य धर्मस्यारोपार्थः स पर्यस्तापह्नुतिः।</p>',
+            eng: '<h3>Word meanings</h3><table><tr><td>अन्यत्र</td><td>On another object</td></tr><tr><td>तस्य - </td><td>Of that (object on hand)</td></tr><tr><td>आरोपार्थः - </td><td>Causing superimposition</td></tr><tr><td>सः - </td><td>That</td></tr><tr><td>पर्यतिः - Concealment transferred</td></tr><tr><td>अयन् - </td><td>This</td></tr><tr><td>सुधांशुः - </td><td>Moon</td></tr><tr><td>न - </td><td>Not</td></tr><tr><td>हिं तर्हि - </td><td>Then which (is called moon)</td></tr><tr><td>प्रेयसीसुखम् - </td><td>The face of (my) beloved</td></tr><tr><td>सुधांशुः - </td><td>Moon</td></tr></table><h3>Definition</h3><p>Paryastapahnuti is that in which the real character of an object (moon &c.) is denied and the same is superimposed upon another object (face of a damsel).</p>'
+          },
+          examples: [
+            {
+              text: 'नायं सुधांशुः किं तर्हि सुधांशुः प्रेयसीसुखम् ॥',
+              explanation_sans: 'यथा चन्द्रे चन्द्रत्वनिह्नवो वणनीये मुखे तदारोपार्थः।',
+              explanation_eng: 'This is not the moon (nectar-rayed). Then which is moon ? The face of my beloved is the moon (nectar-rayed-not being endowed with burning character).'
+            }
+          ]
+        },
+        {
+          sloka: '<h3>भ्रान्तापह्नुतिः - Concealment under a mistake</h3>भ्रान्तापह्नुतिरन्यस्य शंकायां भ्रान्तिवारणे ।<br>तापं करोति सोत्कम्पं, ज्वरः किं? न सखि स्मरः ॥',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>अन्यस्य - </td><td>Of another person</td></tr><tr><td>शंकायाम् - </td><td>In doubt</td></tr><tr><td>भ्रान्तिवारणे - </td><td>In the removal of the mistake</td></tr><tr><td>भ्रान्तापह्नुतिः - </td><td>It is Concealment under a mistake</td></tr><tr><td>सोत्कंपम् - </td><td>Accompanied by trembling</td></tr><tr><td>तापम् - </td><td>Heat</td></tr><tr><td>करोति - </td><td>Produces</td></tr><tr><td>ज्वरः किम् - </td><td>Is it fever?</td></tr><tr><td>सखि - </td><td>Friend !</td></tr><tr><td>न - </td><td>No </td></tr><tr><td>स्मरः - </td><td>The God of love.</td></tr></table><h3>Definition</h3><p> When a person is in doubt (i.e., under a mistaken notion as to the real character of an ‘object on hand) and when that doubt is warded of (by the mention of the real thing), it is Bhrantapahnuti.</p>'
+          },
+          examples: [
+            {
+              text: 'तापं करोति सोत्कम्पं, ज्वरः किं? न सखि स्मरः ॥',
+              explanation_sans: 'अत्र तापं करोतीति स्मरवृत्तान्ते कथिते तस्य ज्वरसाधारण्यादृजुबुद्ध्या सख्या ‘ज्वरः किम्‌’ इति पृष्टे, ‘न सखि! स्मरः” इति तत्त्वोक्त्या भ्रान्तिवारणं कृतम्‌।',
+              explanation_eng: '(It) produces heat accompanied by the trembling of the body* Is it fever?  No, friend ! It is the God of love. '
+            }
+          ]
+        },
+        {
+          sloka: '<h3>छेकापह्नुतिः -Concealment of the skilful</h3>इति छेकापह्नुतिरन्यस्य शङ्कातस्तथ्यनिह्नवे।<br>प्रजल्पनमत्पदे लगनः कान्तः किं? नहि नूपुरः॥',
+          sloka_explanation: {
+            sans: 'कस्यचित्कञ्चित्प्रति रहस्योक्तावन्येन श्रुतायां स्वोक्तेस्तात्पर्यान्तरवर्णनेन तथ्य निह्नवे छेकापह्नुतिः।',
+            eng: '<h3>Word meanings</h3><table><tr><td>अन्यस्य - </td><td>Of another person</td></tr><tr><td>शंकातः - </td><td>Owing to fear</td></tr><tr><td>तथ्यनिह्नवे - </td><td>For the purpose of denying the real sense</td></tr><tr><td>छेकापह्नुतिः - </td><td>Concealment of the skilful</td></tr><tr><td>प्रजल्पन् - </td><td>Prattling</td></tr><tr><td>मत्पदे - </td><td>In my foot</td></tr><tr><td>लग्नः - </td><td>Clung</td></tr><tr><td>कान्तः किम् - </td><td>Is it (thy) lover?</td></tr><tr><td>न हि - </td><td>No, no</td></tr><tr><td>नूपुरः - </td><td>Anklet</td></tr></table><h3>Definition</h3><p>When a person (having once given expression to some real object) denies the same (by interpreting it otherwise) for fear of being understood by another person (in its real sense), it is termed the Concealment of the skilful.</p>'
+          },
+          examples: [
+            {
+              text: 'प्रजल्पनमत्पदे लगनः कान्तः किं? नहि नूपुरः॥',
+              explanation_sans: 'यथा नायिकाया नर्मसखीं प्रति ‘प्रजल्पनमत्पदे लग्नः इति स्वनायकवृत्तान्ते निगद्यमाने तदाकर्ण्य ‘कान्तः किम्‌’ इति शङ्कितवतीमन्यां प्रति ‘नहि, नूपुरः’ इति निह्नवः।',
+              explanation_eng: 'Pratling (something he) clung to my foot.* Is it thy lover? No, no. It is my anklet.'
+            }
+          ]
+        },
+        {
+          sloka: '<h3>कैतवापह्नुतिः - Concealment of the deceitful</h3>कैतवापह्नुतिर्व्यक्तौ व्याजाद्यैर्निह्नुतेः पदैः।<br>निर्यान्ति स्मरनाराचाः कान्तादृक्पातकैतवात्‌॥',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>व्याजादौः निह्नुतैः पदैः - </td><td>By words of denial व्याजः &c.</td></tr><tr><td>व्यक्तौ - </td><td>If expressed</td></tr><tr><td>कैतवापह्नुतिः - </td><td>Concealment of the deceitful</td></tr><tr><td>कान्तादृक्पातकैतवात् - </td><td>Under the semblance of the glances of a damsel</td></tr><tr><td>स्मरनाराचाः - </td><td>The arrows of the God of love</td></tr><tr><td>निर्यान्ति - </td><td>Issue forth</td></tr></table><h3>Definition</h3><p>When (the denial of the real character of an object on hand) is clearly expressed by the words of denial व्याज (under the semblance of, under the pretext of) etc., it is the Concealment of the deceitful.</p><p>etc. includes such other words मिष, कपट, छल, छद्म. कैतव ।</p>'
+          },
+          examples: [
+            {
+              text: 'निर्यान्ति स्मरनाराचाः कांतादृक्पातकैतवात् ॥',
+              explanation_sans: 'अत्रासत्यत्वाभिधायिना, ‘कैतव’ पदेन ;नेमे कान्ताकटाक्षाः, किन्तु स्मरनाराचाः’ इत्यपह्नवः प्रतीयते।',
+              explanation_eng: 'The arrows of the God of love issue forth under the semblance of the glances of a damsel.'
+            }
+          ]
+        }
+      ]
     },
     {
       title_sans: 'उत्प्रेक्षालङ्कारः',
-      title_eng: 'Utprekṣālaṅkāra',
+      title_eng: 'Utprekṣālaṅkāra - Poetical fancy',
       id: 11,
-      definition_sans: 'संभावना स्यादुत्प्रेक्षा वस्तुहेतुफलात्मना। <br>      उक्तानुक्तास्पदाद्यात्र सिद्धाऽसिद्धास्पदे परे॥३२॥<br> धूमस्तोयं तमः शङ्क्व कोकीविरहशुष्मणाम्‌। <br> लिम्पतीव तमोङ्गानि वर्षतीवाञ्जनं नभः॥३३॥ <br> रक्तौ तवाङ्घ्री मृदुलौ भुवि विक्षेपणाद्ध्रुवम्‌। <br> त्वन्मुखाभेच्छया नूनं पद्मैर्वेरायते शशी॥३४॥ <br> मध्यः किं कुच्योर्धृत्यै बद्धः कनकदामभिः। <br> प्रायोऽब्जं त्वत्पदेनैक्यं प्राप्तुं तोये तपस्यति॥३५॥<br> अन्यधर्मसंबन्धनिमित्तेनान्यस्यान्यतादात्म्यसंभावनमुत्प्रेक्षा।<br>सा च वस्तु-हेतु-फलात्मतागोचरत्वेन त्रिविधा।<br><br> एता एवोत्प्रेक्षाः। <br>   ‘मन्ये-शङ्के-ध्रुवं-प्रायो-नूनमित्येवमादिभिः। <br>  उत्प्रेक्षा व्यज्यते शब्दैरिवशब्दोऽपि तादृशः’॥ <br>  इत्युत्प्रेक्षाव्यञ्जकत्वेन परिगणितानां शब्दानां प्रयोगे वाच्याः। <br> तेषामप्रयोगे गम्योत्प्रेक्षा। <br> यथा – त्वत्कीर्तिर्भ्रमनश्रान्ता विवेश स्वर्गनिम्नगाम्‌॥३३-३५ ',
-      definition_eng: ' ',
-      common: ' ',
-      types: 3,
-      type: [
+      slokas: [
         {
-          text_sans: 'अत्र वस्तुनः कस्यचिद्वस्त्वन्तरतादात्म्यसंभावना प्रथमा स्वरूपोत्प्रेक्षेत्युच्यते।<br>स्वरूपोत्प्रेक्शा उक्तविषयाऽनुक्तविषया चेति द्विविधा।',
-          ex: '1. रजनीमुखे सर्वत्र विसृत्वरस्य तमसो नैल्यदृष्टिप्रतिरोधकत्वादिधर्मसंबन्धेन गम्यमानेन निमित्तेन सद्यःप्रियविधटितसर्वदेशस्थितकोकाङ्गानाहृदुपगतप्रज्वलिष्यद्विरहानलधूमस्तोमतादात्म्यसंभावनास्वरुपोत्प्रेक्षा तमसो विषयस्योपादानादुक्तविषया।<br>तमोव्यापनस्य नभःप्रभृतिभूपर्यन्तसकलवस्तुसान्द्रमलिनीकरणेन निमित्तेन तमःकर्तृकलेपनतादात्म्योत्प्रेक्षा, नभःकर्तृकाञ्जनवषणतादात्म्योत्प्रेक्षा चनुक्तविषया स्वरुपोत्प्रेक्षा, उभयत्राअपि विषयभूततमोव्यापनस्यानुपादानात्‌।नन्वत्र तमसो व्यापनेन निमित्तेन लेपनकर्तृतादात्म्योत्प्रेक्षा नभसो भूपर्यन्तं गाढनीलिमव्याप्तत्वेन निमित्तेनाञ्जनवर्षणकर्तृतादात्म्योत्प्रेक्षा, चेत्युत्प्रेक्षाद्वयमुक्तविषयमेवास्तु। <br> मैवम्‌; लिम्पति – वर्षतीत्याख्यातयोः कर्तृवाचकत्वेऽपि ‘भावप्रधानमाख्याय‌म्’ इति स्मृतेर्धात्वर्थक्रियाया एव प्राधान्येन तदुपसर्जनत्वेनान्वितस्य कर्तुरुप्रेक्षणीयतया अन्यत्रान्वयासंभवात्‌। <br> अत एव। [आख्यातार्थस्य कर्तुः क्रियोपसर्जनत्वेनान्यत्रान्वयासंभवादेव] <br> अस्योपमायामुपमानतयान्वयोऽपि दण्डिना निराकृतः - ‘कर्ता यद्युपमानं स्यान्न्यग्भूतोऽसौ क्रियापदे। <br> स्वक्रियासाधनव्यग्रो नालमन्यद्व्यपिक्षितुम्‌॥ <br> (काव्यादर्शे २।२३०) इति। <br> केचित्तु – तमोनभसोर्विषययोस्तत्कर्तृकलेपनवर्षणस्वरुपधर्मोत्प्रेक्षेत्याहुः। <br> तन्मते स्वरुपोत्प्रेक्षायां धर्म्युत्प्रेक्षा चेत्येवम्द्वैविध्यं द्रष्टव्यम्‌।<br><br>2. बालेन्दुवक्रान्यविकासभावाद्बभुः पलाशान्यतिलोहितानि। <br> सद्यो वसन्तेनसमागतानां नखक्षतानीव वनस्थलीनाम्‌॥ <br> अत्रपलाशकुसुमानां वक्रत्वलोहितत्वेन संबन्धेन निमित्तेन सद्यःकृतनखक्षततादात्म्यसंभावनादुक्तविषया स्वरुपोत्प्रेक्षा। <br>     पूरोव्दाहरणे निमित्तभूतधर्मसंबन्धो गम्यः, इह तूपात इति भेदः। <br>        नन्विवशब्दस्य सादृश्यपरत्वेन प्रसिद्धरतत्वादुपमैवास्तु। <br>        ‘लिम्पतीत्युदाहरणे लेपान्कर्तुरुपमानत्वार्हस्य क्रियोपसर्जनत्ववदिह नखक्षतानामन्योपसर्जनत्वस्योपमाबधाकस्याभावादिति चेत्‌, उच्यते – उपमाया यत्र क्वाचित्स्थिरैरपि नखक्षतेइः सह वक्तुं शक्यतया वसन्तनायकसमागतवनस्थलसंबन्घित्वस्य विशेषणस्यानपेक्षितत्वादिह तदुपादानं नखक्षततादात्म्यसंभावनायामिवशब्दमवस्थपयति। <br> तथात्व एव तद्विशिषणसाफल्यात्‌। अस्ति च संभावनायां ‘इव’शब्दो ‘दूरे तिष्ठान्देवदत्त इवाभाति’ इति<br><br>3. पिनष्टीव तरङ्गाग्रैः समुद्रः फेनचन्दन‌म्‌।<br> तदादाय करैरिन्दुर्लिम्पतीव दिवङ्गनाः॥<br>अत्र तरङ्गाग्रैः फेनचन्दनस्य प्रेरणं पेषणतयोत्प्रेक्ष्यते। <br>समुद्रादुत्थितस्य चन्द्रस्य प्रथमं समुद्रपूरे प्रसृतानां कराणां दिक्षु व्यापनं च समुद्रोपान्तफेनचन्दनकृतलेपनत्वेनोत्प्रेक्ष्यते। <br>उभयत्र क्रमेण समुद्रप्रान्तगतफेनचन्दनपुञ्जीभवनं दिशां धवलीकरणं च निमित्तमिति फेनचन्दनप्रेरणव्यापनयोर्विषययोरनुपादानादनुक्तविषये स्वरुपोत्प्रेक्षे। <br> येषं तूपात्तयोः समुद्रचन्द्रयोरेव-तत्कर्तृकपेषण-लेपनरुपधर्मोत्प्रेक्षेति मतं, तेषां मते पूर्वोदाहरणे धर्मिणि धर्म्यन्तरतादात्म्योत्प्रेक्षा। <br> इह तु धर्मिणि धर्मसंसर्गोत्प्रेक्शेति भेदोऽवगन्तव्यः।'
-        },
-        {
-          text_sans: 'अहेतोर्हेतुभावेन उत्प्रेक्षा हेतूत्प्रेक्षा <br> सिद्धविषयाऽसिद्धविषया चेति द्विविधे।',
-          ex: '1. चरणयोः स्वतः सिद्धेरक्तिमनि वस्तुतो विक्षेपणं न हेतुरित्यहेतोस्तस्य हेतुत्वेन सम्भावना हेतूत्प्रेक्षा विक्षेपणस्य विषयस्य सत्त्वात्सिद्धविषया। <br> चन्द्रपद्मविरोधे स्वाभाविके नायिकावदनकान्तिप्रेप्सा न हेतुरिति तत्र तद्धेतुत्वसंभावना हेतूत्प्रेक्षा वस्तुतस्तदिच्छाया अभावादसिद्धविषया। <br><br>2. रात्रौ रवेर्दिवा चेन्दोरभावादिव सप्रभुः। <br> भूमौ प्रतापयशसी सृष्टवान्‌ सततोदिते॥ <br><br> रात्री रवेर्दिवा चन्द्रस्याभावः सन्नपि प्रतापयशसोः सर्गेन हेतुरिति तस्य तद्धेतुत्वसंभावना सिद्धविषया हेतूत्प्रेक्षा। <br><br>3. विवस्वताऽनायिषतेव मिश्राः स्वगोसहस्रेण समं जनानाम्‌। <br> गावोऽपि नेत्रापरनामधेयास्तेनेदमान्ध्यं खलु नान्धकारैः॥ <br><br> गावोऽपि विवस्वता कृतं स्वकिरणैः सह जनलोचनानां नयनमसदेव रात्रावान्ध्यं प्रति हेतुत्वेनोत्प्रेक्ष्यत इत्यसिद्धविषया हेतूत्प्रेक्षा। '
-        },
-        {
-          text_sans: 'फलस्य फलत्वेनोत्प्रेक्षा फलोत्प्रेक्षेत्युच्यते। <br> सिद्धविषयाऽसिद्धविषया चेति द्विविधे।',
-          ex: '1. मध्द्यः स्वयमेव कुचौ धरति न तु कनकदामबन्धत्वेनाध्यवसिताया वलित्रयशालिताया बलादिति मध्यकर्तृककुचधृतेस्तत्फलत्वेनोत्प्रेक्षा सिद्धविषया फलोत्प्रेक्षा। <br> जलजस्य जलावस्थितेरुदवासतपस्त्वेनाध्यवसितायाः कामिनीचरणसायुज्यप्राप्तिर्न फलमिति तस्या गगनकुसुमायमानायास्तपःफलत्वेनोत्प्रेक्षणादसिद्धविषया फलोत्प्रेक्षा <br><br> 2. पूरं विधुर्वर्धयितुं पयोधेः शङ्केऽयमेणाङ्कमणिं कियन्ति। <br> पयांसि दोग्धि प्रियविप्रयोगे सशोककोकीनयने कियन्ति॥ <br> <br> अत्र चन्द्रेण कृतं समुद्रस्य बृंहणं सदेव ताअ तेन कृतस्य चन्द्रकान्तद्रावणस्य कोकाङ्गानाबाष्पस्रावणस्य च फलत्वेनोत्प्रेक्ष्यत इति सिद्धविषया फलोत्प्रेक्षा। <br><br> रथस्थितानां परिवर्तनाय पुरातनानामिव वाहनानाम्‌।<br>उत्पत्तिभूमौ तुरगोत्तमानाअं दिशि प्रतस्थी रविरुत्तरस्याम्‌॥ <br>  अत्रोत्तरायणस्याश्वपरिवर्तनमसदेव फलत्वेनोत्प्रेक्ष्यत इत्यदिद्धविषया फलोत्प्रेक्षा। <br><br>'
+          sloka: 'संभावना स्यादुत्प्रेक्षा वस्तुहेतुफलात्मना।<br>उक्तानुक्तास्पदाद्यात्र सिद्धाऽसिद्धास्पदे परे॥',
+          sloka_explanation: {
+            sans: '',
+            eng: ''
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: ''
+              }
+            }
+          ]
         }
       ]
     },
