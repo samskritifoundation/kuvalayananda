@@ -134,9 +134,9 @@
         <v-card flat>
           <v-card-text class="devanagari text-wrap">
             <h3>Type {{j+1}}</h3>
-            <p v-html="p.sloka"></p>
+            <p v-if="p.sloka" v-html="p.sloka"></p>
             <p class="text-xs-center">
-              Sloka Explanation:
+              Explanation:
               </p>
           <v-tabs centered hide-slider>
               <v-tab
