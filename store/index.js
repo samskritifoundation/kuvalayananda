@@ -498,6 +498,197 @@ export const state = () => ({
         {
           sloka: 'संभावना स्यादुत्प्रेक्षा वस्तुहेतुफलात्मना।<br>उक्तानुक्तास्पदाद्यात्र सिद्धाऽसिद्धास्पदे परे॥',
           sloka_explanation: {
+            sans: '<p>अन्य-धर्म-संबन्ध-निमित्तेनान्यस्यान्यतादात्म्य-संभावनमुत्प्रेक्षा ।</p><p>सा च वस्तु-हेतु-फलात्मतागोचरत्वेन त्रिविधा।</p><ul><li>स्वरूपोत्प्रेक्शा उक्तविषयाऽनुक्तविषया चेति द्विविधा।</li><li>हेतूफलोत्प्रेक्षे सिद्धविषयाऽसिद्धविषया चेति प्रत्येकं द्विविधे।</li></ul>',
+            eng: '<h3>Word meanings</h3><table><tr><td>वस्तु-हेतु-फलात्मना - </td><td>Under the character of (1) nature (2) cause and (3) effect (of another object)</td></tr><tr><td>संभावना - </td><td>Imagining</td></tr><tr><td>उत्प्रेक्षा स्यात् - </td><td>Is Poetical fancy</td></tr><tr><td>अत्र - </td><td>Of these</td></tr><tr><td>आद्या - </td><td>First i.e., वस्तूत्प्रेक्षा</td></tr><tr><td>उक्त-अनुक्त- आस्पदा - </td><td>Where the occa- mentioned  or not mentioned</td></tr><tr><td>परे - </td><td>the other two i.e.,हेतूत्प्रेक्षा and फलोत्प्रेक्षा</td></tr><tr><td>सिद्ध-असिद्ध-आस्पदा - </td><td>Where the subject of the fancy is an  accomplished or unaccomplished one.</td></tr></table><h3>Definition</h3><p>The Poetical fancy is the imagining of an object on hand under the character of another object not on hand under three heads, viz., (1) nature, (2) cause and (3) effect. (And thus the figure is first three-fold).</p><p.these, the first वस्तूत्प्रेक्षा or as it is generally called स्वरूपोत्प्रेक्षा is two-fold according as the occasion of the fancy is mentioned or not mentioned. </p><p>The other two, i.e., हेतूत्प्रे क्षा  and फलोत्प्रेक्षा are each two-fold according as the subject of the fancy is an accomplished or unaccomplished one. </p>'
+          }
+        }
+      ],
+      types: 3,
+      type: [
+        {
+          sloka_explanation: {
+            sans: 'अत्र वस्तुनः कस्यचिद्वस्त्वन्तरतादात्म्यसंभावना प्रथमा स्वरूपोत्प्रेक्षेत्युच्यते।',
+            eng: 'स्वरूपोत्प्रेक्षा is that in which the state, condition or natural appearance of an object is imagined by the poets to be the state, condition or natural appearance of another similar object. '
+          },
+          examples: [
+            {
+              text: '<h3>Example of स्वरूपोत्प्रेक्षा  (1) where the occasion of the fancy is mentioned.</h3>धूमस्तोमं तमः शंके कोकीविरहशुष्मणाम् ।',
+              explanation_sans: 'रजनीमुखे सर्वत्र विसृत्वरस्य तमसो नैल्यदृष्टिप्रतिरोधकत्वादिधर्मसंबन्धेन गम्यमानेन निमित्तेन सद्यःप्रियविधटित-सर्वदेशस्थित-कोकाङ्गानाहृदुपगत-प्रज्वलिष्यद्विरहानल-धूमस्तोम-तादात्म्य-संभावना-स्वरुपोत्प्रेक्षा तमसो विषयस्योपादानादुक्तविषया ।',
+              explanation_eng: '<h3>Word meanings</h3><table><tr><td>तमः - </td><td>The darkness</td></tr><tr><td>कोकीविरहशुष्मणाम् - </td><td>The fire of separation of Koki birds</td></tr><tr><td>धूमस्तोमं - </td><td>The mass of smoke</td></tr><tr><td>शंके - </td><td>I suspect</td></tr></table><p>I suspect (this) darkness to be the mass of smoke of the fire of separation of the koki birds.</td></tr><tr><td>Here, the darkness and the smoke are similar in appearance. The poet is aware that it is darkness. He then fancies it to be the smoke of the fire of separation of the koki birds which is the occasion of the fancy.</p>'
+            },
+            {
+              text: '<h3>Example of स्वरूपोत्प्रेक्षा  (2) where the occasion of the fancy is not mentioned.</h3>लिम्पतीव तमोङ्गानि वर्षतीवाञ्जनं नभः॥',
+              explanation_sans: 'तमोव्यापनस्य नभःप्रभृतिभूपर्यन्तसकलवस्तुसान्द्रमलिनीकरणेन निमित्तेन तमःकर्तृकलेपनतादात्म्योत्प्रेक्षा, नभःकर्तृकाञ्जनवषणतादात्म्योत्प्रेक्षा चनुक्तविषया स्वरुपोत्प्रेक्षा, उभयत्राअपि विषयभूततमोव्यापनस्यानुपादानात्‌।',
+              explanation_eng: '<h3>Word meanings</h3><table><tr><td>तमः - </td><td>darkness</td></tr><tr><td>अङ्गानि - </td><td>Limbs</td></tr><tr><td>लिम्पति इव - </td><td>Anoints as it were</td></tr><tr><td>नभः - </td><td>Sky</td></tr><tr><td>अञ्जनम् - </td><td>Collyrium</td></tr><tr><td>वर्षति इव - </td><td>Rains as it were</td></tr></table><p>The darkness anoints, as it were, the bodies, (lit. limbs). Sky rains, as it were, the collyrium. </p><p>This is the description of the thick darkness of a particular night. In the first sentence, the subject, i.e., the pervasion of darkness which was fancied by the poet as anointing the bodies is not mentioned.</p><p>In the second sentence too, the pouring down of the darkness which is the subject of the raining of co1lyrium is not mentioned. Hence we have two instances of  अनुक्तास्पदा वस्तूत्पेक्षा  where the occasion of the fancy is not mentioned.</p>'
+            }
+          ]
+        },
+        {
+          sloka_explanation: {
+            sans: 'अहेतोर्हेतुभावना हेतूत्प्रेक्षा',
+            eng: 'हेतूत्प्रेक्षा is that in which something is imagined to be the effect of some other thing which cannot form its real cause.'
+          },
+          examples: [
+            {
+              text: '<h3>सिद्धविषया हेतूत्प्रेक्षा </h3> रक्तौ तवाङ्घ्री मृदुलौ भुवि विक्षेपणाद्ध्रुवम्‌।',
+              explanation_sans: 'चरणयोः स्वतः सिद्धे रक्तिमनि वस्तुतो विक्षेपणं न हेतुरित्यहेतोस्तस्य हेतुत्वेन सम्भावना हेतूत्प्रेक्षा विक्षेपणस्य विषयस्य सत्त्वात्सिद्धविषया।',
+              explanation_eng: '<h3>Word meanings</h3><table><tr><td>तव - </td><td>thy</td></tr><tr><td>मृदुलौ - </td><td>Soft</td></tr><tr><td>अंघ्री - </td><td>Tender feet</td></tr><tr><td>भुवि - </td><td>On the floor</td></tr><tr><td>विक्षेपणात् - </td><td>By treading</td></tr><tr><td>ध्रुवम् - </td><td>Certainly</td></tr><tr><td>रक्तौ - </td><td>Red</td></tr></table><p> (Oh! Lady), thy soft feet have become red certainly by their trending on the floor.</p><p>Here, the treading on the floor is fancied as a cause for the natural redness of the lady’s feet; and the redness being an accomplished one, this is an instance of सिद्धविषया हेतूत्पेक्षा ।</p>'
+            },
+            {
+              text: '<h3>असिद्धविषया हेतूत्प्रेक्षा</h3>त्वन्मुखाभेच्छया नूनं पद्मैर्वेरायते शशी॥',
+              explanation_sans: 'चन्द्रपद्मविरोधे स्वाभाविके नायिकावदनकान्तिप्रेप्सा न हेतुरिति तत्र तद्धेतुत्वसंभावना हेतूत्प्रेक्षा वस्तुतस्तदिच्छाया अभावादसिद्धविषया।',
+              explanation_eng: '<h3>Word meanings</h3><table><tr><td>शशी - </td><td>moon</td></tr><tr><td>त्वन्मुखाभेच्छया - </td><td>With a desire of attaining the loveliness of thy face</td></tr><tr><td>नूनं - </td><td>Surely</td></tr><tr><td>पद्मैः - </td><td>With the lotuses</td></tr><tr><td>वैरायते - </td><td>Rivals</td></tr></table><p>Oh ! Damsel, the moon rivals with the lotuses, surely, with a desire of attaining the loveliness of thy face.</p><p>Here, the enmity, between the moon and the lotuses, on account of the latter’s contraction on the appearance of the former, is natural, and the cause ascribed to it i.e., with a desire of attaining the beauty of the lady’s face is not real and is due to the fancy of the poet. The cause not being an established one, this forms an instance of असिद्धविषया हेतूत्प्रेक्षा ।</p>'
+            }
+          ]
+        },
+        {
+          sloka_explanation: {
+            sans: 'अफलस्य फलत्वेनोत्प्रेक्षा फलोत्प्रेक्षेत्युच्यते।',
+            eng: 'फलोत्प्रेक्षा is that in which something is imagined to be the cause of some other thing which is not its real effect. '
+          },
+          examples: [
+            {
+              text: '<h3>सिद्धविषया फलोत्प्रेक्षा</h3>मध्यः किं कुच्योर्धृत्यै बद्धः कनकदामभिः।',
+              explanation_sans: 'मध्द्यः स्वयमेव कुचौ धरति न तु कनकदामबन्धत्वेनाध्यवसिताया वलित्रयशालिताया बलादिति मध्यकर्तृककुचधृतेस्तत्फलत्वेनोत्प्रेक्षा सिद्धविषया फलोत्प्रेक्षा।',
+              explanation_eng: '<h3>Word meanings</h3><table><tr><td>मध्यः - </td><td>waist</td></tr><tr><td>कुचयोः - </td><td>Of breasts</td></tr><tr><td>धित्यै -</td><td>For the support</td></tr><tr><td>किम् - </td><td>What</td><td>कनकदामभिः - </td><td>By the golden strings</td></tr><tr><td>बड्बः - </td><td>Was tied</td></tr></table><p>Lady ! Is it for the support of thy breasts that thy waist was tied by the golden strings (in the form of the lady’s folding) ?</p><p>Here, the lady’s breasts are naturally placed above the Waist; whereas, the poet describes the natural gold like folds over the navel of the lady as three golden strings tied round the waist as if to support the breasts. The fact being an accomplished one, this is an instance of सिद्धविषया फलोत्प्रेक्षा ।'
+            },
+            {
+              text: '<h3>असिद्धविषया फलोत्प्रेक्षा</h3>प्रायोऽब्जं त्वत्पदेनैक्यं प्राप्तुं तोये तपस्यति॥',
+              explanation_sans: 'जलजस्य जलावस्थितेरुदवासतपस्त्वेनाध्यवसितायाः कामिनीचरणसायुज्यप्राप्तिर्न फलमिति तस्या गगनकुसुमायमानायास्तपःफलत्वेनोत्प्रेक्षणादसिद्धविषया फलोत्प्रेक्षा',
+              explanation_eng: '<h3>Word meanings</h3><table><tr><td>अञ्ज - </td><td>lotus</td></tr><tr><td>त्वत्पदेन - </td><td>With thy foot</td></tr><tr><td>ऐक्यम् - </td><td>The oneness, i.e., likeness</td><td>प्राप्तुं - </td><td>To get</td></tr><tr><td>प्रायः - </td><td>Perhaps</td></tr><tr><td>तोये - </td><td>In the water</td></tr><tr><td>तपस्यति - </td><td>Does penance</td></tr></table><p>Lady! the lotus does penance in the water perhaps to become identical with thy foot.</p><p>Here, the lotuses naturally grow in water, and the poet artfully attributes another cause for their अतिशयोक्तिः - standing in the water, which is no doubt the work of his imagination ; and this being an unaccomplished one, it is an instance of असिद्धविषया फलोत्प्रेक्षा ।</p>'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_sans: 'अतिशयोक्त्यलङ्कारः',
+      title_eng: 'Atiśayoktyalaṅkāra - Hyperbole',
+      id: 12,
+      types: 8,
+      type: [
+        {
+          sloka: '<h3>शुद्धा रूपकातिशयोक्तिः - Pure Hyperbole Metaphorical</h3>रुपकातिशयोक्तिः स्यानिनिगीर्याध्यवसानतः।<br>पश्य नीलोत्पलद्वन्द्वान्निःसरन्ति शिताः शराः॥',
+          sloka_explanation: {
+            sans: 'विषयस्य स्वशब्देनोल्लेखनं विनापि विषयिवाचकेनैव शब्देन ग्रहणं विषयनिगरणं तत्पूर्वकं विषयस्य विषयिरुपतयाऽध्यवसानमाहार्यनिश्चयस्तस्मिन्सति रुपकातिशयोक्तिः।',
+            eng: '<h3>Word meanings</h3><table><tr><td>निगीर्य - </td><td>Having devoured</td></tr><tr><td>अध्यवसानतः - </td><td>Through introsusception</td></tr><tr><td>रूपकातिशयोक्तिः - </td><td>Metaphorical hyperbole (pure)</td></tr><tr><td>स्यात् - </td><td>Is</td></tr><tr><td>नीलोत्पलड्वंद्वात् - </td><td>From a pair of blue lotuses</td></tr><tr><td>शिताः - </td><td>Sharpened</td></tr><tr><td>शराः - </td><td>Shafts</td></tr><tr><td>निःसरंति - </td><td>Issue forth</td></tr><tr><td>पश्य - </td><td>See</td></tr></table><h3>Definition<h3><p>When the object on hand (i.e., face &c. the upameya) is swallowed up, or completely taken in, by the upamana ‘moon & c.’ through introsusception, and the upameya. is therefore comprehended as upamana itself, or, in other words, (when the upamana is used for upameya), it is called ‘Hyperbole Metaphorical.</p><p>निगीर्य is indeclinable past participle in य of the root गॄ with नि ‘to devour’. अध्यवसानतः = अध्यवसान् + तस् अध्यवसान is the abstract noun formed by adding the affix अन to the root सो with prepositions अधि and अव, and तस् is a termination of the ablative case.</p><p>अध्यवसान means the identification of two objects of which the one is the object on hand and the other not on hand in such a manner that the former" is completely absorbed into the latter.</p><p>When a man comprehends face of it damsel as moon itself and calls it by the word ‘moon’ without mentioning the proper word ‘face’, then the face ‘upameya’ is said to have been swallowed up by the moon ‘upamana’.</p>'
+          },
+          examples: [
+            {
+              text: 'पश्य नीलोत्पलद्वन्द्वान्निःसरन्ति शिताः शराः॥',
+              explanation_sans: 'यथा नीलोत्पलशरशब्दाभ्यां लोचनयोः कटाक्षाणां च ग्रहणपूर्वकं तद्रूपताध्यवसानम्‌।',
+              explanation_eng: '<p>Behold ! There issue forth sharpened shafts from a pair of blue lotuses.</p><p>Here, the speaker, instead of saying ‘पश्यकान्ताक्षि युग्मात् कटाक्षा निःसरन्त्यहो there issue forth ogles or side-glances from a pair of eyes of this lovely woman who was before him, says thus by using the upamana words नीलोत्पल ‘blue lotus’ and शराः ‘shafts’ for their corresponding upameya. words the अक्षि ‘eye’ and कटाक्षाः ‘ogles’. Thus, we have the introsusception of the eyes and the ogles of a. beloved lady in the blue lotuses and shafts with which they are respectively identified. </p>'
+            }
+          ]
+        },
+        {
+          sloka: '<h3>सापह्नवा रूपकातिशयोक्तिः - Hyperbole founded upon the ornament of Concealment </h3>यद्यपह्नतिगर्भत्वं सैव सपह्नवा मता।<br>त्वत्सूक्तिषु सुधा राजभ्रान्त्या पश्यन्ति तां विधौ॥',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>यदि - </td><td>if</td></tr><tr><td>अपह्नुतिगर्भत्वम् - Founded upon the ornament ”concealment”</td></tr><tr><td>सैव सापह्नवा - </td><td>Metaphorical hyperbole pure itself founded upon the ornament of concealment</td></tr><tr><td>मता - </td><td>Is considered ( by the poet)</td></tr><tr><td>राजन् - </td><td>O king</td></tr><tr><td>त्वत्सूक्तिषु - </td><td>In thy good speeches</td></tr><tr><td>सुधा - </td><td>Nectar</td></tr><tr><td>भ्रांताः - </td><td>Infatuated people</td></tr><tr><td>ताम् - </td><td>That</td></tr><tr><td>विधौ - </td><td>In the moon</td></tr><tr><td>पश्यन्ति - </td><td>See</td></tr></table><h3>Definition</h3><p>If the same, i.e., the Metaphorical Hyperbole No. 1 (a) is founded upon the ornament of Concealment, then it is called  सापह्नवा रूपकातिशयोक्तिः ।</p>'
+          },
+          examples: [
+            {
+              text: ' त्वत्सूक्तिषु सुधा राजभ्रान्त्या पश्यन्ति तां विधौ॥',
+              explanation_sans: 'अत्र ‘त्वत्सूक्तिमाधुर्यमेवामृतम्‌’ इत्यतिशयोक्तिश्चन्द्रमण्डलस्तह्ममृतं न भवतीत्यपह्नुतिगर्भा।',
+              explanation_eng: '<p>O king ! Nectar exists in thy good speeches ; but the infatuated people see the same in the moon.</p><p>Here, ‘the sweetness in the good speeches of the king is the nectar’—is the Hyperbole No. 1 (a) ; because the upamana. ‘nectar’ is used for upameya ‘sweetness’. Again, the nectar which is in the moon is denied and that which exists in the good speeches of the king is called nectar and hence we have the ornament of Concealment also.</p><p>* This comprehension brings about the superior excellence of the upameya over the upamana.</p>'
+            }
+          ]
+        },
+        {
+          sloka: '<h3>भेदकातिशयोक्तिः - Hyperbole Asserting a difference</h3>भेदकातिशयोक्तिस्तु तस्यैवान्यत्ववर्णनम्‌।<br>अन्यदेवास्य गाम्भीर्यमन्यद्धैर्यं महीपतेः॥',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>तस्यैव - </td><td>Of the object described</td></tr><tr><td>अन्यत्ववर्णनम् - </td><td>Description as another</td></tr><tr><td>भेदकातिशयोक्तिः - </td><td>Hyperbole asserting a difference</td></tr><tr><td>अस्य - </td><td>Of this (king)</td></tr><tr><td>गांभीर्यम् - </td><td>Profundity</td></tr><tr><td>अन्यदेव - </td><td>(is regarded) as another i.e., strange or extraordinary</td></tr><tr><td>धैर्यम् - </td><td>Courage</td></tr><tr><td>अन्यत् - </td><td>(is regarded) as another, i.e., strange</td></tr></table><h3>Definition</h3><p>When the thing described is comprehended as another, i.e., as extraordinary or strange or peculiar, it is called भेदकातिशयोक्तिः ।</p>'
+          },
+          examples: [
+            {
+              text: 'अन्यदेवास्य गांभीर्यमन्यड्वैर्यं महीपतेः ॥',
+              explanation_sans: 'अत्र लोकप्रसिद्धगाम्भीर्याद्यभेदेऽपि भेदो वर्णितः।',
+              explanation_eng: '<p>Strange is the profundity of this king and strange is his courage also.</p><p>Here, the profundity and the courage of the king are considered as extraordinary because a difference is asserted between the profundity and courage of an ordinary man and those of the king.</p>'
+            }
+          ]
+        },
+        {
+          sloka: '<h3>संबन्धातिशयोक्तिः - Hyperbole Asserting a connection</h3>संबन्धातिशयोक्तिः स्यादयोगे योगकल्पनम्‌।<br>सौधाग्राणि पुरस्यास्य स्पृशन्ति विधुमण्डलम्‌॥',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>अयोगे - </td><td>When there is no connection</td></tr><tr><td>योगकल्पनम् - </td><td>Assertion of a connection</td></tr><tr><td>संबंधाक्तिः - </td><td>Hyperbole asserting a connection</td></tr><tr><td>स्यात् - </td><td>Is (called)</td></tr><tr><td>अस्य पुरस्य - </td><td>Of this town</td></tr><tr><td>सौधाग्राणि - </td><td>Tops of the mansions</td></tr><tr><td>विधुमण्डलम् - </td><td>The disc of the moon</td></tr><tr><td>स्पृशन्ति - </td><td>Touch or kiss</td></tr></table><h3>Definition</h3><p>When a connection is asserted where there is really none, it is called संबंधातिशयोक्तिः । </p>'
+          },
+          examples: [
+            {
+              text: 'सौधाग्राणि पुरस्यास्य स्पृशंति विधुमंडलम् ।',
+              explanation_sans: '',
+              explanation_eng: '<p>The tops of the mansions of this town kiss the disc of the moon.</p><p>Here, the tops do not really touch the disc of the moon ; still they are asserted to do so on account of their extraordinary height. </p>'
+            }
+          ]
+        },
+        {
+          sloka: '<h3>असंबन्धातिशयोक्तिः - Hyperbole Asserting a disconnection</h3>योगेऽप्ययोगोऽसंबन्धातिशयोक्तिरितीर्यते।<br>त्वयि दातरि राजेन्द्र! स्वर्द्रुमान्नाद्रियामहे॥',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>योगे अपि - </td><td>Though there is connection</td></tr><tr><td>अयोगः - </td><td>(the assertion of) disconnection</td></tr><tr><td>असंबंधाक्तिः - </td><td>Hyperbole asserting a disconnection</td></tr><tr><td>राजेन्द्र - </td><td>O best of kings!</td></tr><tr><td>त्वयि दातरि - </td><td>When thou art a donor</td></tr><tr><td>खर्द्रुमान् - </td><td>The trees of the paradise</td></tr><tr><td>न आद्रियामहे - </td><td>We wont devote to.</td></tr></table><h3>Definition</h3><p>Denial of connection where there is really a connection is called असंबन्धातिशयोक्तिः ।</p>'
+          },
+          examples: [
+            {
+              text: 'त्वयि दातरि राजेन्द्र खर्द्रु मान्नाद्रियामहे ॥',
+              explanation_sans: 'अत्र स्वर्द्रुमेषादरसंबन्धेऽपि तद्संबन्धो वर्णित इत्यसंबन्धातिशयोक्तिः।',
+              explanation_eng: '<p>O best of kings ! As long as thou remainest here, as our liberal-donor, we won’t devote ourselves to the wish-yielding trees of Indra’s paradise.</p><p>This is addressed by the mendicants to a king of very liberal donations. They, the mendicants, say that as long as this king is their donor, they sever their connection with the Kalpa tree. Here, the connection of the mendicants with their wish-yielding tree which is, as its very name implies, renowned for its liberality is denied.</p>'
+            }
+          ]
+        },
+        {
+          sloka: '<h3>अक्रमातिशयोक्तिः - Hyperbole Asserting a want of order</h3>अक्रमातिशयोक्तिः स्यात् सहते हेतुकार्ययोः।<br>आलिङ्गन्ति समं देव! ज्यां शराश्च पराश्च ते॥',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>हेतुकार्ययोः - </td><td>Of the cause and effect</td></tr><tr><td>सहत्वे - </td><td>In the simultaneously</td></tr><tr><td>अक्रमाक्तिः - </td><td>Hyperbole asserting a want of order</td></tr><tr><td>देव - </td><td>O king !</td></tr><tr><td>ते - </td><td>Thy</td></tr><tr><td>शराश्च - </td><td>Arrows</td></tr><tr><td>पराश्च - </td><td>Foes</td></tr><tr><td>ज्याम् - </td><td>(1)bow-string (2)earth</td></tr><tr><td>समम् - </td><td>Simultaneously</td></tr><tr><td>आलिंगन्ति - </td><td>Clasp</td></tr></table><h3>Definition</h3><p>When the cause and effect are said to have taken place simultaneously, or, in other words, when the effect is said to co-exist with the cause, it is called अक्रमातिशयोक्तिः ।</p>'
+          },
+          examples: [
+            {
+              text: 'आलिङ्गन्ति समं देव! ज्यां शराश्च पराश्च ते॥',
+              explanation_sans: 'अत्र मौर्व्या यदा शरसंधानं कृतं तदानीमेव शत्रवः क्ष्तौ पतन्तीति हेतुकार्ययोः सहत्वं वर्णितम्‌।',
+              explanation_eng: '<p>O king I Thy arrows and thy foes both clasp the jya simultaneously.</p><p>Observe the pun on the word jya, which means ‘bow-string’ and ‘earth.’ The arrows are said to clasp the bow-string. and the foes, the earth, i.e., they fall down on earth dead being struck with the arrows of the king. It is usual that cause precedes the effect. </p><p>Here, the effect, the falling down lead on earth, is said to co-exist with the cause, the issuing of an arrow. Hence, it is called  अक्रमातिशयोक्तिः ।</p>'
+            }
+          ]
+        },
+        {
+          sloka: '<h3>चपलातिशयोक्तिः - Hyperbole Asserting fickleness</h3>चपलातिशयोक्तिस्तु कार्ये हेतुप्रसक्तिजे।<br>यास्यामीत्युदिते तन्व्या वलयोऽभवदूर्मिका॥',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>कार्ये - </td><td>The effect</td></tr><tr><td>हेतुप्रसक्तिजे - </td><td>When the cause was under discussion</td></tr><tr><td>चपलाक्तिः - </td><td>Hyperbole asserting fickleness</td></tr><tr><td>यस्यामि इत्युदिते - </td><td>When said (by the lover) “I go”</td></tr><tr><td>तन्व्याः - </td><td>Of the slender lady</td></tr><tr><td>ऊर्मिका - </td><td>Ring</td></tr><tr><td>वलयः - </td><td>Bracelet</td><td>अभवत् - </td><td>Became</td></tr></table><h3>Definition</h3><p>If the effect is described to have taken place without the cause, or, literally,‘ if the effect is said to have taken place when the cause was under discussion, i.e., not yet begun, it is then called चपलातिशयोक्तिः ।</p>'
+          },
+          examples: [
+            {
+              text: 'यास्यामीत्युदिते तन्व्या वलयोऽभवदूर्मिका॥',
+              explanation_sans: 'अत्र नायकप्रवासप्रसक्तिमात्रेण योषितोऽतिकार्श्यं कार्यमुखेन दर्शितम्‌।',
+              explanation_eng: '<p>No sooner did the lover say ‘I shall go’ than the ring of his slender lady became her bracelet. </p><p>When the lover simply said ‘I shall go’ but did not actually go, his beloved became so very thin at the very thought of her lover’s future separation that the ring of her finger served as bracelet for her hand. Here, the cause was only expressed but did not actually take place and we see the effect is produced without the cause.</p>'
+            }
+          ]
+        },
+        {
+          sloka: '<h3>अत्यन्तातिशयोक्तिः - Hyperbole Of the highest degree</h3>अत्यन्तातिशयोक्तिस्तु पौर्वापर्यव्यतिक्रमे।<br>अग्रे मानो गतः पश्चादनुनीता प्रियेण सा॥',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>तत्-पौर्वापर्य-व्यतिक्रमे - </td><td>When there is a violation of the priority and posteriority of those (i.e., of the cause and effect)</td></tr><td>अत्यक्तिः - </td><td>Hyperbole of the highest degree</td></tr><tr><td>अग्रे - </td><td>In the beginning, i.e., previously</td></tr><tr><td>मानः - </td><td>Anger</td></tr><tr><td>गतः - </td><td>Subsided</td></tr><tr><td>सा - </td><td>She</td></tr><tr><td>प्रियेण - </td><td>By her lover</td></tr><tr><td>पश्चात् - </td><td>Afterwards</td></tr><tr><td>अनुनीता - </td><td>Was conciliated</td></tr></table><h3>Definition</h3><p> When the relation of priority and posteriority is violated, i.e., when the due order is inverted, or in other words, when the effect is said to have preceded the cause, it is अत्यन्तातिशयोक्तिः ।</p>'
+          },
+          examples: [
+            {
+              text: 'अग्रे मानो गतः पश्चादनुनीता प्रियेण सा ॥',
+              explanation_sans: '',
+              explanation_eng: '<p>The anger (of the beloved lady) had previously subsided. Afterwards, she was conciliated by her lover. </p><p>Here, a lady’ angry, through love, at the absence of her lover removed her anger at the moment the lover came before her. The lover not knowing the subsidence of the anger of the lady excused himself of his absence which was unnecessary at that stage.</p>'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_sans: 'तुल्ययोगितालङ्कारः',
+      title_eng: 'Tulyayogitālaṅkāraḥ',
+      id: 13,
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
             sans: '',
             eng: ''
           },
@@ -514,60 +705,119 @@ export const state = () => ({
       ]
     },
     {
-      title_sans: 'अतिशयोक्त्यलङ्कारः',
-      title_eng: 'Atiśayoktyalaṅkāra',
-      id: 12,
-      definition_sans: ' रुपकातिशयोक्तिः स्यानिनिगीर्याध्यवसानतः। <br> पश्य नीलोत्पलद्वन्द्वान्निःसरन्ति शिताः शराः॥३६॥ <br><br> विषयस्य स्वशब्देनोल्लेखनं विनापि विषयिवाचकेनैव शब्देन ग्रहणं विषयनिगरणं तत्पूर्वकं विषयस्य विषयिरुपतयाऽध्यवसानमाहार्यनिश्चयस्तस्मिन्सति रुपकातिशयोक्तिः। <br> यतह नीलोत्पलशरशब्दाभ्यां लोचनयोः कटाक्षाणां च ग्रहणपूर्वकं तद्रूपताध्यवसानम्‌। <br><br>तेनात्राप्यभेदातिशयोक्तिस्ताद्रूप्यातिशयोक्तिरिति द्वैविध्यं द्रष्टव्यम्‌।<br> तत्राप्याधिक्यन्यूनताविभागश्चेति सर्वमनुसंधेयम्‌।',
-      definition_eng: '',
-      common: 'यथा वा – <br> 1. वापी कापि स्फुरति गगने तत्परं सूक्ष्मपद्या सोपानालीमधिगतवती काञ्चनीमैन्द्रनीली। <br> अग्रे शैलौ सुकृतिसुगमौ चन्दनच्छन्नदेशौ तत्रत्यानां सुलभममृतं संनिधानात्सुधांशोः॥ <br> अत्र वाप्यादिशब्दैर्नाभिप्रभृतयो निगीर्णाः। <br> अत्रातिशयोक्तौ रुपकविशेषणं रुपके दर्शितानां विधानामिहापि संभवोऽस्तीत्यतिदेशेन प्रदर्शनार्थम्‌। <br><br>2. यथा वा (विद्भ. भं) – सुधाबद्धग्रासैरुपवचनचकोरैरनुसृतां किरञ्ज्योत्स्नामच्छां लवलिफलपाकप्रणयिनीम्‌। <br> उपमाप्राकाराग्रं प्रहिणु नयने तर्कय मना- जनाकाशे कोऽयं गलितहरिणः शीतकिरणः॥ <br> इत्यत्र ‘कोऽयं गलितहरिणः शीतकिरण’ इत्युक्त्या प्रसिद्धचन्द्राद्भेदस्तत उत्कर्षश्च गर्भितः। <br> एवमन्यत्राप्यूहनीयम्‌॥३६॥ <br> यद्यपह्नतिगर्भत्वं सैव सपह्नवा मता। <br> त्वत्सूक्तिषु सुधा राजभ्रान्त्या पश्यन्ति तां विधौ॥३७॥ <br> अत्र ‘त्वत्सूक्तिमाधुर्यमेवामृतम्‌’ इत्यतिशयोक्तिश्चन्द्रमण्डलस्तह्ममृतं न भवतीत्यपह्नुतिगर्भा। <br> यथा वा - मुक्ताविद्रुममन्तरा मधुरसः पुष्पं परं धूर्वहं प्रालेयद्युतिमण्डले खलु तयोरेकासिका नार्णवे। <br> त्चोदञ्चति शङ्खमूर्ध्नि न पुनः पूर्वाचलाभ्यन्तरे तानीमानि विकल्पयन्ति त इमे येषां न सा दृक्पथे॥ <br> अत्राधररस एव मधुरस इत्याद्यतिशयोक्तिः पुष्परसो मधुरसो न भवतीत्यपह्नुतिगर्भा । <br>       अलङ्कारसर्वस्वकृता तु स्वरूपोत्प्रेक्षायां सपह्नवत्वमुदाहृतम्‌ - गतासु तीरं तिमिघट्टनेन ससंभ्रमं पौरविलासिनीषु। <br> यत्रोल्लस्त्फेनततिच्छलेन मुक्ताट्टहासेव विभाति शिप्रा॥ <br> इति । <br> ततस्त्वियानत्र भेदः। <br>   एतत्तु शुद्धापह्नुतिगर्भम्‌। <br> यत्र फेनततित्वमपह्नुतं तत्रैवाट्टहासत्वोत्प्रेक्षणात्‌, इह तु पर्यस्तापह्नुतिगर्भत्वमिन्दुमण्डलादावपह्नुतस्यामृतादेः सूक्त्यादिषु निवेशनात्‍। इदं ह पर्यस्तापह्नुतिगर्भत्वमुत्प्रेक्षायामपि संभवति। <br>       तत्र स्वरुपोत्प्रेक्षायां यथा (नै ० ७।३९) - जानेऽतिरागादिदमेव बिम्बं बिम्बस्य च व्यक्तमितोऽधरत्वम्‌। <br> द्वयोर्विशेषावगमाक्षमाणां नाम्नि भ्रमोऽभूदनयोर्जनानाम्‌॥ <br> अत्र प्रसिद्धबिम्बफले बिम्बतामपह्नुत्यातिरागेण निमित्तेन दमयन्त्यधरे तदुत्प्रेक्षा पर्यस्तापह्नुतिगर्भा। <br> हेतूत्प्रेक्षायाम तद्गर्भत्वं प्राग्लिखिते हेतूत्प्रेक्षोदाहरण एव दृश्यते। <br> तत्र चान्धकारेष्वान्ध्यहेतुत्वमपह्नुत्यान्यत्र तन्निवेशितम्‌। <br>      फलोत्प्रेक्षायां यथा - रवितप्तो गजः पद्मांस्तद्गृह्यान्बाधितुं ध्रुवम्‌। <br> सरो विशति न स्नातुं गजस्नानं हिन निष्फलम्‌॥ <br> अत्र गजस्य सरःप्रवेशं प्रति फले स्नाने फलत्वमपह्नुत्य पद्मबाधने तन्निवेशितम्‌ । <br> अलमनया प्रसक्तानुप्रसक्त्या, प्रकृतमनुसरामः॥३७॥ <br> <p>भेदकातिशयोक्तिस्तु तस्यैवान्यत्ववर्णनम्‌।<br /> अन्यदेवास्य गाम्भीर्यमन्यद्धैर्यं महीपतेः॥३८॥<br /> अत्र लोकप्रसिद्धगाम्भीर्याद्यभेदेऽपि भेदो वर्णितः।<br /> यथा वा - अन्येयं रुपसंपत्तिरन्या वैदग्ध्यधोरणी।<br /> नैषा नलिनपत्राक्षी सृष्टिः सादारणी विधेः॥३८॥<br /> सम्बन्दातिशयोक्तिः स्यादयोगे योगकल्पनम्‌।<br />सौधाग्राणि पुरस्यास्य स्पृशन्ति विधुमण्डलम्‌॥३९॥<br />यथा वा - कतिपयदिवसैः क्षयं प्रयायात्‌ कनकगिरिः कृतवासरावसानः।<br />इति मुदमुपयाति चक्रवाकी वितरणशालिनि वीररुद्रदेवे॥<br />अत्र चक्रवाक्याः सूर्यास्तमयकारकमहामेरुक्षयसम्भावनाप्रयुक्तसम्तोषासंबन्धेऽपि तत्संबन्धो वर्णितः॥३९॥<br />योगेऽप्ययोगोऽसंबन्धातिशयोक्तिरितीर्यते।<br />त्वयि दातरि राजेन्द्र! स्वर्द्रुमान्नाद्रियामहे॥४०॥<br />अत्र स्वर्द्रुमेषादरसंबन्धेऽपि तद्संबन्धो वर्णित इत्यसंबन्धातिशयोक्तिः।<br />यथा वा - अनयोरनवद्याङ्गि! स्तनयोर्जृम्भमाणयोः।<br />अवकाशो न पर्याप्तस्तव बाहुलान्तरे॥४०॥<br />अक्रमातिशयोक्तिः स्यात् सहते हेतुकार्ययोः।<br />आलिङ्गन्ति समं देव! ज्यां शराश्च पराश्च ते॥४१॥<br />अत्र मौर्व्या यदा शरसंधानं कृतं तदानीमेव शत्रवः क्ष्तौ पतन्तीति हेतुकार्ययोः सहत्वं वर्णितम्‌।<br />यथा वा - मुञ्चति मुञ्चति कोशं भजति च भजति प्रकम्पमरिवर्गः।<br />हम्मीरवीरखड्गे त्यजति त्यजति क्षमामाशु॥<br />अत्र खड्गस्य कोशत्यागादिकाल एव रिपूणां धनगृहत्यागादि वर्णितम्‌॥४१॥<br />चपलातिशयोक्तिस्तु कार्ये हेतुप्रसक्तिजे।<br />यास्यामीत्युदिते तन्व्या वलयोऽभवदूर्मिका॥४२॥<br />अत्र नायकप्रवासप्रसक्तिमात्रेण योषितोऽतिकार्श्यं कार्यमुखेन दर्शितम्‌।<br />यथा वा - आदातुं सकृदीक्षितेऽपि कुसुमे हस्ताग्रमालोहितं लाक्षारञ्जनवार्तयापि सहसा रक्तं तलं पादयोः।<br />अङ्गानामनुलेपनस्मरणमप्यत्यन्तखेदावहं हन्ताऽधीरदृशः किमन्यदलकामोदोऽपि भारायते॥<br />यथा वा – यामि न यामीति धवे वदति पुरस्तात्क्षणेन तन्वङ्ग्याः।<br />गलितानि पुरो वलयान्यपराणि तथैव दलितानि॥४२॥<br />अत्यन्तातिशयोक्तिस्तु पौर्वापर्यव्यतिक्रमे।<br />अग्रे मानो गतः पश्चादनुनीता प्रियेण सा॥४३॥<br />(अत्यन्तातिशयोक्तिस्तु कार्ये हेतुप्रसक्तिजे।<br />यास्यामीत्युदीते तन्व्या वलयोऽभवदूर्मिका॥) यथा वा - कवीन्द्रानाणामासन्‌ प्रथमतरमेवाङ्गणभुव-श्चलद्भृङ्गासङ्गाकुलकरिमदामोदमधुराः।<br />अमी पश्चात्तेषामुपरि पतिता रुद्रनृपतेः कटाक्षाः क्षीरोदप्रसरदुरुवीचीसहचराः॥<br />एतास्तिस्रोऽप्यतिशयोक्तयः कार्यशैघ्र्यप्रत्यायनार्थाः॥४३॥<br /></p> '
-    },
-    {
-      title_sans: 'तुल्ययोगितालङ्कारः',
-      title_eng: 'Tulyayogitālaṅkāraḥ',
-      id: 13,
-      definition_sans: '<p>वर्ण्यानामितरेषां वा धर्मैक्यं तुल्ययोगिता।<br />      संकुचन्ति सरोजानि स्वैरिणीवदनानि च॥४४॥<br /> त्वदङ्गमार्दवे दृष्टे कस्य चित्ते न भासते।<br />मालतीशसभृल्लेखाकदलीनां कठोरता ॥४५॥<br />    प्रस्तुतानामप्रस्तुतानां वा गुणक्रियारुपैकधर्मान्वयस्तुल्ययोगिता।<br />   संकुचन्तीति प्रस्तुततुल्ययोगिताया उदाहरणम्‌।<br />तत्र प्रस्तुतचन्द्रोदयकार्यतया वर्णनीयानां सरोजानां प्रकाशभीरुस्वैरिणीवदनानां च संकोचरुपैकक्रियान्वयो दर्शितः।<br />उत्तरश्लोके नायिकासौकुमार्यवर्णने प्रस्तुतेऽप्रतस्तुतानां मालत्यादीनां कठोरतरुपैकगुणान्वयः।<br /></p>',
-      definition_eng: ' ',
-      common: '<p>यथा वा - संजातपत्रप्रकरान्वितानि समुद्वहन्ति स्फुटपाटलत्वम्‌।<br /> विकस्वराण्यर्ककराभिमर्शाद्दिनानि पद्मानि च वृद्धिमीयुः॥<br />    नागेन्द्रहस्तास्त्वचि कर्कशत्वादेकान्तशैत्यात्‌ कदलीविशेषाः ।<br />    लब्ध्वापि लोके परिणाहि रुपं हातास्तदूर्वोरुपमानबाह्याः॥<br />अत्र ग्रीष्मवर्णने तदीयत्वेन प्रस्तुतानां दिनानां पद्मानां चैकक्रियान्वयः।उरुवर्णनेऽप्रस्तुतानां करिकराणां कदलीविशेषाणां चैकगुणान्वयः॥४४-४५॥<br /> हिताहिते वृत्तितौल्यमपरा तुल्ययोगिता।<br />  प्रदीयते पराभूतिर्मित्रशात्रवयोस्त्वया॥४६॥<br />अत्र हिताऽहितयोर्मित्रं – शात्रवयोरुत्कृष्टभूतिदानस्य पराभवदानस्य च श्लेषेणाभेदाध्यवसायाद्‌ वृत्तितौल्यम्‌।<br />यथा वा- यश्च निम्बं परशुना यश्चैनं मधुसर्पिषा।<br />  यश्चैनं गन्धमाल्याख्याद्यैः सर्वस्य कटुरेव सः॥<br />अत्र वृश्चति-सिञ्चति-अर्चति इत्यध्याहारेण वाक्यानि पूरणीयानि।पूर्वोदाहरणं स्तुतिपर्यवसायि, इदं तु निन्दापर्यवसयीति भेदः।<br />इयम सरस्वतीकण्ठाभरणोक्ता तुल्ययोगिता॥४६॥<br />गुणोत्कृष्टे समीकृत्य वचोऽन्या तुल्ययोगिता।<br />   लोकपालो यमः पाशी श्रीदः शक्रो भवानपि॥४७॥<br />अत्र वर्णनीयो राजा शक्रादिभिर्लोकपालत्वेन समीकृतः।<br />यथा वा - संगतानि मृगाक्षीणां तडिद्विलसितान्यपि।<br />क्षणद्वयं न तिष्ठन्ति धनारब्धान्यपि स्वयम्‌॥<br />    पुर्वत्र स्तुतिः इह तु निन्दा।<br /> इयं काव्यादर्शे दर्शिता।<br /> इमां तुल्ययोगितां सिद्धिरिति केचिद्व्यजह्नुः।<br />यदाह जयदेवः - सिद्धिः ख्यातेषु चेन्नाम कीर्त्यते तुल्योक्तये।<br />युवामेवेह विख्यातौ त्वं बलैजलधिर्जलैः॥<br />इति।<br />मतन्तरेष्वत्र वक्ष्यमाणं दीपकमेव॥४७॥<br /></p>'
-    },
-    {
       title_sans: 'दीपकालङ्कारः',
       title_eng: 'Dīpakālaṅkāra',
       id: 14,
-      definition_sans: '<p>वदन्ति वर्ण्यावर्ण्यानां धर्मैक्यं दीपकं बुधाः।<br />   मदेन भाति कलभः प्रतापेन महीपतिः॥४८॥<br />प्रस्तुताप्रस्तुतानामेकधर्मान्वयो दीपकम्‌।<br /> यथा कलभमहीपालयोः प्रस्तुताप्रस्तुतयोर्भानक्रियान्वयः।<br /></p>',
-      definition_eng: ' ',
-      common: '<p>यथा वा - मणिः शाणोल्लीढः समरविजयी हेतिदलितो मदक्षीणो नागः शरदि सरितः श्यानपुलिनां।<br />कलाशेषश्चन्द्रः सुरतमृदिता बालवनिता तनिम्ना शोभन्ते गलितविभवाश्चार्थिषु नृपाः॥<br />अत्र प्रस्तुतानां नृपाणामप्रस्तुतानां मण्यादीनाम च शोभैकधर्मान्वयः।<br />प्रस्तुतैकनिष्ठः समानो धर्मः प्रसङ्गादन्यत्रोपकरोति प्रासादार्थमारोपितो दीप इव रथ्यायामिति दीपसाम्याद्दीपकम्‌।<br /> ‘संज्ञायां च (वा० २४५८) इति दिवार्थे कन्‌ प्रत्ययः यद्यपि - सुवर्णपुष्पां पृथिवी चिन्वन्ति पुरुषास्त्रयः।<br /> शूरश्च कृतविद्यश्च यश्च जानाति सेवितुम्‌॥<br />इत्यत्र प्रस्तुतानामप्रस्तुतानां युगपद्धर्मान्वयः प्रतिभाति।<br /> ‘मदेन भाति कलभ’ इत्यत्राप्रस्तुतस्यैव प्रथमं धर्मान्वयः तथापि प्रासङ्गिकत्वं न हीयते वस्तुगत्या प्रस्तुतूद्देशेन प्रवृत्तस्यिव वर्णनस्याग्रप्रस्तुतेऽन्वयात्‌।<br /> नहि दीपस्य रथ्याप्रासादयोर्युगपदुपकारित्वेन जामात्रर्थं श्रपितस्य सूपस्यातिथिभ्यः प्रथमपरिवेषणेन च प्रासण्गिकत्वं हियते।<br /> तुल्ययोगितायां त्वेकं प्रस्तुतम्‌ अन्यदप्रस्तुतमिति विशेषाग्रहणात्‌ सर्वोद्देशेनैव धर्मान्वय इति विशेषः।<br />  अयम चानयोरपरो विशेषः – उभयोरनयोरुपमालङ्कारस्य गम्यत्वाविशेषेऽप्यत्राप्रस्तुतमुपमानं प्रस्तुतमुपमेयमिति व्यवस्थित उपमानोपमेयभावः तत्र तु विशेषाग्रहणादैच्छिकः स इति॥४८॥<br /></p>'
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: ''
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: ''
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       title_sans: 'आवृत्तिदीपकालङ्कारः',
       title_eng: 'āvṛttidīpakālaṅkāra',
       id: 15,
-      definition_sans: '<p>त्रिविधम दीपकावृत्त्तौ भवेदावृत्तिदीपकम्‌।<br />      वर्षत्यम्बुदमालेयं वर्षत्येषा च शर्वरी॥४९॥<br /> उन्मीलन्ति कदम्बानि स्फुटन्ति कुटजोद्गमाः।<br /> माद्यन्ति चातकास्तृप्ता माद्यन्ति च शिखावलाः॥५०॥<br />   दीपकस्यानेकोपकारार्थतया दीपस्थानीयस्य पदस्यार्थस्योभयोर्वाऽऽवृत्तौ त्रिविधमावृत्तिदीपकम्‌।<br /> क्रमेणार्धत्रयेनोदाहरणानि दर्शितानि।<br /></p>',
-      definition_eng: '',
-      common: '<p>यथा वा - उत्कण्ठयतिए मेघानां माला वर्गं कलापिनम्‌।<br />यूनाम चोत्कण्ठययद्य मानसं मकरध्वजः॥<br /> शमयति जलधरधारा चतकयूनां तृषं चिरोतनताम्‌।<br /> क्षपयति च वधूलिचनजलधारा कामिनां प्रवाअसरुचिम्‌॥<br />    वदनेन निर्जितं तव निलीयते चन्द्रबिम्बमम्बुधरे।<br /> अरविन्दमपि च सुन्दरि! निलीयते पाथसां पूरे॥<br /> एवं चावृत्तीनां प्रस्तुताप्रस्तुतोभयविषयत्वाभावेऽपि दीपकच्छायापत्तिमात्रेण दीपकव्यपदेशः॥४९-५०॥</p> '
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: ''
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: ''
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       title_sans: 'प्रतिवस्तुपमालङ्कारः',
       title_eng: 'Prativastupamālaṅkāraḥ',
       id: 16,
-      definition_sans: '<p>वाक्ययोरेकसमान्ये प्रतिवस्तूपमा मता।<br /> तापेन भ्राजते सूरः शूरश्चापेन राजते॥५१॥<br /> यत्रोपमानोपमेयपरवाक्ययोरेकः समनो धर्मः पृथङ्निर्दिश्यते सा प्रतिवस्तूपमा।<br /> प्रतिवस्तु प्रतिवाक्यार्थमुपमासमानधर्मोऽस्यामिति व्युत्पत्तेः।<br /> यथाऽत्रैव भ्राजते राजत इत्येक एव धर्म उपमानोपमेयवाक्ययोः पृथग्भिन्नपदाभ्यां निर्दिष्टः।<br /></p>',
-      definition_eng: '',
-      common: '<p>1. यथा वा - स्थिरा शैली गुणवतां खलबुद्ध्या न बाध्यते।<br />    रत्नदीपस्य हि शिखा वात्ययापि न नाश्यते॥<br /> 2. यथा वा – तवामृतस्यन्दिनि पादपङ्कजे निवेशितात्मा कथमन्यदिच्छति।<br /> स्थितेऽरविन्दे मकरन्दनिर्भरे मधुवतो नेक्षुरसं समीक्षते॥<br />अत्र यद्यपि उपमेयवाक्ये अनिच्छा उपमानवाक्ये अवीक्षेति धर्मभेदः प्रतिभाति तथापि बीक्षणमात्रस्यावजनीयस्य प्रतिषेधानर्हत्वादिच्छापूर्वकवीक्षाप्रतिषेधोऽयमनिच्छापर्यवसित एवेति धर्मैक्यमनुसंधेयम्‌।<br /> अर्थावृत्तिदीपकं प्रस्तुतानामप्रस्तुतानां वा प्रतिवस्तूपमा तु प्रस्तुताप्रस्तुतानामिति विशेषः।<br /> अयं चापरो विशेषः – आवृत्तिदीपकं वैधर्म्येण न संभवति प्रतिवस्तूपमा तु वैधर्म्येणापि दृश्यते।<br /> 3. यथा - विद्वानेव हि जानाति विद्वज्जनपरिश्रमम्‌।<br /> न हि वन्ध्या विजानाति गुर्वीं प्रसववेदनाम्‌॥<br />यदि सन्ति गुणाः पुंसां विकसन्त्येव ते स्वयम्‌।<br /> न हि कस्तूरिकामोदः शपथेन विभाव्यते॥५१॥<br /> </p>'
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: ''
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: ''
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       title_sans: 'दृष्टान्तालङ्कारः',
       title_eng: 'Dṛṣṭāntālaṅkāra',
       id: 17,
-      definition_sans: '<p>च्द्बिम्बप्रतिबिम्बत्वं दृष्टान्तस्तदलंकृतिः।<br />    त्वमेव कीर्तिमान्‌ राजन्‌! विधुरेव हि कान्तिमान्‌॥५२॥<br />     यत्रोपमनोपमेयवाक्ययोर्भिन्नावेव धर्मौ बिम्बप्रतिबिम्बभावेन निर्दिष्टौ तत्र दृष्टान्तः।<br /> ‘त्वमेव कीर्तिमान्‌’ इत्यत्र कीर्तिकान्त्योर्बिम्बप्रतिबिम्बबहवः।</p>',
-      definition_eng: '',
-      common: '<p>1. यथा वा (रघु० ६।२२) – कामं नृपाः सन्ति सहस्रशोऽन्ये राजन्वतीमाहुरनेन भूमिम्‌।<br /> नक्षत्रताराग्रहसंकुलापि ज्योतिष्मती चन्द्रमसैव रात्रिः॥<br /> 2. यथा वा - देवीं वाचमुपासते हि बहवः सारं तु सारसतं जानीते नितरामसौ गुरुकुलक्लिष्टो मुरारिः कविः।<br /> अब्धिर्लङ्घित एव वान्ररभटैः किं त्वस्य गम्भीरता- मापातालनिमग्नपीवरतनुर्जानाति मन्थाचलः॥<br />  नन्वत्रोपमानोपमेयवाक्ययोर्ज्ञानमेक एव धर्म इति प्रतिवस्तूपमा युक्ता।<br />   मैवम्‌, अचेतने मन्थाचले ज्ञानस्य बाधितत्वेन तत्र जानातीत्यनेन सागराघस्तलावधिसंस्पर्शमात्रस्य विवक्षितत्वात्‌।<br /> अत्रोदाहरणे पदावृत्तिदीपकाद्विशेषः पूर्ववत्प्रस्तुताप्रस्तुतविषयकृतो द्रष्टव्यः।<br />   वैधर्म्येणाप्ययं दृश्यते - कृतं च गर्वाभिमुखं मनस्त्वया किमन्यदेवं निहताश्च नो द्विषः।<br /> तमांसि तिष्ठन्ति हि तावदंशुमान्न यादवायात्युदयाद्रिमौलिताम्‌॥५२॥<br /> </p>'
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: ''
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: ''
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       title_sans: 'निदर्शनालङ्कारः',
       title_eng: 'Nidarśanālaṅkāra',
       id: 18,
-      definition_sans: '<p>वाक्यार्थयोः सदृशयोरैक्यारोपो निदर्शना।<br />      यद्दातुः सौम्यता सेयं पूर्णेन्दोरकलङ्कता॥५३॥<br /> अत्र दातृपुरुषसौम्यत्वस्योपमेयवाक्यार्थस्य पुर्णेन्दोरकलङ्कत्वस्योपमानवाक्यार्थस्य यत्तद्द्भ्यामैक्यारोपः।<br /></p>',
-      definition_eng: '',
-      common: '<p>1. यथा वा- अरण्यरुदितं कृतं शवशरीरमुद्वर्तितं स्थलेऽब्जमवरोपितं सुचिरमूषरे वर्षितम्‌।<br /> श्वपुच्छमवनामितं बधिरकर्णजापः कृतो धृतोऽन्धमुखदर्पणो यदबुधो जनः सेवितः॥<br /> अत्राबुधजनसेवया अरण्यरोदनादीनां च यत्तद्द्भ्यामैक्यारोपः॥५३॥<br /> पदार्थवृत्तिमप्येके वदन्त्यां निदर्शनाम्‌।<br />  तन्नेत्रयुगलं धत्ते नीलाम्बुजन्मनोः॥५४॥<br /> अत्र नेत्रयुगले नीलाम्बुजगतलॉलापदार्थारोपो निदर्शना।<br />  2. यथा वा – वियोगे गौडनारीनां यो गण्डतलपाण्डिमा अदृश्यत स खर्जूरीमञ्जरीगर्भरेणूषु॥<br />  पूर्वस्त्मिन्नुदाहरने उपमेये उपमानधर्मारोपः, इह तूपमाने उपमेयधर्माओप इति भेदः।<br />    उभयत्राप्यन्यधर्मस्यान्यत्रासंभवेन तत्सदृशधर्माक्षेपादौपम्ये पर्यवसानं तुल्यम्‌।<br /> इयं पदार्थवृत्तिनिदर्शना ललितोपमेति जयदेवेन व्याहृता।<br /> यद्यपि ‘वियोगे गौडनारीणाम्‌’ इति श्लोकः प्राचीनैर्वाक्यार्थवृत्तिनिदर्शनायामुदाहृतः, तथापि विशिष्तयोर्धर्मयोरैक्यारोपो वाक्यार्थवृत्तिनिदर्शना।<br />  उपमानोपमेययोरन्यतरस्मिन्नन्यतरधर्मारोपः पदार्थवृत्तिनिदर्शनेतिव्यवस्थामाश्रित्यास्माभिरिहोदाहृतः।<br />  3. एवं च - ‘त्वयि सति शिव! दातर्यस्मदभ्यर्थितामा- मितरमनुसरन्तो दर्शयन्तोऽर्थ्मुद्राम्‌।<br />  चरमचरणपातैर्दुर्ग्रहः दोग्धुकामाः करभमनुसरामः कामधेनौ स्थितायाम्‌॥’ ‘दिर्भ्यामब्धिं तितीर्षन्तस्तुष्टुवुस्ते गुणार्णवम्‌॥’ इत्यादिषु वाक्यभेदाभावेऽपिवाक्यवृत्तिरेव निदर्शना, विशिष्ट्योरैक्यारोपसद्भावात्‌।<br /> ‘ वाक्यार्थयोःसदृशयोः’ इति लक्षणवाक्ये वाक्यार्थशब्देन बिम्बप्रतिबिम्बभावापन्नवस्तुविशिष्टास्वरुपयोः प्रस्तुताप्रस्त्तुतधर्मयोर्विवक्षितत्वादिति।<br /> 4. एवं च - ‘राजसेवा मनुष्याणामसिधारावलेहनम्‌।<br />  पञ्चाननपरिष्वङ्गो व्यालीवदनचुम्बनम्‌॥’ इत्यत्र प्रस्तुताप्रस्तुतवृत्तान्तयोरेकैकपदोपात्तत्वेऽपि वाक्यार्थवृत्तिनिदर्श्नाया न क्षतिः।<br />    तयोर्बिम्बप्रतिबिम्बभावापन्नवस्तुविशिष्टव्यवहाररुपत्वात्‌।<br /> अत एव निदर्शनाया रुपकाद्भेदः।<br /> रुपके ह्यविशिष्टयोर्रेव मुखचन्द्रादिकयोरैक्यारोपः।<br /> ‘अङ्घ्रिदण्डो हरेरुर्ध्वमुत्क्षिप्तो बलिनिग्रहे।<br /> विधिविष्टरपद्मस्य नालदण्डो मुदेऽस्तु वः॥’ इति विशिष्टत्वरुपकोदाहरणेऽपि न बिम्बप्रतिबिम्बभावापनावस्तुविशिष्टरुपता; विधिविष्टारकमलदण्डविशिष्टात्वरुपसाधारणधर्मवत्तासंपादनार्थमेव तद्विशेषणोपादानात्‌।<br /> ‘यद्दातुः सौम्यता’ इत्यादिनिदर्शनोदाहरणेषु दातृपूर्णेन्द्वादीनामानन्दकरत्वादिनेवात्र विशेषणयोर्बिम्बभावात्‌।<br /> यत्र तु विषयविषयिविशेषणानां परस्परसादृश्येन बिम्बप्रतिबिम्बभावोऽस्ति।<br />    ‘ज्योत्स्नाभस्मच्छुरणधवला बिभ्रती तारकास्थी- न्यन्तर्धानव्यसनरसिका रात्रिकापालिकीयम्‌।<br />द्वीपाद्द्वीपं भ्रमति दधती चन्द्रमुद्राकपाले न्यस्तं सिद्धाञ्जनपरिमलं लाञ्छनस्य च्छलेन॥’ इति सवयवरुपकोदाहरणे।<br /> तत्रापि विषयविषयिणोस्तद्विशेषणानां च प्रत्येकमेवैक्यारोपः, न तु ज्योत्स्नादिविशिषिष्टरात्रिरुपविषयस्य भस्मादिविशिष्टाकापालिकीरुपविषयिणश्च विशिष्टरुपेणैक्यारोप्पोऽस्तीति।<br /> तस्मात्‌ ‘राजसेवा मनुष्याणाम्‌’ इत्यादावपि वाक्यार्थवृत्तिनिदर्शनैव युक्ता।<br /> मतान्तरे त्विह पदार्थवृत्त्यैव निदर्शनया भाव्यमिति॥५४॥<br /> 5. अपरां बोधनं प्राहुः क्रिययाऽसत्सदर्थयोः।<br /> नश्येद्राजविरोधीति क्षीणं चन्द्रोदये तमः॥५५॥<br /> उदयन्नेव सविता दमेष्वर्पयति श्रियम्।<br /> विभावयन् समृद्धीनां फलं सुहृदनुग्रहः॥५६॥<br /> कस्यचित्किंचित्क्रियाविशिष्टस्य स्वक्रियया परान्प्रति असतः सतो वाऽर्थ्स्य बोधनं यन्निबध्यते तदपरां निदर्शनामाहुः।<br />   असदर्थबोधने उत्तरार्धमुदाहरणम्‌।<br /> तत्र नश्येदिति बोधयदिति वक्तव्ये बोधयदित्यस्य गम्यमनत्वादप्रयोगः तत्श्च राज्ञा चन्द्रेण सह विरुध स्वयं नाशक्रियाविशिष्टं तमः स्वकीयनाशक्रियया दृष्टान्तभूतया अन्योऽप्येवं राजविरुद्धश्चेन्नश्येदित्यनिष्टपर्यवसायिनमर्थं बोधयदेव नष्टमित्यर्थनिबन्धनादसदर्थनिदर्शना।<br /> तथा उत्त्रश्लोके सविता स्वोदयसमय एव पद्मषु लक्ष्मीमादधानः स्वया पद्मलक्ष्म्याधानक्रियया परान्प्रति समृद्धीनां फलं सुहृदनुग्रह एवेति श्रेयस्करमर्थं बोधयन्निबद्ध इत सदर्थनिदर्शना।<br /> 6. यथा वा उन्नतं पदमवाओय यो लघुर्हेलयैव स पतेदिति व्रुवन्।<br />  सहिलशेखरगतः पृषद्गणश्चारुमारुतधुतः पतत्यधः॥<br />अत्र गिरिशेखरगतः वृष्टिबिन्दुगणो मन्दमारुतमात्रेणापि कम्पितः पतन् लघोरुन्नतपदप्राप्तिः पतनहेतुरित्यसदर्थं बोधयन्निबद्ध इत्यसदर्थनिदर्शना।<br />चूडामणिपदे धत्ते यो देवं रविमागतम्।<br />7. सतां कार्याऽऽतिथेयीति बोधयन् गृहमेधिनः}} अत्र समागतं रविं शिरसा संभावयन्नुदयाअह्लः स्वनिष्ठ्या रविधारणक्रियया समागतानां सतामेवं गृहमेधिभिरातिथ्यं कार्यमिति सदर्तहं बोधयन्निबद्ध इति सदर्थनिदर्शना।<br />   अत्र केचित् वाक्यार्थवृत्ति-पदार्थवृत्तिनिदर्शनाद्वयमसंभवद्वस्तुसंबन्धनिवन्धनमिति, तृतीया तु संभवद्वस्तुसंबन्धनिवन्धनेति अह व्यवहरन्ति।<br /> 8. तथा हि – आद्यनिदर्शनायां वाक्यार्थयोरैक्यमसंभवत्तयोः साम्ये पर्यवसस्यति।<br />    तृतीयनिदर्शनायां तु स्वक्रियया परान्प्रति सदसदर्थबोधनं संभवदेव समतां गर्भीकरोति।<br /> ‘बोधयन् गृहमेधिनः’ इत्यादौ हि ‘कारीषोऽग्निः शीतापनयनेन बटूनध्ययनसमर्थान्करोति एवं वर्ण्यमानः पर्वतः स्वयमुपमानभावेन गृहमेधिन उक्तबोधनसमर्थान्कर्तुं क्षमते।<br /> यथाऽयं पर्वतः समागतं रविं शिरसा संभावयति, एवं गृहमेधी समागतं सन्तमुचितपूजया संभावयेदिति।<br /> अतः संभवति बोधनसंबन्ध इति॥५५-५६॥<br /></p>'
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: ''
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: ''
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       title_eng: ' ',
