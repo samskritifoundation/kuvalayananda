@@ -49,7 +49,7 @@ export const state = () => ({
           ]
         },
         {
-          sloka: 'वर्ण्योपमानधर्माणामुपमावाचकस्य च।<br>          एकद्वित्र्यनुपादानैर्भिन्ना लुप्तोपमाष्टधा॥',
+          sloka: 'वर्ण्योपमानधर्माणामुपमावाचकस्य च।<br>एकद्वित्र्यनुपादानैर्भिन्ना लुप्तोपमाष्टधा॥',
           sloka_explanation: {
             sans: '<p>उपमेयादीनां चतुर्णां मध्ये एकस्य द्वयोस्त्रयाणां वा प्रतिपादकशब्दाभावेन लुप्तोपमेत्युच्यते। </p><p>सा चाष्टधा। यथा –</p><ul><li> वाचकलुप्ता </li><li>धर्मलुप्ता </li><li>धर्मवाचकलुप्ता </li><li>वाचकोपमेयलुप्ता </li><li> उपमानलुप्ता </li><li> वाचकोपमानलुप्ता </li><li>धर्मोपमानलुप्ता </li><li>धर्मोपमानवाचकलुप्ता </li></ul>',
             eng: '<h3>Word meanings</h3><table><tr><td>वर्ण्य-उपमान-धर्माणां </td><td>of the object compared, the object compared to, the common attribute</td></tr><tr><td>उपमावाचकस्य च  </td><td>and of the word implying comparison.</td></tr><tr><td>एक-द्वि- त्रि- अनुपादानात् </td><td>by the omission of the one, two or three</td></tr><tr><td>अष्टधा</td><td>eightfold</td></tr><tr><td>भिन्ना</td><td>divided</td></tr><tr><td>लुप्तोपमा</td><td>elliptical simile</td></tr><tr><td>(भवति)</td><td>(becomes)</td></tr></table><h3>Summary of the verse</h3><p>By the omission of one, two or three (of the four requisites of simile complete, i. e., the object compared, the object compared to, the common attribute and the word implying comparison) the simile becomes elliptical and is eightfold, which are :-</p><ol><li>वाचकलुप्ता-SIMILE in the omission of the word implying comparison.</li><li>धर्मपुल्ता- SIMILE in the omission of the common attribute.</li><li>धर्मवाचकलुप्ता- SIMILE in the omission of the common attribute and of the Word implying comparison.</li><li>वाचकोपमेयलुप्ता- SIMILE in the omission of the word implying comparison and of the object compared.</li><li>उपमानवाचकलुप्ता- SIMILE in the omission of  the object compared to and the word implying comparison.</li><li>उपमानलुप्ता- SIMILE in the omission of the object compared to.</li><li>उपमानवाचकधर्मलुप्ता- SIMILE in the omission of the object compared to, of the word implying comparison and of the common attribute.</li><li>उपमानधर्मलुप्ता- SIMILE in the omission of the object compared to and of the common attribute.</li>'
@@ -683,22 +683,60 @@ export const state = () => ({
     },
     {
       title_sans: 'तुल्ययोगितालङ्कारः',
-      title_eng: 'Tulyayogitālaṅkāraḥ',
+      title_eng: 'Tulyayogitālaṅkāra - Equal Pairing',
       id: 13,
       slokas: [
         {
-          sloka: '',
+          sloka: 'वर्ण्यानामितरेषां वा धर्मैक्यं तुल्ययोगिता।<br>संकुचन्ति सरोजानि स्वैरिणीवदनानि च॥',
           sloka_explanation: {
-            sans: '',
-            eng: ''
+            sans: 'प्रस्तुतानामप्रस्तुतानां वा गुणक्रियारुपैकधर्मान्वयस्तुल्ययोगिता।',
+            eng: '<h3>Word meanings</h3><table><tr><td>वर्ण्यानाम् - </td><td>Of objects on hand</td></tr><tr><td>इतरेषाम् वा - </td><td>Or of those not on hand</td></tr><tr><td>धर्मैक्यम् - </td><td>Sameness of attribute</td></tr><tr><td>तुल्ययोगिता - </td><td>Equal Pairing</td></tr><tr><td>सरोजामि - </td><td>Lotuses</td></tr><tr><td>स्वैरणीवदनानि च - </td><td>And the faces of the adulterous women</td></tr><tr><tr><td>संकुचन्ति - </td><td>Become contracted.</td></tr><tr><td>तत्= तयोः - </td><td>of those, i.e., of the cause and effect.</td></tr></table><h3>Definition</h3><p>The sameness of attribute of objects on hand or of objects not on hand, is called तुल्ययोगिता ।</p>'
           },
           examples: [
             {
-              text: '',
+              text: ' संकुचन्ति सरोजानि स्वैरिणीवदनानि च॥',
+              explanation: {
+                sans: 'संकुचन्तीति प्रस्तुततुल्ययोगिताया उदाहरणम्‌।<br>तत्र प्रस्तुतचन्द्रोदयकार्यतया वर्णनीयानां सरोजानां प्रकाशभीरुस्वैरिणीवदनानां च संकोचरुपैकक्रियान्वयो दर्शितः।',
+                eng: '<h3>Example of objects on hand.</h3><p>The lotuses become contracted as well as the faces of the adulterous women.</p><p>This being the description of the rise of the moon, the lotuses are said to contract; and the moonlight being an impediment to the free movements of the harlots, their faces also are said to contract or droop.</p><p><b>Observe :-</b> Here, the lotuses and the faces of the women are the objects on hand and are associated with one common attribute.</p>'
+              }
+            },
+            {
+              text: 'त्वदङ्गमार्दवे दृष्टे कस्य चित्ते न भासते।<br>मालतीशसभृल्लेखाकदलीनां कठोरता ॥',
               explanation: {
                 sans: '',
-                eng: ''
+                eng: '<h3>Word meanings</h3><table><tr><td>त्वदंगमार्दवे दृष्टे - </td><td>When the softness of thy limbs was perceived</td></tr><td>कस्य चित्ते - </td><td>In whose mind</td></tr><tr><td>मालती- कदलीनाम् - </td><td>Of the jasamine, moon’s ray and the plantain</td></tr><tr><td>कठोरता - </td><td>Hardness</td></tr><tr><td>न भासते - </td><td>Will not become manifest</td></tr></table><p>Lady ! In whose mind will not the hardness of the jasamine, the lunar ray and the plantain be manifest when the softness of thy limbs was perceived?</p><p>Here, the jasamine &c., the objects unconnected with the subject, are associated with one and the same attribute, that is, the quality of hardness.</p>'
               }
+            }
+          ]
+        }
+      ],
+      types: 2,
+      type: [
+        {
+          sloka: '<h3>Equal Pairing, second kind</h3>हिताहिते वृत्तितौल्यमपरा तुल्ययोगिता।<br>प्रदीयते पराभूतिर्मित्रशात्रवयोस्त्वया॥',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>हिताहिते - </td><td>In a friend and foe</td></tr><tr><td>वृत्तितौल्यम् - </td><td>The sameness of behavior</td></tr><tr><td>अपरा - </td><td>another</td></tr><tr><td>तुल्ययोगिता - </td><td>Equal Pairing</td></tr><tr><td>त्वया - </td><td>By thee</td></tr><tr><td>मित्रशात्रवयोः - </td><td>To the friend and foe</td></tr><tr><td>पराभूतिः - </td><td>Immense riches (to a friend)</td></tr><tr><td>पराभूतिः - </td><td>Defeat (to a foe)</td></tr><tr><td>दीयते - </td><td>Is distributed</td></tr></table><h3>Definition</h3><p>The description of the sameness of behaviour towards a friend and a foe is another kind of Equal Pairing.</p>'
+          },
+          examples: [
+            {
+              text: 'प्रदीयते पराभूतिर्मित्रशात्रवयोस्त्वया॥',
+              explanation_sans: 'अत्र हिताऽहितयोर्मित्रं – शात्रवयोरुत्कृष्टभूतिदानस्य पराभवदानस्य च श्लेषेणाभेदाध्यवसायाद्‌ वृत्तितौल्यम्‌।',
+              explanation_eng: '<p>(O king 1) Parabuti is equally distributed by thee both to thy friend and to thy foe.</p><p>परा and भूतिः  are two separate words meaning immense riches when applied to ‘friend’ ; when taken as one word, पराभूतिः means ‘defeat’ and applies to ‘foe’ ; however the same word being used to friend and foe, this must be taken as instancing the figure without referring to its meaning.</p><p><b>Observe :-</b> This is possible only under a pun.</p>'
+            }
+          ]
+        },
+        {
+          sloka: '<h3>Equal Pairing, third kind</h3>गुणोत्कृष्टे समीकृत्य वचोऽन्या तुल्ययोगिता।<br>लोकपालो यमः पाशी श्रीदः शक्रो भवानपि॥',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>गुणात्कृष्टैः - </td><td>With those possessed of superior qualities</td></tr><tr><td>समीकृत्य - </td><td>Having placed on the same footing</td></tr><tr><td>वचः - </td><td>Description</td></tr><tr><td>अन्या - </td><td>Another</td></tr><tr><td>तुल्ययोगिता - </td><td>Equal Pairing</td></tr><tr><td>यमः - </td><td>God of death</td></tr><tr><td>पाशी - </td><td>Varuna</td></tr><tr><td>श्रीदः - </td><td>Kubera</td></tr><tr><td>शक्रः - </td><td>Indra</td></tr><tr><td>भवान् अपि - </td><td>As well as thyself</td></tr><tr><td>लोकपालः - </td><td>A regent of the quarter (and the ruler of the earth)</td></tr></table><h3>Definition</h3><p>The description of placing one object on a footing of equality with those possessed of superior qualities is termed a third kind of Equal Pairing.</p>'
+          },
+          examples: [
+            {
+              text: 'लोकपालो यमः पाशी श्रीदः शक्रो भवानपि॥',
+              explanation_sans: 'अत्र वर्णनीयो राजा शक्रादिभिर्लोकपालत्वेन समीकृतः।',
+              explanation_eng: '<p>(O Lord !), Yama, Pasi, Srida, Sakra as Well as thyself are each a Lokapala.</p><table><tr><td>Lokapala = </td><td>a regent or guardian of a quarter = a ruler of earth.</td></tr><tr><td>Yama = </td><td>the God of death, the regent of the Southern quarter.</td></tr><tr><td>Pasi = </td><td>Varuna, the regent of the Western quarter and of the oceans.</td></tr><tr><td>Srida = </td><td>Kubera, the regent of the Northern quarter and the God of riches and treasure.</td></tr><tr><td>Sakra = </td><td>Indra, the regent of the Eastern quarter and the king of the Gods.</td></tr>'
             }
           ]
         }
@@ -706,21 +744,21 @@ export const state = () => ({
     },
     {
       title_sans: 'दीपकालङ्कारः',
-      title_eng: 'Dīpakālaṅkāra',
+      title_eng: 'Dīpakālaṅkāra - The ‘Illuminator’',
       id: 14,
       slokas: [
         {
-          sloka: '',
+          sloka: 'वदन्ति वर्ण्यावर्ण्यानां धर्मैक्यं दीपकं बुधाः।<br>मदेन भाति कलभः प्रतापेन महीपतिः॥',
           sloka_explanation: {
-            sans: '',
-            eng: ''
+            sans: 'प्रस्तुताप्रस्तुतानामेकधर्मान्वयो दीपकम्‌।',
+            eng: '<h3>Word meanings</h3><table><tr><td>वर्ण्यावर्ण्यानाम् - </td><td>Of objects on hand and those not on hand</td></tr><tr><td>धर्मैक्यम् - </td><td>The common attribute</td></tr><tr><td>बुधाः - </td><td>The learned</td></tr><tr><td>दीपकम् - </td><td>Illuminator</td></tr><tr><td>वदन्ति - </td><td>Call</td></tr><tr><td>कलभः - </td><td>Young elephant</td></tr><tr><td>मदेन - </td><td>By ichor</td></tr><tr><td>भाति - </td><td>Shines</td></tr><tr><td>महीपतिः - </td><td>Lord of earth</td></tr><tr><td>प्रतापेन - </td><td>By valour</td></tr></table><h3>Definition</h3><p>When objects on hand and those‘ not on hand are associated with a common attribute (mentioned only once), the learned call it the Illuminator.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'मदेन भाति कलभः प्रतापेन महीपतिः॥',
               explanation: {
-                sans: '',
-                eng: ''
+                sans: 'यथा कलभमहीपालयोः प्रस्तुताप्रस्तुतयोर्भानक्रियान्वयः।',
+                eng: '<p>The young elephant shines by its ichor and this lord of earth by his valour.</p><p>Here, the elephant, the object not on hand, and the king, the object on hand, are together associated with one and the same attribute, the action of shining. Just as a lamp standing in one place illumines the several objects round it, so in the present figure one finite verb serves as predicate to two-or more nominatives. Compare the maxim of the lamp placed over a threshold देहलीदोपन्यायः । It takes its origin from a lamp hanging over the threshold of a house which, by its peculiar position, serves to light the rooms on both sides, and is used to denote something which serves a two-fold purpose at the same time. Apte.</p><p>In the Equal Pairing No. 1 (Fig. XIV), the objects on hand if associated with one and the same attribute formed one kind of the figure ; and the objects not on hand if associated with one and the same attribute formed another kind of the same figure (observe the word वा in the Definition). In the Illuminator, the objects on hand and those not on hand are together associated with one common attribute mentioned only once.</p>'
               }
             }
           ]
@@ -729,21 +767,35 @@ export const state = () => ({
     },
     {
       title_sans: 'आवृत्तिदीपकालङ्कारः',
-      title_eng: 'āvṛttidīpakālaṅkāra',
+      title_eng: 'āvṛttidīpakālaṅkāra - The Illuminator by repetition',
       id: 15,
       slokas: [
         {
-          sloka: '',
+          sloka: 'त्रिविधम् दीपकावृत्त्तौ भवेदावृत्तिदीपकम्‌।<br>वर्षत्यम्बुदमालेयं वर्षत्येषा च शर्वरी॥',
           sloka_explanation: {
-            sans: '',
-            eng: ''
+            sans: 'दीपकस्यानेकोपकारार्थतया दीपस्थानीयस्य पदस्यार्थस्योभयोर्वाऽऽवृत्तौ त्रिविधमावृत्तिदीपकम्‌।',
+            eng: '<h3>Word meanings</h3><table><tr><td>दीपकावृत्तौ - </td><td>In the repetition of the Illuminator</td></tr><tr><td>त्रिविधम् - </td><td>Three kinds</td></tr><tr><td>आवृत्तिदीपकम् - </td><td>Illuminator by repetition</td></tr><tr><td>भवेत् - </td><td>Will be</td></tr><tr><td>इयं अंबुदमाला - </td><td>This range of clouds</td></tr><tr><td>वर्षति - </td><td>Rains</td></tr><tr><td>एषा शर्वरी च - </td><td>And this night</td></tr><tr><td>वर्षति - </td><td>Looks like a year</td></tr></table><p>त्रिविधम् i.e., by repetition of 1 पद ‘word’, 2 अर्थ ‘signiﬁcation’ and 3 उभय ‘both word and signiﬁcation’.</p><h3>Definition</h3><p>By repetition of (1) Word, (2) signification and (3) both, We have the three kinds of the figure आवृत्तिदीपकम् ।</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'वर्षत्यम्बुदमालेयं वर्षत्येषा च शर्वरी॥',
               explanation: {
                 sans: '',
-                eng: ''
+                eng: '<p>This range of clouds rains and this night looks like a year.</p><p>This is the example of No. 1 पदावृत्ति ।  Here, the verb वर्षति, a. पद, is repeated though with different significations. The first is the form of the third person, singular number, present tense of the root 515; ‘to rain’, and the second is the form of the third person, singular number, present tense of the nominal verb derived from the noun वर्ष ‘a year’.</p>'
+              }
+            },
+            {
+              text: '<h3>Example of No. 2. अर्थावृत्ति ।</h3>उन्मीलन्ति कदम्बानि स्फुटन्ति कुटजोद्गमाः।',
+              explanation: {
+                sans: '',
+                eng: '<h3>Word meanings</h3><table><tr><td>कदंबानि - </td><td>Kadamba flowers</td></tr><tr><td>उन्मीलन्ति - </td><td>Blossom</td></tr><tr><td>कुटकद्रुमाः - </td><td>Kutaja creepers</td></tr><tr><td>स्फुटन्ति - </td><td>Bloom forth</td></tr></table><p>The kadamba ﬂowers blossom and the kutaja creepers bloom forth.</p><p>उन्मीलन्ति and स्फुटन्ति mean the same thing and we have here a repetition of signification.</p>'
+              }
+            },
+            {
+              text: '<h3>Example of No. 3. उभयावृत्ति ।</h3>माद्यन्ति चातकास्तृप्ता माद्यन्ति च शिखावलाः॥',
+              explanation: {
+                sans: '',
+                eng: '<h3>Word meanings</h3><table><tr><td>तृप्ताः - </td><td>Satiated</td></tr><tr><td>चातकाः - </td><td>Chataka birds</td></tr><tr><td>माद्यन्ति - </td><td>Rejoice</td></tr><tr><td>शिखावलाः - </td><td>Peacocks</td></tr><tr><td>माद्यन्ति - </td><td>Rejoice</td></tr></table><p>The satiated chataka. birds rejoice and the peacocks also rejoice (at the sight of the clouds).</p><p>Here, the same word माद्यन्ति  is repeated in the same meaning and hence it is called उभयावृत्तिदीपकम् ।</p>'
               }
             }
           ]
@@ -752,21 +804,21 @@ export const state = () => ({
     },
     {
       title_sans: 'प्रतिवस्तुपमालङ्कारः',
-      title_eng: 'Prativastupamālaṅkāraḥ',
+      title_eng: 'Prativastupamālaṅkāra - Typical Comparison',
       id: 16,
       slokas: [
         {
-          sloka: '',
+          sloka: 'वाक्ययोरेकसमान्ये प्रतिवस्तूपमा मता।<br>तापेन भ्राजते सूरः शूरश्चापेन राजते॥',
           sloka_explanation: {
-            sans: '',
-            eng: ''
+            sans: 'यत्रोपमानोपमेयपरवाक्ययोरेकः समनो धर्मः पृथङ्निर्दिश्यते सा प्रतिवस्तूपमा।<br>प्रतिवस्तु प्रतिवाक्यार्थमुपमासमानधर्मोऽस्यामिति व्युत्पत्तेः।',
+            eng: '<h3>Word meanings</h3><table><tr><td>वाक्ययोः - </td><td>In (the sense of) two sentences</td></tr><tr><td>एकसामान्ये - </td><td>If one common  attribute (is expressed)</td></tr><tr><td>प्रतिवस्तूपमा - </td><td>Typical Comparison</td></tr><tr><td>मता - </td><td>Is recognized</td></tr><tr><td>सूरः - </td><td>The sun</td></tr><tr><td>तापेन - </td><td>With intense heat</td></tr><tr><td>भ्राजते - </td><td>Shines</td></tr><tr><td>शूरश्च - </td><td>And this warrior</td></tr><tr><td>चापेन - </td><td>with (his) bow</td></tr><tr><td>राजते - </td><td>Looks brilliant</td></tr></table><h3>Definition</h3><p>When, in two sentences one of which describes the object compared and the other the object compared to, the same common attribute is expressed but by different words, it is termed Typical Comparison.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'तापेन भ्राजते सूरः शूरश्चापेन राजते॥',
               explanation: {
-                sans: '',
-                eng: ''
+                sans: 'यथाऽत्रैव भ्राजते राजत इत्येक एव धर्म उपमानोपमेयवाक्ययोः पृथग्भिन्नपदाभ्यां निर्दिष्टः।',
+                eng: '<p>The sun shines with intense heat and this warrior looks brilliant with his bow.</p><p>Here, the actions of shining and looking brilliant, though mean the same thing, are expressed by different words to avoid the fault of repetition.</p>'
               }
             }
           ]
@@ -775,21 +827,21 @@ export const state = () => ({
     },
     {
       title_sans: 'दृष्टान्तालङ्कारः',
-      title_eng: 'Dṛṣṭāntālaṅkāra',
+      title_eng: 'Dṛṣṭāntālaṅkāra - Exemplification',
       id: 17,
       slokas: [
         {
-          sloka: '',
+          sloka: 'चेत्-बिंबप्रतिबिंबत्वं दृष्टान्तस्तदलंकृतिः।<br>त्वमेव कीर्तिमान्‌ राजन्‌! विधुरेव हि कान्तिमान्‌॥',
           sloka_explanation: {
-            sans: '',
-            eng: ''
+            sans: 'यत्रोपमनोपमेयवाक्ययोर्भिन्नावेव धर्मौ बिम्बप्रतिबिम्बभावेन निर्दिष्टौ तत्र दृष्टान्तः।',
+            eng: '<h3>Word meanings</h3><table><tr><td>चेत् - </td><td>if</td></tr><tr><td>वाक्ययोः - </td><td>In (the sense of ) two sentences</td></tr><tr><td>बिंबप्रतिबिंबत्वम् - </td><td>Relation of type and proto-type</td></tr><tr><td>तत् - </td><td>Then</td></tr><tr><td>दृष्टान्तः - </td><td>Exemplification</td></tr><tr><td>राजन् - </td><td>O king!</td></tr><tr><td>त्वमेव - </td><td>Thou only</td></tr><tr><td>कीर्त्तिमान् - </td><td>Possessed of fame</td></tr><tr><td>विधुरेव हि - </td><td>Moon only</td></tr><tr><td>कान्तिमान् - </td><td>Radiant</td></table><h3>Definition</h3><p>If two sentences, one of which contains the object compared and the other the object compared to, stand in relation of type and proto-type, or, in other words, contain similar attributes reflectively expressed, it is called Exempliﬁcation.</p>'
           },
           examples: [
             {
-              text: '',
+              text: ' त्वमेव कीर्तिमान्‌ राजन्‌! विधुरेव हि कान्तिमान्‌॥',
               explanation: {
-                sans: '',
-                eng: ''
+                sans: '‘त्वमेव कीर्तिमान्‌’ इत्यत्र कीर्तिकान्त्योर्बिम्बप्रतिबिम्बबहवः।',
+                eng: '<p>O king l Thou art the only being possessed of fame and the moon is the only object having radiance.</p><p>Here, possessing fame and having radiance are similar attributes and the two sentences stand in relation of type and proto-type. The first sentence is exemplified by the second in which a renowned object, the moon, whose radiance has been experienced taken from the preceding verse.</p><p>The difference between this figure and प्रतिवस्तूपमा  is that the common attributes here are similar but in the latter they are identical. In the प्रतिवस्तूपमा the couple of sentences terminates in conveying the same sense; whilst in the example of the present figure the sentences have similar sense reflectively expressed and not the same.</p>'
               }
             }
           ]
@@ -798,22 +850,58 @@ export const state = () => ({
     },
     {
       title_sans: 'निदर्शनालङ्कारः',
-      title_eng: 'Nidarśanālaṅkāra',
+      title_eng: 'Nidarśanālaṅkāra - Illustration ',
       id: 18,
       slokas: [
         {
-          sloka: '',
+          sloka: '<h3>First kind</h3>वाक्यार्थयोः सदृशयोरैक्यारोपो निदर्शना।<br>यद्दातुः सौम्यता सेयं पूर्णेन्दोरकलङ्कता॥',
           sloka_explanation: {
             sans: '',
-            eng: ''
+            eng: '<h3>Word meanings</h3><table><tr><td>सदृशयोः - </td><td>similar</td></tr><tr><td>वाक्यार्थयोः - </td><td>In the significations of two sentences</td></tr><tr><td>ऐक्यारोपः - </td><td>Attribution of identity</td></tr><tr><td>निदर्शना - </td><td>Illustration</td></tr><tr><td>या - </td><td>Which</td></tr><tr><td>दातुः - </td><td>Of a donor</td></tr><tr><td>सौम्यता - </td><td>Mildness</td></tr><tr><td>सेयम् - </td><td>That itself</td></tr><tr><td>पूर्णेन्दोः - </td><td>Of the full moon</td></tr><tr><td>अकलंकता - </td><td>Stainlessness</td></tr></table><h3>Definition</h3><p>A description, resulting in the identity of the significations, of two sentences, which are similar, i.e., which terminate in a. comparison or similarity, is called Illustration.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'यद्दातुः सौम्यता सेयं पूर्णेन्दोरकलङ्कता॥',
               explanation: {
-                sans: '',
-                eng: ''
+                sans: 'अत्र दातृपुरुषसौम्यत्वस्योपमेयवाक्यार्थस्य पुर्णेन्दोरकलङ्कत्वस्योपमानवाक्यार्थस्य यत्तद्द्भ्यामैक्यारोपः।',
+                eng: '<p>That mild nature if possessed by a donor answers to the stainlessness of the full moon.</p><p>Here, the impossibility of the existence of the full moon without the black spot corresponds to the Non existence of a. donor destitute of anger. Thus, we see that the two sentences terminate in a comparison.</p><p>The difference between this figure and the दृष्टान्त is that दृष्टान्त  Similar attributes are stated whereas here they are not stated. Here, the two sentences employed are dependent upon each other in their meanings but in the दृष्टान्त they are independent.</p>'
               }
+            }
+          ]
+        }
+      ],
+      types: 2,
+      type: [
+        {
+          sloka: '<h3>2nd kind of Illustration</h3>पदार्थवृत्तिमप्येके वदन्त्यां निदर्शनाम्‌।<br>तन्नेत्रयुगलं धत्ते नीलाम्बुजन्मनोः॥',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>एके - </td><td>Certain writers on Rhetoric</td></tr><tr><td>पदार्थवृत्तिम्- पदार्थे - </td><td>In a thing</td></tr><tr><td>वृत्तिम् ऐक्यारोपस्थितिम् - </td><td>The state of being identical</td></tr><tr><td>अन्याम् निदर्शनाम् - </td><td>Another kind of Illustration</td></tr><tr><td>वदन्ति - </td><td>Say</td></tr><tr><td>त्वन्नेचयुगलम् - </td><td>Thy two eyes</td></tr><tr><td>नीलांबुजन्मनोः - </td><td>Of the two blue lotuses</td></tr><tr><td>लीलाम् - </td><td>Charmingness</td></tr><tr><td>धत्ते - </td><td>Bears</td></tr></table><h3>Definition</h3><p>If a thing is described as bearing the property of another, then it is another kind of Illustration according to certain writers on Rhetoric.</p>'
+          },
+          examples: [
+            {
+              text: 'तन्नेत्रयुगलं धत्ते नीलाम्बुजन्मनोः॥',
+              explanation_sans: 'अत्र नेत्रयुगले नीलाम्बुजगतलॉलापदार्थारोपो निदर्शना।',
+              explanation_eng: '(Lady !) Thy two eyes bear the charmingness of the two blue lotuses.'
+            }
+          ]
+        },
+        {
+          sloka: '<h3>3rd kind of Illustration</h3> अपरां बोधनं प्राहुः क्रिययाऽसत्सदर्थयोः।<br>नश्येद्राजविरोधीति क्षीणं चन्द्रोदये तमः॥',
+          sloka_explanation: {
+            sans: 'कस्यचित्किंचित्क्रियाविशिष्टस्य स्वक्रियया परान्प्रति असतः सतो वाऽर्थ्स्य बोधनं यन्निबध्यते तदपरां निदर्शनामाहुः।',
+            eng: '<h3>Word meanings</h3><table><tr><td>क्रियया - </td><td>By an action of a certain object</td></tr><tr><td>असत्सदर्थयोः - </td><td>Of the unreal and real objects</td></tr><tr><td>बोधनम् - </td><td>Intimation</td></tr><tr><td>अपरां - </td><td>Third kind of Illustration</td></tr><tr><td>प्राहुः - </td><td>(the learned) call</td></tr><tr><td>तमः - </td><td>Darkness</td></tr><tr><td>चंद्रोदये - </td><td>At the rise of the moon</td></tr><tr><td>राजविरोधी - </td><td>The enemy of a king or moon</td></tr><tr><td>नश्येत् - </td><td>Will perish</td></tr><tr><td>इति - </td><td>So intimating</td></tr><tr><td>क्षीणाम् - </td><td>Vanished</td></tr></table><h3>Definition</h3><p>The intimation, by an agent engaged in a certain action, of the unreal and the real state of things signified by the action itself, it is" termed the third kind of Illustration.</p>'
+          },
+          examples: [
+            {
+              text: 'नश्येद्राजविरोधीति क्षीणं चन्द्रोदये तमः॥',
+              explanation_sans: 'तत्र नश्येदिति बोधयदिति वक्तव्ये बोधयदित्यस्य गम्यमनत्वादप्रयोगः तत्श्च राज्ञा चन्द्रेण सह विरुध स्वयं नाशक्रियाविशिष्टं तमः स्वकीयनाशक्रियया दृष्टान्तभूतया अन्योऽप्येवं राजविरुद्धश्चेन्नश्येदित्यनिष्टपर्यवसायिनमर्थं बोधयदेव नष्टमित्यर्थनिबन्धनादसदर्थनिदर्शना।',
+              explanation_eng: '<p>The enemy of a king (moon) will perish telling this, the darkness, on the rise of the moon, vanished.</p><p>Here, the darkness is the agent in the act of intimating to the world the above fact, the result of its own experience which is certainly unreal. This forms the example of unreal state of things.</p>'
+            },
+            {
+              text: '<h3>Example of the real state of things :- </h3>उदयन्नेव सविता दमेष्वर्पयति श्रियम्।<br>विभावयन् समृद्धीनां फलं सुहृदनुग्रहः॥',
+              explanation_sans: 'सविता स्वोदयसमय एव पद्मषु लक्ष्मीमादधानः स्वया पद्मलक्ष्म्याधानक्रियया परान्प्रति समृद्धीनां फलं सुहृदनुग्रह एवेति श्रेयस्करमर्थं बोधयन्निबद्ध इत सदर्थनिदर्शना।',
+              explanation_eng: '<h3>Word meanings</h3><table><tr><td>सविता - </td><td>The sun</td></tr><tr><td>उदयन्नेव - </td><td>Just when it rises</td></tr><tr><td>सुहृदनुग्रहम् - </td><td>Rewarding the friends</td></tr><tr><td>समृद्धीनाम् - </td><td>Of one’s riches</td></tr><tr><td>फलम् - </td><td>The chief object</td></tr><tr><td>विभावयन् - </td><td>(thus) intimating</td></tr><tr><td>पद्मेषु - </td><td>On the lotuses</td></tr><tr><td>श्रियम् - </td><td>Splendor</td></tr><tr><td>अर्पयति - </td><td>Consigns</td></tr></table><p>"The chief” object of one’s having riches consists in rewarding his friends’-thus intimating (to the world), the sun, just on its rise, consigns its own treasures (splendour) to the lotuses.</p><p>Here, the sun is the agent in the act of intimating to the world the above fact which is real as the lotuses bloom only on the rise of the sun.</p>'
             }
           ]
         }
