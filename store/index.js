@@ -43,7 +43,7 @@ export const state = () => ({
               text: 'हंसीव इत्युदाहरणम्‌। ',
               explanation: {
                 sans: '<p>इयं च पूर्णोपमा इत्युच्यते। <br>हंसी कीर्तिः स्वर्गङ्गावगाहनमिव शब्दश्चेत् एतेषाम् उपमान-उपमेय-साधारण-धर्मोपमा-वाचकानां चतुर्णामपि उपादानात्‌। </p>',
-                eng: '<p>O Krishna, thy fame like a she-swan enters the celestial Ganges (or pervades the celestial regions and this earth).</p><p>This is an example of ‘simile complete’; for, it contains all the four essentials of comparison,which are –</p><table><th><td></td><td>In the present example </td></th><tr><td>1. उपमेयम्, वर्ण्यम् or विषयः</td><td>The object compared, i.e, the subject of comparison, such as face etc.</td><td>कीर्तिः - Fame</td></tr><tr><td>2. उपमानम्, अवर्ण्यम् or विषयी</td><td>The object compared to, i.e, the standard of comparison, such as moon, lotus etc.</td><td>हंसी - swan </td></tr><tr><td>3. साधारणधर्मः or सामान्यधर्मः or simply धर्मः </td><td>The common attribute, i.e, the characteristic resemblance between the two objects (the object compared and the object compared to); or the quality of the said two objects that occasions their similitude such as charmingness or the like.</td><td>अवगाहते i.e, अवगाहनक्रिया - ‘The act of entering or pervading’ – the common attribute</td></tr><tr><td>4. उपमावाचकः or simply वाचकः </td><td>The word implying comparison, such as इव ‘as’ or the like.</td><td>इव - like</td></tr></table><br><p>कीर्तिः ‘fame’, यशस् ‘reputation’ and हासः ‘laughter’ are always described as white according to the convention of the poets. Hence, the fame of Krishna is compared to a swan which is of white colour.</p>'
+                eng: '<p>O Krishna, thy fame like a she-swan enters the celestial Ganges (or pervades the celestial regions and this earth).</p><p>This is an example of ‘simile complete’; for, it contains all the four essentials of comparison,which are –</p><table><thead><th></th><th></th><th>In the present example</th></thead><tr><td>1. उपमेयम्, वर्ण्यम् or विषयः</td><td>The object compared, i.e, the subject of comparison, such as face etc.</td><td>कीर्तिः - Fame</td></tr><tr><td>2. उपमानम्, अवर्ण्यम् or विषयी</td><td>The object compared to, i.e, the standard of comparison, such as moon, lotus etc.</td><td>हंसी - swan </td></tr><tr><td>3. साधारणधर्मः or सामान्यधर्मः or simply धर्मः </td><td>The common attribute, i.e, the characteristic resemblance between the two objects (the object compared and the object compared to); or the quality of the said two objects that occasions their similitude such as charmingness or the like.</td><td>अवगाहते i.e, अवगाहनक्रिया - ‘The act of entering or pervading’ – the common attribute</td></tr><tr><td>4. उपमावाचकः or simply वाचकः </td><td>The word implying comparison, such as इव ‘as’ or the like.</td><td>इव - like</td></tr></table><br><p>कीर्तिः ‘fame’, यशस् ‘reputation’ and हासः ‘laughter’ are always described as white according to the convention of the poets. Hence, the fame of Krishna is compared to a swan which is of white colour.</p>'
               }
             }
           ]
@@ -908,8 +908,510 @@ export const state = () => ({
       ]
     },
     {
-      title_eng: ' ',
+      title_sans: 'व्यतिरिक्तः ',
+      title_eng: 'व्यतिरिक्तः - Dissimilitude or Contrast',
       id: 19,
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>उपमानोपमेययोः - </td><td>Between the object compared to and that compared</td></tr><tr><td>विशेषः - </td><td>Any peculiarity</td></tr><tr><td>चेत् - </td><td>If asserted</td></tr><tr><td>व्यतिरेकः - </td><td>Dissimilitude or Contrast</td></tr><tr><td>संतः - </td><td>Good people</td></tr><tr><td>शैलाः इव - </td><td>As mountains</td></tr><tr><td>उन्नताः - </td><td>Are high</td></tr><tr><td>किंतु - </td><td>But</td></tr><tr><td>प्रकृतिकोमलाः - </td><td>Are delicate by nature</td></tr></table><h3>Definition</h3><p>If any characteristic difference is asserted between the object compared to and that compared, then it is called Dissimilitude or Contrast.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: '<p>Good men are as high as mountains ; but they (good men) are delicate by nature.</p><p>Here, we see a similitude between the good men, upameya, and the mountains, upamana, in one respect and a dissimilitude in another respect.</p>'
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_sans: 'सहोक्तिः',
+      title_eng: 'सहोक्तिः  Connected Description or a Speech with सह ‘with’',
+      id: 20,
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>चेत् - </td><td>if</td></tr><tr><td>जनरंजनः - </td><td>Pleasing to the people’s mind</td></tr><tr><td>सहभावः - </td><td>Simultaneity</td></tr><tr><td>भासते - </td><td>Shines forth</td></tr><tr><td>सहोक्तिः - </td><td>Connected Speech</td></tr><tr><td>तस्य - </td><td>Of that (king)</td></tr><tr><td>कीर्त्तिः - </td><td>Fame</td></tr><tr><td>प्रत्यर्थिभिः सह - </td><td>Together with (his) foes</td></tr><tr><td>दिगंतम् - </td><td>To the end of the quarter</td></tr><tr><td>अगमत् - </td><td>Reached</td></tr></table><h3>Definition</h3><p>A description of simultaneity or conjunction which will excite a pleasing (poetical) delight in the people’s (mind) is called the Connected Description.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: '<p>The fame of that king has reached the end of the quarters together with his foes.</p><p>Here, the reaching of the fame to the end of the quarters is directly expressed and that of the foes is indirectly expressed by the word सह । सह  denotes simultaneity of two actions that are of one and the same kind. The idea. conveyed in the present example is that both the king’s fame and the enemies reached the end of the quarters at the same time. Thus we see that this figure consists in the description of simultaneous action connected with सह ।</p>'
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_sans: 'विनोक्तिः',
+      title_eng: 'विनोक्तिः - Speech of Absence or Speech',
+      id: 21,
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>चेत् - </td><td>if</td></tr><tr><td>किंचिड्बिना - </td><td>In the absence of some other thing</td></tr><tr><td>प्रस्तुतम् - </td><td>The object on hand</td></tr><tr><td>हीनम् - </td><td>As inferior</td></tr><tr><td>उच्यते - </td><td>Is represented</td></tr><tr><td>विनोक्तिः - </td><td>Speech of Absence</td></tr><tr><td>विद्या - </td><td>The learning</td></tr><tr><td>हृद्या अपि - </td><td>Though pleasing</td></tr><tr><td>विनयसंपदम् - </td><td>Excellence of good behavior</td></tr><tr><td>विना - </td><td>Without</td></tr><tr><td>सा - </td><td>That, i.e., the learning</td></tr><tr><td>अवद्या - </td><td>Censurable</td></tr></table><h3>Definition</h3><p>When an object on hand is represented as inferior in the absence of some other object, it is termed the Speech of Absence.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: 'In the absence of excellent good behaviour, the learning, though pleasing, is censurable.'
+              }
+            }
+          ]
+        }
+      ],
+      types: 1,
+      type: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>चेत् - </td><td>if</td></tr><tr><td>तत् - </td><td>The object on hand</td></tr><tr><td>किंचिड्बिना - </td><td>Without some thing else</td></tr><tr><td>रम्यम् - </td><td>As charming</td></tr><tr><td>सापि - </td><td>That too</td></tr><tr><td>विनोक्तिः - </td><td>Speech of Absence</td></tr><tr><td>कथ्यते - </td><td>Is termed</td></tr><tr><td>राजेंद्र - </td><td>O best of kings!</td></tr><tr><td>एषा - </td><td>This</td></tr><tr><td>भवतः - </td><td>Of thy honour</td></tr><tr><td>सभा - </td><td>Council hall</td></tr><tr><td>खलैः विना - </td><td>In the absence of wicked persons</td></tr><tr><td>विभाति - </td><td>Shines</td></tr></table><h3>Definition</h3><p>When an object on hand is represented as charming in the absence of some other object, it is also called Speech of Absence.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation_sans: '',
+              explanation_eng: 'O best of kings 1 Thy council hall shines splendid in the absence of wicked persons.'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_sans: 'समासोक्तिः ',
+      title_eng: 'समासोक्तिः – Modal Metaphor or Speech of Brevity',
+      id: 22,
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>चेत् - </td><td>if</td></tr><tr><td>प्रस्तुते - </td><td>In the description of an object on hand</td></tr><tr><td>अप्रस्तुतस्य - </td><td>Of an object not on hand</td></tr><tr><td>परिस्फूर्त्तिः - </td><td>Apprehension</td></tr><tr><td>समासोक्तिः - </td><td>Speech of Brevity</td></tr><tr><td>अयम् - </td><td>This</td></tr><tr><td>चंद्रमाः - </td><td>The moon</td></tr><tr><td>रक्ताः - </td><td>Red</td></tr><tr><td>ऐंद्रीमुखं - </td><td>The face of the castern quarter</td></tr><tr><td>चुंबति - </td><td>Kisses</td></tr><tr><td>पश्य - </td><td>See !</td></tr></table><h3>Definition</h3><p>If, by the description of an object on hand, an object not on hand is apprehended, or in other words, when the description of an object on hand conveys a reference to an object, not on hand, it is called Modal Metaphor.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: '<p>My beloved ! see, this moon becoming red kisses the face of the Eastern (Indra’s) quarter.</p><p>Here, by the use of the words-(1) चुम्बति the action of which belongs to a human being, (2) चन्द्रमाः in the masculine gender and (3) ऐन्द्री in the feminine gender, we understand that a lover, the subject of discourse, out of passion, kisses the face of some beautiful damsel residing in the east.</p>'
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_sans: 'परिकरः ',
+      title_eng: 'परिकरः - Insinuator',
+      id: 23,
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>विशेषणे - </td><td>If the epithet</td></tr><tr><td>साभिप्राये - </td><td>Signifying the import</td></tr><tr><td>परिकरः - </td><td>Insinuator</td></tr><tr><td>अलंकारः - </td><td>Figure</td></tr><tr><td>सुधांशुकलितोत्तंसः - </td><td>Whose crest has been adorned by the moon</td></tr><tr><td>शिवः - </td><td>The God “Siva”</td></tr><tr><td>वः तापम् - </td><td>Your misery</td></tr><tr><td>हरतु - </td><td>Remove</td></tr></table><h3>Definition</h3><p>A speech with epithets signifying the import (of the speaker) is termed Insinuator.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: '<p>Let God Siva whose crest has been adorned with nectar-rayed (moon) remove your misery (lit. mental heat).</p><p>Here, the charming epithet सुधांशुकलितोत्तंसः  suggests that the heat is removable. This‘ figure occurs even when only one epithet is employed and when that epithet invests the verse with as peculiar charm agreeable to the effect like the present one.</p>'
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_sans: 'परिकरांकुरः',
+      title_eng: 'परिकरांकुरः - Sprout of an Insinuator.',
+      id: 24,
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>विशेष्येतु - </td><td>When the noun itself</td></tr><tr><td>साभिप्राये - </td><td>Signifying the import</td></tr><tr><td>परिकरांकुरः - </td><td>Sprout of an Insinuator</td></tr><tr><td>भवेत् - </td><td>Is</td></tr><tr><td>चतुर्भुजो देवः - </td><td>The four armed God Vishnu</td></tr><tr><td>चतुर्णां पुरूषार्थानां - </td><td>Of the four objects of human life</td></tr><tr><td>दाता - </td><td>Giver</td></tr></table><h3>Definition</h3><p>When the noun itself (i.e., Without epithets) signifies the import of the speaker, it is called the Sprout of an Insinuator.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: '<p>The four-armed God (Vishnu) is the giver of the four principal objects of life.</p><p>Four objects of life are धर्मः - ‘merit’, अर्थः - ‘wealth’, कामः - ‘enjoyment’ and मोक्षः - ‘liberation’.</p><p>“Here, the word चतुर्भुजः is one of the thousand names of the Lord Vishnu and is used here without epithets, The import of the speaker is that God Vishnu alone (being -four-armed) is able to distribute the four objects of life.</p>'
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_sans: 'श्लेषः',
+      title_eng: 'श्लेषः - Paronomasia',
+      id: 25,
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>वर्ण्यावर्ण्योभयास्पदः - </td><td>Relating to 1. An object on hand, 2. An object not on hand and 3. both</td></tr><tr><td>नानार्थसंश्रयः - </td><td>Depending upon words having many meanings</td></tr><tr><td>श्लेषः - </td><td>Paronomasia</td></tr><tr><td>सर्वदः - </td><td>All-giver</td></tr><tr><td>स माधवः - </td><td>The husband of मा  Lakshmi, the Lord Vishnu</td></tr><tr><td>पायात् - </td><td>May protect</td></tr><tr><td>यः - </td><td>Who</td></tr><tr><td>अगम् - </td><td>The mountain Govardhana</td></tr><tr><td>गाम् - </td><td>The earth</td></tr><tr><td>अदीधरत् - </td><td>Head up</td></tr><tr><td>सर्वदा - </td><td>Always</td></tr><tr><td>सः उमाधवः - </td><td>The husband of Uma, the Lord Shiva</td></tr><tr><td>पायात् - </td><td>May protect</td></tr><tr><td>यः - </td><td>Who</td></tr><tr><td>गंगाम् - </td><td>The river Ganges</td></tr><tr><td>अदीधरत् - </td><td>Bore (on his head)</td></tr></table><h3>Definition</h3><p>Paronomasia is the expression by words having more than one signification referring: <ol><li> to an object on hand, </li><li> to an object not on hand and </li><li> to both.</li></ul></p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: '<p>The all-giver Madhava who held up the mountain (Govardhana on his head) and the earth may protect (you).</p><p>The husband of Uma (Siva) who bore (on his head) the river Ganges may protect (you)</p><p>सर्वदो माधवः may be split into: <ol><li>सर्वदः माधवः </li><li>सर्वदा उमाधवः ।</li></ol></p><p>यो गंगाम्  may be split into: <ol><li> –यः अगं </li><li>यः गंगाम् ।</li></ol><p>Here both Madhava and Umadhava are objects on hand and this is therefore the Example of No. 1</p>'
+              }
+            },
+            {
+              text: 'Example of No. 2',
+              explanation: {
+                sans: '',
+                eng: '<h3>Word meanings</h3><table><tr><td>त्वन्मुखम् - </td><td>Thy face</td></tr><tr><td>हरिणाहितसक्तिना हरिणेन - </td><td>by the deer आहिता effected सक्तिः attachment येन having the attachement effected by the deer in the form of the spot</td></tr><tr><td>अब्जेन - </td><td>By the moon</td></tr><tr><td>तुल्यम् - </td><td>Is equal</td></tr></table><p>Or</p><table><tr><td>त्वन्मुखम् - </td><td>Thy face</td></tr><tr><td>हरिणा - </td><td>By the sun</td></tr><tr><td>आहितसक्तिना - </td><td>Having an attachment placed</td></tr><tr><td>अब्जेन - </td><td>By the lotus</td></tr><tr><td>तुल्यम् - </td><td>Is equal</td></tr></table><p>(Lady !) thy face resembles the moon having an attachment effected by the deer (in the form of the spot).</p><p>Or</p><p>(Lady !) thy face resembles the lotus having an attachment effected by the sun (in the act of blooming at the dawn).</p><p>Here, अब्ज “moon” and  अब्ज  “lotus” which are upamanas are both objects not on hand.</p>'
+              }
+            },
+            {
+              text: 'Example of No. 3.',
+              explanation_sans: '',
+              explanation_eng: '<h3>Word meanings</h3><table><tr><td>उच्चरड्भूरिकीलालः - </td><td>Having profuse effusion of blood</td></tr><tr><td>वाहिनीपतिः - </td><td>The commander of the army (Bhishma)</td></tr><tr><td>शुशुभे - </td><td>shone</td></tr></table><p>or</p><table><tr><td>उच्चरड्भूरिकीलालः - </td><td>having a vast expanse of water</td></tr><tr><td>वाहिनीपतिः - </td><td>The lord of the rivers (ocean)</td></tr><tr><td>शुशुभे - </td><td>shone</td></tr></table><p>The commander of the army, Bhishma, shone by the profuse effusion of blood</p><p>or</p><p>The Lord of the rivers, the ocean, shone by the vast expanse of water.</p><p>Here, the commander Bhishma is the object on. hand and the ocean is the object not on hand.</p>'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_sans: 'अप्रस्तुतप्रशंसा  ',
+      title_eng: 'अप्रस्तुतप्रशंसा - Indirect Description.',
+      id: 26,
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>यत्र - </td><td>where</td></tr><tr><td>सा - </td><td>That (description of an object not on hand)</td></tr><tr><td>प्रस्तुताश्रया - </td><td>Referring to an object on hand</td></tr><tr><td>अप्रस्तुतप्रशंसा स्यात् - </td><td>Is called Indirect Description</td></tr><tr><td>शकुंतेषु - </td><td>Among the birds</td></tr><tr><td>एकः - </td><td>One only</td></tr><tr><td>(चातकः) - </td><td>Chataka bird</td></tr><tr><td>कृती - </td><td>Fortunate one</td></tr><tr><td>यः - </td><td>Who</td></tr><tr><td>शक्रादन्यं - </td><td>Other than Indra</td></tr><tr><td>न याचते - </td><td>Never begs</td></tr></table><h3>Definition</h3><p>When the description of an object not on hand conveys a reference to an object on hand, it is called Indirect Description.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: '<p>(The chataka bird) is the only fortunate one, among the birds, which never begs of any other than Indra.</p><p>It is a known fact that chataka bird lives on rain drops and that Indra is the bestower of rain.</p><p>Here, the object in question is a noble man who never begs of any man except the Indra -like king and this is conveyed through the description of a chataka bird which is not the object on hand.</p><p>This is not समासोक्ति where a description of an object on hand conveys a reference to an object not on hand ; whilst, in this figure, it is quite contrary.</p>'
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_sans: 'प्रस्तुतांकुरः ',
+      title_eng: 'प्रस्तुतांकुरः -The Sprout of Direct Description',
+      id: 27,
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>प्रस्तुतेन - </td><td>By (description of) an object on hand</td></tr><tr><td>प्रस्तुतस्य - </td><td>Of (another) object on hand</td></tr><tr><td>द्योतने - </td><td>In the apprehension</td></tr><tr><td>प्रस्तुतांकुरः - </td><td>(it is) the Sprout of Direct Description</td></tr><tr><td>भृंग ! - </td><td>O bee !</td></tr><tr><td>मालत्यां सत्यां -When there is the Malati flower</td></tr><tr><td>कण्टकेड्बया - </td>Full of thorns</td></tr><tr><td>केतक्या - </td><td>By the Ketaki</td></tr><tr><td>किं - </td><td>What is the use.</td></tr></table><h3>Definition</h3><p>When the description of an object on hand conveys a, reference to another object on hand, it is called Prastutankura.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: '<p>O Bee! What (is the use of thy amusement) with the (un blown) Ketaki full of thorns while thou hast here the Malati (Jasamine) flower.</p><p>Here, a lady, by the description of the bee’s act with the unblown  Ketaki bud witnessed by her in her pleasure garden indirectly intimates the same to her lover, the subject of discourse, who is at present in love with a maiden who has not yet arrived at puberty. </p><p>N. B. The bee and the lover are both objects on hand. </p>'
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_sans: 'पर्य्यायोक्तम् ',
+      title_eng: 'पर्य्यायोक्तम् - Periphrasis',
+      id: 28,
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>गम्यस्य - </td><td>Of the fact intended to be expressed</td></tr><tr><td>भंग्यंतराश्रयम् - </td><td>Referring to another by a turn of speech</td></tr><tr><td>वचः तु - </td><td>The description</td></tr><tr><td>पर्य्यायोक्तम् - </td><td>Periphrasis</td></tr><tr><td>तस्मै - </td><td>To him</td></tr><tr><td>नमः - </td><td>Homage</td></tr><tr><td>येन - </td><td>By whom</td></tr><tr><td>राहुवधूकुचौ - </td><td>The breast of Rahu’s spouse</td></tr><tr><td>सुधा - </td><td>Useless</td></tr><tr><td>कृतौ - </td><td>Were made</td></tr></table><h3>Definition</h3><p>When a fact intended to be intimated is conveyed by a. circumlocutory speech, or in other words, when a fact intended to be described is expressed by a turn of speech, or if the intended fact is expressed in a different manner it is Periphrasis.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: '<p>Homage to him (God Vishnu) by Whom the breasts of R5.hu’s spouse were rendered useless.</p><p>Here, the intended fact is that homage is to the God Vishnu only, because he was the killer of Rahu and thus rendered the breasts of Rahu’s spouse useless and this fact has been expressed by a turn of speech, i.e., by different words which do not express it but by words which suggest it, simply for the purpose of giving a particular strikingness to the description.</p>'
+              }
+            }
+          ]
+        }
+      ],
+      types: 1,
+      type: [
+        {
+          sloka: 'Periphrasis- A second kind',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>व्याजिन - </td>Under a pretext</td></tr><tr><td>यत् इष्टसाधनम् - </td><td>The fulfillment of one’s own wish</td></tr><tr><td>तदपि - </td><td>Even that</td></tr><tr><td>पर्य्यायोक्तम् - </td><td>Periphrasis</td></tr><tr><td>आहुः - </td><td>(some) call</td></tr><tr><td>अहम् - </td><td>I</td></tr><tr><td>चूतलताम् - </td><td>The mango creeper</td></tr><tr><td>यामि - </td>Go</td></tr><tr><td>युवाभ्याम् - </td><td>By you both</td></tr><tr><td>इह - </td><td>Here</td></tr><tr><td>आस्यताम् - </td><td>Shall be stayed</td></tr></table><h3>Definition</h3><p>Even the fulfillment of one’s own wish under an artful pretext of doing some thing else is also called Periphrasis by some.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation_sans: '',
+              explanation_eng: '<p>Lovers! I depart hence for the purpose of seeing (my) mango creeper and it shall be stayed here by you both.</p><p>Here, the speaker is a female messenger who having united her mistress with her intended lover departs from that place under the pretext of seeing her own chuta creeper so that the couple may freely enjoy in the absence of a third person.</p>'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_sans: 'व्याजस्तुतिः',
+      title_eng: 'व्याजस्तुतिः - Artful Praise or Irony',
+      id: 29,
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>निंदास्तुतिभ्याम् - </td><td>By (apparent) censure and praise</td></tr><tr><td>स्तुतिनिंदयोः - </td><td>Of the praise and censure</td></tr><tr><td>उक्तिः - </td><td>speech</td></tr><tr><td>व्याजस्तुतिः - </td><td>Artful Praise</td></tr><tr><td>स्वर्धुनि ! - </td><td>Celestial Ganges !</td></tr><tr><td>ते - </td><td>Thy</td></tr><tr><td>विवेकः - </td><td>Judgment</td></tr><tr><td>कः - </td><td>What</td></tr><tr><td>यत् - </td><td>Because</td></tr><tr><td>पापिनः - </td><td>The sinners</td></tr><tr><td>दिवम् - </td><td>To the heaven</td></tr><tr><td>नयसे - </td><td>Take</td></tr></table><h3>Definition</h3><p>when (1) the praise is understood by apparent censure and (2) censure by apparent praise, it is termed Artful Praise.</p>'
+          },
+          examples: [
+            {
+              text: '<h3>Example of No. 1 - when the praise is understood by apparent censure</h3>',
+              explanation: {
+                sans: '',
+                eng: '<p>O celestial river Ganga! Thou art devoid of judgment in that thou conveyest the sinners to the heaven.</p><p>Here, the real praise has resulted by the apparent censure and it consists in representing the Ganga as taking the sinners to heaven provided they once bathe in her waters.</p><p>N.B. - व्याजस्तुतिः = व्याजेन स्तुतिः  Praise by an artifice-when praise is understood by apparent censure.</p><p>When censure is understood by apparent praise, व्याजस्तुतिः  is explained as व्याजरूपा स्तुतिः  praise consisting in an artifice or a pretended praise.</p>'
+              }
+            },
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: '<h3>Word meanings</h3><table><tr><td>दूति! - </td><td>Messenger !</td></tr><tr><td>साधु - </td><td>Well</td></tr><tr><td>अतःपरम् - </td><td>Than this</td></tr><tr><td>किम् - </td><td>What other</td></tr><tr><td>साधु - </td><td>Good</td></tr><tr><td>पुनः - </td><td>Again</td></tr><tr><td>कर्तव्यम् - </td><td>To be done</td></tr><tr><td>यत् - </td><td>Because</td></tr><tr><td>मदर्थे - </td><td>On my account</td></tr><tr><td>दंतैरपि - </td><td>Even by the teeth</td></tr><tr><td>नखैरपि - </td><td>Even by the nails</td></tr><tr><td>विलूना असि - </td>Wast injured</td></tr></table><h3>Well (done) messenger ! What other good than this can again be done; because thou, on my account, wast injured even by (my lover’s) teeth and nails.</p><p>Here, the speaker a lady pining under separation sent her maid-servant as a messenger to her lover and on seeing her returning with marks, in her body, of her having toyed with her (lady‘s) lord, censures her under pretext of Praise saying that she (lady) was saved by her (the maid servant) from the injury by her lord’s teeth and nails ; whereas in fact she was angry when she saw her servant coming single without her lord and was more angry when she observed on her body the marks of sexual intercourse with her own lord. Hence a censure resulted in the apparent praise.</p><p>N. B.-This is not अप्रस्तुतप्रशंसा (XXVII),  for, in it, there is no strikingness consisting either in censure or praise.</p>'
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_sans: 'व्याजनिन्दा',
+      title_eng: 'व्याजनिन्दा - Artful Censure',
+      id: 30,
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>निंदया - </td><td>By censure</td></tr><tr><td>निंदायाः - </td><td>Of censure</td></tr><tr><td>व्यक्तिः - </td><td>Manifestation</td></tr><tr><td>व्याजनिंदा - </td><td>Artful Censure</td></tr><tr><td>इति - </td><td>As</td></tr><tr><td>गीयते - </td><td>Is called</td></tr><tr><td>विधे - </td><td>Creator !</td></tr><tr><td>सः - </td><td>He</td></tr><tr><td>निम्द्यः - </td><td>Is to be censured</td></tr><tr><td>यः - </td><td>who</td></tr><tr><td>ते - </td><td>Thy </td></tr><tr><td>प्राक् - </td><td>Formerly</td></tr><tr><td>एकमेव - </td><td>Only one</td></tr><tr><td>शिरः - </td><td>Head</td></tr><tr><td>अहरत् - </td><td>Took away</td></tr></table><h3>Definition</h3><p>When an apparent censure (of an object not on hand) results in the censure (of an object not on hand), it is Artful Censure.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: '<p>O Creator 1 he (Siva) is to be censured-he that has lopped off only one head of thine formerly.</p><p>Here, the speaker, a poor man in very distressed circumstances, fancies himself that, if all the five heads of the God Brahmi were lopped off by Siva, then both the creator and the sufferings of the created would have been simultaneously put an end to. </p><p>Instead of directly censuring the God Brahma, the creator, the object on hand, the speaker censured the God Siva, the object not on hand, in having imprudently suffered the other four heads of Brahmi to remain.</p>'
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_sans: 'आक्षेपः',
+      title_eng: 'आक्षेपः - Hint',
+      id: 31,
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>स्वयम् -</td><td>By self</td></tr><tr><td>उक्तस्य - </td><td>Told or expressed</td></tr><tr><td>विचारणात् - </td><td>On deliberation</td></tr><tr><td>प्रतिषेधः - </td><td>Denial</td></tr><tr><td>आक्षेपः - </td><td>Hint</td></tr><tr><td>चंद्र ! - </td><td>O moon !</td></tr><tr><td>आत्मानम् - </td><td>Self</td></tr><tr><td>संदर्शय - </td><td>Show or discover</td></tr><tr><td>अथवा - </td><td>Or, or why</td></tr><tr><td>प्रियामुखम् - </td><td>Face of (my) beloved</td></tr><tr><td>अस्ति - </td><td>Is</td></tr></table><h3>Definition</h3><p>A denial, after some deliberation, of what has been expressed, is called Hint. </p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: '<p>O moon ! Discover thy self (to me). Why? Here is the face of (my) beloved.</p><p>Here, we see only a semblance of denial. This figure is distinct from the Concealment (XI) Where the property of an object on hand is denied and that of another not on hand is superimposed upon it.</p>'
+              }
+            }
+          ]
+        }
+      ],
+      types: 2,
+      type: [
+        {
+          sloka: 'A second kind of Hint.',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>केचन - </td><td>Some poets</td></tr><tr><td>बुधाः - </td><td>Learned people</td></tr><tr><td>निषेधाभासम् - </td><td>Semblance of a denial</td></tr><tr><td>आक्षेपम् - </td><td>Hint</td></tr><tr><td>अन्वते - </td><td>Regard</td></tr><tr><td>अहम् - </td><td>I</td></tr><tr><td>दूतौ - </td><td>Go- between</td></tr><tr><td>न - </td><td>Not</td></tr><tr><td>तस्याः - </td><td>Of her</td></tr><tr><td>तनोः - </td><td>Of the body</td></tr><tr><td>कालानलोपमः - </td><td>Resembling the destructive fire at the end of the world</td></tr><tr><td>तापः - </td><td>Fever of separation</td></tr></table><h3>Definition</h3><p>Some learned people regard the semblance of a denial as the figure Hint.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation_sans: '',
+              explanation_eng: '<p>I am no go-between but the love-fever (residing in ) her (mistress) body, resembling the destructive fire at the end of the world.</p><p>Here, the character of a person- that of the go- between, is denied. The fact of excessive hardship, experienced by the lady under the pangs of separation, which was intended to be conveyed by the go-between, the speaker, is suppressed in order to suggest more strikingly that the lady is sure to die if her lover delays even for a moment in meeting her.</p>'
+            }
+          ]
+        },
+        {
+          sloka: 'A third kind of Hint.',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>विधौ - </td><td>Command or permission</td></tr><tr><td>व्यक्ते - </td><td>When apparent</td></tr><tr><td>निषेधे च - </td><td>And the denial</td></tr><tr><td>तिरोहिते - </td><td>When hidden</td></tr><tr><td>अन्यः - </td><td>Another kind</td></tr><tr><td>आक्षेपः - </td><td>Hint</td></tr><tr><td>कांत ! - </td><td>Lover !</td></tr><tr><td>गच्छसि चेत् - </td><td>If thou goest</td></tr><tr><td>गच्छ - </td><td>Goest</td></tr><tr><td>मम - </td><td>My</td></tr><tr><td>जनिः - </td><td>Birth</td></tr><tr><td>तत्रैव - </td><td>In that same place</td></tr><tr><td>स्यात् - </td><td>May be</td></tr></table><h3>Definition</h3><p>When the permission (to do some thing) is apparent (in words) but the denial (to do that thing) is hidden, it is a third kind of Hint.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation_sans: '',
+              explanation_eng: '<p>Departest (thou), my love, if thou art determined to go, and may my rebirth take place in that same place (where thou hast gone).</p><p>Here, the apparent permission of going granted by the lady suggests a clear prohibition, the meaning conveyed thereby being that the lover ought to desist from departing from her presence.</p>'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_sans: 'विरोधाभासः',
+      title_eng: 'विरोधाभासः  or विरोधः -   Contradiction',
+      id: 32,
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>विरोधस्य - </td><td>Of incongruity</td></tr><tr><td>आभासत्वे - </td><td>When apparent</td></tr><tr><td>विरोधाभासः - </td><td>Contradiction</td></tr><tr><td>इष्यते - </td><td>Is called</td></tr><tr><td>तन्वि ! - </td><td>O slender woman !</td></tr><tr><td>तव - </td><td>thy</td></tr><tr><td>वक्षोजौ - </td><td>Breasts</td></tr><tr><td>हारेणा - </td><td>By the pearl- necklace</td></tr><tr><td>विनापि - </td><td>Though devoid of</td></tr><tr><td>हारिणौ - </td><td>Are charming or lit. possesses of necklace</td></tr></table><h3>Definition</h3><p>When an incongruity (between two things) is apparent (in Words), then it is called Contradiction.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: '<p>O slender lady ! thy breasts though devoid of pearl necklace are yet possessed of pearl necklaces, i.e., are yet charming.</p><p>Here, the apparent contradiction is to be explained by taking the word हारिणौ in the sense of ‘charming’ only.</p>'
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_sans: 'विभावना',
+      title_eng: 'विभावना - Peculiar Causation',
+      id: 33,
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>कारणम् विना अपि - </td><td>Though without cause</td></tr><tr><td>कार्यजन्म चेत् - </td><td>If the production of the  effect take place</td></tr><tr><td>विभावना - </td><td>Peculiar Causation</td></tr><tr><td>स्यात् - </td><td>Is called</td></tr><tr><td>त्वच्चरणाड्बयम् - </td><td>Thy two feet</td></tr><tr><td>लाक्षारसासिक्तम् अपि - </td><td>Though not dyed with red lac</td></tr><tr><td>रक्तम् - </td><td>Red</td></tr></table><h3>Definition</h3><p>When the production of an effect is represented as being without cause, it is Peculiar Causation.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: '<p>Lady! thy two feet are red though they were not dyed with red lac.</p><p>Here, the contradiction in the red feet without its cause, the lac, is due to the redness of the lady’s feet being natural. Therefore, we see that the production of an effect in the absence of its cause is not inconsistent in as much as the denial of a known cause suggests that the effect produced must be natural or is due to some other hidden cause.</p>'
+              }
+            }
+          ]
+        }
+      ],
+      types: 5,
+      type: [
+        {
+          sloka: 'A second kind of Peculiar Causation',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>हेतूनाम् - </td><td>Of the causes</td></tr><tr><td>अमग्रत्वे - </td><td>When incomplete</td></tr><tr><td>कार्य्योत्पत्तिः - </td><td>The production of an effect</td></tr><tr><td>च - </td><td>Also</td></tr><tr><td>सा मता - </td><td>Is termed that Peculiar Causation</td></tr><tr><td>मन्मथः - </td><td>God of love</td></tr><tr><td>अतीक्ष्णाकठिनैः - </td><td>Neither sharp nor hard</td></tr><tr><td>अस्त्रैः - </td><td>By weapons</td></tr><tr><td>अगत् - </td><td>The world</td></tr><tr><td>जयति - </td><td>Conquers</td></tr></table><h3>Definition</h3><p>When the production of an effect is represented as having taken place while its causes are apparently incomplete, (to produce such an effect), then it is the second kind of Peculiar Causation.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation_sans: '',
+              explanation_eng: '<p>By weapons, neither sharp nor hard, the God of love conquers the whole world.</p><p>Here, the conquest of the world by the God of love is represented as having taken place though his weapons are neither sharp nor hard (being only five flowers) and are therefore quite inadequate to produce such an effect. The contradiction here must be removed by the supposition of some superhuman cause specially gifted by the Supreme Spirit.</p>'
+            }
+          ]
+        },
+        {
+          sloka: 'A third kind of Peculiar Causation.',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>प्रतिबंधके - </td><td>When an impediment</td></tr><tr><td>सत्यपि - </td><td>Though present</td></tr><tr><td>कार्य्योत्पत्तिः - </td><td>Production of an effect</td></tr><tr><td>तृतीया - </td><td>Third kind</td></tr><tr><td>सा - </td><td>That - “ Peculiar Causation”</td></tr><tr><td>राजन् - </td><td>O king !</td></tr><tr><td>ते - </td><td>Thy</td></tr><tr><td>असिभुजंगमः - </td><td>Sword serpent i.e., the serpent in the form of thy sword</td></tr><tr><td>नरेंद्रान् एव - </td><td>Only the cures of poisons or kings</td></tr><tr><td>दशति - </td><td>Bites</td></tr></table><h3>Definition</h3><p>When the production of an effect is said to have taken place though there was an impediment (to such an effect), it is the third kind of Peculiar Causation.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation_sans: '',
+              explanation_eng: '<p>O king! thy sword-serpent bites only Narendran, i.e., curers of poisons only (lit. kings).</p><p>नरेन्द्र = king =dealer in antidotes. Here, serpent biting the curers of poison implies an impediment to the effect.</p>'
+            }
+          ]
+        },
+        {
+          sloka: 'Fourth kind of Peculiar Causation.',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>अकारणात् - </td><td>From a different cause</td></tr><tr><td>कार्यजन्म - </td><td>Production of an effect</td></tr><tr><td>चतुर्थी - </td><td>Fourth kind</td></tr><tr><td>विभावना - </td><td>Peculiar Causation</td></tr><tr><td>स्यात् - </td><td>Is</td></tr><tr><td>शंखात् - </td><td>From a conch- shell</td></tr><tr><td>अयम् - </td><td>This</td></tr><tr><td>वीणानिनादः - </td><td>Sound of a lute</td></tr><tr><td>उदेति - </td><td>Proceeds</td></tr><tr><td>महदद्भुतम् - </td><td>Great wonder</td></tr></table><h3>Definition</h3><p>When the production of an effect is represented as being from a different cause, or, more literally, from a similar cause, it is the fourth kind of Peculiar Causation.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation_sans: '',
+              explanation_eng: '<p>It is a great wonder that this musical sound of a lute proceeds from a. conch- shell(i.e., conch-shell-like neck of a damsel).</p><p>We know that a conch-shell cannot produce the sound of a lute and therefore this is a. Peculiar Causation.</p><p>N.B.- We have a Metaphorical Hyperbole in शंख , the upamana, because it was used For its upameya, the neck of a damsel.</p>'
+            }
+          ]
+        },
+        {
+          sloka: 'Fifth kind of Peculiar Causation.',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>विरुड्वात् - </td><td>From an incongruous cause</td></tr><tr><td>कार्यसंपत्तिः - </td><td>Production of an effect</td></tr><tr><td>काचित् - </td><td>A certain kind</td></tr><tr><td>विभावना - </td><td>Peculiar Causation</td></tr><tr><td>दृष्टा - </td><td>Is seen</td></tr><tr><td>हंत - </td><td>Alas !</td></tr><tr><td>शीतांशुकिरणाः - </td><td>Moon’s (cool-rayed) rays</td></tr><tr><td>ताम् - </td><td>That</td></tr><tr><td>तन्वीम् - </td><td>The slender lady</td></tr><tr><td>संतापयन्ति - </td><td>Inflame</td></tr></table><h3>Definition</h3><p>When the production of an effect is produced from an incongruous cause, i.e., from a cause quite opposite to the real one, it is the fifth kind of Peculiar Causation.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation_sans: '',
+              explanation_eng: '<p>Alas ! the rays of the moon (lit. cool-rayed) inflame that slender lady.</p><p>This is the state of a damsel, the object on hand, pining under separation from her lover. The rays of the moon have a peculiar charm of exciting the passions of such women and therefore it is said so.</p>'
+            }
+          ]
+        },
+        {
+          sloka: 'Sixth kind of Peculiar Causation.',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>कार्यात् - </td><td>From an effect</td></tr><tr><td>कारणजन्म - </td><td>Production of a cause</td></tr><tr><td>अपि - </td><td>Also</td></tr><tr><td>काचित् - </td><td>A certain kind</td></tr><tr><td>विभावना - </td><td>Peculiar Causation</td></tr><tr><td>दृष्टा - </td><td>Is seen</td></tr><tr><td>तव - </td><td>Thy</td></tr><tr><td>करकल्पतरोः - </td><td>Hand-kalpa-tree i.e., wish-yielding tree in the form of the hand</td></tr><tr><td>यशः पयोराशिः - </td><td>Ocean of fame</td></tr><tr><td>अभूत् - </td><td>Is produced</td></tr></table><h3>Definition</h3><p>When the cause is said to have been produced from its effect, it is also termed Peculiar Causation.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation_sans: '',
+              explanation_eng: '<p>O king! An ocean of fame has been formed out of thy hand-kalpataru (wish-yielding tree in the form of thy hand).</p><p>Here, the king referred to is Karna renowned for his liberal donations.</p><p>The kalpa tree was produced from the ocean at the time of churning. Here, the kalpa tree in the form of the king’s hand is said to be the cause of the ocean in the form of the kings fame for his unusual liberality.</p>'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_eng: ' ',
+      id: 34,
       common: '<a href="/exercises">Go to exercises</a>'
     }
   ]
