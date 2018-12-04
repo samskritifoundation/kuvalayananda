@@ -1410,8 +1410,581 @@ export const state = () => ({
       ]
     },
     {
-      title_eng: ' ',
+      title_sans: 'विशेषोक्तिः',
+      title_eng: 'विशेषोक्तिः  Peculiar Allegation',
       id: 34,
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>पुष्कलकारणे - </td><td>Abundant cause</td></tr><tr><td>सति - </td><td>When there is</td></tr><tr><td>कार्याजनिः - </td><td>Non-production of an effect</td></tr><tr><td>विशेषोक्तिः - </td><td>Peculiar Allegation</td></tr><tr><td>स्मरदीपे - </td><td>Cupid-lamp</td></tr><tr><td>हृदि - </td><td>In the heart</td></tr><tr><td>ज्वलत्यपि - </td><td>Though burning</td></tr><tr><td>स्नेहक्षयः - </td><td>Diminution of oil (affection)</td></tr><tr><td>न अभूत - </td><td>Did not take place</td></tr></table><h3>Definition</h3>The non-production of an effect when there existed abundant cause (for the same) is called Peculiar Allegation.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: '<p> The diminution of oil (lit affection) did not take place in the heart (of this lady pining under separation) even though the cupid lamp is burning (there).</p><p>Here, the burning of the cupid-lamp, the cause, is present and yet the effect, the diminution of oil, is represented as not taking place. The contradiction can, however, be removed by explaining the Word स्नेह in the sense of ‘affection’ only.</p>'
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_sans: 'असंभवः',
+      title_eng: 'असंभवः - Improbability',
+      id: 35,
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>अर्थनिष्पत्तेः - </td><td>Of the accomplishment of an object</td></tr><tr><td>असंभाव्यत्ववर्णनम् - </td><td>The description of impossibility</td></tr><tr><td>असंभवः - </td><td>Improbability</td></tr><tr><td>गोपशिशुकः - </td><td>This shepherd boy</td></tr><tr><td>शैलम् - </td><td>The mountain</td></tr><tr><td>गोवर्धन उत्पाटयेदिति - </td><td>Would have eradicated</td></tr><tr><td>कः - </td><td>Who</td></tr><tr><td>वेद	Knew</td></tr></table><h3>Definition</h3><p>Improbability is the description of the accomplishment of a truly impossible act.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: '<p>Who knew that this shepherd boy would have eradicated the Mountain Govardhana.</p><p>The shepherd boy is the Lord Krishna. who held up the Mountain Govardhana. for seven days as a large umbrella. to shelter his beloved Gopis and their cattle from the heavy and incessant rain caused by Indra to deluge the Gokula, the land of the shepherds.</p>'
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_sans: 'असंगतिः',
+      title_eng: 'असंगतिः - Disconnection',
+      id: 36,
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>कार्यहेत्वोः - </td><td>Of the effect and the cause</td></tr><tr><td>विरुड्वं - </td><td>Inconsistent</td></tr><tr><td>भिन्नदेशत्वम् - </td><td>Different location</td></tr><tr><td>असंगतिः - </td><td>Disconnection</td></tr><tr><td>जलधरैः - </td><td>By the clouds</td></tr><tr><td>विषम् - </td><td>Poison (lit. water)</td></tr><tr><td>पीतम् - </td><td>Was drunk</td></tr><tr><td>पथिकांगनाः - </td><td>The consorts of the travelers</td></tr><tr><td>मूर्छिताः - </td><td>Fainted</td></tr></table><h3>Definition</h3><p>The description of the effect and the cause as inconsistent and as occupying different locations, is termed Disconnection.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: '<p>The poison (lit. water) was drunk by the clouds and the consorts of the travelers fainted.</p><p>This figure is only an exception to the ornament of Contradiction (XXXIII) and not Contradiction itself, where the mutual inconsistency of two objects resides in one place ; but in this figure in two different places.</p><p>The drinking of poison (water) by the clouds and its effect, the fainting of the consorts, take place in two different localities. It is a. convention of poets that the women are affected at the sight of the clouds in the rainy season being separated from their lovers who therefore hasten to meet their beloved.</p>'
+              }
+            }
+          ]
+        }
+      ],
+      types: 2,
+      type: [
+        {
+          sloka: 'Second kind of Disconnection',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>अन्यत्र - </td><td>In another place</td></tr><tr><td>करणीयस्य - </td><td>Of a thing to be done</td></tr><tr><td>ततः - </td><td>Other than</td></tr><tr><td>अन्यत्र - </td><td>Another place</td></tr><tr><td>कृतिः च - </td><td>Accomplishment too</td></tr><tr><td>सा - </td><td>That i.e., Disconnection</td></tr></table><p>When the accomplishment or effect of an object to be produced in a certain locality is represented as having taken place in a quite different locality, it is called the second kind of Disconnection.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation_sans: '',
+              explanation_eng: '<h3>Word meanings</h3><table><tr><td>(कृष्णाः) - </td><td>(Lord Krishna)</td></tr><tr><td>वसुधां - </td><td>The earth</td></tr><tr><td>अपारिजाताम् - </td><td>Devoid of परिजात or अरिजात</td></tr><tr><td>चिकीर्षन् - </td><td>Wishing to do</td></tr><tr><td>द्यां - </td><td>The paradise</td></tr><tr><td>तथा अकृथाः - </td><td>Did so</td></tr></table><p>Lord Krishna who wished to make the earth Aparijata devoid of the multitude of foes made the celestial world so i.e. अपारिजाता devoid of Parijata tree.</p><p>Parijata is a celestial tree produced at the churning of the milky-ocean. Krishna at the request of one of his wives Satyabhama carried off this tree from Indra’s garden (Nandana). A conflict ensued between Indra and Krishna in which the latter was victorious. The tree was brought to the city Dvaraka and was planted in the Satyabhama’ s pleasure-garden.</p><p>N. B.-This figure is possible only under a pun.</p>'
+            }
+          ]
+        },
+        {
+          sloka: 'Third kind of Disconnection',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>अन्यम् - </td><td>Another (thing)</td></tr><tr><td>कर्तुं - </td><td>To do</td></tr><tr><td>प्रवृत्तस्य - </td><td>Of a person engaged</td></tr><tr><td>तत् विरुड्वकृतिः - </td><td>The accomplishment quite contrary to the above</td></tr><tr><td>तथा - </td><td>So i.e., the figure Disconnection</td></tr></table><p>An incongruous effect of an object obtained by an agent engaged to do a quite different thing is termed a third kind of Disconnection.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation_sans: 'गोत्रोद्वारप्रवृत्तोपि गोत्रोद्भेदं पुराकरोः ॥',
+              explanation_eng: '<h3>Word meanings</h3><table><tr><td>(विष्णो) - </td><td>(O Lord Vishnu)</td></tr><tr><td>गोत्रोद्वारप्रवृत्तः अपि - </td><td>Though engaged in raising the earth</td></tr><tr><td>गोत्रोद्भेदम् - </td><td>The splitting of the earth</td></tr><tr><td>पुरा - </td><td>Formerly</td></tr><tr><td>अकरोः - </td><td>Thou didst.</td></tr></table><p>O Lord Vishnu; formerly though thou wert engaged in the raising of the earth, thou didst (the opposite, i.e.) the splitting of the earth (by the foot-prints of the Varaha).</p><p>This refers to the third incarnation of Vishnu in the form of a boar in order to raise the earth which was immersed in water. After raising the earth he walked on the earth and the foot prints made by him are referred to here.</p>'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_sans: 'विषमम्',
+      title_eng: 'विषमम्- Incongruity',
+      id: 37,
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>यत्र - </td><td>where</td></tr><tr><td>अननुरूपयोः - </td><td>Of two incongruous (things)</td></tr><tr><td>घटना - </td><td>Combination</td></tr><tr><td>वर्ण्यते - </td><td>Is described</td></tr><tr><td>विषमम् - </td><td>Incongruity</td></tr><tr><td>शिरिषमृड्वगी - </td><td>Having the body soft as the Sirisha flower</td></tr><tr><td>इयम् - </td><td>This (lady)</td></tr><tr><td>क्व - </td><td>Where</td></tr><tr><td>तादृक् - </td><td>That</td></tr><tr><td>मदनज्वरः - </td><td>Love-fever or torments of God of love</td></tr><tr><td>क्व - </td><td>Where</td></tr><tr><td><h3>Definition</h3><p>Vishama is a figure where a combination of two incongruous things is described.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: '<p>Where this lady with body as soft as the Sirisha flower and where these torments or fever of the God of love.</p><p>Here, we see the incongruity or incompatible relation of two things which are opposed to each other, i.e., the nature of the God of love is quite opposed to the nature of the lady, under description, whose body is soft as the Sirisha flower.</p>'
+              }
+            }
+          ]
+        }
+      ],
+      types: 2,
+      type: [
+        {
+          sloka: ' Second kind of Incongruity.',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>विरुड्वकार्यस्य - </td><td>Of the opposite effect</td></tr><tr><td>उत्पत्तिः - </td><td>Production</td></tr><tr><td>अपरम् - </td><td>Another kind</td></tr><tr><td>विषमम् - </td><td>Incongruity</td></tr><tr><td>मतम् - </td><td>Is considered</td></tr><tr><td>तव - </td><td>Thy</td></tr><tr><td>श्ह्यामा - </td><td>Dark</td></tr><tr><td>कृपाणिका - </td><td>Sword</td></tr><tr><td>धवलाम् - </td><td>White</td></tr><tr><td>कीर्त्तिं - </td><td>Fame</td></tr><tr><td>प्रसूते - </td><td>Produces</td></tr></table><h3>Definition</h3><p>The production of an effect from an incongruous cause is considered a second kind of Incongruity. Or in other words, when the quality of the effect is opposed to that of its cause, it is Incongruity.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation_sans: '',
+              explanation_eng: '<p>O king ! Thy dark sword produces a white fame. </p><p>Here, We have White fame arising from the dark sword which has been figured here as the cause in contravention to the general convention-that the quality of an effect must conform to its cause.</p>'
+            }
+          ]
+        },
+        {
+          sloka: 'Third kind of Incongruity.',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td> इष्टार्थसमुद्यमात् - </td><td>From an endeavor made for a desired object</td></tr><tr><td>अनिष्टस्य अपि - </td><td>Of an undesired object</td></tr><tr><td>अवाप्तिः - </td><td>Attainment</td></tr><tr><td>तत् - </td><td>It i.e., Incongruity</td></tr><tr><td>आखुः - </td><td>Rat</td></tr><tr><td>भक्ष्याशया - </td><td>With the hope of getting some eatables</td></tr><tr><td>अहिमंजूषाम् - </td><td>The snake basket</td></tr><tr><td>दृष्ट्वा - </td><td>Having seen</td></tr><tr><td>(प्रविष्टः) - </td><td>(entered)</td></tr><tr><td>तेन - </td><td>By it</td></tr><tr><td>भक्षितः - </td><td>Was devoured</td></tr></table><h3>Definition</h3><p>The attainment of an undesired object from an Endeavour made for a desired one is termed the third kind of Incongruity. Or in other words, when a desired object for which an endeavor is made is not obtained but, on the contrary, an unfavorable result is obtained, it is the third kind of Incongruity.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation_sans: '',
+              explanation_eng: '<p>The rat seeing the snake-basket (entered into the same) in the hope of obtaining some eatables and was itself devoured by it (snake).</p><p>Here, the object of the rat to obtain some eatables for it by boring the basket was not attained and it became a pray to the hungry snake lying in the basket.</p>'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_sans: 'समम्',
+      title_eng: 'समम्- The Equal',
+      id: 38,
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>यत्र - </td><td>Where</td></tr><tr><td>अनुरूपयोः ड्वयोः - </td><td>Of two agreeable objects</td></tr><tr><td>वर्णनम् - </td><td>Description</td></tr><tr><td>समम् - </td><td>The Equal</td></tr><tr><td>स्यात् - </td><td>Is</td></tr><tr><td>हारेण - </td><td>By the pearl-necklace</td></tr><tr><td>कुचमण्डलम् - </td><td>The circular bosoms</td></tr><tr><td>स्वानुरूपम् - </td><td>Worthy of itself</td></tr><tr><td>सद्म - </td><td>Place</td></tr><tr><td>कृतम् - </td><td>selected</td></tr></table><h3>Definition</h3><p>सम is the description of the combination of two agreeable objects.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: '<p>The circular bosoms were selected by the pearl-necklace as the (fit) place worthy of itself.</p>'
+              }
+            }
+          ]
+        }
+      ],
+      types: 2,
+      type: [
+        {
+          sloka: ' Second kind of समम्',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td> कार्य्यस्य - </td><td>Of the effect</td></tr><tr><td>कारणेन - </td><td>By the cause</td></tr><tr><td>सारूप्यम् अपि - </td><td>Sameness also</td></tr><tr><td>समम् - </td><td>Equal</td></tr><tr><td>विदुः - </td><td>Know</td></tr><tr><td>लक्ष्मि ! - </td><td>O Goddess of riches!</td></tr><tr><td>जलजायाः - </td><td>born of water</td></tr><tr><td>तव - </td><td>thy</td></tr><tr><td>नीचप्रवणता - </td><td>Resorting to the low people</td></tr><tr><td>उचिता - </td><td>Is worthy</td></tr></table><h3>Definition</h3><p>The sameness of an effect with its cause is termed a second kind of Sama.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation_sans: '',
+              explanation_eng: '<p>O Goddess of riches ! Thy character of resorting to the low (people) is worthy of thyself born of water.</p><p>The Goddess Lakshmi was produced at the churning of the Ocean. Here, the character of Lakshmi is said to be the same as that of its cause, the Water which naturally flows in a low direction.</p>'
+            }
+          ]
+        },
+        {
+          sloka: 'Third kind of  समम् ।',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td> यम् अर्थम् - </td><td>Which thing</td></tr><tr><td>कर्तुम् - </td><td>To do</td></tr><tr><td>उद्यमः - </td><td>Endeavour</td></tr><tr><td>अनिष्टम् विना - </td><td>Without an obstacle</td></tr><tr><td>तत्सिड्विः - </td><td>The accomplishment of that</td></tr><tr><td>समम् - </td><td>The equal</td></tr><tr><td>वारणार्थिनः - </td><td>Seeking for an elephant</td></tr><tr><td>ते - </td><td>Thy</td></tr><tr><td>अयम् - </td><td>This </td></tr><tr><td>वारणालाभः - </td><td>Attainment of वारणा (impediment)</td></tr><tr><td>युक्तः स्यात् न	Is it not worthy</td></tr></table><h3>Definition</h3><p>The accomplishment, without any obstacle, of an object for which an effort has been made, is termed a third kind of Sama.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation_sans: '',
+              explanation_eng: '<p>Friend! Is not this acquisition of (वारणा) impediment worthy of thee that sought for an elephant (वारणा).</p><p>This is possible only under a pun.</p><p>The speaker here is a person that went to his king for an elephant. He was obstructed by the door- keeper of the king’s palace and this was addressed in jest by his (speaker’s) brother-in-law who accompanied him saying that this वारणा (impediment) is equal to hat वारणा (elephant) sought for.</p>'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_sans: 'विचित्रम् ',
+      title_eng: 'विचित्रम् - Strange',
+      id: 39,
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>चेत् विपरीतफलेच्छया - </td><td>With a desire to obtain its opposite effect</td></tr><tr><td>प्रयत्नः - </td><td>An Endeavour</td></tr><tr><td>तत् - </td><td>That</td></tr><tr><td>विचित्रम् - </td><td>Strange</td></tr><tr><td>संतः - </td><td>Good people</td></tr><tr><td>त्रिलोक्यादपि - </td><td>Higher than the tripled world</td></tr><tr><td>समुन्नतिम् - </td><td>Exalted position</td></tr><tr><td>लब्धुम् - </td><td>To attain</td></tr><tr><td>नमन्ति - </td><td>Bow down</td></tr></table><h3>Definition</h3><p>If an endeavour is made by a person desiring to attain the exact opposite effect, it is called the Strange.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: '<p>The good people bow down for the purpose of attaining an exalted position higher than’ the triple World.</p><p>Here, the act is bowing down and the desired effect is elevation over the triple world.</p>'
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_sans: 'अधिकम् ',
+      title_eng: 'अधिकम् - Exceeding',
+      id: 40,
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td> पृथुलाधारात् - </td><td>Than the more spacious containment</td></tr><tr><td>आधेयाधिक्यवर्णनम् - </td><td>The description of the contained as greater</td></tr><tr><td>अधिकम् - </td><td>The exceeding</td></tr><tr><td>यत्र जले - </td><td>In which water</td></tr><tr><td>ब्रह्मांडानि - </td><td>The mundane worlds</td></tr><tr><td>तत्र - </td><td>In that</td></tr><tr><td>ते - </td><td>Thy</td></tr><tr><td>गुणाः - </td><td>Merits</td></tr><tr><td>न मांति - </td><td>Do not contain</td></tr></table><h3>Definition</h3><p>When the object contained is described as vaster than the containant itself (which is really more spacious), it is termed the Exceeding.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: '<p>Lord ! The waters which contain these mundane worlds could not contain (within themselves all) thy good qualities.</p>'
+              }
+            }
+          ]
+        }
+      ],
+      types: 1,
+      type: [
+        {
+          sloka: 'Second kind of Exceeding.',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>पृथ्वाधेयात् - </td><td>Than the vast contained</td></tr><tr><td>यत् - </td><td>Which</td></tr><tr><td>आधाराधिक्यम् - </td><td>The description of the containant as exceeding</td></tr><tr><td>तदपि - </td><td>It too</td></tr><tr><td> तत् - </td><td>That i.e., Exceeding</td></tr><tr><td>मतम् - </td><td>Is regarded</td></tr><tr><td>यत्र - </td><td>Where</td></tr><tr><td>एते - </td><td>These</td></tr><tr><td>तव - </td><td>Thy</td></tr><tr><td>गुणाः - </td><td>Good qualities</td></tr><tr><td> विश्राम्यंति - </td><td>Come to an end</td></tr><tr><td>वाग्ब्रह्म - </td><td>The speech Brahman= Vedas</td></tr><tr><td>कियत् - </td><td>How great</td></tr></table><h3>Definition</h3><p>When the containant itself is described as vaster than the vast contained, then we have a second kind of Exceeding.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation_sans: '',
+              explanation_eng: '<p>How great is the speech Brahman =Vedas, where all these thy good qualities come to an end, i.e., become completely described.</p>'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_sans: 'अल्पम् ',
+      title_eng: 'अल्पम् - Smallness',
+      id: 41,
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>सूक्ष्मात् - </td><td>Small</td></tr><tr><td>आधेयात् - </td><td>Than the object contained</td></tr><tr><td>यत् - </td><td>Which</td></tr><tr><td>आधारस्य - </td><td>Of the containant</td></tr><tr><td>सूक्ष्मता - </td><td>Smallness</td></tr><tr><td>अल्पम् - </td><td>Smallness</td></tr><tr><td>अद्य - </td><td>To-day</td></tr><tr><td>ते - </td><td>Thy</td></tr><tr><td>करे - </td><td>In the hand</td></tr><tr><td>मणिमालोर्मिका - </td><td>Ring inlaid with precious stones</td></tr><tr><td>जपमालायते - </td><td>Becomes a rosary</td></tr></table<<h3>Def. When the containant is described as smaller than the object contained which is really very small, it is called Smallness.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: '<p>Lady I Thy ring inlaid with precious stones has become to-day a rosary in thy hand.</p><p>Here, the thinness of the hand or the finger which contained the ring is meant. The lady under description was suffering from the pangs of separation from her lover on a certain day and so her hand or finger, the containant, became so thin that the ring, the object contained, became greater than the hand, the containant, and served as a rosary.</p>'
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_sans: 'अन्योन्यम् ',
+      title_eng: 'अन्योन्यम् - The Reciprocal',
+      id: 42,
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td> यत्र - </td><td>where</td></tr><tr><td>परस्परम् - </td><td>Mutual</td></tr><tr><td>उपकारः - </td><td>Benefit</td></tr><tr><td>स्यात् - </td><td>Is</td></tr><tr><td>(तत्र) - </td><td>There</td></tr><tr><td>अन्योन्यम् नाम - </td><td>The figure called Reciprocal</td></tr></table><h3>Definition</h3><p>When two things benefit each other (by doing the same act causing each other’s beauty), it is the Reciprocal.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: '<h3>Word meanings</h3><table><tr><td>त्रियामा - </td><td>the night</td></tr><tr><td>शशिना - </td><td>By the moon</td></tr><tr><td>भाति - </td><td>Looks splendid</td></tr><tr><td> शशी - </td><td>The moon</td></tr><tr><td>     त्रियामया - </td><td>By the night</td></tr><tr><td>भाति - </td><td>Looks splendid</td></tr></table><p>The night is splendid by (the presence of ) the moon and the moon looks splendid on account of the night.</p><p>Here, the night and the moon beautify each other. The night is the cause of the moon looking splendid and the moon is the cause of the night looking splendid.</p>'
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_sans: 'विशेषः ',
+      title_eng: 'विशेषः - The Extraordinary',
+      id: 43,
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>ख्यातम् - </td><td>Well-known</td></tr><tr><td>आधारम् - </td><td>The containant</td></tr><tr><td>विनापि - </td><td>Even without</td></tr><tr><td>आधेयवर्णनम् - </td><td>The description of the object contained</td></tr><tr><td>विशेषः - </td><td>Extraordinary</td></tr><tr><td>सूर्ये - </td><td>The sun</td></tr><tr><td>गते अपि  - </td><td>Though set</td></tr><tr><td>दीपस्थाः - </td><td>Abiding in the lamp</td></tr><tr><td>तत्कराः - </td><td>Its (sun’s) rays</td></tr><tr><td>तमः - </td><td>The darkness</td></tr><tr><td>छिंदंति - </td><td>Expel</td></tr></table><h3>Definition</h3><p>The description of something dependent, i,e., the object contained as existing without its well-known supporter, i.e., the containant, or in other words, the representation of the independent existence of the object contained without its supporter on which it depends, is termed the Extraordinary.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: '<p>Though the sun has set in, yet its rays abiding in the lamp expel the darkness.</p><p>The statement that lamps expel the darkness only by the rays of the sun which has gone to the other side of the earth is Extraordinary.</p><p>N.B.-The Vedas declare that the lustre of the sun enters the ﬁre in the evening. Compare Raghu-vansa, IV. 1.</p><p>स राज्यं गुरूणादत्तं प्रतिपद्याधिकं बभौ ।<br>दिनान्ते निहितं तेजः सवित्रेव हुताशनः ॥</p><p>He (Raghu) obtained the kingdom given by (his) father and shone the more just as the ﬁre that got the lustre deposited with (it) by the sun at the close of the day.</p>'
+              }
+            }
+          ]
+        }
+      ],
+      types: 2,
+      type: [
+        {
+          sloka: 'Second kind of the Extraordinary.',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>यदि - </td><td>if</td></tr><tr><td>एकं - </td><td>One</td></tr><tr><td>वस्तु - </td><td>Object</td></tr><tr><td>अनेकत्र - </td><td>In many places</td></tr><tr><td>वर्ण्यते - </td><td>Is described</td></tr><tr><td>सोऽपि - </td><td>That too</td></tr><tr><td>विशेषः - </td><td>The Extraordinary</td></tr></table><h3>Definition</h3><p>If one and the same object is described as existing in many places, it is also termed the Extraordinary.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation_sans: '',
+              explanation_eng: '<h3>Word meanings</h3><table><tr><td> अंतः - </td><td>In</td></tr><tr><td>बहिः - </td><td>Out</td></tr><tr><td> पुरः - </td><td>In the front</td></tr><tr><td>पश्चात् - </td><td>Behind</td></tr><tr><td>मे सर्वदिक्षु अपि - </td><td>In all the directions</td></tr><tr><td> सैव - </td><td>Only she</td></tr></table><p>In my mind, in the outside, in the front, behind my back, in all the directions too (wherever I turn my face), only she (my beloved) appears (to me).</p><p>Here, one single object is said to exist uniformly in many places.</p><p>N.B.- A1though these as well as certain other representations are impossible and opposed to ordinary experience, yet they are said to have been represented as possible only metaphorically.</p>'
+            }
+          ]
+        },
+        {
+          sloka: 'Third kind of the Extraordinary.',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>किंचित् - </td><td>A certain (act)</td></tr><tr><td>आरंभतः - </td><td>Commencing to do</td></tr><tr><td>अशक्यस्त्वंतरकृतिश्च - </td><td>Even the performance of another impossible act</td></tr><tr><td>सः - </td><td>The Extraordinary</td></tr></table><h3>Definition</h3><p>When some one who has commenced to do an act chances to do another impossible act (unconnected with the former), it is the third kind of the Extraordinary.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation_sans: '',
+              explanation_eng: '<h3>Word meaning</h3><table><tr><td>त्वां - </td><td>Thee</td></tr><tr><td>पश्यता - </td><td>Seeing</td></tr><tr><td>मया - </td><td>By me</td></tr><tr><td>कल्पद्रुमनिरीक्षणम् - </td><td>The sight of the Kalpa tree</td></tr><tr><td>लब्धम् - </td><td>Was got</td></tr></table><p>By seeing you, (O king !) I got the sight of the Wish-yielding tree of the paradise.</p><p>Here, the speaker who ﬁrst commenced to do an act, i.e., seeing the king, the liberal donor, says that he has seen the kalpa tree (instead of seeing the king himself who has now been identiﬁed by the speaker with the kalpa tree) of the paradise very difﬁcult to obtain.</p>'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_sans: 'व्याघातः',
+      title_eng: 'व्याघातः - Frustration',
+      id: 44,
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td></td>चेत् - <td></td>if</td></tr><tr><td>तथाकारि - </td><td>The thing which produces its natural effect</td></tr><tr><td>अन्यथाकारि - </td><td>As the one which produces another effect</td></tr><tr><td>क्रियेत - </td><td>Is represented</td></tr><tr><td>व्याघातः स्यात् - </td><td>It is Frustration</td></tr></table><h3>Definition</h3><p>When a thing which produces the established result, i.e., the effect natural to its cause is represented to have produced the exact opposite result, it is called Frustration.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: '<h3>Word meanings</h3><table><tr><td>यैः (पुष्पैः) - </td><td>By which (flowers)</td></tr><tr><td>जगत् - </td><td>The world</td></tr><tr><td>प्रीयते - </td><td>Is pleased</td></tr><tr><td>तैः एव - </td><td>By the same (flowers)</td></tr><tr><td>कुसुमायुधः - </td><td>The flower-shafted God of love</td></tr><tr><td>हंति - </td><td>Torments</td></tr></table><p>By the (same) ﬂowers by which the people of the world become pleased, Cupid (lit. ﬂower-shafted God of love) torments the world.</p><p>Here, the effect, i.e., tormenting is produced by the ﬂowers- the cause, which are well-known to produce a quite opposite one, i.e., pleasure. Hence this is called Frustration on account of the frustration of an established effect already fulﬁlled in an object.</p>'
+              }
+            }
+          ]
+        }
+      ],
+      types: 1,
+      type: [
+        {
+          sloka: 'Second kind of Frustration',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td></td>सौकर्येण - </td><td>With facility</td></tr><tr><td>निबड्वा - </td><td>Begun</td></tr><tr><td>क्रिया - </td><td>An act</td></tr><tr><td>कार्यविरोधिनी - </td><td>The contrary of that act</td></tr><tr><td>अपि - </td><td>(here)also</td></tr><tr><td>(व्याघातः) - </td><td>Frustration</td></tr></table><h3>Definition</h3><p>If a certain act commenced (by one) on the ground of its being facile turns out contrary, it is the second kind of Frustration.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation_sans: '',
+              explanation_eng: '<h3>Word meaning</h3><table><tr><td>मयि - </td><td>On me</td></tr><tr><td>बाल इति - </td><td>On account of being a boy</td></tr><tr><td>दया चेत् - </td><td>It (thou hast) compassion</td></tr><tr><td>ते - </td><td>By thee</td></tr><tr><td>अपरित्याज्य एव - </td><td>Cannot be abandoned</td></tr></table><p>O King! If thou hast compassion on me, then I, being a. boy, should not be abandoned here (now by thee going to battle-ﬁeld).</p><p>This is said by a crown-prince to this king going to war. The king seems to have asked him to stay at home for he being a boy could not bear the terrible toils of a battle ﬁeld. The crown-prince mentions the same reason to accompany the king for he being a youth must go to the war and become skilled in the arts of war, or, as one commentator says, he (the youth) could not bear the separation from the king. Thus We see the frustration of the object which the king had at ﬁrst.</p>'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_sans: 'कारणमाला ',
+      title_eng: 'कारणमाला -  Garland of Causes',
+      id: 45,
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td></td>यथाप्राक्प्रांतकारणैः - </td><td>By the causes in which a preceding object is spoken of as the cause of the succeeding one</td></tr><tr><td>गुंफः - </td<td>Arrangement</td></tr><tr><td> कारणमाला - </td><td>Garland of causes</td></tr><tr><td> स्यात् - </td><td>Is called</td></tr></table><h3>Definition</h3><p>When a preceding object is spoken of as the cause of one succeeding it, which in turn is spoken of as the cause of what comes next and so on, it is termed the Garland of Causes.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: '<h3>Word meanings</h3><table><tr><td>नयेन - </td><td>By morality</td></tr><tr><td>श्रीः - </td><td.Wealth</td></tr><tr><td>श्रिया - </td><td>By wealth</td></tr><tr><td> त्यागः - </td><td>Donation</td></tr><tr><td>त्यागेन - </td><td>By donation</td></tr><tr><td> विपुलं यशः - </td><td>Wide fame</td></tr></table><p>From morality wealth (is acquired); from wealth, the donation ; from donation, the wide fame.</p><p>Here, the morality mentioned ﬁrst is spoken of as the cause of the succeeding object, the Wealth, which in turn is spoken of as the cause of donation, etc.</p><p>This ﬁgure occurs also when one object, mentioned afterwards, is spoken of as the cause of what precedes and so on.</p><p>Ex . भवन्ति नरकाः पापात् पाप दारिद्रासंभवम् ।<br>दारिद्रामप्रदानेन तस्माद्दानपरो भव ॥</p><p>(People) go to hell on account of (their) sin; sin results from poverty; poverty from non giving. Therefore (friend) be always muniﬁcient.</p>'
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_sans: 'एकावली ',
+      title_eng: 'एकावली -  The Necklace',
+      id: 46,
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td></td>गृहीतमुक्तरीत्यार्थश्रेणिः - </td><td>A series of statements in which each succeeding thing is taken as an attribute of each preceding thing and then made to cease as such</td></tr><tr><td>एकाकली मप्ता - </td><td>Is considered the Necklace</td></tr></table><h3>Definition</h3><p>A successive series of statements made in a manner in which each succeeding thing is taken (गृहीत  as an attribute of each preceding thing and that thing which was ﬁrst taken as an attribute is made to cease (मुक्त )  as such by being afterwards made a. subject and qualiﬁed by another succeeding thing and so on, it is the Necklace.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: '<h3>Word meanings</h3><table><tr><td></td>तस्य महीभुजः - </td><td>Of that king</td></tr><tr><td>नेत्रे - </td><td>Eyes</td></tr><tr><td>कर्णां तविश्रांते - </td><td>Extending as far as the ears</td></tr><tr><td>कर्णौ - </td><td>Ears</td></tr><tr><td>दोस्तंभदोलितौ - </td><td>Extending as far as the post-like arms</td></tr><tr><td>दोस्तभौ - </td><td>Post-like arms</td></tr><tr><td>जानुपर्यंतप्रलंबनमनोहरौ - </td><td>Charming on account of their extension as far as the knees</td></tr><tr><td>जानुनौ - </td><td>Knees</td></tr><tr><td>रत्नमुकुराकारे - </td><td>Appearing like jeweled mirrors</td></tr></table><p>The eyes of that king extend as far as the ears. His ears extend as far as his post-like arms. His post-like arms are charming by their extension as far his knees. And his kness are, in appearance, jewelled mirrors.</p><p>Here, the ears are taken as an attribute of the preceding thing, the eyes; arms, of the ears; knees, of arms; and the mirrors, of the knees.</p><p>In this example, a preceding thing is qualiﬁed by the succeeding thing aﬂirmatively. In the following example, the thing mentioned ﬁrst is qualiﬁed negatively by what follows.</p>'
+              }
+            },
+            {
+              text: 'न तज्जलं यन्न सुचारूपङ्कजं<br>न पङ्कजं तद् यदलीनषट्पदम् ।<br>न षट्पदोऽसौ न जुगुञ्ज यः कलं<br> न गुञ्जितं तन्न जहार यन्मनः ॥<br> Bhatti Kavya, II. 19.',
+              explanation: {
+                sans: '',
+                eng: '<p> There was no water on which there were no beautiful lotusses; there was not a lotus in the interior of which there was not a bee reposing; there was not a bee which hummed not sweetly ; and there was not a hum which did not attract the mind.</p><p>Here, of water, lotuses must be considered as denied; of lotuses, bees; of bees, humming; and of humming, attraction.</p>'
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_sans: 'मालादीपकम् ',
+      title_eng: 'मालादीपकम् The Serial Illuminator',
+      id: 47,
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td></td>दीपकैकावलीयोगात् - </td><td>From a combination of the figures the Illuminator and the Necklace</td></tr><tr><td>मालादीपकम् - </td><td>The Serial Illuminator</td></tr><tr><td>उच्यते - </td><td>Is called</td></tr></table><h3>Definition</h3><p>A combination of the ﬁgures, दीपकम् (Illuminator XV) and एकावली (Necklace XLII), is called the Serial Illuminator.Or, in other words, the Serial Illuminator is that wherein a number of different objects is successively associated with one and the same attribute.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: '<h3>Word meanings</h3><table><tr><td></td>स्मरेण - </td><td>By Cupid</td></tr><tr><td>तस्याः हृदये - </td><td>In her heart</td></tr><tr><td>थितिः - </td><td>Setting one’s foot</td></tr><tr><td>कृता - </td><td>Was made</td></tr><tr><td>तेन - </td><td>By him</td></tr><tr><td>त्वयि - </td><td>In thee</td></tr></table><p>Cupid set his foot in the heart of that lady, and by it, i.e., the heart of the lady, in thee.</p><p> This is addressed to a lover by a go-between sent by her mistress pining under separation.</p><p>Here, the one and the same attribute स्थितिः कृता being associated with two objects प्रकृत and अप्रकृत, it is the Illuminator ; and by गृहीतमुक्तरीत्या of the lady’s heart, it is the Necklace (see the preceding ﬁgure). Thus, we have a blending of the two.</p>'
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_sans: 'सारः ',
+      title_eng: 'सारः - The Climax',
+      id: 48,
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>उत्तरोत्तरम् - </td><td>successively</td></tr><tr><td>उत्कर्षः - </td><td> Excellence</td></tr><tr><td>सार इति - </td><td> The figure Climax</td></tr><tr><td>अभिधीयते - </td><td> Is called</td></tr></table><h3>Definition</h3><p>Excellence (rising) successively is termed the Climax.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: '<h3>Word meanings</h3><table><tr><td>मधु - </td><td>Honey</td></tr><tr><td>मधुरम् - </td><td>Sweet</td></tr><tr><td>तस्मात् - </td><td>Than that</td></tr><tr><td>पीयुषम् - </td><td>The nectar</td></tr><tr><td>तस्मात् - </td><td>Than that</td></tr><tr><td>कवेः वचः - </td><td>Poet’s speech</td></tr></table><p>The honey is sweet ; the nectar is sweeter than that ; and, than that, poet’s speech.</p><p>Here, each succeding thing, nectar etc., rises gradually in excellence.</p>'
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_sans: 'यथासंख्यम् ',
+      title_eng: 'यथासंख्यम् - The Relative Order',
+      id: 49,
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>क्रमिकाणाम् - </td><td>of serial objects</td></tr><tr><td>क्रमेणैव - </td><td>In due order</td></tr><tr><td>समन्वयः - </td><td>Mitual connection</td></tr><tr><td>यथासंख्यम् - </td><td>The relative order</td></tr><tr></table><h3>Definition</h3><p> The Relative Order is a mutual connection of a series of objects mentioned in their due order.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: '<h3>Word meanings</h3><table><tr><td>शत्रुम् - </td><td>The foe</td></tr><tr><td>जव - </td><td>Conquer</td></tr><tr><td>मित्रम् - </td><td>The friend</td></tr><tr><td>रंजय - </td><td>Gratify</td></tr><tr><td>विपत्तिम् - </td><td>The calamity</td></tr><tr><td>भंजय - </td><td>Destroy</td></tr></table><p> O king! Conquer, gratify, destroy (thy) foe, friend and the calamity respectively.</p><p>Here, a series of objects शत्रुम्, मित्रम् and विपत्तिम् is respectively connected with जय, रञ्जय and भञ्जय in their due order.</p>'
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_sans: 'पर्यायः ',
+      title_eng: 'पर्यायः -The Sequence',
+      id: 50,
+      slokas: [
+        {
+          sloka: '',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>यदि - </td><td>if</td></tr><tr><td>एकस्य - </td><td>Of one object</td></tr><tr><td>पर्यायेण - </td><td> In succession</td></tr><tr><td>अनेकसंशयः - </td><td> Residing in many places</td></tr><tr><td>पर्यायः - </td><td> The Sequence</td></tr></table><h3>Definition</h3><p>When one object is described as residing in many places in succession, it is termed the Sequence.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation: {
+                sans: '',
+                eng: '<h3>Word meanings</h3><table><tr><td>कामिनीवदनप्रभा - </td><td>The lusture of this lovely woman’s face</td></tr><tr><td>पद्मम् - </td><td>The lotus</td></tr><tr><td>मुक्त्वा - </td><td>Having left</td></tr><tr><td>चंद्र - </td><td> The moon</td></tr><tr><td>गता - </td><td>Resorted to.</td></tr></table><p>Having left the lotus, the lustre of this lovely wornarfs face now resorted to the moon.</p><p>Here, the lustre which is stated as one is said to reside in many places in succession.,</p>'
+              }
+            }
+          ]
+        }
+      ],
+      types: 1,
+      type: [
+        {
+          sloka: 'Second kind of the Sequence.',
+          sloka_explanation: {
+            sans: '',
+            eng: '<h3>Word meanings</h3><table><tr><td>यदि वा - </td><td>Or if</td></tr><tr><td>एकस्मिन् - </td><td> In one object</td></tr><tr><td>अनेकम् - </td><td>Many</td></tr><tr><td>सोऽपि - </td><td>That too</td></tr><tr><td>पर्यायः - </td><td>The sequence</td></tr><tr><td>संमतः - </td><td>Is regarded</td></tr></table><p>Or, if many objects are said to reside in one and the same place in succession, that too is regarded as the Sequence.</p>'
+          },
+          examples: [
+            {
+              text: '',
+              explanation_sans: '',
+              explanation_eng: '<h3>Word meanings</h3><table><tr><td>यत्र - </td><td>Where</td></tr><tr><td>पुरा - </td><td>Formerly</td></tr><tr><td>सोतः - </td><td>Water</td></tr><tr><td>अजनि - </td><td>Was</td></tr><tr><td>अधुना - </td><td>Now</td></tr><tr><td>तत्र - </td><td>There</td></tr><tr><td>पुलिनम् - </td><td>Sand bank</td></tr></table><p>Sand bank is now seen in the place where there was water formerly.</p><p>Here, the water and the sand bank are said to be successively residing in the same place.</p>'
+            }
+          ]
+        }
+      ]
+    },
+    {
+      title_eng: ' ',
+      id: 100,
       common: '<a href="/exercises">Go to exercises</a>'
     }
   ]
