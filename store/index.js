@@ -1448,7 +1448,7 @@ export const state = () => ({
               text: 'कोवेदगोपशिशुकःशैलमुत्पाटयेदिति॥',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>गोपशिशुकः - </td><td>This shepherd boy</td></tr><tr><td>शैलम् - </td><td>The mountain</td></tr><tr><td>गोवर्धन उत्पाटयेदिति - </td><td>Would have eradicated</td></tr><tr><td>कः - </td><td>Who</td></tr><tr><td>वेद	Knew</td></tr></table><p>Who knew that this shepherd boy would have eradicated the Mountain Govardhana.</p><p>The shepherd boy is the Lord Krishna. who held up the Mountain Govardhana. for seven days as a large umbrella. to shelter his beloved Gopis and their cattle from the heavy and incessant rain caused by Indra to deluge the Gokula, the land of the shepherds.</p>'
+                eng: '<h3>Word meanings</h3><table><tr><td>गोपशिशुकः - </td><td>This shepherd boy</td></tr><tr><td>शैलम् - </td><td>The mountain</td></tr><tr><td>गोवर्धन उत्पाटयेदिति - </td><td>Would have eradicated</td></tr><tr><td>कः - </td><td>Who</td></tr><tr><td>वेद - Knew</td></tr></table><p>Who knew that this shepherd boy would have eradicated the Mountain Govardhana.</p><p>The shepherd boy is the Lord Krishna. who held up the Mountain Govardhana. for seven days as a large umbrella. to shelter his beloved Gopis and their cattle from the heavy and incessant rain caused by Indra to deluge the Gokula, the land of the shepherds.</p>'
               }
             }
           ]
@@ -1611,7 +1611,7 @@ export const state = () => ({
             {
               text: 'युक्तोवारणलाभोऽयंस्यान्नतेवारणार्थिनः ॥',
               explanation_sans: '',
-              explanation_eng: '<h3>Word meanings</h3><table><tr><td>वारणार्थिनः - </td><td>Seeking for an elephant</td></tr><tr><td>ते - </td><td>Thy</td></tr><tr><td>अयम् - </td><td>This </td></tr><tr><td>वारणालाभः - </td><td>Attainment of वारणा (impediment)</td></tr><tr><td>युक्तः स्यात् न	Is it not worthy</td></tr></table><p>Friend! Is not this acquisition of (वारणा) impediment worthy of thee that sought for an elephant (वारणा).</p><p>This is possible only under a pun.</p><p>The speaker here is a person that went to his king for an elephant. He was obstructed by the door- keeper of the king’s palace and this was addressed in jest by his (speaker’s) brother-in-law who accompanied him saying that this वारणा (impediment) is equal to hat वारणा (elephant) sought for.</p>'
+              explanation_eng: '<h3>Word meanings</h3><table><tr><td>वारणार्थिनः - </td><td>Seeking for an elephant</td></tr><tr><td>ते - </td><td>Thy</td></tr><tr><td>अयम् - </td><td>This </td></tr><tr><td>वारणालाभः - </td><td>Attainment of वारणा (impediment)</td></tr><tr><td>युक्तः स्यात् न - </td><td>Is it not worthy</td></tr></table><p>Friend! Is not this acquisition of (वारणा) impediment worthy of thee that sought for an elephant (वारणा).</p><p>This is possible only under a pun.</p><p>The speaker here is a person that went to his king for an elephant. He was obstructed by the door- keeper of the king’s palace and this was addressed in jest by his (speaker’s) brother-in-law who accompanied him saying that this वारणा (impediment) is equal to hat वारणा (elephant) sought for.</p>'
             }
           ]
         }
@@ -2146,7 +2146,7 @@ export const state = () => ({
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>बलवतः	strong</td></tr><tr><td>शत्रोः - </td><td>Of the enemy</td></tr><tr><td>पक्षे - </td><td>On any partisan</td></tr><tr><tdपराक्रमः - </td><td>Attempt</td></tr><tr><td>प्रत्यनीकम् - </td><td>The Rivalry</td></tr></table><h3>Definition</h3><p>When any act of injury or mortiﬁcation is attempted on a partisan of one’s powerful enemy (by somebody who is unable to avenge himself directly on his enemy), it is called the Rivalry.</p>'
+            eng: '<h3>Word meanings</h3><table><tr><td>बलवतः - </td><td>strong</td></tr><tr><td>शत्रोः - </td><td>Of the enemy</td></tr><tr><td>पक्षे - </td><td>On any partisan</td></tr><tr><tdपराक्रमः - </td><td>Attempt</td></tr><tr><td>प्रत्यनीकम् - </td><td>The Rivalry</td></tr></table><h3>Definition</h3><p>When any act of injury or mortiﬁcation is attempted on a partisan of one’s powerful enemy (by somebody who is unable to avenge himself directly on his enemy), it is called the Rivalry.</p>'
           },
           examples: [
             {
@@ -2205,7 +2205,7 @@ export const state = () => ({
           ]
         }
       ]
-    },{
+    }, {
       title_sans: 'अर्थान्तरन्यासः',
       title_eng: 'अर्थान्तरन्यासः -The Transition',
       id: 60,
@@ -2487,12 +2487,11 @@ export const state = () => ({
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>प्रस्थम्	A measure</td></tr><tr><td>                सागरम्	Ocean</td></tr><tr><td>                प्राप्यापि	Though reached</td></tr><tr><td>                स्वल्पमेव	Only a small quantity</td></tr><tr><td>                अंबु	Water</td></tr><tr><td>                लभते	Gets</td></tr></table><p>This measure (of 32 palas) gets only a small quantity into it even though it reached the ocean. </p><p>The particular measure holds the same quantity of water even in the ocean which is the receptacle of immense water and which is not able to supply more water.</p><p>Here, the merit of the measure refers to no merit of the ocean.</p>'
+                eng: '<h3>Word meanings</h3><table><tr><td>प्रस्थम् - </td><td>A measure</td></tr><tr><td>सागरम् - </td><td>Ocean</td></tr><tr><td>प्राप्यापि - </td><td>Though reached</td></tr><tr><td>स्वल्पमेव - </td><td>Only a small quantity</td></tr><tr><td>अंबु - </td><td>Water</td></tr><tr><td>लभते - </td><td>Gets</td></tr></table><p>This measure (of 32 palas) gets only a small quantity into it even though it reached the ocean. </p><p>The particular measure holds the same quantity of water even in the ocean which is the receptacle of immense water and which is not able to supply more water.</p><p>Here, the merit of the measure refers to no merit of the ocean.</p>'
               }
             },
             {
-              text: 'Example of demerit occasioning no demerit.
-              मीलंति यदि पद्मानि का हानिरमृतद्युतेः ॥',
+              text: '<h3>Example of demerit occasioning no demerit.</h3>मीलंति यदि पद्मानि का हानिरमृतद्युतेः ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>यदि - </td><td>it</td></tr><tr><td>पद्मानि - </td><td>Lotuses</td></tr><tr><td>मीलंति - </td><td>Contract</td></tr><tr><td>अमृतद्युतेः - </td><td>To the moon</td></tr><tr><td>का - </td><td>What</td></tr><tr><td>हानिः - </td><td>Detriment</td></tr></table><p>If the lotuses were to contract (at night), then what detriment accrues to the moon (nectar-rayed).</p><p.Here, the demerit of the lotus refers to no demerit of the moon.</p>'
@@ -2564,13 +2563,7 @@ export const state = () => ({
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>सा तरुणी - </td><td>That young maiden</td></tr><tr><td>
-                नितंबगिर्वीं - </td><td>Having large buttocks
-                दृग्युग्मविपुला च - </td><td>Having a couple of spacious eyes
-                This maiden has large buttocks and a couple of spacious eyes.
-Here, युग्मविपुला serves to signify the sense required for the description of tho lady the subject on hand. The same word is also the name of a metre of अनुष्टुम् class containing 8 syllables for each quarter wherein the seventh syllable of the 2nd and 4th quarters must be short. Thus, we see that the same word that served the purpose on hand- the description of the lady-also names the metre of the verse to be hinted at by the poet, the stanza being the illustration of that metre. 
-It is usual among the Sanskrit prosodians to illustrate a metre, deﬁned, by a stanza containing the name of that metre which will also serve to explain the sense contained in the stanza. Hence the ﬁgure is called मुद्रा an expression of things by their right names.
-'
+                eng: '<h3>Word meanings</h3><table><tr><td>सा तरुणी - </td><td>That young maiden</td></tr><tr><td>नितंबगिर्वीं - </td><td>Having large buttocks</td></tr><tr><td>दृग्युग्मविपुला च - </td><td>Having a couple of spacious eyes</td></tr></table><p>This maiden has large buttocks and a couple of spacious eyes.</p><p>Here, युग्मविपुला serves to signify the sense required for the description of the lady the subject on hand. The same word is also the name of a metre of अनुष्टुम् class containing 8 syllables for each quarter wherein the seventh syllable of the 2nd and 4th quarters must be short. Thus, we see that the same word that served the purpose on hand- the description of the lady-also names the metre of the verse to be hinted at by the poet, the stanza being the illustration of that metre. </p><p>It is usual among the Sanskrit prosodians to illustrate a metre, deﬁned, by a stanza containing the name of that metre which will also serve to explain the sense contained in the stanza. Hence the ﬁgure is called मुद्रा an expression of things by their right names.</p>'
               }
             }
           ]
@@ -2586,31 +2579,14 @@ It is usual among the Sanskrit prosodians to illustrate a metre, deﬁned, by a 
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>प्रकृतार्थानाम् - </td><td>Of the words serving the sense on hand 
-            क्रमिकं - </td><td>Serial
-            न्यासम् - </td><td>Putting
-            रत्नावलीम् - </td><td>The Jewelled Necklace
-            विदुः - </td><td>(poets) know
-            Ratnavali is a ﬁgure containing a number of  words serving the sense on hand but put in an established order of succession (with reference to objects not on hand).'
+            eng: '<h3>Word meanings</h3><table><tr><td>प्रकृतार्थानाम् - </td><td>Of the words serving the sense on hand </td></tr><tr><td>क्रमिकं - </td><td>Serial</td></tr><tr><td>न्यासम् - </td><td>Putting</td></tr><tr><td>रत्नावलीम् - </td><td>The Jewelled Necklace</td></tr><tr><td>विदुः - </td><td>(poets) know</td></tr></table><p>Ratnavali is a ﬁgure containing a number of  words serving the sense on hand but put in an established order of succession (with reference to objects not on hand).</p>'
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>महीपते - </td><td>O king !
-                त्वम् - </td><td>Thou
-                चतुराम्यः - </td><td>Having handsome face or four headed God Brahma
-                लक्ष्म्याः - </td><td>Of riches = of Goddess Lakshmi
-                पतिः - </td><td>Lord
-                सर्वज्ञः - </td><td>Omniscient or God Siva.
-                O Lord of earth! thou hast a handsome face (art god Brahma) ; thou art the lord of wealth (the Lord Vishnu) ; thou art omniscient (Lord Siva).
-Here, the words चतुरास्यः etc., serve the sense on hand in describing the king and are also names of
-चतुरं आस्यं यस्य सः
-चत्वारि आस्यानि यस्य सः
-the Hindu Triad, in their order-Brahma, Vishnu and Siva, the objects not on hand to which the king is identiﬁed in succession.
-The difference between this ﬁgure and the ﬁgure मुद्रा (LXXIII) is that in this figure the sense of the words referring to objects not on han d-i. e. the sense to be hinted at—also serves to explain the sentence in another way under a pun, but it is not so in the Mudra.
-'
+                eng: '<h3>Word meanings</h3><table><tr><td>महीपते - </td><td>O king !</td></tr><tr><td>त्वम् - </td><td>Thou</td></tr><tr><td>चतुराम्यः - </td><td>Having handsome face or four headed God Brahma</td></tr><tr><td>लक्ष्म्याः - </td><td>Of riches = of Goddess Lakshmi</td></tr><tr><td>पतिः - </td><td>Lord                सर्वज्ञः - </td><td>Omniscient or God Siva.</td></tr></table><p>O Lord of earth! thou hast a handsome face (art god Brahma) ; thou art the lord of wealth (the Lord Vishnu) ; thou art omniscient (Lord Siva).</p><p>Here, the words चतुरास्यः etc., serve the sense on hand in describing the king and are also names of <br> चतुरं आस्यं यस्य सः <br> चत्वारि आस्यानि यस्य सः<br>The Hindu Triad, in their order-Brahma, Vishnu and Siva, the objects not on hand to which the king is identiﬁed in succession.</p><p>The difference between this ﬁgure and the ﬁgure मुद्रा is that in this figure the sense of the words referring to objects not on hand - i. e. the sense to be hinted at—also serves to explain the sentence in another way under a pun, but it is not so in the Mudra.</p>'
               }
             }
           ]
@@ -2626,24 +2602,14 @@ The difference between this ﬁgure and the ﬁgure मुद्रा (LXXIII) 
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>स्वगुणात्यागात् - </td><td>By quitting one’s own quality
-            अन्यदीयगुणाग्रहः - </td><td>Assuming the quality of another
-            तद्गुणाः - </td><td>The Borrower
-            When a thing quits its own quality and assumes that of another (excellent one), it is the Borrower.'
+            eng: '<h3>Word meanings</h3><table><tr><td>स्वगुणात्यागात् - </td><td>By quitting one’s own quality</td></tr><tr><td>            अन्यदीयगुणाग्रहः - </td><td>Assuming the quality of another</td></tr><tr><td>तद्गुणाः - </td><td>The Borrower</td></tr></table><p>When a thing quits its own quality and assumes that of another (excellent one), it is the Borrower.</p>'
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>ते - </td><td>Thy
-                नासामौक्तिकम् - </td><td>Nose-pearl
-                अधरत्विषा - </td><td>By the luster of the lower lip.
-                पद्मरागायते - </td><td>Becomes Padmaraga (ruby of lotus colour)
-                O Lady! The pearl of the nose-ornament becomes a padmaraga ruby by coming in contact with the luster of thy (red) lower lip.
-Here, the colour of the lady’s lower lip, being superior, makes the white pearl of her nose ornament appear like a padmaraga ruby. 
-The pearl has been eclipsed by the lady’s lip.
-'
+                eng: '<h3>Word meanings</h3><table><tr><td>ते - </td><td>Thy </td></tr><tr><td>नासामौक्तिकम् - </td><td>Nose-pearl</td></tr><tr><td>अधरत्विषा - </td><td>By the luster of the lower lip.</td></tr><tr><td> पद्मरागायते - </td><td>Becomes Padmaraga (ruby of lotus colour)</td></tr></table><p>O Lady! The pearl of the nose-ornament becomes a padmaraga ruby by coming in contact with the luster of thy (red) lower lip.</p><p>Here, the colour of the lady’s lower lip, being superior, makes the white pearl of her nose ornament appear like a padmaraga ruby. </p><p>The pearl has been eclipsed by the lady’s lip.</p>'
               }
             }
           ]
@@ -2659,24 +2625,14 @@ The pearl has been eclipsed by the lady’s lip.
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>पुनः - </td><td>again
-            स्वगुणासंप्राप्तिः - </td><td>Assumption of one’s own quality
-            पूर्वरूपम् - </td><td>The original
-            उदाहृतम् - </td><td>Is called
-            When an object that has quitted its form as in the preceding figure is again restored to its original state by the presence of some other agency, it is called the Original.'
+            eng: '<h3>Word meanings</h3><table><tr><td>पुनः - </td><td>again</td></tr><tr><td>स्वगुणासंप्राप्तिः - </td><td>Assumption of one’s own quality</td></tr><tr><td>पूर्वरूपम् - </td><td>The original</td></tr><tr><td>उदाहृतम् - </td><td>Is called</td></tr></table><p>When an object that has quitted its form as in the preceding figure is again restored to its original state by the presence of some other agency, it is called the Original.</p>'
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>हरकण्ठांशुलिप्तोऽपि - </td><td>Though covered with the luster of Siva’s neck
-                शेषः - </td><td>The present lord
-                त्वद्यशसा - </td><td>By thy fame
-                सितः - </td><td>White
-                O king! The lord of the serpents शेषः, though covered with the lustre of Siva’s neck, is made white by thy fame.
-Here, the serpentlord worn round Siva’s neck of dark-blue colour-on account of the existence of the Kalakuta poison in it-changed his colour and thus became a borrower and by the operation of another agency- the white fame of the king-he is restored to his former state.
-'
+                eng: '<h3>Word meanings</h3><table><tr><td>हरकण्ठांशुलिप्तोऽपि - </td><td>Though covered with the luster of Siva’s neck</td></tr><tr><td>शेषः - </td><td>The present lord</td></tr><tr><td>त्वद्यशसा - </td><td>By thy fame</td></tr><tr><td>सितः - </td><td>White</td></tr></table><p>O king! The lord of the serpents शेषः, though covered with the lustre of Siva’s neck, is made white by thy fame.</p><p>Here, the serpentlord worn round Siva’s neck of dark-blue colour-on account of the existence of the Kalakuta poison in it-changed his colour and thus became a borrower and by the operation of another agency- the white fame of the king-he is restored to his former state.</p>'
               }
             }
           ]
@@ -2688,25 +2644,13 @@ Here, the serpentlord worn round Siva’s neck of dark-blue colour-on account of
           sloka: 'Second kind of the Original.',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>वस्तुनि - </td><td>An object
-            विकृते सति - </td><td>When disappeared
-            पूर्वावस्थानुवृत्तिः - </td><td>Continuity of the original state
-            च - </td><td>Also
-            The continuity of the original condition, not with standing the disappearance of an object the cause of such continuance, by the operation of another agency, is called the second kind of the Original.'
+            eng: '<h3>Word meanings</h3><table><tr><td>वस्तुनि - </td><td>An object</td></tr><tr><td>विकृते सति - </td><td>When disappeared</td></tr><tr><td>पूर्वावस्थानुवृत्तिः - </td><td>Continuity of the original state</td></tr><tr><td>च - </td><td>Also</td></tr></table><p>The continuity of the original condition, not with standing the disappearance of an object the cause of such continuance, by the operation of another agency, is called the second kind of the Original.</p>'
           },
           examples: [
             {
               text: '',
               explanation_sans: '',
-              explanation_eng: '<h3>Word meanings</h3><table><tr><td>दीपे - </td><td>Lamp
-              निर्वापिते अपि - </td><td>Though extinguished
-              कांचीरत्नैः - </td><td>By the jems inlaid in the girdle of a lady
-              महत् - </td><td>Ample
-              महः - </td><td>Light
-              आसीत् - </td><td>Was
-              Although the lamp was put out (by a lady in the bed chamber), still there was ample light issuing from the jerns of the girdle (of that lady).
-Here, a pretty young maiden but an artless one ( मुग्धा ) put out the lamp of the bed chamber through bashfulness; still the light continued as before by the lustre of the jems inlaid in the girdle of that maiden.
-'
+              explanation_eng: '<h3>Word meanings</h3><table><tr><td>दीपे - </td><td>Lamp</td></tr><tr><td>निर्वापिते अपि - </td><td>Though extinguished</td></tr><tr><td>कांचीरत्नैः - </td><td>By the jems inlaid in the girdle of a lady</td></tr><tr><td>महत् - </td><td>Ample </td></tr><tr><td>महः - </td><td>Light</td></tr><tr><td>आसीत् - </td><td>Was</td></tr></table><p> Although the lamp was put out (by a lady in the bed chamber), still there was ample light issuing from the jerns of the girdle (of that lady).</p><p>Here, a pretty young maiden but an artless one ( मुग्धा ) put out the lamp of the bed chamber through bashfulness; still the light continued as before by the lustre of the jems inlaid in the girdle of that maiden.</p>'
             }
           ]
         }
@@ -2721,25 +2665,14 @@ Here, a pretty young maiden but an artless one ( मुग्धा ) put out th
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>संगतान्यगुणानंमीकारम् - </td><td>Non-assuming the quality of another object though connected with it.
-            अतद्गुणम् - </td><td>Non-Borrower
-            आहः - </td><td>Call
-            The non-assuming, by an object, of the quality of another though connected with it (or in other words, when an object does not borrow the quality of another object, it) is called the Non- Borrower.'
+            eng: '<h3>Word meanings</h3><table><tr><td>संगतान्यगुणानंमीकारम् - </td><td>Non-assuming the quality of another object though connected with it.</td></tr><tr><td>अतद्गुणम् - </td><td>Non-Borrower</td></tr><tr><td>आहः - </td><td>Call</td></tr></table><p>The non-assuming, by an object, of the quality of another though connected with it (or in other words, when an object does not borrow the quality of another object, it) is called the Non- Borrower.</p>'
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>चिरम् - </td><td>For a long time
-                रागिणि - </td><td>Red (affectionate)
-                मच्चित्ते - </td><td>In my mind
-                निहितोऽपि - </td><td>Though seated
-                न रञ्जसि - </td><td>Dost not become red (affectionate)
-                O Lover! though seated long in my red (affectionate) mind, yet thou dost not become red (affectionate).
-The strikingness of this example rests upon the use of the word राग which means both redness and affection.
-Here, the lover does not become red (affectionate) though he is seated in the red (more affectionate) mind of the lady. Hence it is the Non Borrower
-'
+                eng: '<h3>Word meanings</h3><table><tr><td>चिरम् - </td><td>For a long time</td></tr><tr><td>रागिणि - </td><td>Red (affectionate)</td></tr><tr><td>मच्चित्ते - </td><td>In my mind</td></tr><tr><td>निहितोऽपि - </td><td>Though seated</td></tr><tr><td>न रञ्जसि - </td><td>Dost not become red (affectionate)</td></tr></table><p>O Lover! though seated long in my red (affectionate) mind, yet thou dost not become red (affectionate).</p><p>The strikingness of this example rests upon the use of the word राग which means both redness and affection.</p><p>Here, the lover does not become red (affectionate) though he is seated in the red (more affectionate) mind of the lady. Hence it is the Non Borrower</p>'
               }
             }
           ]
@@ -2755,23 +2688,14 @@ Here, the lover does not become red (affectionate) though he is seated in the re
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>परसन्निधेः - </td><td>By the presence of another object
-            प्राक्सिड्वस्वगुण्त्कर्षः - </td><td>The pre-eminence of one’s own previously settled quality
-            अनुगुणाः - </td><td>The Conformity
-            The pre-eminence, of ones own previously settled quality, by the presence of another agency, (or, in other words, when the original quality of an oject is made pre-eminent by the proximity of another object, it) is called the Conformity'
+            eng: '<h3>Word meanings</h3><table><tr><td>परसन्निधेः - </td><td>By the presence of another object</td></tr><tr><td>प्राक्सिड्वस्वगुण्त्कर्षः - </td><td>The pre-eminence of one’s own previously settled quality</td></tr><tr><td>अनुगुणाः - </td><td>The Conformity</td></tr></table><p>The pre-eminence, of ones own previously settled quality, by the presence of another agency, (or, in other words, when the original quality of an oject is made pre-eminent by the proximity of another object, it) is called the Conformity</p>'
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>नीलोत्पलानि - </td><td>Blue lotuses
-                कटाक्षैः - </td><td>By the side-glances
-                अतिनीलताम् - </td><td>Extreme blueness
-                दधते - </td><td>Bear
-                The blue lotuses attain more blueness by the side-glances (of a lady falling on them)
-Here, the dark blue lustre of the lotuses is increased by the pre-eminent blue side-glances. of the lady falling on them.
-'
+                eng: '<h3>Word meanings</h3><table><tr><td>नीलोत्पलानि - </td><td>Blue lotuses</td></tr><tr><td>कटाक्षैः - </td><td>By the side-glances</td></tr><tr><td>अतिनीलताम् - </td><td>Extreme blueness</td></tr><tr><td>दधते - </td><td>Bear</td></tr><tr><td>The blue lotuses attain more blueness by the side-glances (of a lady falling on them)</td></tr></table><p>Here, the dark blue lustre of the lotuses is increased by the pre-eminent blue side-glances. of the lady falling on them.</p>'
               }
             }
           ]
@@ -2787,27 +2711,14 @@ Here, the dark blue lustre of the lotuses is increased by the pre-eminent blue s
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>यदि - </td><td>if
-            सादृश्यात् - </td><td>On account of resemblance
-            भेदः - </td><td>A distinction
-            एव - </td><td>Alone
-            न लक्ष्यते - </td><td>Is not perceived
-            मीलितम् - </td><td>The Lost
-            When distinction alone p is net perceived (between two objects on hand) on account of their resemblance, then it is the Lost.'
+            eng: '<h3>Word meanings</h3><table><tr><td>यदि - </td><td>if</td></tr><tr><td>सादृश्यात् - </td><td>On account of resemblance</td></tr><tr><td>भेदः - </td><td>A distinction</td></tr><tr><td>एव - </td><td>Alone</td></tr><tr><td>न लक्ष्यते - </td><td>Is not perceived</td></tr><tr><td>मीलितम् - </td><td>The Lost</td></tr></table><p>When distinction alone p is net perceived (between two objects on hand) on account of their resemblance, then it is the Lost.</p>'
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>सहजारुणे - </td><td>Naturally red
-                चरणे - </td><td>In the foot
-                लाक्षायाः - </td><td>Of the red lac
-                रसः - </td><td>Dye
-                न अलक्षि - </td><td>Was not perceived
-                The dye of the red lac was not perceived in the naturally red feet (of this beautiful maiden).
-Here, we see the disappearance of the dye of the red lac on account of its having been eclipsed by the natural redness of the maiden’s feet.
-'
+                eng: '<h3>Word meanings</h3><table><tr><td>सहजारुणे - </td><td>Naturally red</td></tr><tr><td>चरणे - </td><td>In the foot</td></tr><tr><td>लाक्षायाः - </td><td>Of the red lac</td></tr><tr><td>रसः - </td><td>Dye</td></tr><tr><td>न अलक्षि - </td><td>Was not perceived</td></tr></table><p>The dye of the red lac was not perceived in the naturally red feet (of this beautiful maiden).</p><p>Here, we see the disappearance of the dye of the red lac on account of its having been eclipsed by the natural redness of the maiden’s feet.</p>'
               }
             }
           ]
@@ -2823,28 +2734,14 @@ Here, we see the disappearance of the dye of the red lac on account of its havin
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>यदि - </td><td>if
-            सादृश्यात् - </td><td>On account of resemblance
-            विशेषः - </td><td>Distinguishable peculiarity
-            नैव लक्ष्यते - </td><td>Is not at all perceived
-            सामान्यम् - </td><td>The Sameness
-            When any distinguishable peculiarity what- ever is not perceived (between two objects coming in contact) on account of their close resemblance, it is celled the Sameness.'
+            eng: '<h3>Word meanings</h3><table><tr><td>यदि - </td><td>if</td></tr><tr><td>सादृश्यात् - </td><td>On account of resemblance</td></tr><tr><td>विशेषः - </td><td>Distinguishable peculiarity</td></tr><tr><td>नैव लक्ष्यते - </td><td>Is not at all perceived</td></tr><tr><td>सामान्यम् - </td><td>The Sameness</td></tr></table><p>When any distinguishable peculiarity what- ever is not perceived (between two objects coming in contact) on account of their close resemblance, it is called the Sameness.</p>'
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>पद्माकरप्रविष्टानाम् - </td><td>That entedred the lotus-pool
-                सुभ्रुवाम् - </td><td>Of women of beautiful eye-brows
-                मुखम् - </td><td>Face
-                न अलक्षि - </td><td>Was not perceived
-                The faces of the women of beautiful eye-brows that entered the lotus-pool are not perceived.
-Here, the faces of the women were not distinguishable from the lotuses in the absence of any dis- criminative quelity between the two which are spoken of as having become identical.
-In the मिलित (LXXLX), one of the objects is inferior in quality and is not apprehended by its being eclipsed by the superior quality of the other.
-In this ﬁgure, the two objects could not be discriminated through their close resemblance. In the मीलित, the inferior object gives up its own quality. Here both the objects do not give up their qualities.
-Hence, this ﬁgure is different from the मीलित.
-'
+                eng: '<h3>Word meanings</h3><table><tr><td>पद्माकरप्रविष्टानाम् - </td><td>That entedred the lotus-pool</td></tr><tr><td>सुभ्रुवाम् - </td><td>Of women of beautiful eye-brows</td></tr><tr><td>मुखम् - </td><td>Face</td></tr><tr><td>न अलक्षि - </td><td>Was not perceived</td></tr></table><p>The faces of the women of beautiful eye-brows that entered the lotus-pool are not perceived.</p><p>Here, the faces of the women were not distinguishable from the lotuses in the absence of any dis- criminative quelity between the two which are spoken of as having become identical.</p><p>In the मिलित (LXXLX), one of the objects is inferior in quality and is not apprehended by its being eclipsed by the superior quality of the other.</p><p>In this ﬁgure, the two objects could not be discriminated through their close resemblance. In the मीलित, the inferior object gives up its own quality. Here both the objects do not give up their qualities.</p><p>Hence, this ﬁgure is different from the मीलित.</p>'
               }
             }
           ]
@@ -2860,40 +2757,21 @@ Hence, this ﬁgure is different from the मीलित.
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>भेदवैशिष्ट्ययोः - </td><td>Of any distinction and of any discriminating peculiarity
-            स्फूर्तौ - </td><td>In the manifestation
-            उन्मीलित विशेषकौ - </td><td>The Un-Lost and The Un-Sameness
-            Def. If any distinction prohibited in the मीलित(LXXIX) become manifest afterwards, it is called the उन्मीलितम्.
-Def. If any discriminating peculiarity prohibited in the सामान्य become manifest afterwards, it is called the विशेषकः .
-'
+            eng: '<h3>Word meanings</h3><table><tr><td>भेदवैशिष्ट्ययोः - </td><td>Of any distinction and of any discriminating peculiarity</td></tr><tr><td>स्फूर्तौ - </td><td>In the manifestation</td></tr><tr><td>उन्मीलित विशेषकौ - </td><td>The Un-Lost and The Un-Sameness</td></tr></table><h3>Definition</h3><p>If any distinction prohibited in the मीलित(LXXIX) become manifest afterwards, it is called the उन्मीलितम्.</p><h3>Definition</h3><p>If any discriminating peculiarity prohibited in the सामान्य become manifest afterwards, it is called the विशेषकः .</p>'
           },
           examples: [
             {
               text: 'example of the figure उन्मीलित',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>सुराः - </td><td>The celestial beings
-                त्वद्यशोमग्नम् - </td><td>Eclipsed by thy fame
-                हिमाद्रिम् - </td><td>The Himalaya mountain
-                शीतेन - </td><td>By chilliness
-                जानते - </td><td>Recognize
-                O king ! The celestial beings recognize the Himalaya mountain, eclipsed by thy (all-pervading) fame, through its chillness.
-Here, the Himalaya which is white was lost in the whiter fame of the king and was afterwards recognized by the Gods on account of its chillness.
-'
+                eng: '<h3>Word meanings</h3><table><tr><td>सुराः - </td><td>The celestial beings</td></tr><tr><td>त्वद्यशोमग्नम् - </td><td>Eclipsed by thy fame</td></tr><tr><td>हिमाद्रिम् - </td><td>The Himalaya mountain</td></tr><tr><td>शीतेन - </td><td>By chilliness</td></tr><tr><td>जानते - </td><td>Recognize</td></tr></table><p>O king ! The celestial beings recognize the Himalaya mountain, eclipsed by thy (all-pervading) fame, through its chillness.</p><p>Here, the Himalaya which is white was lost in the whiter fame of the king and was afterwards recognized by the Gods on account of its chillness.</p>'
               }
             },
             {
               text: 'example of the figure विशेषकः ',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>चन्द्रे उदिते - </td><td>When the moon had risen
-                पद्मानि - </td><td>Lotuses
-                मुखानि च - </td><td>And the faces
-                लक्षितानि - </td><td>Became distinguishable
-                
-                EX. After the rise of the moon, the lotuses and the faces of the damsels became distinguishable.
-                In the सामान्य, the faces of the damsels that entered the lotus-pool were undistinguishable f'rom the lotuses on account of their likeness but after the rise of the moon the lotuses faded and the faces began to appear more beautiful and hence they became discriminated.
-                '
+                eng: '<h3>Word meanings</h3><table><tr><td>चन्द्रे उदिते - </td><td>When the moon had risen</td></tr><tr><td>पद्मानि - </td><td>Lotuses</td></tr><tr><td>मुखानि च - </td><td>And the faces</td></tr><tr><td>लक्षितानि - </td><td>Became distinguishable</td></tr></table><p>After the rise of the moon, the lotuses and the faces of the damsels became distinguishable.</p><p>In the सामान्य, the faces of the damsels that entered the lotus-pool were undistinguishable from the lotuses on account of their likeness but after the rise of the moon the lotuses faded and the faces began to appear more beautiful and hence they became discriminated.</p>'
               }
             }
           ]
@@ -2909,25 +2787,14 @@ Here, the Himalaya which is white was lost in the whiter fame of the king and wa
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>किंचिदाकूतसहितम् - </td><td>Containing some import
-            गूढोत्तरम् - </td><td>A secret reply
-            उत्तरं स्यात् - </td><td>Is The Reply
-            पान्थ ! - </td><td>O traveler !
-            A secret reply containing some indirect import (of the speaker) is called the Reply. Or, in other words, when the speaker indirectly expresses his or her own intention in a reply made to a query previously put by some person (which query is to be inferred from the answer), it is called the Reply.'
+            eng: '<h3>Word meanings</h3><table><tr><td>किंचिदाकूतसहितम् - </td><td>Containing some import</td></tr><tr><td>गूढोत्तरम् - </td><td>A secret reply</td></tr><tr><td>उत्तरं स्यात् - </td><td>Is The Reply</td></tr><tr><td>पान्थ ! - </td><td>O traveler !</td></tr></table><p>A secret reply containing some indirect import (of the speaker) is called the Reply. Or, in other words, when the speaker indirectly expresses his or her own intention in a reply made to a query previously put by some person (which query is to be inferred from the answer), it is called the Reply.</p>'
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>यत्र - </td><td>Where
-                असौ वेतसौ - </td><td>That rattan
-                तत्र - </td><td>There
-                इयं सरित् - </td><td>This river
-                सुतरा - </td><td>Is fordable
-                O Traveller! (the place) where that ratan is seen-there this river is fordable.
-From this, we understand theta traveller has asked the speaker, a lady here, the place where a particular river can be crossed. The lady becoming enumoured of him makes this reply by showing a particular place which was also indirectly named by her as a place of assignatiou for their meeting. 
-'
+                eng: '<h3>Word meanings</h3><table><tr><td>यत्र - </td><td>Where</td></tr><tr><td>असौ वेतसौ - </td><td>That rattan</td></tr><tr><td>तत्र - </td><td>There</td></tr><tr><td>इयं सरित् - </td><td>This river</td></tr><tr><td>सुतरा - </td><td>Is fordable</td></tr></table><p>O Traveller! (the place) where that ratan is seen-there this river is fordable.</p><p>From this, we understand theta traveller has asked the speaker, a lady here, the place where a particular river can be crossed. The lady becoming enumoured of him makes this reply by showing a particular place which was also indirectly named by her as a place of assignatiou for their meeting.</p>'
               }
             }
           ]
@@ -2939,26 +2806,13 @@ From this, we understand theta traveller has asked the speaker, a lady here, the
           sloka: 'Second kind of  the Reply.',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>प्रश्न+उत्तरान्तर+अभिन्नम् - </td><td>Consisting of same words of the query and its two replies
-            चित्रमुत्तरम् - </td><td>A skilful reply
-            उत्तरम् - </td><td>The Reply
-            When a skilful reply is not different from the query, or in other words, when a reply made consists of the same words of the question asked, and when one reply made serves for two queries asked, then it is called also the Reply.'
+            eng: '<h3>Word meanings</h3><table><tr><td>प्रश्न+उत्तरान्तर+अभिन्नम् - </td><td>Consisting of same words of the query and its two replies</td></tr><tr><td>चित्रमुत्तरम् - </td><td>A skilful reply</td></tr><tr><td>उत्तरम् - </td><td>The Reply</td></tr></table><p>When a skilful reply is not different from the query, or in other words, when a reply made consists of the same words of the question asked, and when one reply made serves for two queries asked, then it is called also the Reply.</p>'
           },
           examples: [
             {
               text: '',
               explanation_sans: '',
-              explanation_eng: '<h3>Word meanings</h3><table><tr><td>के - </td><td>Who
-              दारपोषणरताः - </td><td>Those that are engaged in maintaining their wives
-              केदारपोषणरताः - </td><td>Those that are bent upon bringing the lands to perfection= husbandmen
-              के खेटाः - </td><td>Who move in the air
-              किं चलम् - </td><td>Which is transitory
-              वयः - </td><td>(1)	Birds (2) the age
-              Q. Who are those that are engaged in maintaining their wives ?R. Those that are bent upon bringing the lands to perfection or husbandmen.
-Q. Who move in the air and which is transitory-
-R. वयः (1) birds (2) age.
-केदारः =a ﬁeld. The ﬁrst question के दारपोषणरताः and its answer केदारपोषणरताः consist of the same words (lit. letters). वयः is the one reply made to the two questions asked. वयः= when it means, ‘birds’ is the nominative plural of the word वि m; and when it means ‘ the age ’ it is the nominative singular of the neuternoun वयस्. Hence these are styled the skilful replies. 
-  '
+              explanation_eng: '<h3>Word meanings</h3><table><tr><td>के - </td><td>Who</td></tr><tr><td>दारपोषणरताः - </td><td>Those that are engaged in maintaining their wives</td></tr><tr><td>केदारपोषणरताः - </td><td>Those that are bent upon bringing the lands to perfection= husbandmen</td></tr><tr><td>के खेटाः - </td><td>Who move in the air</td></tr><tr><td>किं चलम् - </td><td>Which is transitory</td></tr><tr><td>वयः - </td><td>(1) Birds (2) the age</td></tr></table><p>Q. Who are those that are engaged in maintaining their wives ?</p><p>R. Those that are bent upon bringing the lands to perfection or husbandmen.</p><p>Q. Who move in the air and which is transitory-</p><p>R. वयः (1) birds (2) age.</p><p>केदारः = a ﬁeld. The ﬁrst question के दारपोषणरताः and its answer केदारपोषणरताः consist of the same words (lit. letters). वयः is the one reply made to the two questions asked. वयः when it means, ‘birds’ is the nominative plural of the word वि; and when it means ‘the age’ it is the nominative singular of the neuternoun वयस्. Hence these are styled the skilful replies. </p>'
             }
           ]
         }
@@ -2973,26 +2827,14 @@ R. वयः (1) birds (2) age.
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>परा+चेष्टितम् - </td><td>Skilled in understanding the import of another
-            इतरः - </td><td>A second person
-            तस्य - </td><td>His
-            साकूतचेष्टितम् - </td><td>A significant act
-            सूक्ष्मम् - </td><td>The Subtle
-            A signiﬁcant act or gesture, of a person, intimated to another who is able to understand such gestures of others is called the Subtle.'
+            eng: '<h3>Word meanings</h3><table><tr><td>परा+चेष्टितम् - </td><td>Skilled in understanding the import of another</td></tr><tr><td>इतरः - </td><td>A second person</td></tr><tr><td>तस्य - </td><td>His</td></tr><tr><td>साकूतचेष्टितम् - </td><td>A significant act</td></tr><tr><td>सूक्ष्मम् - </td><td>The Subtle</td></tr></table><p>A signiﬁcant act or gesture, of a person, intimated to another who is able to understand such gestures of others is called the Subtle.</p>'
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>सा - </td><td>That (maiden)
-                मयि पश्यति - </td><td>When I was looking
-                केशैः - </td><td>By the tresses
-                सीमन्तमणिम् - </td><td>The crest-jewel
-                आवृणोत् - </td><td>Concealed
-                ( Friend ! ) When I was seeing (her anxiously for time of assignation), she concealed her crest jewel under her tresses.
-Here, the time of assignation eagerly inquired for by the lover is guessed from the lady’s act of concealing her bright crest-jewel under her dark tresses-a mark indicating the time of night when the bright sun is concealed under the darkness of the night.
-'
+                eng: '<h3>Word meanings</h3><table><tr><td>सा - </td><td>That (maiden)</td></tr><tr><td>मयि पश्यति - </td><td>When I was looking</td></tr><tr><td>केशैः - </td><td>By the tresses</td></tr><tr><td>सीमन्तमणिम् - </td><td>The crest-jewel</td></tr><tr><td>आवृणोत् - </td><td>Concealed</td></tr></table><p>( Friend ! ) When I was seeing (her anxiously for time of assignation), she concealed her crest jewel under her tresses.</p><p>Here, the time of assignation eagerly inquired for by the lover is guessed from the lady’s act of concealing her bright crest-jewel under her dark tresses-a mark indicating the time of night when the bright sun is concealed under the darkness of the night.</p>'
               }
             }
           ]
@@ -3008,24 +2850,14 @@ Here, the time of assignation eagerly inquired for by the lover is guessed from 
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>परवृत्तान्तज्ञातुः - </td><td>Of one that knows the secret of the other
-            साकूतचेष्टितम् - </td><td>Significant act or an insinuation
-पिहितम् - </td><td>The Covering
-A signiﬁcant act or an insinuation of a person that he or she knows the secret of another is called The Covering.'
+            eng: '<h3>Word meanings</h3><table><tr><td>परवृत्तान्तज्ञातुः - </td><td>Of one that knows the secret of the other</td></tr><tr><td>साकूतचेष्टितम् - </td><td>Significant act or an insinuation</td></tr><tr><td>पिहितम् - </td><td>The Covering</td></tr></table><p>A signiﬁcant act or an insinuation of a person that he or she knows the secret of another is called The Covering.</p>'
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>प्रातः - </td><td>In the morning
-                प्रिये गृहागते - </td><td>When the lover came to the house
-                कान्ता - </td><td>The lady
-                तल्पम् - </td><td>The bed
-                अकल्पयत् - </td><td>Prepared
-                Early in the morning, when the lover came to the house, his lady prepared bed (for him).
-Here, a lady when she saw her husband coming to her house in the morning with the marks of his having toyed with another lady, a rival one, at once prepared bed for his rest thus intimating to him that she has known his secrets.
-'
+                eng: '<h3>Word meanings</h3><table><tr><td>प्रातः - </td><td>In the morning</td></tr><tr><td>प्रिये गृहागते - </td><td>When the lover came to the house</td></tr><tr><td>कान्ता - </td><td>The lady</td></tr><tr><td>तल्पम् - </td><td>The bed</td></tr><tr><td>अकल्पयत् - </td><td>Prepared</td></tr></table><p>Early in the morning, when the lover came to the house, his lady prepared bed (for him).</p><p>Here, a lady when she saw her husband coming to her house in the morning with the marks of his having toyed with another lady, a rival one, at once prepared bed for his rest thus intimating to him that she has known his secrets.</p>'
               }
             }
           ]
@@ -3041,25 +2873,14 @@ Here, a lady when she saw her husband coming to her house in the morning with th
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>अन्यहेतूक्त्या - </td><td>By an attribution to a different cause
-            यत् - </td><td>Which
-            आकारस्य - </td><td>Of the appearance
-            गोपनम् - </td><td>Concealment
-            व्याजोक्तिः - </td><td>The Disembler
-            Def. The Disembler is the dissimulation of one's appearance hy attributing to a different cause.'
+            eng: '<h3>Word meanings</h3><table><tr><td>अन्यहेतूक्त्या - </td><td>By an attribution to a different cause</td></tr><tr><td>यत् - </td><td>Which</td></tr><tr><td>आकारस्य - </td><td>Of the appearance</td></tr><tr><td>गोपनम् - </td><td>Concealment</td></tr><tr><td>व्याजोक्तिः - </td><td>The Disembler</td></tr></table><h3>Definition</h3><p>The Disembler is the dissimulation of ones appearance hy attributing to a different cause.</p>'
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>सखि! - </td><td>Friend !
-                पश्य - </td><td>See
-                गृहारामपरागैः - </td><td>By the pollens of the house-garden
-                धूसरा अस्मि - </td><td>I am made grayish
-                Friend ! See I am made grayish by the pollens of (my) house-garden. 
-Here, a lady, the speaker, having her body made dirty by the dust in her toying with her lover, artfully conceals the same by saying that she was made greyish by the pollens, i.e., by attributing it to some different cause. Her first state was not expressed and then denied and so this is different from the ornament of Concealment (XI) where an object is ﬁrst mentioned by a person who then conceals it.
-'
+                eng: '<h3>Word meanings</h3><table><tr><td>सखि! - </td><td>Friend !</td></tr><tr><td>पश्य - </td><td>See</td></tr><tr><td>गृहारामपरागैः - </td><td>By the pollens of the house-garden</td></tr><tr><td>धूसरा अस्मि - </td><td>I am made grayish</td></tr></table><p>Friend ! See I am made grayish by the pollens of (my) house-garden. </p><p>Here, a lady, the speaker, having her body made dirty by the dust in her toying with her lover, artfully conceals the same by saying that she was made greyish by the pollens, i.e., by attributing it to some different cause. Her first state was not expressed and then denied and so this is different from the ornament of Concealment (XI) where an object is ﬁrst mentioned by a person who then conceals it.</p>'
               }
             }
           ]
@@ -3075,27 +2896,14 @@ Here, a lady, the speaker, having her body made dirty by the dust in her toying 
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>चेद् - </td><td>if
-            अन्योद्देश्यम् - </td><td>Intended for another
-            अन्यम् प्रति - </td><td>To another
-            कथ्यते - </td><td>Is told
-            गूढोक्तिः - </td><td>The Secrecy
-            When a speech intended to be communicated to a particular person is addressed to another whoyis also before the speaker, and when that speech conveys also the intended meaning of the speaker, it is termed the Secret Speech. '
+            eng: '<h3>Word meanings</h3><table><tr><td>चेद् - </td><td>if</td></tr><tr><td>अन्योद्देश्यम् - </td><td>Intended for another</td></tr><tr><td>अन्यम् प्रति - </td><td>To another</td></tr><tr><td>कथ्यते - </td><td>Is told</td></tr><tr><td>गूढोक्तिः - </td><td>The Secrecy</td></tr></table><p>When a speech intended to be communicated to a particular person is addressed to another whoyis also before the speaker, and when that speech conveys also the intended meaning of the speaker, it is termed the Secret Speech.</p> '
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>वृष ! - </td><td>O bull ! or luster !
-                परक्षेत्रात् - </td><td>From another’s field or wife
-                अपेहि - </td><td>Begone
-                क्षेत्ररक्षकः - </td><td>The land-lord or husband
-                मायाति - </td><td>Comes
-                O bull! begone, yonder comes the land-lord.
-This speech is intended to be communicated to a person toying with the wife of another person and this is addressed to the bull that was grazing in a third man’s field. The intended meaning to be conveyed is :-
-O Luster ! begone, yonder comes the husband of the lady with whom thou art boldly toying.
-'
+                eng: '<h3>Word meanings</h3><table><tr><td>वृष ! - </td><td>O bull ! or luster !</td></tr><tr><td>परक्षेत्रात् - </td><td>From another’s field or wife</td></tr><tr><td>अपेहि - </td><td>Begone</td></tr><tr><td>क्षेत्ररक्षकः - </td><td>The land-lord or husband</td></tr><tr><td>मायाति - </td><td>Comes</td></tr></table><p>O bull! begone, yonder comes the land-lord.</p><p>This speech is intended to be communicated to a person toying with the wife of another person and this is addressed to the bull that was grazing in a third man’s field. The intended meaning to be conveyed is :-</p><p>O Luster ! begone, yonder comes the husband of the lady with whom thou art boldly toying.</p>'
               }
             }
           ]
@@ -3111,26 +2919,14 @@ O Luster ! begone, yonder comes the husband of the lady with whom thou art boldl
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>श्लिष्टगुप्तम् - </td><td>Hidden under a pun
-            कविना - </td><td>By the poet
-            आविष्कृतम् यदि - </td><td>If purposely expressed
-            विहितोक्तिः - </td><td>Open Speech
-            Open Speech is that which is hidden under spun as in the preceding figure but purposely expressed by the poet by some kind of indication.'
+            eng: '<h3>Word meanings</h3><table><tr><td>श्लिष्टगुप्तम् - </td><td>Hidden under a pun</td></tr><tr><td>कविना - </td><td>By the poet</td></tr><tr><td>आविष्कृतम् यदि - </td><td>If purposely expressed</td></tr><tr><td>विहितोक्तिः - </td><td>Open Speech</td></tr></table><p>Open Speech is that which is hidden under spun as in the preceding figure but purposely expressed by the poet by some kind of indication.</p>'
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>वृष ! - </td><td>Bull ! or luster !
-                परक्षेत्रात् - </td><td>From another’s field or wife
-                अपेहि - </td><td>Begone
-                इति - </td><td>So
-                ससूचनम् - </td><td>With a gesticulation
-                वक्ति - </td><td>(he) speakes
-                “O bull! begone from another’s ﬁeld", so the speaker speaks with a gesticulation.
-By use of the word वृषापेहि, this is also hidden under a pun; and, by the employment of the word ससूचनम्, in the example by the poet, the secrecy becomes expressed. 
-'
+                eng: '<h3>Word meanings</h3><table><tr><td>वृष ! - </td><td>Bull ! or luster !</td></tr><tr><td>परक्षेत्रात् - </td><td>From another’s field or wife</td></tr><tr><td>अपेहि - </td><td>Begone</td></tr><tr><td>इति - </td><td>So</td></tr><tr><td>ससूचनम् - </td><td>With a gesticulation</td></tr><tr><td>वक्ति - </td><td>(he) speakes</td></tr></table><p>“O bull! begone from another’s ﬁeld", so the speaker speaks with a gesticulation.</p><p>By use of the word वृषापेहि, this is also hidden under a pun; and, by the employment of the word ससूचनम्, in the example by the poet, the secrecy becomes expressed. </p>'
               }
             }
           ]
@@ -3146,27 +2942,14 @@ By use of the word वृषापेहि, this is also hidden under a pun; an
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>मर्मगुप्तये - </td><td>For concealment of one’s own design
-            क्रियया - </td><td>By an act
-            परातिसंधानम् - </td><td>Deception played upon another
-            युक्तिः - </td><td>Covert speech
-            Covert Speech is a deception of a. person by an act played upon another for concealment of his or her own design.'
+            eng: '<h3>Word meanings</h3><table><tr><td>मर्मगुप्तये - </td><td>For concealment of one’s own design</td></tr><tr><td>क्रियया - </td><td>By an act</td></tr><tr><td>परातिसंधानम् - </td><td>Deception played upon another</td></tr><tr><td>युक्तिः - </td><td>Covert speech</td></tr></table><p>Covert Speech is a deception of a. person by an act played upon another for concealment of his or her own design.</p>'
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>त्वाम् - </td><td>Thee
-                आलिखन्ती - </td><td>painting
-                अन्यं दृष्ट्वा - </td><td>Seeing another (lady)
-                पौष्पं धनुः - </td><td>Flowery bow
-                करे - </td><td>In the hand
-                अलिखत् - </td><td>Draw
-                Lover! Thy lady painted thee and, seeing another person coming to her at that time, drew the ﬁgure of a flowery bow in the hand, thus intimating to that stranger than she painted the cupid and not thee.
-This is said by a go-between.
-This ﬁgure is properly reckoned as one of the kinds of सूक्ष्म (LXXXIV) in the Sahitya Darpana.
-'
+                eng: '<h3>Word meanings</h3><table><tr><td>त्वाम् - </td><td>Thee</td></tr><tr><td>आलिखन्ती - </td><td>painting</td></tr><tr><td>अन्यं दृष्ट्वा - </td><td>Seeing another (lady)</td></tr><tr><td>पौष्पं धनुः - </td><td>Flowery bow</td></tr><tr><td>करे - </td><td>In the hand</td></tr><tr><td>अलिखत् - </td><td>Draw</td></tr></table><p>Lover! Thy lady painted thee and, seeing another person coming to her at that time, drew the ﬁgure of a flowery bow in the hand, thus intimating to that stranger than she painted the cupid and not thee.</p><p>This is said by a go-between.</p>'
               }
             }
           ]
@@ -3182,24 +2965,14 @@ This ﬁgure is properly reckoned as one of the kinds of सूक्ष्म (
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>लोकप्रवादानुकृतिः - </td><td>Resembling a pro- verb
-            लोकोक्तिरिति - </td><td>Popular Saying
-            भण्यते - </td><td>Is called
-            An expression resembling a proverb is called the Popular Saying.'
+            eng: '<h3>Word meanings</h3><table><tr><td>लोकप्रवादानुकृतिः - </td><td>Resembling a pro- verb</td></tr><tr><td> लोकोक्तिरिति - </td><td>Popular Saying</td></tr><tr><td>भण्यते - </td><td>Is called</td></tr></table><p>An expression resembling a proverb is called the Popular Saying.</p>'
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>विलोचने - </td><td>The eyes
-                मीलयित्वा - </td><td>Having closed
-                कतिचित् मासान् - </td><td>A few months
-                सहस्व - </td><td>Wait or be patient
-                Lady ! wait for a few months with thy eyes closed.
-This is one of the messages sent by a separated lover to his lovely wife. The Full meaning is :-
-“Lady ! Let a few months be spent unmarked by thee ; and then we shall both meet, and have full scope to reward our desires entertained in our separation, “ With thy eyes closed " is even now more current in the sphere of the lovers and distressed people.
-'
+                eng: '<h3>Word meanings</h3><table><tr><td>विलोचने - </td><td>The eyes</td></tr><tr><td> मीलयित्वा - </td><td>Having closed</td></tr><tr><td> कतिचित् मासान् - </td><td>A few months</td></tr><tr><td>सहस्व - </td><td>Wait or be patient</td></tr></table><p>Lady ! wait for a few months with thy eyes closed.</p><p>This is one of the messages sent by a separated lover to his lovely wife. The Full meaning is :-</p><p>“Lady ! Let a few months be spent unmarked by thee ; and then we shall both meet, and have full scope to reward our desires entertained in our separation, “</p><p>With thy eyes closed is even now more current in the sphere of the lovers and distressed people.</p>'
               }
             }
           ]
@@ -3215,24 +2988,14 @@ This is one of the messages sent by a separated lover to his lovely wife. The Fu
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>लोकोक्तेः - </td><td>Of the Popular Saying
-            अर्थान्तरगर्भिता - </td><td>Containing another sense
-            यदि स्यात् - </td><td>If
-            छेकोक्तिः - </td><td>Skilful Speech
-            If the Popular Saying were to contain another sense, then it is called the Skilful Speech.'
+            eng: '<h3>Word meanings</h3><table><tr><td>लोकोक्तेः - </td><td>Of the Popular Saying</td></tr><tr><td>अर्थान्तरगर्भिता - </td><td>Containing another sense</td></tr><tr><td>यदि स्यात् - </td><td>If</td></tr><tr><td>छेकोक्तिः - </td><td>Skilful Speech</td></tr></table><p>If the Popular Saying were to contain another sense, then it is called the Skilful Speech.</p>'
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>सखे ! - </td><td>Friend !
-                भुजंगः एव - </td><td>Only the serpent or villain
-                भुजंगचरणम् - </td><td>The feet of the serpent or the behavior of a villain
-                जानीते - </td><td>Knows
-                A serpent alone knows the feet of a serpent.
-Another sense is - A villain alone knows the behaviour of a villain.
-'
+                eng: '<h3>Word meanings</h3><table><tr><td>सखे ! - </td><td>Friend !</td></tr><tr><td>भुजंगः एव - </td><td>Only the serpent or villain</td></tr><tr><td>भुजंगचरणम् - </td><td>The feet of the serpent or the behavior of a villain</td></tr><tr><td>जानीते - </td><td>Knows</td></tr></table><p>A serpent alone knows the feet of a serpent.</p><p>Another sense is - A villain alone knows the behaviour of a villain.</p>'
               }
             }
           ]
@@ -3248,24 +3011,14 @@ Another sense is - A villain alone knows the behaviour of a villain.
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>श्लेषकाकुभ्याम् - </td><td>By means of a pun or by an affected change of voice
-            अपरार्थ प्रकल्पनम् - </td><td>Construing one’s speech differently
-            वक्रोक्तिः - </td><td>The Crooked Speech
-            when a person construes aspeech of another in a different sense by means of a pun or by an affected change of voice, it is called the Crooked Speech.'
+            eng: '<h3>Word meanings</h3><table><tr><td>श्लेषकाकुभ्याम् - </td><td>By means of a pun or by an affected change of voice</td></tr><tr><td>अपरार्थ प्रकल्पनम् - </td><td>Construing one’s speech differently</td></tr><tr><td>वक्रोक्तिः - </td><td>The Crooked Speech</td></tr></table><p>When a person construes aspeech of another in a different sense by means of a pun or by an affected change of voice, it is called the Crooked Speech.</p>'
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>मुञ्च मानम् - </td><td>Remove thy anger
-                दिनं प्राप्तम् - </td><td>Day appeared
-                इह - </td><td>Here
-                नन्दी न - </td><td>No Nandin
-                हरान्तिके - </td><td>Near the God Siva
-                Lady! Remove thy anger as day has appeared.
-Here the lady construing it otherwise by at division of words मानं दिनम् into मा नन्दिनम् and reading it thus "मुञ्च मा नन्दिनं प्राप्तम् =leavest not the Nandin that has arrived here ” angrily replies thus, “No Nandin here; but he is near the God Siva."
-'
+                eng: '<h3>Word meanings</h3><table><tr><td>मुञ्च मानम् - </td><td>Remove thy anger</td></tr><tr><td> दिनं प्राप्तम् - </td><td>Day appeared</td></tr><tr><td>इह - </td><td>Here</td></tr><tr><td>नन्दी न - </td><td>No Nandin</td></tr><tr><td> हरान्तिके - </td><td>Near the God Siva</td></tr></table><p> Lady! Remove thy anger as day has appeared.</p><p>Here the lady construing it otherwise by at division of words मानं दिनम् into मा नन्दिनम् and reading it thus "मुञ्च मा नन्दिनं प्राप्तम् =leavest not the Nandin that has arrived here ” angrily replies thus, “No Nandin here; but he is near the God Siva."</p>'
               }
             }
           ]
@@ -3281,25 +3034,14 @@ Here the lady construing it otherwise by at division of words मानं द�
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>जात्यादिस्थस्य - </td><td>Belonging to a genus &c., i.e., quality, an action and a subastance
-            स्वभावस्य - </td><td>Of one’s own state
-            वर्णनम् - </td><td>Description
-            स्वभावोक्तिः - </td><td>Description of Nature
-            Description of Nature is the delineation of of a peculiar state of an object belonging to a genus etc., i.e., a quality, an action and a substance.'
+            eng: '<h3>Word meanings</h3><table><tr><td>जात्यादिस्थस्य - </td><td>Belonging to a genus &c., i.e., quality, an action and a subastance</td></tr><tr><td>            स्वभावस्य - </td><td>Of one’s own state</td></tr><tr><td>            वर्णनम् - </td><td>Description</td></tr><tr><td>            स्वभावोक्तिः - </td><td>Description of Nature</td></tr></table><p>        Description of Nature is the delineation of of a peculiar state of an object belonging to a genus etc., i.e., a quality, an action and a substance.</p>'
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>उत्तरङ्गाक्षैः - </td><td>Tremulous eyes
-                स्तब्धकर्णैः - </td><td>Pricking up ears
-                कुरङ्गः - </td><td>By antelopes
-                उदीक्ष्यतं - </td><td>Is looked at
-                These antelopes having tremulous eyes and pricking up their ears behold !
-As the term ‘antelopes’ denotes many, we have here the description of nature of a genus.
-Another name of this ﬁgure is जातिः according to Dandi. This kind of description is considered the best by the poets.
-'
+                eng: '<h3>Word meanings</h3><table><tr><td>उत्तरङ्गाक्षैः - </td><td>Tremulous eyes</td></tr><tr><td>                स्तब्धकर्णैः - </td><td>Pricking up ears</td></tr><tr><td>                कुरङ्गः - </td><td>By antelopes</td></tr><tr><td>                उदीक्ष्यतं - </td><td>Is looked at</td></tr></table><p>             These antelopes having tremulous eyes and pricking up their ears behold !</p><p>As the term ‘antelopes’ denotes many, we have here the description of nature of a genus.</p><p>Another name of this ﬁgure is जातिः according to Dandi. This kind of description is considered the best by the poets.</p>'
               }
             }
           ]
@@ -3315,23 +3057,14 @@ Another name of this ﬁgure is जातिः according to Dandi. This kind of
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>भूत भावि अर्थ-साक्षात्कारस्य - </td><td>Of perception of things pas or future
-            वर्णनम् - </td><td>Description
-            भाविकम् - </td><td>The vision
-            When something past or future is delineated by a poet in such a manner as can bring the subject of descviption vividly before the mind’s eye, it is called the Vision.'
+            eng: '<h3>Word meanings</h3><table><tr><td>भूत भावि अर्थ-साक्षात्कारस्य - </td><td>Of perception of things pas or future</td></tr><tr><td>            वर्णनम् - </td><td>Description</td></tr><tr><td>            भाविकम् - </td><td>The vision</td></tr></table><p>          When something past or future is delineated by a poet in such a manner as can bring the subject of descviption vividly before the mind’s eye, it is called the Vision.</p>'
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>अत्र - </td><td>In this place
-                सुरासुराः - </td><td>The gods and demons
-                युध्यन्ते - </td><td>Fight
-                अहम् - </td><td>I
-                अद्यापि - </td><td>Even now
-                विलोकये - </td><td>Behold
-                The gods and demons ﬁght in this place-even now I seem to behold it!'
+                eng: '<h3>Word meanings</h3><table><tr><td>अत्र - </td><td>In this place</td></tr><tr><td>                सुरासुराः - </td><td>The gods and demons</td></tr><tr><td>                युध्यन्ते - </td><td>Fight</td></tr><tr><td>                अहम् - </td><td>I</td></tr><tr><td>                अद्यापि - </td><td>Even now</td></tr><tr><td>                विलोकये - </td><td>Behold</td></tr><tr></table><p>The gods and demons ﬁght in this place-even now I seem to behold it!</p>'
               }
             }
           ]
@@ -3347,32 +3080,14 @@ Another name of this ﬁgure is जातिः according to Dandi. This kind of
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>ऋड्वेः - </td><td>Of prosperity
-            चरितम् - </td><td>Description
-            उदात्तम् - </td><td>The Exalted
-            च - </td><td>Also
-            श्लाघ्यम् - </td><td>Commendable action
-            अन्यस्य - </td><td>of another
-            उपलक्षणम् - </td><td>Indirect representation of importance
-            A description of prosperity of an object is termed the Exalted. 
-And any commendable action of some great personage represented indirectly or collaterally to the object under delineation is termed also the Exalted. 
-'
+            eng: '<h3>Word meanings</h3><table><tr><td>ऋड्वेः - </td><td>Of prosperity</td></tr><tr><td>            चरितम् - </td><td>Description</td></tr><tr><td>            उदात्तम् - </td><td>The Exalted</td></tr><tr><td>            च - </td><td>Also</td></tr><tr><td>            श्लाघ्यम् - </td><td>Commendable action</td></tr><tr><td>            अन्यस्य - </td><td>of another</td></tr><tr><td>            उपलक्षणम् - </td><td>Indirect representation of importance</td></tr></table><p>        A description of prosperity of an object is termed the Exalted. </p><p>And any commendable action of some great personage represented indirectly or collaterally to the object under delineation is termed also the Exalted. </p>'
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>यस्य - </td><td>Of which (Himalaya mountain)
-                सानौ - </td><td>In the summit
-                तत् - </td><td>That= celebrated
-                धूर्जटिकिरीटिनोः - </td><td>Between God Siva and Arjuna
-                युड्वम् - </td><td>Fight
-                अभवत् - </td><td>Took place
-                This is that Himalaya Mountain in whose summit that celebrated fight between the God Siva and Arjuna took place.
-Here, the celebrated fight of the great God Siva. with Arjuna is represented collaterally to the Himalaya Mountain-the object under delineation.
-This kind of representation attaches much importance to the subject on hand-now the Himalaya Mountain.
-'
+                eng: '<h3>Word meanings</h3><table><tr><td>यस्य - </td><td>Of which (Himalaya mountain)</td></tr><tr><td>               सानौ - </td><td>In the summit</td></tr><tr><td>                तत् - </td><td>That= celebrated</td></tr><tr><td>                धूर्जटिकिरीटिनोः - </td><td>Between God Siva and Arjuna</td></tr><tr><td>                युड्वम् - </td><td>Fight</td></tr><tr><td>                अभवत् - </td><td>Took place</td></tr></table><p>         This is that Himalaya Mountain in whose summit that celebrated fight between the God Siva and Arjuna took place.</p><p>Here, the celebrated fight of the great God Siva. with Arjuna is represented collaterally to the Himalaya Mountain-the object under delineation.</p><p>This kind of representation attaches much importance to the subject on hand-now the Himalaya Mountain.</p>'
               }
             }
           ]
@@ -3388,27 +3103,14 @@ This kind of representation attaches much importance to the subject on hand-now 
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>अद्भुत - </td><td>marvellous
-            अतथ्य - </td><td>False
-            शौर्य - </td><td>Valour
-            औदार्यादि - </td><td>Generosity etc
-            वर्णनम् - </td><td>Description
-            अत्युक्तिः - </td><td>Exaggeration
-            A description of marvellous and also false statement of one's valour, generosity, etc., is called the Exaggeration.'
+            eng: '<h3>Word meanings</h3><table><tr><td>अद्भुत - </td><td>marvellous</td></tr><tr><td>अतथ्य - </td><td>False</td></tr><tr><td>शौर्य - </td><td>Valour</td></tr><tr><td>औदार्यादि - </td><td>Generosity etc</td></tr><tr><td>वर्णनम् - </td><td>Description</td></tr><tr><td>अत्युक्तिः - </td><td>Exaggeration</td></tr></table><p>A description of marvellous and also false statement of ones valour, generosity, etc., is called the Exaggeration.</p>'
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>राजेन्द्र ! - </td><td>O King !
-                त्वयि दातरि - </td><td>When thou art a donor
-                कल्पशाखिनः - </td><td>Kalpa tree
-                याचकाः - </td><td>Mendicants
-                भवन्ति - </td><td>Become
-                O king! When thou art a donor, even the wish-yielding (kalpa) trees of paradise become thy mendicants.
-This is a false exaggeration of a king’s liberal munificence. 
-'
+                eng: '<h3>Word meanings</h3><table><tr><td>राजेन्द्र ! - </td><td>O King !</td></tr><tr><td> त्वयि दातरि - </td><td>When thou art a donor</td></tr><tr><td> कल्पशाखिनः - </td><td>Kalpa tree</td></tr><tr><td>   याचकाः - </td><td>Mendicants</td></tr><tr><td>   भवन्ति - </td><td>Become</td></tr></table><p>O king! When thou art a donor, even the wish-yielding (kalpa) trees of paradise become thy mendicants.</p><p>This is a false exaggeration of a king’s liberal munificence. </p>'
               }
             }
           ]
@@ -3424,27 +3126,14 @@ This is a false exaggeration of a king’s liberal munificence.
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>नाम्नाम् - </td><td>Of words
-            योगतः - </td><td>By derivation
-            अन्यार्थत्वप्रकल्पनम् - </td><td>Construing in a sense different from what is intended
-            निरुक्तिः - </td><td>Exposition
-            Exposition consists in construing words, in a sense different from what is intended, by an artificial derivation of those Words.'
+            eng: '<h3>Word meanings</h3><table><tr><td>नाम्नाम् - </td><td>Of words</td></tr><tr><td>योगतः - </td><td>By derivation</td></tr><tr><td> अन्यार्थत्वप्रकल्पनम् - </td><td>Construing in a sense different from what is intended</td></tr><tr><td>निरुक्तिः - </td><td>Exposition</td></tr></table><p>Exposition consists in construing words, in a sense different from what is intended, by an artificial derivation of those Words.</p>'
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>चन्द्र ! - </td><td>O moon !
-                ईदृशैः - </td><td>These
-                चरितैः - </td><td>By acts of thine
-                भवान् - </td><td>Thy honour
-                दोषाकरः - </td><td>Maker of night or faulty
-                सत्यम् - </td><td>Verily
-                जाने - </td><td>I know
-                O Moon! By these acts of thine, I know, truly, as much that thou art faulty (lit. the mine of faults).
-This is addressed to the moon by a damsel pining under separation.
-'
+                eng: '<h3>Word meanings</h3><table><tr><td>चन्द्र ! - </td><td>O moon !</td></tr><tr><td> ईदृशैः - </td><td>These</td></tr><tr><td>  चरितैः - </td><td>By acts of thine</td></tr><tr><td>भवान् - </td><td>Thy honour</td></tr><tr><td>दोषाकरः - </td><td>Maker of night or faulty</td></tr><tr><td> सत्यम् - </td><td>Verily</td></tr><tr><td> जाने - </td><td>I know</td></tr></table><p>O Moon! By these acts of thine, I know, truly, as much that thou art faulty (lit. the mine of faults).</p><p>This is addressed to the moon by a damsel pining under separation.</p>'
               }
             }
           ]
@@ -3460,24 +3149,14 @@ This is addressed to the moon by a damsel pining under separation.
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>प्रसिड्वस्य - </td><td>Well-known
-            निषेधस्य - </td><td>Of prevention
-            अनुकीर्तनम् - </td><td>Announcement
-            प्रतिषेधः - </td><td>Prohibition
-            Prohibition is the announcement of preven- tion of a well-known act. '
+            eng: '<h3>Word meanings</h3><table><tr><td>प्रसिड्वस्य - </td><td>Well-known</td></tr><tr><td>निषेधस्य - </td><td>Of prevention</td></tr><tr><td>अनुकीर्तनम् - </td><td>Announcement</td></tr><tr><td>प्रतिषेधः - </td><td>Prohibition</td></tr></table><p>Prohibition is the announcement of preven- tion of a well-known act. </p>'
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>कितव ! - </td><td>Gambler !
-                एतत् द्यूतम् न - </td><td>This is not the playing at dice
-                निशितैः शरैः - </td><td>By sharpened arrows
-                क्रीडनम् - </td><td>Playing
-                O Gambler Sakuni ! This is not the playing at dice but this is the playing by sharpened arrows (the famous battle of Kurukshetra).
-This is addressed by a true warrior to Sakuni, the uncle of Duryodhana, who at the celebrated gambling match threw the dice, won the game and obliged the good Pandavas to go into exile and thus became the cause of that dreadful war. The statement that this is not the place of gambling but of war-an expression of a true fact-conveys the intended meaning of the speaker that Sakuni could do well at the gambling and not at this battle ﬁeld.
-'
+                eng: '<h3>Word meanings</h3><table><tr><td>कितव ! - </td><td>Gambler !</td></tr><tr><td>एतत् द्यूतम् न - </td><td>This is not the playing at dice</td></tr><tr><td> निशितैः शरैः - </td><td>By sharpened arrows</td></tr><tr><td> क्रीडनम् - </td><td>Playing</td></tr></table><p>O Gambler Sakuni ! This is not the playing at dice but this is the playing by sharpened arrows (the famous battle of Kurukshetra).</p><p>This is addressed by a true warrior to Sakuni, the uncle of Duryodhana, who at the celebrated gambling match threw the dice, won the game and obliged the good Pandavas to go into exile and thus became the cause of that dreadful war. The statement that this is not the place of gambling but of war-an expression of a true fact-conveys the intended meaning of the speaker that Sakuni could do well at the gambling and not at this battle ﬁeld.</p>'
               }
             }
           ]
@@ -3493,27 +3172,14 @@ This is addressed by a true warrior to Sakuni, the uncle of Duryodhana, who at t
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>यत् - </td><td>which
-            सिड्वस्य एव - </td><td>Of that thing previously effected
-            विधानम् - </td><td>Declaration
-            तत् - </td><td>That
-            विधि+अलंकृतिम् - </td><td>The figure Fitness
-            आहुः - </td><td>The learned call
-            A declaration of a thing previously effected, the learned call as the figure Fitness.
- '
+            eng: '<h3>Word meanings</h3><table><tr><td>यत् - </td><td>which</td></tr><tr><td>सिड्वस्य एव - </td><td>Of that thing previously effected</td></tr><tr><td>विधानम् - </td><td>Declaration</td></tr><tr><td>तत् - </td><td>That</td></tr><tr><td>विधि+अलंकृतिम् - </td><td>The figure Fitness</td></tr><tr><td>आहुः - </td><td>The learned call</td></tr></table><p>A declaration of a thing previously effected, the learned call as the figure Fitness.</p> '
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>पञ्चम+उदञ्जने काले - </td><td>In the spring season
-                कोकिलः - </td><td>Kokila bird or the Indian cuckoo
-                कोकिलः - </td><td>Kokila, i.e., charming
-                भवेत् - </td><td>Shall become
-                Only in the spring season, the kokila bird shall become a kokila, i.e., charming.
-Here, the re-declaration of kokila bird, a thing already effected, is to show its extreme charmingness in the spring season-a season for singing in the panchama tone.
-'
+                eng: '<h3>Word meanings</h3><table><tr><td>पञ्चम+उदञ्जने काले - </td><td>In the spring season</td></tr><tr><td>कोकिलः - </td><td>Kokila bird or the Indian cuckoo</td></tr><tr><td>कोकिलः - </td><td>Kokila, i.e., charming</td></tr><tr><td>भवेत् - </td><td>Shall become</td></tr></table><p>Only in the spring season, the kokila bird shall become a kokila, i.e., charming.</p><p>Here, the re-declaration of kokila bird, a thing already effected, is to show its extreme charmingness in the spring season-a season for singing in the panchama tone.</p>'
               }
             }
           ]
@@ -3529,23 +3195,14 @@ Here, the re-declaration of kokila bird, a thing already effected, is to show it
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>हेतोः - </td><td>Of a cause
-            हेतुमता सार्धम् - </td><td>Along with its effect
-            वर्णनम् - </td><td>Description
-            हेतुः - </td><td>The cause
-            उच्यते - </td><td>Is termed
-            The description of a cause along with its intended effect is termed the Cause.'
+            eng: '<h3>Word meanings</h3><table><tr><td>हेतोः - </td><td>Of a cause हेतुमता सार्धम् - </td><td>Along with its effect</td></tr><tr><td>वर्णनम् - </td><td>Description</td></tr><tr><td>हेतुः - </td><td>The cause</td></tr><tr><td>उच्यते - </td><td>Is termed</td></tr></table><p>The description of a cause along with its intended effect is termed the Cause.</p>'
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>असौ शीतांशुः - </td><td>That moon
-                सुभ्रुवाम् - </td><td>Of women of beautiful eye-brows
-                मानच्छेदाय -</td><td>For quelling the pride
-                उदेति - </td><td>Rises
-                That moon rises for quelling the pride of women of beautiful eye-brows.'
+                eng: '<h3>Word meanings</h3><table><tr><td>असौ शीतांशुः - </td><td>That moon</td></tr><tr><td>सुभ्रुवाम् - </td><td>Of women of beautiful eye-brows</td></tr><tr><td>मानच्छेदाय -</td><td>For quelling the pride</td></tr><tr><td>उदेति - </td><td>Rises</td></tr></table><p>That moon rises for quelling the pride of women of beautiful eye-brows.</p>'
               }
             }
           ]
@@ -3557,28 +3214,13 @@ Here, the re-declaration of kokila bird, a thing already effected, is to show it
           sloka: 'Second sort of  हेतुः',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>हेतुहेतुमतोः - </td><td>Of cause and effect
-            ऐक्यम् - </td><td>Identity
-            प्रचक्षते - </td><td>Call
-            केचित् - </td><td>Certain rhetoricians
-हेतुम् - </td><td>As the figure Reason
-The identity of a cause with its effect is reckoned by some as the figure the Cause.'
+            eng: '<h3>Word meanings</h3><table><tr><td>हेतुहेतुमतोः - </td><td>Of cause and effect</td></tr><tr><td>ऐक्यम् - </td><td>Identity</td></tr><tr><td>प्रचक्षते - </td><td>Call</td></tr><tr><td>केचित् - </td><td>Certain rhetoricians</td></tr><tr><td>हेतुम् - </td><td>As the figure Reason</td></tr></table><p>The identity of a cause with its effect is reckoned by some as the figure the Cause.</p>'
           },
           examples: [
             {
               text: '',
               explanation_sans: '',
-              explanation_eng: '<h3>Word meanings</h3><table><tr><td>वेङ्कटप्रभोः - </td><td>Of the Lord of the mount Venkata
-              कटाक्षाः - </td><td>Glances
-विदुषाम् - </td><td>Of learned poets
-लक्ष्मीविलासाः - </td><td>Graces of the Goddess of Fortune
-The glances of the God Vishnu (lit. the Lord of the Mount Venkata) are the graces of the Goddess of Furtune to the learned.
-Here, the glance, the cause, is mentioned as identical with its effect, the graces of the Goddess of Fortune. This representation rests on the complete identiﬁcation and indicates the speedy simultaneous effect.
-इत्थं शतमलंकारा लक्षयित्वा निदर्शिताः ।
-प्राचामाधुनिकानां च मतान्यालोच्य सर्वशः ॥
-These one hundred figures of speech have been thus defined and exemplified (by the author) after having studied all the dogmas of the rhetoricians, ancient as well as modern.
- Or the King Venkata, the patron of our author Appaya Dikshita.
-'
+              explanation_eng: '<h3>Word meanings</h3><table><tr><td>वेङ्कटप्रभोः - </td><td>Of the Lord of the mount Venkata</td></tr><tr><td>कटाक्षाः - </td><td>Glances</td></tr><tr><td>विदुषाम् - </td><td>Of learned poets</td></tr><tr><td>लक्ष्मीविलासाः - </td><td>Graces of the Goddess of Fortune</td></tr></table><p>The glances of the God Vishnu (lit. the Lord of the Mount Venkata) are the graces of the Goddess of Furtune to the learned.</p><p>Here, the glance, the cause, is mentioned as identical with its effect, the graces of the Goddess of Fortune. This representation rests on the complete identiﬁcation and indicates the speedy simultaneous effect.</p>इत्थं शतमलंकारा लक्षयित्वा निदर्शिताः ।<br>प्राचामाधुनिकानां च मतान्यालोच्य सर्वशः ॥<p>These one hundred figures of speech have been thus defined and exemplified (by the author) after having studied all the dogmas of the rhetoricians, ancient as well as modern.</p><p>Or the King Venkata, the patron of our author Appaya Dikshita.</p>'
             }
           ]
         }
