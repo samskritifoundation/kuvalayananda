@@ -2169,14 +2169,14 @@ export const state = () => ({
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>कैमुत्येन	By the expression how much more</td></tr><tr><td>            अर्थसंसिड्विः	Accomplishment of an act</td></tr><tr><td>            काव्यार्थापत्तिः	The Necessary conclusion in the province of Poetry</td></tr><tr><td>            इष्यते	Is called</td></tr></table><p>The accomplishment of an act founded upon the popular maxim कैमुतिकन्यायः ‘argument with a stronger reason’, is termed the Necessary Conclusion.</p><p>कैमुत्य is the abstract noun of किमुत ‘how much more’. कैमुतिकन्यायः is usually called दण्डापूपन्यायः  the maxim of the stick and the cakes. When a stick and some cakes are tied together and, when the stick has been eaten away by a rat, we are naturally led to believe that the cakes also have been eaten by the rat, the two things being so closely connected. Thus, when we say something of the one of two such things, the same naturally applies to the other thing also. </p>'
+            eng: '<h3>Word meanings</h3><table><tr><td>कैमुत्येन - </td><td>By the expression how much more</td></tr><tr><td>अर्थसंसिड्विः - </td><td>Accomplishment of an act</td></tr><tr><td>काव्यार्थापत्तिः - </td><td>The Necessary conclusion in the province of Poetry</td></tr><tr><td>इष्यते - </td><td>Is called</td></tr></table><p>The accomplishment of an act founded upon the popular maxim कैमुतिकन्यायः ‘argument with a stronger reason’, is termed the Necessary Conclusion.</p><p>कैमुत्य is the abstract noun of किमुत ‘how much more’. कैमुतिकन्यायः is usually called दण्डापूपन्यायः  the maxim of the stick and the cakes. When a stick and some cakes are tied together and, when the stick has been eaten away by a rat, we are naturally led to believe that the cakes also have been eaten by the rat, the two things being so closely connected. Thus, when we say something of the one of two such things, the same naturally applies to the other thing also. </p>'
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>त्वन्मुखेन	By thy face</td></tr><tr><td>                सः इन्दुः	That moon</td></tr><tr><td>                जितः	Was conquered</td></tr><tr><td>                सरसीरूहाम्	Of the lotuses</td></tr><tr><td>                का	What</td></tr><tr><td>                वार्ता	Mention</td></tr></table><p>(Lady !) That moon has been conquered by thy face. What necessity is there to speak of (or why we speak of ) lotuses.</p><p>It is an acknowledged fact that lotuses begin to shrink and become faded on the rise of the moon. When that moon, the subduer of the lotuses, has been conquered, the fact that lotuses too have been conquered much more becomes a necessary conclusion.</p>'
+                eng: '<h3>Word meanings</h3><table><tr><td>त्वन्मुखेन - </td><td>By thy face</td></tr><tr><td>सः इन्दुः - </td><td>That moon</td></tr><tr><td>जितः - </td><td>Was conquered</td></tr><tr><td>सरसीरूहाम् - </td><td>Of the lotuses</td></tr><tr><td>का - </td><td>What</td></tr><tr><td>वार्ता - </td><td>Mention</td></tr></table><p>(Lady !) That moon has been conquered by thy face. What necessity is there to speak of (or why we speak of ) lotuses.</p><p>It is an acknowledged fact that lotuses begin to shrink and become faded on the rise of the moon. When that moon, the subduer of the lotuses, has been conquered, the fact that lotuses too have been conquered much more becomes a necessary conclusion.</p>'
               }
             }
           ]
@@ -2192,14 +2192,14 @@ export const state = () => ({
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>समर्थनीयस्य	To be established</td></tr><tr><td>            अर्थस्य	Of a fact</td></tr><tr><td>            समर्थनम्	Justifying</td></tr><tr><td>            काव्यलिंगम्	The Poetical Reason</td></tr></table><p>The Poetical Reason is a reason justifying a statement which requires to be established.</p>'
+            eng: '<h3>Word meanings</h3><table><tr><td>समर्थनीयस्य - </td><td>To be established</td></tr><tr><td>अर्थस्य - </td><td>Of a fact</td></tr><tr><td>समर्थनम् - </td><td>Justifying</td></tr><tr><td>काव्यलिंगम् - </td><td>The Poetical Reason</td></tr></table><p>The Poetical Reason is a reason justifying a statement which requires to be established.</p>'
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>मन्द	Foolish</td></tr><tr><td>                कन्दर्प	Cupid</td></tr><tr><td>                जितः असि	Thou hast been conquered</td></tr><tr><td>                मच्चित्ते	In my mind</td></tr><tr><td>                विलोचनः	Three-eyed God Siva</td></tr><tr><td>                अस्ति	Resides</td></tr></table><p>O foolish God of love ! Thou hast been conquered (by me). For, in my mind, there resides the three-eyed God Siva.</p><p>Here, the fact of the presence of the God Siva. in the mind of the speaker is a reason for the speaker’s conquest of the God of Love who has once been burnt by Siva. </p>'
+                eng: '<h3>Word meanings</h3><table><tr><td>मन्द - </td><td>Foolish</td></tr><tr><td>कन्दर्प - </td><td>Cupid</td></tr><tr><td>जितः असि - </td><td>Thou hast been conquered</td></tr><tr><td>मच्चित्ते - </td><td>In my mind</td></tr><tr><td>विलोचनः - </td><td>Three-eyed God Siva</td></tr><tr><td>अस्ति - </td><td>Resides</td></tr></table><p>O foolish God of love ! Thou hast been conquered (by me). For, in my mind, there resides the three-eyed God Siva.</p><p>Here, the fact of the presence of the God Siva. in the mind of the speaker is a reason for the speaker’s conquest of the God of Love who has once been burnt by Siva. </p>'
               }
             }
           ]
@@ -2214,21 +2214,21 @@ export const state = () => ({
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>सामान्यविशेषयोः	Of a universal proposition and a particular instance</td></tr><tr><td>            उक्तिः	assertion</td></tr><tr><td>            अर्थान्तरन्यासः	The Transition</td></tr></table><p>The assertion of a universal (proposition) and a particular (instance) is termed the Transition. Or, in other words, when a universal proposition is introduced to support a particular instance, or a particular instance to support a universal proposition, it is called the Transition.</p>'
+            eng: '<h3>Word meanings</h3><table><tr><td>सामान्यविशेषयोः - </td><td>Of a universal proposition and a particular instance</td></tr><tr><td>उक्तिः - </td><td>assertion</td></tr><tr><td>अर्थान्तरन्यासः - </td><td>The Transition</td></tr></table><p>The assertion of a universal (proposition) and a particular (instance) is termed the Transition. Or, in other words, when a universal proposition is introduced to support a particular instance, or a particular instance to support a universal proposition, it is called the Transition.</p>'
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>हनूमान्	The monkey- God Hanuman</td></tr><tr><td>                अब्धिम्	The ocean</td></tr><tr><td>                अतरर्	Crossed</td></tr><tr><td>                महात्मनाम्	Of grear men</td></tr><tr><td>                दुष्करम्	Impossible</td></tr><tr><td>                किम्	What</td></tr></table><p>Hanuman crossed the ocean ; what is impossible for great men ?</p><p>Here, a particular instance is conﬁrmed by a universal proposition.</p><p>Example of a universal proposition supported by a particular instance.</p>'
+                eng: '<h3>Word meanings</h3><table><tr><td>हनूमान् - </td><td>The monkey- God Hanuman</td></tr><tr><td>अब्धिम् - </td><td>The ocean</td></tr><tr><td>अतरर् - </td><td>Crossed</td></tr><tr><td>महात्मनाम् - </td><td>Of great men</td></tr><tr><td>दुष्करम् - </td><td>Impossible</td></tr><tr><td>किम् - </td><td>What</td></tr></table><p>Hanuman crossed the ocean ; what is impossible for great men ?</p><p>Here, a particular instance is conﬁrmed by a universal proposition.</p><p>Example of a universal proposition supported by a particular instance.</p>'
               }
             },
             {
               text: '',
               explanation: {
                 sans: 'गुणवद्वस्तुसंसर्गाद् याति स्वल्पोऽपि गौरवम् ।<br>पुष्पमालानुषंगेण सूत्रं शिरसि धार्यते ॥',
-                eng: '<h3>Word meanings</h3><table><tr><td>गुणवद्वस्तुसंसर्गाद्	By association of the meritorious</td></tr><tr><td>                स्वल्पोऽपि	Even the meanest creature</td></tr><tr><td>                गौरवम्	Greatness</td></tr><tr><td>                याति	Attains</td></tr><tr><td>                पुष्पमालानुषंगेण	By the union with a wreath of flowers</td></tr><tr><td>                सूत्रं	Thread</td></tr><tr><td>                शिरसि	On the head</td></tr><tr><td>                धार्यते	Is worn</td></tr></table><p>Even the meanest creature, by the association of the meritorious, attains to the greatness. A thread united with a wreath of ﬂowers is worn on the head.</p><p>Here, a universal proposition is conﬁrmed by a particular instance.</p>'
+                eng: '<h3>Word meanings</h3><table><tr><td>गुणवद्वस्तुसंसर्गाद् - </td><td>By association of the meritorious</td></tr><tr><td>स्वल्पोऽपि - </td><td>Even the meanest creature</td></tr><tr><td>गौरवम् - </td><td>Greatness</td></tr><tr><td>याति - </td><td>Attains</td></tr><tr><td>पुष्पमालानुषंगेण - </td><td>By the union with a wreath of flowers</td></tr><tr><td>सूत्रं - </td><td>Thread</td></tr><tr><td>शिरसि - </td><td>On the head</td></tr><tr><td>धार्यते - </td><td>Is worn</td></tr></table><p>Even the meanest creature, by the association of the meritorious, attains to the greatness. A thread united with a wreath of ﬂowers is worn on the head.</p><p>Here, a universal proposition is conﬁrmed by a particular instance.</p>'
               }
             }
           ]
@@ -2244,14 +2244,14 @@ export const state = () => ({
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>यस्मिन्	In which</td></tr><tr><td>            विशेषसामान्यविशेषाः	Particular, general and particular assertions</td></tr><tr><td>            सः	That</td></tr><tr><td>            विकस्वरः	The Expansion</td></tr></table><p>When a particular is supported by a general which again is supported by a particular, it is called the Expansion. Or, in other words, when a Transition in which a particular instance is supported by a general proposition with a Simile, it is termed the Expansion (of the Transition).</p>'
+            eng: '<h3>Word meanings</h3><table><tr><td>यस्मिन् - </td><td>In which</td></tr><tr><td>विशेषसामान्यविशेषाः - </td><td>Particular, general and particular assertions</td></tr><tr><td>सः - </td><td>That</td></tr><tr><td>विकस्वरः - </td><td>The Expansion</td></tr></table><p>When a particular is supported by a general which again is supported by a particular, it is called the Expansion. Or, in other words, when a Transition in which a particular instance is supported by a general proposition with a Simile, it is termed the Expansion (of the Transition).</p>'
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>सः	That (King)</td></tr><tr><td>                न जिग्ये	Was not conquered</td></tr><tr><td>                हि	Because</td></tr><tr><td>                महान्तः	Great men</td></tr><tr><td>                सागरा इव	Like the oceans</td></tr><tr><td>                दुर्ड्वर्षाः	Unassailable</td></tr></table><p>That (king) was not conquered (by his enemies). For the great men are as unassailable as the oceans.</p>'
+                eng: '<h3>Word meanings</h3><table><tr><td>सः - </td><td>That (King)</td></tr><tr><td>न जिग्ये - </td><td>Was not conquered</td></tr><tr><td>हि - </td><td>Because</td></tr><tr><td>महान्तः - </td><td>Great men</td></tr><tr><td>सागरा इव - </td><td>Like the oceans</td></tr><tr><td> दुर्ड्वर्षाः - </td><td>Unassailable</td></tr></table><p>That (king) was not conquered (by his enemies). For the great men are as unassailable as the oceans.</p>'
               }
             }
           ]
@@ -2267,14 +2267,14 @@ export const state = () => ({
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>उत्कर्षाहेतौ	Which connot form as a cause of excellence</td></tr><tr><td>            तड्वेतुत्वप्रकल्पनम्	Attribution of a certain cause to it</td></tr><tr><td>            प्रौढोक्तिः	The Bold Speech</td></tr></table><p>The attribution of a certain cause, to a statement asserted, which cannot form the cause of excellence (of the object described) is called the Bold Speech.</p>'
+            eng: '<h3>Word meanings</h3><table><tr><td>उत्कर्षाहेतौ - </td><td>Which connot form as a cause of excellence</td></tr><tr><td>तड्वेतुत्वप्रकल्पनम् - </td><td>Attribution of a certain cause to it</td></tr><tr><td>प्रौढोक्तिः - </td><td>The Bold Speech</td></tr></table><p>The attribution of a certain cause, to a statement asserted, which cannot form the cause of excellence (of the object described) is called the Bold Speech.</p>'
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>कचाः	The tresses</td></tr><tr><td>                कलिन्दजातीरतमालस्तोममेचकाः	As black as the Tamala group grown on the bank of the Yamuna river.</td></tr></table><p>The tresses (of the Lord Krishna) are as black as the group of tamala trees grown on the banks of Kalinda’s daughter Yamuna.</p><p>The water of the Yamuna is naturally black as also the tamala trees. The blackness of the tamala trees cannot therefore be attributed to their having grown on the banks of the Yamuna river. Still, it is asserted to be so here. Hence it is called the Bold Speech.</p>'
+                eng: '<h3>Word meanings</h3><table><tr><td>कचाः - </td><td>The tresses</td></tr><tr><td>कलिन्दजातीरतमालस्तोममेचकाः - </td><td>As black as the Tamala group grown on the bank of the Yamuna river.</td></tr></table><p>The tresses (of the Lord Krishna) are as black as the group of tamala trees grown on the banks of Kalinda’s daughter Yamuna.</p><p>The water of the Yamuna is naturally black as also the tamala trees. The blackness of the tamala trees cannot therefore be attributed to their having grown on the banks of the Yamuna river. Still, it is asserted to be so here. Hence it is called the Bold Speech.</p>'
               }
             }
           ]
@@ -2290,14 +2290,14 @@ export const state = () => ({
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>अन्यस्य	Of another act</td></tr><tr><td>            सिड्बये	For the accomplishment</td></tr><tr><td>            यदि इत्थं स्यात्	If it were so</td></tr><tr><td>            इति	So</td></tr><tr><td>            ऊहः	Conjecture</td></tr><tr><td>            संभावना	The Supposition</td></tr></table><p>A conjecture assumed through the use of the expression ‘if it were so’ for the accomplishment of another (impossible) act, is termed the Supposition.</p>'
+            eng: '<h3>Word meanings</h3><table><tr><td>अन्यस्य - </td><td>Of another act</td></tr><tr><td>सिड्बये - </td><td>For the accomplishment</td></tr><tr><td>यदि इत्थं स्यात् - </td><td>If it were so</td></tr><tr><td>इति - </td><td>So</td></tr><tr><td>ऊहः - </td><td>Conjecture</td></tr><tr><td>संभावना - </td><td>The Supposition</td></tr></table><p>A conjecture assumed through the use of the expression ‘if it were so’ for the accomplishment of another (impossible) act, is termed the Supposition.</p>'
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>यदि	If</td></tr><tr><td>                शेषः	Lord of serpents</td></tr><tr><td>                वक्ता	Narrater</td></tr><tr><td>                भवेत्	Happen</td></tr><tr><td>                तव	Thy</td></tr><tr><td>                गुणाः	Merits</td></tr><tr><td>                कथिताः स्युः	Would have been described</td></tr></table><p>O God! If the Lord of the serpents were to be the narrater, then all thy merits would have been described. </p><p>This form of supposition introduced by a subjunctive clause is reckoned by the author of Kavyaprakasa as the third kind of अतिशयोक्ति.</p>'
+                eng: '<h3>Word meanings</h3><table><tr><td>यदि - </td><td>If</td></tr><tr><td>शेषः - </td><td>Lord of serpents</td></tr><tr><td>वक्ता - </td><td>Narrater</td></tr><tr><td>भवेत् - </td><td>Happen</td></tr><tr><td>तव - </td><td>Thy</td></tr><tr><td>गुणाः - </td><td>Merits</td></tr><tr><td>कथिताः स्युः - </td><td>Would have been described</td></tr></table><p>O God! If the Lord of the serpents were to be the narrater, then all thy merits would have been described. </p><p>This form of supposition introduced by a subjunctive clause is reckoned by the author of Kavyaprakasa as the third kind of अतिशयोक्ति.</p>'
               }
             }
           ]
@@ -2313,14 +2313,14 @@ export const state = () => ({
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>किञ्चिन्मिथ्यात्वसिड्ब्यर्थं	For the purpose of establishing false assertion</td></tr><tr><td>            मिथ्यार्थान्तरकल्पनम्	A statement of another absolute false thing</td></tr></table><p>When, for purposes of establishing a false assertion, another absolute false one is introduced, or, in other words, if one false assertion is made to depend upon another absolute false one, then it "is called the False Determination. (Reductio ad absurdum= reducing a position to an absurdity).</p>'
+            eng: '<h3>Word meanings</h3><table><tr><td>किञ्चिन्मिथ्यात्वसिड्ब्यर्थं - </td><td>For the purpose of establishing false assertion</td></tr><tr><td>मिथ्यार्थान्तरकल्पनम् - </td><td>A statement of another absolute false thing</td></tr></table><p>When, for purposes of establishing a false assertion, another absolute false one is introduced, or, in other words, if one false assertion is made to depend upon another absolute false one, then it "is called the False Determination. (Reductio ad absurdum= reducing a position to an absurdity).</p>'
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>मिथ्याध्यवसितिः	The False Determination</td></tr><tr><td>                खस्रजम्	Garland of sky-flowers</td></tr><tr><td>                वहन्	Wearing</td></tr><tr><td>                वेश्याम्	The prostitute</td></tr><tr><td>                वशयेत्	Can win over.</td></tr></table><p>Wearing a garland of sky-ﬂowers, one can Win over a prostitute.</p><p>Sky-ﬂower is an absolute nonentity and does not exist in any period, past, present or future. So the winning over a prostitute becomes also a non-entity. This ornament is also reckoned as one of the kinds of अतिशयोक्ति by the author of K. P.</p>'
+                eng: '<h3>Word meanings</h3><table><tr><td>मिथ्याध्यवसितिः - </td><td>The False Determination</td></tr><tr><td>खस्रजम् - </td><td>Garland of sky-flowers</td></tr><tr><td>वहन् - </td><td>Wearing</td></tr><tr><td>वेश्याम् - </td><td>The prostitute</td></tr><tr><td>वशयेत् - </td><td>Can win over.</td></tr></table><p>Wearing a garland of sky-ﬂowers, one can Win over a prostitute.</p><p>Sky-ﬂower is an absolute nonentity and does not exist in any period, past, present or future. So the winning over a prostitute becomes also a non-entity. This ornament is also reckoned as one of the kinds of अतिशयोक्ति by the author of K. P.</p>'
               }
             }
           ]
@@ -2336,14 +2336,14 @@ export const state = () => ({
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>वर्ण्ये	In the object on hand</td></tr><tr><td>            वर्ण्यवृत्तान्तप्रतिबिम्बस्य	Of the reflective representation of an incident on hand</td></tr><tr><td>            वर्णनम्	Delineation</td></tr><tr><td>            ललितम् स्यात्	Is the Artful Indication</td></tr></table><p>ललितम् is a delineation of an inciden not on hand which ends in a reﬂective comparison to an incident on hand.</p>'
+            eng: '<h3>Word meanings</h3><table><tr><td>वर्ण्ये - </td><td>In the object on hand</td></tr><tr><td>वर्ण्यवृत्तान्तप्रतिबिम्बस्य - </td><td>Of the reflective representation of an incident on hand</td></tr><tr><td>वर्णनम् - </td><td>Delineation</td></tr><tr><td>ललितम् स्यात् - </td><td>Is the Artful Indication</td></tr></table><p>ललितम् is a delineation of an incident not on hand which ends in a reﬂective comparison to an incident on hand.</p>'
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>एषा	This (maiden)</td></tr><tr><td>                नीरे	When water</td></tr><tr><td>                निर्गते	Had gone out</td></tr><tr><td>                सेतुम्	Bund</td></tr><tr><td>                चिकीर्षति	Wishes</td></tr></table><p>This (maiden) wishes to raise a bund when all the water had gone out. </p><p>This is said by a maid to her mistress who wanted to send for her once neglected lover. The maid instead of telling her mistress that she missed the opportunity and now foolishly wants to bring her lover who has now fallen in love with another lady indirectly intimates the same meaning which is reﬂectively represented in the expression given in the text</p><p>The sending for the lover who once came to the lady and was neglected by  is the same as the raising of at bund after all the water had gone out.</p>'
+                eng: '<h3>Word meanings</h3><table><tr><td>एषा - </td><td>This (maiden)</td></tr><tr><td>नीरे - </td><td>When water</td></tr><tr><td>निर्गते - </td><td>Had gone out</td></tr><tr><td>सेतुम् - </td><td>Bund</td></tr><tr><td>चिकीर्षति - </td><td>Wishes</td></tr></table><p>This (maiden) wishes to raise a bund when all the water had gone out. </p><p>This is said by a maid to her mistress who wanted to send for her once neglected lover. The maid instead of telling her mistress that she missed the opportunity and now foolishly wants to bring her lover who has now fallen in love with another lady indirectly intimates the same meaning which is reﬂectively represented in the expression given in the text</p><p>The sending for the lover who once came to the lady and was neglected by  is the same as the raising of at bund after all the water had gone out.</p>'
               }
             }
           ]
@@ -2359,14 +2359,14 @@ export const state = () => ({
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>यत्नम् विना	without an effort</td></tr><tr><td>            उत्कण्ठितार्थसंसिड्बिः	Accomplishment of a thing longed for</td></tr><tr><td>            प्रहर्षणम्	The Enrapturing</td></tr></table><p>When the accomplishinent of a. thing eagerly longed for takes place without any effort for it, or, in other words, when the desired object is obtained by chance, it is called the Enrapturing.</p>'
+            eng: '<h3>Word meanings</h3><table><tr><td>यत्नम् विना - </td><td>without an effort</td></tr><tr><td>उत्कण्ठितार्थसंसिड्बिः - </td><td>Accomplishment of a thing longed for</td></tr><tr><td>प्रहर्षणम् - </td><td>The Enrapturing</td></tr></table><p>When the accomplishinent of a. thing eagerly longed for takes place without any effort for it, or, in other words, when the desired object is obtained by chance, it is called the Enrapturing.</p>'
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>ताम् एव	Only her</td></tr><tr><td>                ध्यायते तस्मै	To him thinking</td></tr><tr><td>                सैव दूतिका	That same messenger</td></tr><tr><td>                निसृष्टा	Was sent</td></tr></table><p>That same messenger-a conﬁdante-was sent (by a, lady) to him (her lover) who was thinking of her only.</p><p>This incident took place without any effort on the part of the lover. He was thinking that her lady would send him a disagreeable messenger and, when he saw his own conﬁdante coming as a messenger to him, he could not contain for joy and hence this is called the Enrapturing—the delight beyond measure.</p>'
+                eng: '<h3>Word meanings</h3><table><tr><td>ताम् एव - </td><td>Only her</td></tr><tr><td>ध्यायते तस्मै - </td><td>To him thinking</td></tr><tr><td>सैव दूतिका - </td><td>That same messenger</td></tr><tr><td>निसृष्टा - </td><td>Was sent</td></tr></table><p>That same messenger-a conﬁdante-was sent (by a, lady) to him (her lover) who was thinking of her only.</p><p>This incident took place without any effort on the part of the lover. He was thinking that her lady would send him a disagreeable messenger and, when he saw his own conﬁdante coming as a messenger to him, he could not contain for joy and hence this is called the Enrapturing—the delight beyond measure.</p>'
               }
             }
           ]
@@ -2378,13 +2378,13 @@ export const state = () => ({
           sloka: 'The Second kind of the Enrapturing.',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>वाच्छितात्	Than the desired</td></tr><tr><td>            अधिकार्थस्य	Of something more</td></tr><tr><td>            संसिड्विः	Attainment</td></tr><tr><td>            प्रहर्षणम्	The Enrapturing</td></tr></table><p>The attainment of something more than what was desired is called the second kind of the Enrapturing.</p>'
+            eng: '<h3>Word meanings</h3><table><tr><td>वाच्छितात् - </td><td>Than the desired</td></tr><tr><td>अधिकार्थस्य - </td><td>Of something more</td></tr><tr><td>संसिड्विः - </td><td>Attainment</td></tr><tr><td>प्रहर्षणम् - </td><td>The Enrapturing</td></tr></table><p>The attainment of something more than what was desired is called the second kind of the Enrapturing.</p>'
           },
           examples: [
             {
               text: '',
               explanation_sans: '',
-              explanation_eng: '<h3>Word meanings</h3><table><tr><td>यावत्	No sooner</td></tr><tr><td>              दीपम्	The lamp</td></tr><tr><td>              उद्योजयेत्	Kindle</td></tr><tr><td>              तावत्	Than</td></tr><tr><td>              रविः	The sun</td></tr><tr><td>              अभ्युदितः	Rose</td></tr></table><p> No sooner did she kindle the lamp, than the sun rose.</p><p>Here the lady rose and wanted to kindle the lamp and, when she came out of her room, she saw the sun risen. This is more than what was desired.</p>'
+              explanation_eng: '<h3>Word meanings</h3><table><tr><td>यावत् - </td><td>No sooner</td></tr><tr><td>दीपम् - </td><td>The lamp</td></tr><tr><td>उद्योजयेत् - </td><td>Kindle</td></tr><tr><td>तावत् - </td><td>Than</td></tr><tr><td>रविः - </td><td>The sun</td></tr><tr><td>अभ्युदितः - </td><td>Rose</td></tr></table><p> No sooner did she kindle the lamp, than the sun rose.</p><p>Here the lady rose and wanted to kindle the lamp and, when she came out of her room, she saw the sun risen. This is more than what was desired.</p>'
             }
           ]
         },
@@ -2392,13 +2392,13 @@ export const state = () => ({
           sloka: 'Third kind of the Enrapturing.',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>उपायसिड्व्यर्थात्	to get the object desired</td></tr><tr><td>            यत्नात्	Attainment of a means</td></tr><tr><td>            साक्षात् फलस्य	Of the object itself</td></tr><tr><td>            लाभः च	Attainment also</td></tr></table><p>When, by an effort made for the attainment of a means to get the object desired, the desired object itself is obtained, it is the third kind of the Enrapturing.</p>'
+            eng: '<h3>Word meanings</h3><table><tr><td>उपायसिड्व्यर्थात् - </td><td>to get the object desired</td></tr><tr><td>यत्नात् - </td><td>Attainment of a means</td></tr><tr><td>साक्षात् फलस्य - </td><td>Of the object itself</td></tr><tr><td>लाभः च - </td><td>Attainment also</td></tr></table><p>When, by an effort made for the attainment of a means to get the object desired, the desired object itself is obtained, it is the third kind of the Enrapturing.</p>'
           },
           examples: [
             {
               text: '',
               explanation_sans: '',
-              explanation_eng: '<h3>Word meanings</h3><table><tr><td>निध्यंजनौषधीमूलम्	The root of a magic plant</td></tr><tr><td>              खनता	By a digger</td></tr><tr><td>              निधिः	Treasure</td></tr><tr><td>              साधितः	Was obtained</td></tr></table><p>By him who dug the root of the magic plant for the purpose of discovering the treasure hidden under the earth, the treasure itself was obtained.</p>'
+              explanation_eng: '<h3>Word meanings</h3><table><tr><td>निध्यंजनौषधीमूलम् - </td><td>The root of a magic plant</td></tr><tr><td>खनता - </td><td>By a digger</td></tr><tr><td>निधिः - </td><td>Treasure</td></tr><tr><td>साधितः - </td><td>Was obtained</td></tr></table><p>By him who dug the root of the magic plant for the purpose of discovering the treasure hidden under the earth, the treasure itself was obtained.</p>'
             }
           ]
         }
@@ -2413,14 +2413,14 @@ export const state = () => ({
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>इष्यमाणविरुड्वार्थसंप्राप्तिः तु	The attainment of a thing opposed to what was desired</td></tr><tr><td>            विषादनम्	The Despondency</td></tr></table><p>The attainment of a thing quite opposed to what was desired is termed the Despondency.</p>'
+            eng: '<h3>Word meanings</h3><table><tr><td>इष्यमाणविरुड्वार्थसंप्राप्तिः तु - </td><td>The attainment of a thing opposed to what was desired</td></tr><tr><td>विषादनम् - </td><td>The Despondency</td></tr></table><p>The attainment of a thing quite opposed to what was desired is termed the Despondency.</p>'
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>यावत्	No sooner</td></tr><tr><td>                दीपम्	The lamp</td></tr><tr><td>                उद्योजयेत्	Kindles</td></tr><tr><td>                तावदेव	Than</td></tr><tr><td>                सः	That</td></tr><tr><td>                निर्वाणः	Extinguished</td></tr></table><p>No sooner did she kindle the lamp, than it extinguished.</p>'
+                eng: '<h3>Word meanings</h3><table><tr><td>यावत् - </td><td>No sooner</td></tr><tr><td>दीपम् - </td><td>The lamp</td></tr><tr><td>उद्योजयेत् - </td><td>Kindles</td></tr><tr><td>तावदेव - Than</td></tr><tr><td>सः - That</td></tr><tr><td>निर्वाणः - </td><td>Extinguished</td></tr></table><p>No sooner did she kindle the lamp, than it extinguished.</p>'
               }
             }
           ]
@@ -2436,35 +2436,35 @@ export const state = () => ({
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>एकस्य	Of one object</td></tr><tr><td>            गुणादोषाभ्याम्	By merit and demerit</td></tr><tr><td>            अन्यस्य	Of another object</td></tr><tr><td>            यदि तौ	If those two</td></tr><tr><td>            उल्लासः	Abandonment</td></tr></table><p>If the delineation of merit and demerit of one object conveys a reference to the merit and demerit of another object, or, in other words, if: <ol><li>the merit of one object refer to the merit of another object</li><li>the demerit, to the demerit</li><li>the merit, to the demerit,</li><li>the demerit, to the merit, then it is called the Abandonment</li></ol></p.'
+            eng: '<h3>Word meanings</h3><table><tr><td>एकस्य - </td><td>Of one object</td></tr><tr><td>गुणादोषाभ्याम् - </td><td>By merit and demerit</td></tr><tr><td>अन्यस्य - </td><td>Of another object</td></tr><tr><td>यदि तौ - </td><td>If those two</td></tr><tr><td>उल्लासः - </td><td>Abandonment</td></tr></table><p>If the delineation of merit and demerit of one object conveys a reference to the merit and demerit of another object, or, in other words, if: <ol><li>the merit of one object refer to the merit of another object</li><li>the demerit, to the demerit</li><li>the merit, to the demerit,</li><li>the demerit, to the merit, then it is called the Abandonment</li></ol></p.'
           },
           examples: [
             {
               text: '<h3>1. The merit of one object refer to the merit of another object</h3>',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>साध्वी	Chaste woman</td></tr><tr><td>                स्नात्वा	Having bathed</td></tr><tr><td>                माम् अपि	Me also</td></tr><tr><td>                पावयेत्	May purify</td></tr><tr><td>                इति	So</td></tr><tr><td>                जाह्नवी	The river Ganga</td></tr><tr><td>                इच्छति	Desires</td></tr></table><p>‘Will not a chaste woman (come and) bathe (in my waters) and purify me also’, so the river Ganga desires.</p><p>Here the merit-the purificating character of a chaste woman refers to the merit of the Ganga who prays for purification. Hence this is the example of  No. 1 merit referring to a merit.</p>'
+                eng: '<h3>Word meanings</h3><table><tr><td>साध्वी - </td><td>Chaste woman</td></tr><tr><td>स्नात्वा - Having bathed</td></tr><tr><td>माम् अपि - </td><td>Me also</td></tr><tr><td>पावयेत् - </td><td>May purify</td></tr><tr><td>इति - </td><td>So</td></tr><tr><td>जाह्नवी - </td><td>The river Ganga</td></tr><tr><td>इच्छति - </td><td>Desires</td></tr></table><p>‘Will not a chaste woman (come and) bathe (in my waters) and purify me also’, so the river Ganga desires.</p><p>Here the merit-the purificating character of a chaste woman refers to the merit of the Ganga who prays for purification. Hence this is the example of  No. 1 merit referring to a merit.</p>'
               }
             },
             {
               text: '<h3>(2) Demerit reffering to a demerit.</h3>',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>कुचयोः	Of the bosoms</td></tr><tr><td>                काठिन्यम्	Hardness</td></tr><tr><td>                पादपद्मयोः	Lotus like feet</td></tr><tr><td>                सृष्टम्	Created</td></tr><tr><td>                वाच्छन्त्यः	Desiring</td></tr><tr><td>                अरियोषितः	The women of (thy) foes</td></tr><tr><td>                त्वड्वाटीषु	In thy cavalry</td></tr><tr><td>                विधातारम्	The Creator</td></tr><tr><td>                निन्दंति	Censure</td></tr></table><p>O king ! the widows of‘ thy foemen desiring, (when they are pursued by) thy cavalry, the hardness created for their bosoms to be created for their lotus- like feet censure the Creator (Brahma).</p><p>Here, the widows of the foemen censure the creator for not having created the hardness of their bosoms in their soft feet, the former being useless because of their Widow-hood and the latter being now useful to enable them to flee away from the pursuing cavalry of the king. The demerit of the bosoms in their widow-hood refers to the demerit of their soft feet unfit for fleeing away from the enemy.</p>'
+                eng: '<h3>Word meanings</h3><table><tr><td>कुचयोः - </td><td>Of the bosoms</td></tr><tr><td>काठिन्यम् - </td><td>Hardness</td></tr><tr><td>पादपद्मयोः - </td><td>Lotus like feet</td></tr><tr><td>सृष्टम् - </td><td>Created</td></tr><tr><td>वाच्छन्त्यः - </td><td>Desiring</td></tr><tr><td>अरियोषितः - </td><td>The women of (thy) foes</td></tr><tr><td>त्वड्वाटीषु - </td><td>In thy cavalry</td></tr><tr><td>विधातारम् - </td><td>The Creator</td></tr><tr><td>निन्दंति - </td><td>Censure</td></tr></table><p>O king ! the widows of thy foemen desiring, (when they are pursued by) thy cavalry, the hardness created for their bosoms to be created for their lotus- like feet censure the Creator (Brahma).</p><p>Here, the widows of the foemen censure the creator for not having created the hardness of their bosoms in their soft feet, the former being useless because of their Widow-hood and the latter being now useful to enable them to flee away from the pursuing cavalry of the king. The demerit of the bosoms in their widow-hood refers to the demerit of their soft feet unfit for fleeing away from the enemy.</p>'
               }
             },
             {
               text: '<h3>3. Merit referring to at demerit</h3>',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>यत्	because</td></tr><tr><td>                सज्जनम्	The good man</td></tr><tr><td>                न आश्रयति	Does not resort to</td></tr><tr><td>                तत्	that</td></tr><tr><td>                धनस्य एव	Of the riches only</td></tr><tr><td>                अभाग्यम्	Misfortune</td></tr></table><p>It is the misfortune of riches themselves in that they do not resort to the good people.</p><p>Here, the merit of the good people refers to the demerit of the riches in their not resorting to the good people.</p>'
+                eng: '<h3>Word meanings</h3><table><tr><td>यत् - </td><td>because</td></tr><tr><td>सज्जनम् - </td><td>The good man</td></tr><tr><td>न आश्रयति - </td><td>Does not resort to</td></tr><tr><td>तत् - </td><td>that</td></tr><tr><td>धनस्य एव - </td><td>Of the riches only</td></tr><tr><td>अभाग्यम् - </td><td>Misfortune</td></tr></table><p>It is the misfortune of riches themselves in that they do not resort to the good people.</p><p>Here, the merit of the good people refers to the demerit of the riches in their not resorting to the good people.</p>'
               }
             },
             {
               text: '<h3>4. Demerit reffering to a merit</h3>',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>चेत्	if</td></tr><tr><td>                भूपालसेवकानाम्	Of the servants of the king</td></tr><tr><td>                वधः	Killing</td></tr><tr><td>                न	Not</td></tr><tr><td>                अयम् एव	This itself</td></tr><tr><td>                लाभः	A boon</td></tr></table><p>If the servants of this king are not killed, then it itself is a boon (to them).</p><p>The king referred to is such a cruel man that non- killing his servants is considered a great boon even if they do not get their pay. Here, the cruelty, the demrit of the king, refers to the merit on the part of his servants, i.e., their continuance without being killed.</p>'
+                eng: '<h3>Word meanings</h3><table><tr><td>चेत् - </td><td>if</td></tr><tr><td>भूपालसेवकानाम् - </td><td>Of the servants of the king</td></tr><tr><td>वधः - </td><td>Killing</td></tr><tr><td>न - </td><td>Not</td></tr><tr><td>अयम् एव - </td><td>This itself</td></tr><tr><td>लाभः - </td><td>A boon</td></tr></table><p>If the servants of this king are not killed, then it itself is a boon (to them).</p><p>The king referred to is such a cruel man that non- killing his servants is considered a great boon even if they do not get their pay. Here, the cruelty, the demrit of the king, refers to the merit on the part of his servants, i.e., their continuance without being killed.</p>'
               }
             }
           ]
@@ -2480,7 +2480,7 @@ export const state = () => ({
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>यदि	if</td></tr><tr><td>            ताभ्याम्	By those two</td></tr><tr><td>            तौ	Those two</td></tr><tr><td>            न स्याताम्	Do not occur</td></tr><tr><td>            सा	That</td></tr><tr><td>            अवज्ञालंकृतिः	Non- Abandonment</td></tr></table><p>If, by the delineation of them, i.e., merit and demerit of one object, they-the merit and demerit of another object-do not occur, then it is called the Non-Abandonment.</p>'
+            eng: '<h3>Word meanings</h3><table><tr><td>यदि - </td><td>if</td></tr><tr><td>ताभ्याम् - </td><td>By those two</td></tr><tr><td>तौ - </td><td>Those two</td></tr><tr><td>न स्याताम् - </td><td>Do not occur</td></tr><tr><td>सा - </td><td>That</td></tr><tr><td>अवज्ञालंकृतिः - </td><td>Non- Abandonment</td></tr></table><p>If, by the delineation of them, i.e., merit and demerit of one object, they-the merit and demerit of another object-do not occur, then it is called the Non-Abandonment.</p>'
           },
           examples: [
             {
@@ -2495,7 +2495,7 @@ export const state = () => ({
               मीलंति यदि पद्मानि का हानिरमृतद्युतेः ॥',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>यदि	it</td></tr><tr><td>                पद्मानि	Lotuses</td></tr><tr><td>                मीलंति	Contract</td></tr><tr><td>                अमृतद्युतेः	To the moon</td></tr><tr><td>                का	What</td></tr><tr><td>                हानिः	Detriment</td></tr></table><p>If the lotuses were to contract (at night), then what detriment accrues to the moon (nectar-rayed).</p><p.Here, the demerit of the lotus refers to no demerit of the moon.</p>'
+                eng: '<h3>Word meanings</h3><table><tr><td>यदि - </td><td>it</td></tr><tr><td>पद्मानि - </td><td>Lotuses</td></tr><tr><td>मीलंति - </td><td>Contract</td></tr><tr><td>अमृतद्युतेः - </td><td>To the moon</td></tr><tr><td>का - </td><td>What</td></tr><tr><td>हानिः - </td><td>Detriment</td></tr></table><p>If the lotuses were to contract (at night), then what detriment accrues to the moon (nectar-rayed).</p><p.Here, the demerit of the lotus refers to no demerit of the moon.</p>'
               }
             }
           ]
@@ -2511,14 +2511,14 @@ export const state = () => ({
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>दोषस्य	Of an undesired object</td></tr><tr><td>            अभ्यर्थना	Praying for</td></tr><tr><td>            तत्रैव	In itself</td></tr><tr><td>            गुणदर्शनात्	On account of the result of good qualities</td></tr><tr><td>            अनुज्ञा	The Permission</td></tr></table><p>The praying for an undesired object on the ground of the acquirement of virtuous qualities resulting from it, is called the Permission.</p>'
+            eng: '<h3>Word meanings</h3><table><tr><td>दोषस्य - </td><td>Of an undesired object</td></tr><tr><td>अभ्यर्थना - </td><td>Praying for</td></tr><tr><td>तत्रैव - </td><td>In itself</td></tr><tr><td>गुणदर्शनात् - </td><td>On account of the result of good qualities</td></tr><tr><td>अनुज्ञा - </td><td>The Permission</td></tr></table><p>The praying for an undesired object on the ground of the acquirement of virtuous qualities resulting from it, is called the Permission.</p>'
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>नः	To us</td></tr><tr><td>                शश्वत्	Always</td></tr><tr><td>                विपदः	Calamities</td></tr><tr><td>                सन्तु	Let occur</td></tr><tr><td>                यासु	In which</td></tr><tr><td>                हरिः	God Vishnu</td></tr><tr><td>                संकीर्त्यते	Is glorified</td></tr></table><p>Lord Krishna ! Let calamities always occurto us-the calamities in which the God Hari is gloriﬁed.</p><p>This is a request made to Krishna by Kunti, the mother of the Pandavas.</p>'
+                eng: '<h3>Word meanings</h3><table><tr><td>नः - </td><td>To us</td></tr><tr><td>शश्वत् - </td><td>Always</td></tr><tr><td>विपदः - </td><td>Calamities</td></tr><tr><td>सन्तु - </td><td>Let occur</td></tr><tr><td>यासु - </td><td>In which</td></tr><tr><td>हरिः - </td><td>God Vishnu</td></tr><tr><td>संकीर्त्यते - </td><td>Is glorified</td></tr></table><p>Lord Krishna ! Let calamities always occurto us-the calamities in which the God Hari is gloriﬁed.</p><p>This is a request made to Krishna by Kunti, the mother of the Pandavas.</p>'
               }
             }
           ]
@@ -2534,14 +2534,14 @@ export const state = () => ({
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: '<h3>Word meanings</h3><table><tr><td>दोषगुणयोः	Of demerit and merit</td></tr><tr><td>            गुणादोषत्वकल्पनम्	Attribution of merit and demerit</td></tr><tr><td>            लेशः स्यात्	Is the suggestion</td></tr><tr><td>            लेशः is a ﬁgure in which the merit and demerit of one thing are respectively construed to be the demerit and merit of the other.</td></tr></table>'
+            eng: '<h3>Word meanings</h3><table><tr><td>दोषगुणयोः - </td><td>Of demerit and merit</td></tr><tr><td>गुणादोषत्वकल्पनम् - </td><td>Attribution of merit and demerit</td></tr><tr><td>लेशः स्यात् - </td><td>Is the suggestion</td></tr><tr><td>लेशः - </td><td>is a ﬁgure in which the merit and demerit of one thing are respectively construed to be the demerit and merit of the other.</td></tr></table>'
           },
           examples: [
             {
               text: '',
               explanation: {
                 sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>हन्त	Alas !</td></tr><tr><td>                अखिलेषु विहंगेषु	When all the birds</td></tr><tr><td>                स्वच्छन्दचारिषु	Freely wander</td></tr><tr><td>                शुक !	Parrot !</td></tr><tr><td>                ते	Thy</td></tr><tr><td>                पञ्चरबन्धः	Confinement in a cage</td></tr><tr><td>                मधुराणाम्	Melodious</td></tr><tr><td>                गिराम्	Of songs</td></tr><tr><td>                फलम्	Result</td></tr></table><p>Alas ! parrot ! when all other birds freely wander about at their will, thy confinement in the cage is the result of thy melodious songs. </p><p>Here, the utterance of melodious sounds is construed to be a demerit in a parrot and the non-utterance is construed to be a merit in other birds.</p>'
+                eng: '<h3>Word meanings</h3><table><tr><td>हन्त - </td><td>Alas !</td></tr><tr><td>अखिलेषु विहंगेषु - </td><td>When all the birds</td></tr><tr><td>स्वच्छन्दचारिषु - </td><td>Freely wander</td></tr><tr><td>शुक ! - </td><td>Parrot !</td></tr><tr><td>ते - </td><td>Thy</td></tr><tr><td>पञ्चरबन्धः - </td><td>Confinement in a cage</td></tr><tr><td>मधुराणाम् - </td><td>Melodious</td></tr><tr><td>गिराम् - </td><td>Of songs</td></tr><tr><td>फलम् - </td><td>Result</td></tr></table><p>Alas ! parrot ! when all other birds freely wander about at their will, thy confinement in the cage is the result of thy melodious songs. </p><p>Here, the utterance of melodious sounds is construed to be a demerit in a parrot and the non-utterance is construed to be a merit in other birds.</p>'
               }
             }
           ]
@@ -2557,10 +2557,10 @@ export const state = () => ({
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: 'प्रकृतार्थपरैः	Serving the sense on hand
-            पदैः	By words
-            सूच्यार्थसूचनम्	Intimation of the object to be hinted at
-            मुद्रा	The Sealing
+            eng: 'प्रकृतार्थपरैः - </td><td>Serving the sense on hand
+            पदैः - </td><td>By words
+            सूच्यार्थसूचनम् - </td><td>Intimation of the object to be hinted at
+            मुद्रा - </td><td>The Sealing
             If the words that serve to signify the sense on hand intimate also the object to be hinted at, than it is called the Sealing.'
           },
           examples: [
@@ -2568,9 +2568,9 @@ export const state = () => ({
               text: '',
               explanation: {
                 sans: '',
-                eng: 'सा तरुणी	That young maiden
-                नितंबगिर्वीं	Having large buttocks
-                दृग्युग्मविपुला च	Having a couple of spacious eyes
+                eng: 'सा तरुणी - </td><td>That young maiden
+                नितंबगिर्वीं - </td><td>Having large buttocks
+                दृग्युग्मविपुला च - </td><td>Having a couple of spacious eyes
                 This maiden has large buttocks and a couple of spacious eyes.
 Here, युग्मविपुला serves to signify the sense required for the description of tho lady the subject on hand. The same word is also the name of a metre of अनुष्टुम् class containing 8 syllables for each quarter wherein the seventh syllable of the 2nd and 4th quarters must be short. Thus, we see that the same word that served the purpose on hand- the description of the lady-also names the metre of the verse to be hinted at by the poet, the stanza being the illustration of that metre. 
 It is usual among the Sanskrit prosodians to illustrate a metre, deﬁned, by a stanza containing the name of that metre which will also serve to explain the sense contained in the stanza. Hence the ﬁgure is called मुद्रा an expression of things by their right names.
@@ -2590,11 +2590,11 @@ It is usual among the Sanskrit prosodians to illustrate a metre, deﬁned, by a 
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: 'प्रकृतार्थानाम्	Of the words serving the sense on hand 
-            क्रमिकं	Serial
-            न्यासम्	Putting
-            रत्नावलीम्	The Jewelled Necklace
-            विदुः	(poets) know
+            eng: 'प्रकृतार्थानाम् - </td><td>Of the words serving the sense on hand 
+            क्रमिकं - </td><td>Serial
+            न्यासम् - </td><td>Putting
+            रत्नावलीम् - </td><td>The Jewelled Necklace
+            विदुः - </td><td>(poets) know
             Ratnavali is a ﬁgure containing a number of  words serving the sense on hand but put in an established order of succession (with reference to objects not on hand).'
           },
           examples: [
@@ -2602,12 +2602,12 @@ It is usual among the Sanskrit prosodians to illustrate a metre, deﬁned, by a 
               text: '',
               explanation: {
                 sans: '',
-                eng: 'महीपते	O king !
-                त्वम्	Thou
-                चतुराम्यः	Having handsome face or four headed God Brahma
-                लक्ष्म्याः	Of riches = of Goddess Lakshmi
-                पतिः	Lord
-                सर्वज्ञः	Omniscient or God Siva.
+                eng: 'महीपते - </td><td>O king !
+                त्वम् - </td><td>Thou
+                चतुराम्यः - </td><td>Having handsome face or four headed God Brahma
+                लक्ष्म्याः - </td><td>Of riches = of Goddess Lakshmi
+                पतिः - </td><td>Lord
+                सर्वज्ञः - </td><td>Omniscient or God Siva.
                 O Lord of earth! thou hast a handsome face (art god Brahma) ; thou art the lord of wealth (the Lord Vishnu) ; thou art omniscient (Lord Siva).
 Here, the words चतुरास्यः etc., serve the sense on hand in describing the king and are also names of
 चतुरं आस्यं यस्य सः
@@ -2630,9 +2630,9 @@ The difference between this ﬁgure and the ﬁgure मुद्रा (LXXIII) 
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: 'स्वगुणात्यागात्	By quitting one’s own quality
-            अन्यदीयगुणाग्रहः	Assuming the quality of another
-            तद्गुणाः	The Borrower
+            eng: 'स्वगुणात्यागात् - </td><td>By quitting one’s own quality
+            अन्यदीयगुणाग्रहः - </td><td>Assuming the quality of another
+            तद्गुणाः - </td><td>The Borrower
             When a thing quits its own quality and assumes that of another (excellent one), it is the Borrower.'
           },
           examples: [
@@ -2640,10 +2640,10 @@ The difference between this ﬁgure and the ﬁgure मुद्रा (LXXIII) 
               text: '',
               explanation: {
                 sans: '',
-                eng: 'ते	Thy
-                नासामौक्तिकम्	Nose-pearl
-                अधरत्विषा	By the luster of the lower lip.
-                पद्मरागायते	Becomes Padmaraga (ruby of lotus colour)
+                eng: 'ते - </td><td>Thy
+                नासामौक्तिकम् - </td><td>Nose-pearl
+                अधरत्विषा - </td><td>By the luster of the lower lip.
+                पद्मरागायते - </td><td>Becomes Padmaraga (ruby of lotus colour)
                 O Lady! The pearl of the nose-ornament becomes a padmaraga ruby by coming in contact with the luster of thy (red) lower lip.
 Here, the colour of the lady’s lower lip, being superior, makes the white pearl of her nose ornament appear like a padmaraga ruby. 
 The pearl has been eclipsed by the lady’s lip.
@@ -2663,10 +2663,10 @@ The pearl has been eclipsed by the lady’s lip.
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: 'पुनः	again
-            स्वगुणासंप्राप्तिः	Assumption of one’s own quality
-            पूर्वरूपम्	The original
-            उदाहृतम्	Is called
+            eng: 'पुनः - </td><td>again
+            स्वगुणासंप्राप्तिः - </td><td>Assumption of one’s own quality
+            पूर्वरूपम् - </td><td>The original
+            उदाहृतम् - </td><td>Is called
             When an object that has quitted its form as in the preceding figure is again restored to its original state by the presence of some other agency, it is called the Original.'
           },
           examples: [
@@ -2674,10 +2674,10 @@ The pearl has been eclipsed by the lady’s lip.
               text: '',
               explanation: {
                 sans: '',
-                eng: 'हरकण्ठांशुलिप्तोऽपि	Though covered with the luster of Siva’s neck
-                शेषः	The present lord
-                त्वद्यशसा	By thy fame
-                सितः	White
+                eng: 'हरकण्ठांशुलिप्तोऽपि - </td><td>Though covered with the luster of Siva’s neck
+                शेषः - </td><td>The present lord
+                त्वद्यशसा - </td><td>By thy fame
+                सितः - </td><td>White
                 O king! The lord of the serpents शेषः, though covered with the lustre of Siva’s neck, is made white by thy fame.
 Here, the serpentlord worn round Siva’s neck of dark-blue colour-on account of the existence of the Kalakuta poison in it-changed his colour and thus became a borrower and by the operation of another agency- the white fame of the king-he is restored to his former state.
 '
@@ -2692,22 +2692,22 @@ Here, the serpentlord worn round Siva’s neck of dark-blue colour-on account of
           sloka: 'Second kind of the Original.',
           sloka_explanation: {
             sans: '',
-            eng: 'वस्तुनि	An object
-            विकृते सति	When disappeared
-            पूर्वावस्थानुवृत्तिः	Continuity of the original state
-            च	Also
+            eng: 'वस्तुनि - </td><td>An object
+            विकृते सति - </td><td>When disappeared
+            पूर्वावस्थानुवृत्तिः - </td><td>Continuity of the original state
+            च - </td><td>Also
             The continuity of the original condition, not with standing the disappearance of an object the cause of such continuance, by the operation of another agency, is called the second kind of the Original.'
           },
           examples: [
             {
               text: '',
               explanation_sans: '',
-              explanation_eng: 'दीपे	Lamp
-              निर्वापिते अपि	Thoug extinguished
-              कांचीरत्नैः	By the jems inlaid in the girdle of a lady
-              महत्	Ample
-              महः	Light
-              आसीत्	Was
+              explanation_eng: 'दीपे - </td><td>Lamp
+              निर्वापिते अपि - </td><td>Though extinguished
+              कांचीरत्नैः - </td><td>By the jems inlaid in the girdle of a lady
+              महत् - </td><td>Ample
+              महः - </td><td>Light
+              आसीत् - </td><td>Was
               Although the lamp was put out (by a lady in the bed chamber), still there was ample light issuing from the jerns of the girdle (of that lady).
 Here, a pretty young maiden but an artless one ( मुग्धा ) put out the lamp of the bed chamber through bashfulness; still the light continued as before by the lustre of the jems inlaid in the girdle of that maiden.
 '
@@ -2725,9 +2725,9 @@ Here, a pretty young maiden but an artless one ( मुग्धा ) put out th
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: 'संगतान्यगुणानंमीकारम्	Non-assuming the quality of another object though connected with it.
-            अतद्गुणम्	Non-Borrower
-            आहः	Call
+            eng: 'संगतान्यगुणानंमीकारम् - </td><td>Non-assuming the quality of another object though connected with it.
+            अतद्गुणम् - </td><td>Non-Borrower
+            आहः - </td><td>Call
             The non-assuming, by an object, of the quality of another though connected with it (or in other words, when an object does not borrow the quality of another object, it) is called the Non- Borrower.'
           },
           examples: [
@@ -2735,11 +2735,11 @@ Here, a pretty young maiden but an artless one ( मुग्धा ) put out th
               text: '',
               explanation: {
                 sans: '',
-                eng: 'चिरम्	For a long time
-                रागिणि	Red (affectionate)
-                मच्चित्ते	In my mind
-                निहितोऽपि	Though seated
-                न रञ्जसि	Dost not become red (affectionate)
+                eng: 'चिरम् - </td><td>For a long time
+                रागिणि - </td><td>Red (affectionate)
+                मच्चित्ते - </td><td>In my mind
+                निहितोऽपि - </td><td>Though seated
+                न रञ्जसि - </td><td>Dost not become red (affectionate)
                 O Lover! though seated long in my red (affectionate) mind, yet thou dost not become red (affectionate).
 The strikingness of this example rests upon the use of the word राग which means both redness and affection.
 Here, the lover does not become red (affectionate) though he is seated in the red (more affectionate) mind of the lady. Hence it is the Non Borrower
@@ -2759,9 +2759,9 @@ Here, the lover does not become red (affectionate) though he is seated in the re
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: ''परसन्निधेः	By the presence of another object
-            प्राक्सिड्वस्वगुण्त्कर्षः	The pre-eminence of one’s own previously settled quality
-            अनुगुणाः	The Conformity
+            eng: 'परसन्निधेः - </td><td>By the presence of another object
+            प्राक्सिड्वस्वगुण्त्कर्षः - </td><td>The pre-eminence of one’s own previously settled quality
+            अनुगुणाः - </td><td>The Conformity
             The pre-eminence, of ones own previously settled quality, by the presence of another agency, (or, in other words, when the original quality of an oject is made pre-eminent by the proximity of another object, it) is called the Conformity'
           },
           examples: [
@@ -2769,10 +2769,10 @@ Here, the lover does not become red (affectionate) though he is seated in the re
               text: '',
               explanation: {
                 sans: '',
-                eng: 'नीलोत्पलानि	Blue lotuses
-                कटाक्षैः	By the side-glances
-                अतिनीलताम्	Extreme blueness
-                दधते	Bear
+                eng: 'नीलोत्पलानि - </td><td>Blue lotuses
+                कटाक्षैः - </td><td>By the side-glances
+                अतिनीलताम् - </td><td>Extreme blueness
+                दधते - </td><td>Bear
                 The blue lotuses attain more blueness by the side-glances (of a lady falling on them)
 Here, the dark blue lustre of the lotuses is increased by the pre-eminent blue side-glances. of the lady falling on them.
 '
@@ -2791,12 +2791,12 @@ Here, the dark blue lustre of the lotuses is increased by the pre-eminent blue s
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: 'यदि	if
-            सादृश्यात्	On account of resemblance
-            भेदः	A distinction
-            एव	Alone
-            न लक्ष्यते	Is not perceived
-            मीलितम्	The Lost
+            eng: 'यदि - </td><td>if
+            सादृश्यात् - </td><td>On account of resemblance
+            भेदः - </td><td>A distinction
+            एव - </td><td>Alone
+            न लक्ष्यते - </td><td>Is not perceived
+            मीलितम् - </td><td>The Lost
             When distinction alone p is net perceived (between two objects on hand) on account of their resemblance, then it is the Lost.'
           },
           examples: [
@@ -2804,11 +2804,11 @@ Here, the dark blue lustre of the lotuses is increased by the pre-eminent blue s
               text: '',
               explanation: {
                 sans: '',
-                eng: 'सहजारुणे	Naturally red
-                चरणे	In the foot
-                लाक्षायाः	Of the red lac
-                रसः	Dye
-                न अलक्षि	Was not perceived
+                eng: 'सहजारुणे - </td><td>Naturally red
+                चरणे - </td><td>In the foot
+                लाक्षायाः - </td><td>Of the red lac
+                रसः - </td><td>Dye
+                न अलक्षि - </td><td>Was not perceived
                 The dye of the red lac was not perceived in the naturally red feet (of this beautiful maiden).
 Here, we see the disappearance of the dye of the red lac on account of its having been eclipsed by the natural redness of the maiden’s feet.
 '
@@ -2827,11 +2827,11 @@ Here, we see the disappearance of the dye of the red lac on account of its havin
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: 'यदि	if
-            सादृश्यात्	On account of resemblance
-            विशेषः	Distinguishable peculiarity
-            नैव लक्ष्यते	Is not at all perceived
-            सामान्यम्	The Sameness
+            eng: 'यदि - </td><td>if
+            सादृश्यात् - </td><td>On account of resemblance
+            विशेषः - </td><td>Distinguishable peculiarity
+            नैव लक्ष्यते - </td><td>Is not at all perceived
+            सामान्यम् - </td><td>The Sameness
             When any distinguishable peculiarity what- ever is not perceived (between two objects coming in contact) on account of their close resemblance, it is celled the Sameness.'
           },
           examples: [
@@ -2839,10 +2839,10 @@ Here, we see the disappearance of the dye of the red lac on account of its havin
               text: '',
               explanation: {
                 sans: '',
-                eng: 'पद्माकरप्रविष्टानाम्	That entedred the lotus-pool
-                सुभ्रुवाम्	Of women of beautiful eye-brows
-                मुखम्	Face
-                न अलक्षि	Was not perceived
+                eng: 'पद्माकरप्रविष्टानाम् - </td><td>That entedred the lotus-pool
+                सुभ्रुवाम् - </td><td>Of women of beautiful eye-brows
+                मुखम् - </td><td>Face
+                न अलक्षि - </td><td>Was not perceived
                 The faces of the women of beautiful eye-brows that entered the lotus-pool are not perceived.
 Here, the faces of the women were not distinguishable from the lotuses in the absence of any dis- criminative quelity between the two which are spoken of as having become identical.
 In the मिलित (LXXLX), one of the objects is inferior in quality and is not apprehended by its being eclipsed by the superior quality of the other.
@@ -2864,9 +2864,9 @@ Hence, this ﬁgure is different from the मीलित.
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: 'भेदवैशिष्ट्ययोः	Of any distinction and of any discriminating peculiarity
-            स्फूर्तौ	In the manifestation
-            उन्मीलित विशेषकौ	The Un-Lost and The Un-Sameness
+            eng: 'भेदवैशिष्ट्ययोः - </td><td>Of any distinction and of any discriminating peculiarity
+            स्फूर्तौ - </td><td>In the manifestation
+            उन्मीलित विशेषकौ - </td><td>The Un-Lost and The Un-Sameness
             Def. If any distinction prohibited in the मीलित(LXXIX) become manifest afterwards, it is called the उन्मीलितम्.
 Def. If any discriminating peculiarity prohibited in the सामान्य become manifest afterwards, it is called the विशेषकः .
 '
@@ -2876,11 +2876,11 @@ Def. If any discriminating peculiarity prohibited in the सामान्य b
               text: 'example of the figure उन्मीलित',
               explanation: {
                 sans: '',
-                eng: 'सुराः	The celestial beings
-                त्वद्यशोमग्नम्	Eclipsed by thy fame
-                हिमाद्रिम्	The Himalaya mountain
-                शीतेन	By chilliness
-                जानते	Recognize
+                eng: 'सुराः - </td><td>The celestial beings
+                त्वद्यशोमग्नम् - </td><td>Eclipsed by thy fame
+                हिमाद्रिम् - </td><td>The Himalaya mountain
+                शीतेन - </td><td>By chilliness
+                जानते - </td><td>Recognize
                 O king ! The celestial beings recognize the Himalaya mountain, eclipsed by thy (all-pervading) fame, through its chillness.
 Here, the Himalaya which is white was lost in the whiter fame of the king and was afterwards recognized by the Gods on account of its chillness.
 '
@@ -2890,10 +2890,10 @@ Here, the Himalaya which is white was lost in the whiter fame of the king and wa
               text: 'example of the figure विशेषकः ',
               explanation: {
                 sans: '',
-                eng: 'चन्द्रे उदिते	When the moon had risen
-                पद्मानि	Lotuses
-                मुखानि च	And the faces
-                लक्षितानि	Became distinguishable
+                eng: 'चन्द्रे उदिते - </td><td>When the moon had risen
+                पद्मानि - </td><td>Lotuses
+                मुखानि च - </td><td>And the faces
+                लक्षितानि - </td><td>Became distinguishable
                 
                 EX. After the rise of the moon, the lotuses and the faces of the damsels became distinguishable.
                 In the सामान्य, the faces of the damsels that entered the lotus-pool were undistinguishable f'rom the lotuses on account of their likeness but after the rise of the moon the lotuses faded and the faces began to appear more beautiful and hence they became discriminated.
@@ -2913,10 +2913,10 @@ Here, the Himalaya which is white was lost in the whiter fame of the king and wa
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: 'किंचिदाकूतसहितम्	Containing some import
-            गूढोत्तरम्	A secret reply
-            उत्तरं स्यात्	Is The Reply
-            पान्थ !	O traveler !
+            eng: 'किंचिदाकूतसहितम् - </td><td>Containing some import
+            गूढोत्तरम् - </td><td>A secret reply
+            उत्तरं स्यात् - </td><td>Is The Reply
+            पान्थ ! - </td><td>O traveler !
             A secret reply containing some indirect import (of the speaker) is called the Reply. Or, in other words, when the speaker indirectly expresses his or her own intention in a reply made to a query previously put by some person (which query is to be inferred from the answer), it is called the Reply.'
           },
           examples: [
@@ -2924,11 +2924,11 @@ Here, the Himalaya which is white was lost in the whiter fame of the king and wa
               text: '',
               explanation: {
                 sans: '',
-                eng: 'यत्र	Where
-                असौ वेतसौ	That rattan
-                तत्र	There
-                इयं सरित्	This river
-                सुतरा	Is fordable
+                eng: 'यत्र - </td><td>Where
+                असौ वेतसौ - </td><td>That rattan
+                तत्र - </td><td>There
+                इयं सरित् - </td><td>This river
+                सुतरा - </td><td>Is fordable
                 O Traveller! (the place) where that ratan is seen-there this river is fordable.
 From this, we understand theta traveller has asked the speaker, a lady here, the place where a particular river can be crossed. The lady becoming enumoured of him makes this reply by showing a particular place which was also indirectly named by her as a place of assignatiou for their meeting. 
 '
@@ -2943,21 +2943,21 @@ From this, we understand theta traveller has asked the speaker, a lady here, the
           sloka: 'Second kind of  the Reply.',
           sloka_explanation: {
             sans: '',
-            eng: 'प्रश्न+उत्तरान्तर+अभिन्नम्	Consisting of same words of the query and its two replies
-            चित्रमुत्तरम्	A skilful reply
-            उत्तरम्	The Reply
+            eng: 'प्रश्न+उत्तरान्तर+अभिन्नम् - </td><td>Consisting of same words of the query and its two replies
+            चित्रमुत्तरम् - </td><td>A skilful reply
+            उत्तरम् - </td><td>The Reply
             When a skilful reply is not different from the query, or in other words, when a reply made consists of the same words of the question asked, and when one reply made serves for two queries asked, then it is called also the Reply.'
           },
           examples: [
             {
               text: '',
               explanation_sans: '',
-              explanation_eng: 'के	Who
-              दारपोषणरताः	Those that are engaged in maintaining their wives
-              केदारपोषणरताः	Those that are bent upon bringing the lands to perfection= husbandmen
-              के खेटाः	Who move in the air
-              किं चलम्	Which is transitory
-              वयः	(1)	Birds (2) the age
+              explanation_eng: 'के - </td><td>Who
+              दारपोषणरताः - </td><td>Those that are engaged in maintaining their wives
+              केदारपोषणरताः - </td><td>Those that are bent upon bringing the lands to perfection= husbandmen
+              के खेटाः - </td><td>Who move in the air
+              किं चलम् - </td><td>Which is transitory
+              वयः - </td><td>(1)	Birds (2) the age
               Q. Who are those that are engaged in maintaining their wives ?R. Those that are bent upon bringing the lands to perfection or husbandmen.
 Q. Who move in the air and which is transitory-
 R. वयः (1) birds (2) age.
@@ -2977,11 +2977,11 @@ R. वयः (1) birds (2) age.
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: 'परा+चेष्टितम्	Skilled in understanding the import of another
-            इतरः	A second person
-            तस्य	His
-            साकूतचेष्टितम्	A significant act
-            सूक्ष्मम्	The Subtle
+            eng: 'परा+चेष्टितम् - </td><td>Skilled in understanding the import of another
+            इतरः - </td><td>A second person
+            तस्य - </td><td>His
+            साकूतचेष्टितम् - </td><td>A significant act
+            सूक्ष्मम् - </td><td>The Subtle
             A signiﬁcant act or gesture, of a person, intimated to another who is able to understand such gestures of others is called the Subtle.'
           },
           examples: [
@@ -2989,11 +2989,11 @@ R. वयः (1) birds (2) age.
               text: '',
               explanation: {
                 sans: '',
-                eng: 'सा	That (maiden)
-                मयि पश्यति	When I was looking
-                केशैः	By the tresses
-                सीमन्तमणिम्	The crest-jewel
-                आवृणोत्	Concealed
+                eng: 'सा - </td><td>That (maiden)
+                मयि पश्यति - </td><td>When I was looking
+                केशैः - </td><td>By the tresses
+                सीमन्तमणिम् - </td><td>The crest-jewel
+                आवृणोत् - </td><td>Concealed
                 ( Friend ! ) When I was seeing (her anxiously for time of assignation), she concealed her crest jewel under her tresses.
 Here, the time of assignation eagerly inquired for by the lover is guessed from the lady’s act of concealing her bright crest-jewel under her dark tresses-a mark indicating the time of night when the bright sun is concealed under the darkness of the night.
 '
@@ -3004,7 +3004,7 @@ Here, the time of assignation eagerly inquired for by the lover is guessed from 
       ]
     },
     {
-      title_sans: 'उपमालङ्कारः',
+      title_sans: 'पिहितम्',
       title_eng: 'पिहितम् - The Covering',
       id: 83,
       slokas: [
@@ -3012,9 +3012,9 @@ Here, the time of assignation eagerly inquired for by the lover is guessed from 
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: 'परवृत्तान्तज्ञातुः	Of one that knows the secret of the other
-            साकूतचेष्टितम्	Significant act or an insinuation
-पिहितम्	The Covering
+            eng: 'परवृत्तान्तज्ञातुः - </td><td>Of one that knows the secret of the other
+            साकूतचेष्टितम् - </td><td>Significant act or an insinuation
+पिहितम् - </td><td>The Covering
 A signiﬁcant act or an insinuation of a person that he or she knows the secret of another is called The Covering.'
           },
           examples: [
@@ -3022,11 +3022,11 @@ A signiﬁcant act or an insinuation of a person that he or she knows the secret
               text: '',
               explanation: {
                 sans: '',
-                eng: 'प्रातः	In the morning
-                प्रिये गृहागते	When the lover came to the house
-                कान्ता	The lady
-                तल्पम्	The bed
-                अकल्पयत्	Prepared
+                eng: 'प्रातः - </td><td>In the morning
+                प्रिये गृहागते - </td><td>When the lover came to the house
+                कान्ता - </td><td>The lady
+                तल्पम् - </td><td>The bed
+                अकल्पयत् - </td><td>Prepared
                 Early in the morning, when the lover came to the house, his lady prepared bed (for him).
 Here, a lady when she saw her husband coming to her house in the morning with the marks of his having toyed with another lady, a rival one, at once prepared bed for his rest thus intimating to him that she has known his secrets.
 '
@@ -3045,11 +3045,11 @@ Here, a lady when she saw her husband coming to her house in the morning with th
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: 'अन्यहेतूक्त्या	By an attribution to a different cause
-            यत्	Which
-            आकारस्य	Of the appearance
-            गोपनम्	Concealment
-            व्याजोक्तिः	The Disembler
+            eng: 'अन्यहेतूक्त्या - </td><td>By an attribution to a different cause
+            यत् - </td><td>Which
+            आकारस्य - </td><td>Of the appearance
+            गोपनम् - </td><td>Concealment
+            व्याजोक्तिः - </td><td>The Disembler
             Def. The Disembler is the dissimulation of one's appearance hy attributing to a different cause.'
           },
           examples: [
@@ -3057,10 +3057,10 @@ Here, a lady when she saw her husband coming to her house in the morning with th
               text: '',
               explanation: {
                 sans: '',
-                eng: 'सखि!	Friend !
-                पश्य	See
-                गृहारामपरागैः	By the pollens of the house-garden
-                धूसरा अस्मि	I am made grayish
+                eng: 'सखि! - </td><td>Friend !
+                पश्य - </td><td>See
+                गृहारामपरागैः - </td><td>By the pollens of the house-garden
+                धूसरा अस्मि - </td><td>I am made grayish
                 Friend ! See I am made grayish by the pollens of (my) house-garden. 
 Here, a lady, the speaker, having her body made dirty by the dust in her toying with her lover, artfully conceals the same by saying that she was made greyish by the pollens, i.e., by attributing it to some different cause. Her first state was not expressed and then denied and so this is different from the ornament of Concealment (XI) where an object is ﬁrst mentioned by a person who then conceals it.
 '
@@ -3079,11 +3079,11 @@ Here, a lady, the speaker, having her body made dirty by the dust in her toying 
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: 'चेद्	if
-            अन्योद्देश्यम्	Intended for another
-            अन्यम् प्रति	To another
-            कथ्यते	Is told
-            गूढोक्तिः	The Secrecy
+            eng: 'चेद् - </td><td>if
+            अन्योद्देश्यम् - </td><td>Intended for another
+            अन्यम् प्रति - </td><td>To another
+            कथ्यते - </td><td>Is told
+            गूढोक्तिः - </td><td>The Secrecy
             When a speech intended to be communicated to a particular person is addressed to another whoyis also before the speaker, and when that speech conveys also the intended meaning of the speaker, it is termed the Secret Speech. '
           },
           examples: [
@@ -3091,11 +3091,11 @@ Here, a lady, the speaker, having her body made dirty by the dust in her toying 
               text: '',
               explanation: {
                 sans: '',
-                eng: 'वृष !	O bull ! or luster !
-                परक्षेत्रात्	From another’s field or wife
-                अपेहि	Begone
-                क्षेत्ररक्षकः	The land-lord or husband
-                मायाति	Comes
+                eng: 'वृष ! - </td><td>O bull ! or luster !
+                परक्षेत्रात् - </td><td>From another’s field or wife
+                अपेहि - </td><td>Begone
+                क्षेत्ररक्षकः - </td><td>The land-lord or husband
+                मायाति - </td><td>Comes
                 O bull! begone, yonder comes the land-lord.
 This speech is intended to be communicated to a person toying with the wife of another person and this is addressed to the bull that was grazing in a third man’s field. The intended meaning to be conveyed is :-
 O Luster ! begone, yonder comes the husband of the lady with whom thou art boldly toying.
@@ -3115,10 +3115,10 @@ O Luster ! begone, yonder comes the husband of the lady with whom thou art boldl
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: 'श्लिष्टगुप्तम्	Hidden under a pun
-            कविना	By the poet
-            आविष्कृतम् यदि	If purposely expressed
-            विहितोक्तिः	Open Speech
+            eng: 'श्लिष्टगुप्तम् - </td><td>Hidden under a pun
+            कविना - </td><td>By the poet
+            आविष्कृतम् यदि - </td><td>If purposely expressed
+            विहितोक्तिः - </td><td>Open Speech
             Open Speech is that which is hidden under spun as in the preceding figure but purposely expressed by the poet by some kind of indication.'
           },
           examples: [
@@ -3126,12 +3126,12 @@ O Luster ! begone, yonder comes the husband of the lady with whom thou art boldl
               text: '',
               explanation: {
                 sans: '',
-                eng: 'वृष !	Bull ! or luster !
-                परक्षेत्रात्	From another’s field or wife
-                अपेहि	Begone
-                इति	So
-                ससूचनम्	With a gesticulation
-                वक्ति	(he) speakes
+                eng: 'वृष ! - </td><td>Bull ! or luster !
+                परक्षेत्रात् - </td><td>From another’s field or wife
+                अपेहि - </td><td>Begone
+                इति - </td><td>So
+                ससूचनम् - </td><td>With a gesticulation
+                वक्ति - </td><td>(he) speakes
                 “O bull! begone from another’s ﬁeld", so the speaker speaks with a gesticulation.
 By use of the word वृषापेहि, this is also hidden under a pun; and, by the employment of the word ससूचनम्, in the example by the poet, the secrecy becomes expressed. 
 '
@@ -3150,10 +3150,10 @@ By use of the word वृषापेहि, this is also hidden under a pun; an
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: 'मर्मगुप्तये	For concealment of one’s own design
-            क्रियया	By an act
-            परातिसंधानम्	Deception played upon another
-            युक्तिः	Covert speech
+            eng: 'मर्मगुप्तये - </td><td>For concealment of one’s own design
+            क्रियया - </td><td>By an act
+            परातिसंधानम् - </td><td>Deception played upon another
+            युक्तिः - </td><td>Covert speech
             Covert Speech is a deception of a. person by an act played upon another for concealment of his or her own design.'
           },
           examples: [
@@ -3161,12 +3161,12 @@ By use of the word वृषापेहि, this is also hidden under a pun; an
               text: '',
               explanation: {
                 sans: '',
-                eng: 'त्वाम्	Thee
-                आलिखन्ती	painting
-                अन्यं दृष्ट्वा	Seeing another (lady)
-                पौष्पं धनुः	Flowery bow
-                करे	In the hand
-                अलिखत्	Draw
+                eng: 'त्वाम् - </td><td>Thee
+                आलिखन्ती - </td><td>painting
+                अन्यं दृष्ट्वा - </td><td>Seeing another (lady)
+                पौष्पं धनुः - </td><td>Flowery bow
+                करे - </td><td>In the hand
+                अलिखत् - </td><td>Draw
                 Lover! Thy lady painted thee and, seeing another person coming to her at that time, drew the ﬁgure of a flowery bow in the hand, thus intimating to that stranger than she painted the cupid and not thee.
 This is said by a go-between.
 This ﬁgure is properly reckoned as one of the kinds of सूक्ष्म (LXXXIV) in the Sahitya Darpana.
@@ -3186,9 +3186,9 @@ This ﬁgure is properly reckoned as one of the kinds of सूक्ष्म (
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: 'लोकप्रवादानुकृतिः	Resembling a pro- verb
-            लोकोक्तिरिति	Popular Saying
-            भण्यते	Is called
+            eng: 'लोकप्रवादानुकृतिः - </td><td>Resembling a pro- verb
+            लोकोक्तिरिति - </td><td>Popular Saying
+            भण्यते - </td><td>Is called
             An expression resembling a proverb is called the Popular Saying.'
           },
           examples: [
@@ -3196,10 +3196,10 @@ This ﬁgure is properly reckoned as one of the kinds of सूक्ष्म (
               text: '',
               explanation: {
                 sans: '',
-                eng: 'विलोचने	The eyes
-                मीलयित्वा	Having closed
-                कतिचित् मासान्	A few months
-                सहस्व	Wait or be patient
+                eng: 'विलोचने - </td><td>The eyes
+                मीलयित्वा - </td><td>Having closed
+                कतिचित् मासान् - </td><td>A few months
+                सहस्व - </td><td>Wait or be patient
                 Lady ! wait for a few months with thy eyes closed.
 This is one of the messages sent by a separated lover to his lovely wife. The Full meaning is :-
 “Lady ! Let a few months be spent unmarked by thee ; and then we shall both meet, and have full scope to reward our desires entertained in our separation, “ With thy eyes closed " is even now more current in the sphere of the lovers and distressed people.
@@ -3219,10 +3219,10 @@ This is one of the messages sent by a separated lover to his lovely wife. The Fu
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: 'लोकोक्तेः	Of the Popular Saying
-            अर्थान्तरगर्भिता	Containing another sense
-            यदि स्यात्	If
-            छेकोक्तिः	Skilful Speech
+            eng: 'लोकोक्तेः - </td><td>Of the Popular Saying
+            अर्थान्तरगर्भिता - </td><td>Containing another sense
+            यदि स्यात् - </td><td>If
+            छेकोक्तिः - </td><td>Skilful Speech
             If the Popular Saying were to contain another sense, then it is called the Skilful Speech.'
           },
           examples: [
@@ -3230,10 +3230,10 @@ This is one of the messages sent by a separated lover to his lovely wife. The Fu
               text: '',
               explanation: {
                 sans: '',
-                eng: 'सखे !	Friend !
-                भुजंगः एव	Only the serpent or villain
-                भुजंगचरणम्	The feet of the serpent or the behavior of a villain
-                जानीते	Knows
+                eng: 'सखे ! - </td><td>Friend !
+                भुजंगः एव - </td><td>Only the serpent or villain
+                भुजंगचरणम् - </td><td>The feet of the serpent or the behavior of a villain
+                जानीते - </td><td>Knows
                 A serpent alone knows the feet of a serpent.
 Another sense is - A villain alone knows the behaviour of a villain.
 '
@@ -3252,9 +3252,9 @@ Another sense is - A villain alone knows the behaviour of a villain.
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: 'श्लेषकाकुभ्याम्	By means of a pun or by an affected change of voice
-            अपरार्थ प्रकल्पनम्	Construing one’s speech differently
-            वक्रोक्तिः	The Crooked Speech
+            eng: 'श्लेषकाकुभ्याम् - </td><td>By means of a pun or by an affected change of voice
+            अपरार्थ प्रकल्पनम् - </td><td>Construing one’s speech differently
+            वक्रोक्तिः - </td><td>The Crooked Speech
             when a person construes aspeech of another in a different sense by means of a pun or by an affected change of voice, it is called the Crooked Speech.'
           },
           examples: [
@@ -3262,11 +3262,11 @@ Another sense is - A villain alone knows the behaviour of a villain.
               text: '',
               explanation: {
                 sans: '',
-                eng: 'मुञ्च मानम्	Remove thy anger
-                दिनं प्राप्तम्	Day appeared
-                इह	Here
-                नन्दी न	No Nandin
-                हरान्तिके	Near the God Siva
+                eng: 'मुञ्च मानम् - </td><td>Remove thy anger
+                दिनं प्राप्तम् - </td><td>Day appeared
+                इह - </td><td>Here
+                नन्दी न - </td><td>No Nandin
+                हरान्तिके - </td><td>Near the God Siva
                 Lady! Remove thy anger as day has appeared.
 Here the lady construing it otherwise by at division of words मानं दिनम् into मा नन्दिनम् and reading it thus "मुञ्च मा नन्दिनं प्राप्तम् =leavest not the Nandin that has arrived here ” angrily replies thus, “No Nandin here; but he is near the God Siva."
 '
@@ -3285,10 +3285,10 @@ Here the lady construing it otherwise by at division of words मानं द�
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: 'जात्यादिस्थस्य	Belonging to a genus &c., i.e., quality, an action and a subastance
-            स्वभावस्य	Of one’s own state
-            वर्णनम्	Description
-            स्वभावोक्तिः	Description of Nature
+            eng: 'जात्यादिस्थस्य - </td><td>Belonging to a genus &c., i.e., quality, an action and a subastance
+            स्वभावस्य - </td><td>Of one’s own state
+            वर्णनम् - </td><td>Description
+            स्वभावोक्तिः - </td><td>Description of Nature
             Description of Nature is the delineation of of a peculiar state of an object belonging to a genus etc., i.e., a quality, an action and a substance.'
           },
           examples: [
@@ -3296,10 +3296,10 @@ Here the lady construing it otherwise by at division of words मानं द�
               text: '',
               explanation: {
                 sans: '',
-                eng: 'उत्तरङ्गाक्षैः	Tremulous eyes
-                स्तब्धकर्णैः	Pricking up ears
-                कुरङ्गः	By antelopes
-                उदीक्ष्यतं	Is looked at
+                eng: 'उत्तरङ्गाक्षैः - </td><td>Tremulous eyes
+                स्तब्धकर्णैः - </td><td>Pricking up ears
+                कुरङ्गः - </td><td>By antelopes
+                उदीक्ष्यतं - </td><td>Is looked at
                 These antelopes having tremulous eyes and pricking up their ears behold !
 As the term ‘antelopes’ denotes many, we have here the description of nature of a genus.
 Another name of this ﬁgure is जातिः according to Dandi. This kind of description is considered the best by the poets.
@@ -3319,9 +3319,9 @@ Another name of this ﬁgure is जातिः according to Dandi. This kind of
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: 'भूत भावि अर्थ-साक्षात्कारस्य	Of perception of things pas or future
-            वर्णनम्	Description
-            भाविकम्	The vision
+            eng: 'भूत भावि अर्थ-साक्षात्कारस्य - </td><td>Of perception of things pas or future
+            वर्णनम् - </td><td>Description
+            भाविकम् - </td><td>The vision
             When something past or future is delineated by a poet in such a manner as can bring the subject of descviption vividly before the mind’s eye, it is called the Vision.'
           },
           examples: [
@@ -3329,12 +3329,12 @@ Another name of this ﬁgure is जातिः according to Dandi. This kind of
               text: '',
               explanation: {
                 sans: '',
-                eng: 'अत्र	In this place
-                सुरासुराः	The gods and demons
-                युध्यन्ते	Fight
-                अहम्	I
-                अद्यापि	Even now
-                विलोकये	Behold
+                eng: 'अत्र - </td><td>In this place
+                सुरासुराः - </td><td>The gods and demons
+                युध्यन्ते - </td><td>Fight
+                अहम् - </td><td>I
+                अद्यापि - </td><td>Even now
+                विलोकये - </td><td>Behold
                 The gods and demons ﬁght in this place-even now I seem to behold it!'
               }
             }
@@ -3351,13 +3351,13 @@ Another name of this ﬁgure is जातिः according to Dandi. This kind of
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: 'ऋड्वेः	Of prosperity
-            चरितम्	Description
-            उदात्तम्	The Exalted
-            च	Also
-            श्लाघ्यम्	Commendable action
-            अन्यस्य	of another
-            उपलक्षणम्	Indirect representation of importance
+            eng: 'ऋड्वेः - </td><td>Of prosperity
+            चरितम् - </td><td>Description
+            उदात्तम् - </td><td>The Exalted
+            च - </td><td>Also
+            श्लाघ्यम् - </td><td>Commendable action
+            अन्यस्य - </td><td>of another
+            उपलक्षणम् - </td><td>Indirect representation of importance
             A description of prosperity of an object is termed the Exalted. 
 And any commendable action of some great personage represented indirectly or collaterally to the object under delineation is termed also the Exalted. 
 '
@@ -3367,12 +3367,12 @@ And any commendable action of some great personage represented indirectly or col
               text: '',
               explanation: {
                 sans: '',
-                eng: 'यस्य	Of which (Himalaya mountain)
-                सानौ	In the summit
-                तत्	That= celebrated
-                धूर्जटिकिरीटिनोः	Between God Siva and Arjuna
-                युड्वम्	Fight
-                अभवत्	Took place
+                eng: 'यस्य - </td><td>Of which (Himalaya mountain)
+                सानौ - </td><td>In the summit
+                तत् - </td><td>That= celebrated
+                धूर्जटिकिरीटिनोः - </td><td>Between God Siva and Arjuna
+                युड्वम् - </td><td>Fight
+                अभवत् - </td><td>Took place
                 This is that Himalaya Mountain in whose summit that celebrated fight between the God Siva and Arjuna took place.
 Here, the celebrated fight of the great God Siva. with Arjuna is represented collaterally to the Himalaya Mountain-the object under delineation.
 This kind of representation attaches much importance to the subject on hand-now the Himalaya Mountain.
@@ -3392,12 +3392,12 @@ This kind of representation attaches much importance to the subject on hand-now 
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: 'अद्भुत	marvellous
-            अतथ्य	False
-            शौर्य	Valour
-            औदार्यादि	Generosity etc
-            वर्णनम्	Description
-            अत्युक्तिः	Exaggeration
+            eng: 'अद्भुत - </td><td>marvellous
+            अतथ्य - </td><td>False
+            शौर्य - </td><td>Valour
+            औदार्यादि - </td><td>Generosity etc
+            वर्णनम् - </td><td>Description
+            अत्युक्तिः - </td><td>Exaggeration
             A description of marvellous and also false statement of one's valour, generosity, etc., is called the Exaggeration.'
           },
           examples: [
@@ -3405,11 +3405,11 @@ This kind of representation attaches much importance to the subject on hand-now 
               text: '',
               explanation: {
                 sans: '',
-                eng: 'राजेन्द्र !	O King !
-                त्वयि दातरि	When thou art a donor
-                कल्पशाखिनः	Kalpa tree
-                याचकाः	Mendicants
-                भवन्ति	Become
+                eng: 'राजेन्द्र ! - </td><td>O King !
+                त्वयि दातरि - </td><td>When thou art a donor
+                कल्पशाखिनः - </td><td>Kalpa tree
+                याचकाः - </td><td>Mendicants
+                भवन्ति - </td><td>Become
                 O king! When thou art a donor, even the wish-yielding (kalpa) trees of paradise become thy mendicants.
 This is a false exaggeration of a king’s liberal munificence. 
 '
@@ -3428,10 +3428,10 @@ This is a false exaggeration of a king’s liberal munificence.
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: 'नाम्नाम्	Of words
-            योगतः	By derivation
-            अन्यार्थत्वप्रकल्पनम्	Construing in a sense different from what is intended
-            निरुक्तिः	Exposition
+            eng: 'नाम्नाम् - </td><td>Of words
+            योगतः - </td><td>By derivation
+            अन्यार्थत्वप्रकल्पनम् - </td><td>Construing in a sense different from what is intended
+            निरुक्तिः - </td><td>Exposition
             Exposition consists in construing words, in a sense different from what is intended, by an artificial derivation of those Words.'
           },
           examples: [
@@ -3439,13 +3439,13 @@ This is a false exaggeration of a king’s liberal munificence.
               text: '',
               explanation: {
                 sans: '',
-                eng: 'चन्द्र !	O moon !
-                ईदृशैः	These
-                चरितैः	By acts of thine
-                भवान्	Thy honour
-                दोषाकरः	Maker of night or faulty
-                सत्यम्	Verily
-                जाने	I know
+                eng: 'चन्द्र ! - </td><td>O moon !
+                ईदृशैः - </td><td>These
+                चरितैः - </td><td>By acts of thine
+                भवान् - </td><td>Thy honour
+                दोषाकरः - </td><td>Maker of night or faulty
+                सत्यम् - </td><td>Verily
+                जाने - </td><td>I know
                 O Moon! By these acts of thine, I know, truly, as much that thou art faulty (lit. the mine of faults).
 This is addressed to the moon by a damsel pining under separation.
 '
@@ -3464,10 +3464,10 @@ This is addressed to the moon by a damsel pining under separation.
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: 'प्रसिड्वस्य	Well-known
-            निषेधस्य	Of prevention
-            अनुकीर्तनम्	Announcement
-            प्रतिषेधः	Prohibition
+            eng: 'प्रसिड्वस्य - </td><td>Well-known
+            निषेधस्य - </td><td>Of prevention
+            अनुकीर्तनम् - </td><td>Announcement
+            प्रतिषेधः - </td><td>Prohibition
             Prohibition is the announcement of preven- tion of a well-known act. '
           },
           examples: [
@@ -3475,10 +3475,10 @@ This is addressed to the moon by a damsel pining under separation.
               text: '',
               explanation: {
                 sans: '',
-                eng: 'कितव !	Gambler !
-                एतत् द्यूतम् न	This is not the playing at dice
-                निशितैः शरैः	By sharpened arrows
-                क्रीडनम्	Playing
+                eng: 'कितव ! - </td><td>Gambler !
+                एतत् द्यूतम् न - </td><td>This is not the playing at dice
+                निशितैः शरैः - </td><td>By sharpened arrows
+                क्रीडनम् - </td><td>Playing
                 O Gambler Sakuni ! This is not the playing at dice but this is the playing by sharpened arrows (the famous battle of Kurukshetra).
 This is addressed by a true warrior to Sakuni, the uncle of Duryodhana, who at the celebrated gambling match threw the dice, won the game and obliged the good Pandavas to go into exile and thus became the cause of that dreadful war. The statement that this is not the place of gambling but of war-an expression of a true fact-conveys the intended meaning of the speaker that Sakuni could do well at the gambling and not at this battle ﬁeld.
 '
@@ -3497,12 +3497,12 @@ This is addressed by a true warrior to Sakuni, the uncle of Duryodhana, who at t
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: 'यत्	which
-            सिड्वस्य एव	Of that thing previously effected
-            विधानम्	Declaration
-            तत्	That
-            विधि+अलंकृतिम्	The figure Fitness
-            आहुः	The learned call
+            eng: 'यत् - </td><td>which
+            सिड्वस्य एव - </td><td>Of that thing previously effected
+            विधानम् - </td><td>Declaration
+            तत् - </td><td>That
+            विधि+अलंकृतिम् - </td><td>The figure Fitness
+            आहुः - </td><td>The learned call
             A declaration of a thing previously effected, the learned call as the figure Fitness.
  '
           },
@@ -3511,10 +3511,10 @@ This is addressed by a true warrior to Sakuni, the uncle of Duryodhana, who at t
               text: '',
               explanation: {
                 sans: '',
-                eng: 'पञ्चम+उदञ्जने काले	In the spring season
-                कोकिलः	Kokila bird or the Indian cuckoo
-                कोकिलः 	Kokila, i.e., charming
-                भवेत्	Shall become
+                eng: 'पञ्चम+उदञ्जने काले - </td><td>In the spring season
+                कोकिलः - </td><td>Kokila bird or the Indian cuckoo
+                कोकिलः - </td><td>Kokila, i.e., charming
+                भवेत् - </td><td>Shall become
                 Only in the spring season, the kokila bird shall become a kokila, i.e., charming.
 Here, the re-declaration of kokila bird, a thing already effected, is to show its extreme charmingness in the spring season-a season for singing in the panchama tone.
 '
@@ -3533,11 +3533,11 @@ Here, the re-declaration of kokila bird, a thing already effected, is to show it
           sloka: '',
           sloka_explanation: {
             sans: '',
-            eng: 'हेतोः	Of a cause
-            हेतुमता सार्धम्	Along with its effect
-            वर्णनम्	Description
-            हेतुः	The cause
-            उच्यते	Is termed
+            eng: 'हेतोः - </td><td>Of a cause
+            हेतुमता सार्धम् - </td><td>Along with its effect
+            वर्णनम् - </td><td>Description
+            हेतुः - </td><td>The cause
+            उच्यते - </td><td>Is termed
             The description of a cause along with its intended effect is termed the Cause.'
           },
           examples: [
@@ -3545,10 +3545,10 @@ Here, the re-declaration of kokila bird, a thing already effected, is to show it
               text: '',
               explanation: {
                 sans: '',
-                eng: 'असौ शीतांशुः	That moon
-                सुभ्रुवाम्	Of women of beautiful eye-brows
-                मानच्छेदाय	For quelling the pride
-                उदेति	Rises
+                eng: 'असौ शीतांशुः - </td><td>That moon
+                सुभ्रुवाम् - </td><td>Of women of beautiful eye-brows
+                मानच्छेदाय -</td><td>For quelling the pride
+                उदेति - </td><td>Rises
                 That moon rises for quelling the pride of women of beautiful eye-brows.'
               }
             }
@@ -3561,21 +3561,21 @@ Here, the re-declaration of kokila bird, a thing already effected, is to show it
           sloka: 'Second sort of  हेतुः',
           sloka_explanation: {
             sans: '',
-            eng: 'हेतुहेतुमतोः	Of cause and effect
-            ऐक्यम्	Identity
-            प्रचक्षते	Call
-            केचित्	Certain rhetoricians
-हेतुम्	As the figure Reason
+            eng: 'हेतुहेतुमतोः - </td><td>Of cause and effect
+            ऐक्यम् - </td><td>Identity
+            प्रचक्षते - </td><td>Call
+            केचित् - </td><td>Certain rhetoricians
+हेतुम् - </td><td>As the figure Reason
 The identity of a cause with its effect is reckoned by some as the figure the Cause.'
           },
           examples: [
             {
               text: '',
               explanation_sans: '',
-              explanation_eng: 'वेङ्कटप्रभोः	Of the Lord of the mount Venkata
-              कटाक्षाः	Glances
-विदुषाम्	Of learned poets
-लक्ष्मीविलासाः	Graces of the Goddess of Fortune
+              explanation_eng: 'वेङ्कटप्रभोः - </td><td>Of the Lord of the mount Venkata
+              कटाक्षाः - </td><td>Glances
+विदुषाम् - </td><td>Of learned poets
+लक्ष्मीविलासाः - </td><td>Graces of the Goddess of Fortune
 The glances of the God Vishnu (lit. the Lord of the Mount Venkata) are the graces of the Goddess of Furtune to the learned.
 Here, the glance, the cause, is mentioned as identical with its effect, the graces of the Goddess of Fortune. This representation rests on the complete identiﬁcation and indicates the speedy simultaneous effect.
 इत्थं शतमलंकारा लक्षयित्वा निदर्शिताः ।
