@@ -3254,6 +3254,498 @@ export const state = () => ({
       id: 100,
       common: '<a href="/exercises">Go to exercises</a>'
     }
+  ],
+  titles: [
+    {
+      title: 'Introduction',
+      sl_num: '1',
+      to: '/lessons/1'
+    },
+    {
+      title: 'उपमालङ्कारः',
+      sl_num: '2',
+      to: '/lessons/2'
+    },
+    {
+      title: 'अनन्वयालङ्कारः',
+      sl_num: '3',
+      to: '/lessons/3'
+    },
+    {
+      title: 'उपमेयोपमालङ्कारः',
+      sl_num: '4',
+      to: '/lessons/4'
+    },
+    {
+      title: 'प्रतीपालङ्कारः',
+      sl_num: '5',
+      to: '/lessons/5'
+    },
+    {
+      title: 'रुपकालङ्कारः',
+      sl_num: '6',
+      to: '/lessons/6'
+    },
+    {
+      title: 'परिणामालङ्कारः',
+      sl_num: '7',
+      to: '/lessons/7'
+    },
+    {
+      title: 'उल्लेखालङ्कारः',
+      sl_num: '8',
+      to: '/lessons/8'
+    },
+    {
+      title: 'स्मृति-भ्रान्ति-संदेहालङ्काराः',
+      sl_num: '9',
+      to: '/lessons/9'
+    },
+    {
+      title: 'अपह्नुत्यलङ्कारः',
+      sl_num: '10',
+      to: '/lessons/10'
+    },
+    {
+      title: 'उत्प्रेक्षालङ्कारः',
+      sl_num: '11',
+      to: '/lessons/11'
+    },
+    {
+      title: 'अतिशयोक्त्यलङ्कारः',
+      sl_num: '12',
+      to: '/lessons/12'
+    },
+    {
+      title: 'तुल्ययोगितालङ्कारः',
+      sl_num: '13',
+      to: '/lessons/13'
+    },
+    {
+      title: 'दीपकालङ्कारः',
+      sl_num: '14',
+      to: '/lessons/14'
+    },
+    {
+      title: 'आवृत्तिदीपकालङ्कारः',
+      sl_num: '15',
+      to: '/lessons/15'
+    },
+    {
+      title: 'प्रतिवस्तुपमालङ्कारः',
+      sl_num: '16',
+      to: '/lessons/16'
+    },
+    {
+      title: 'दृष्टान्तालङ्कारः',
+      sl_num: '17',
+      to: '/lessons/17'
+    },
+    {
+      title: 'निदर्शनालङ्कारः',
+      sl_num: '18',
+      to: '/lessons/18'
+    },
+    {
+      title: 'व्यतिरेका',
+      sl_num: '19',
+      to: '/lessons/19'
+    },
+    {
+      title: 'सहोक्तिः',
+      sl_num: '20',
+      to: '/lessons/20'
+    },
+    {
+      title: 'विनोक्तिः',
+      sl_num: '21',
+      to: '/lessons/21'
+    },
+    {
+      title: 'समासोक्तिः',
+      sl_num: '22',
+      to: '/lessons/22'
+    },
+    {
+      title: 'परिकरः',
+      sl_num: '23',
+      to: '/lessons/23'
+    },
+    {
+      title: 'परिकरांकुरः',
+      sl_num: '24',
+      to: '/lessons/24'
+    },
+    {
+      title: 'श्लेषः',
+      sl_num: '25',
+      to: '/lessons/25'
+    },
+    {
+      title: 'अप्रस्तुतप्रशंसा',
+      sl_num: '26',
+      to: '/lessons/26'
+    },
+    {
+      title: 'प्रस्तुतांकुरः',
+      sl_num: '27',
+      to: '/lessons/27'
+    },
+    {
+      title: 'पर्य्यायोक्तम्',
+      sl_num: '28',
+      to: '/lessons/28'
+    },
+    {
+      title: 'व्याजस्तुतिः',
+      sl_num: '29',
+      to: '/lessons/29'
+    },
+    {
+      title: 'व्याजनिन्दा',
+      sl_num: '30',
+      to: '/lessons/30'
+    },
+    {
+      title: 'आक्षेपः',
+      sl_num: '31',
+      to: '/lessons/31'
+    },
+    {
+      title: 'विरोधाभासः',
+      sl_num: '32',
+      to: '/lessons/32'
+    },
+    {
+      title: 'विभावना',
+      sl_num: '33',
+      to: '/lessons/33'
+    },
+    {
+      title: 'विशेषोक्तिः',
+      sl_num: '34',
+      to: '/lessons/34'
+    },
+    {
+      title: 'असंभवः',
+      sl_num: '35',
+      to: '/lessons/35'
+    },
+    {
+      title: 'असंगतिः',
+      sl_num: '36',
+      to: '/lessons/36'
+    },
+    {
+      title: 'विषमम्',
+      sl_num: '37',
+      to: '/lessons/37'
+    },
+    {
+      title: 'समम्',
+      sl_num: '38',
+      to: '/lessons/38'
+    },
+    {
+      title: 'विचित्रम्',
+      sl_num: '39',
+      to: '/lessons/39'
+    },
+    {
+      title: 'अधिकम्',
+      sl_num: '40',
+      to: '/lessons/40'
+    },
+    {
+      title: 'अल्पम्',
+      sl_num: '41',
+      to: '/lessons/41'
+    },
+    {
+      title: 'अन्योन्यम्',
+      sl_num: '42',
+      to: '/lessons/42'
+    },
+    {
+      title: 'विशेषः',
+      sl_num: '43',
+      to: '/lessons/43'
+    },
+    {
+      title: 'व्याघातः',
+      sl_num: '44',
+      to: '/lessons/44'
+    },
+    {
+      title: 'कारणमाला',
+      sl_num: '45',
+      to: '/lessons/45'
+    },
+    {
+      title: 'एकावली',
+      sl_num: '46',
+      to: '/lessons/46'
+    },
+    {
+      title: 'मालादीपकम्',
+      sl_num: '47',
+      to: '/lessons/47'
+    },
+    {
+      title: 'सारः',
+      sl_num: '48',
+      to: '/lessons/48'
+    },
+    {
+      title: 'यथासंख्यम्',
+      sl_num: '49',
+      to: '/lessons/49'
+    },
+    {
+      title: 'पर्यायः',
+      sl_num: '50',
+      to: '/lessons/50'
+    },
+    {
+      title: 'परिवृत्तिः',
+      sl_num: '51',
+      to: '/lessons/51'
+    },
+    {
+      title: 'परिसङ्ख्या',
+      sl_num: '52',
+      to: '/lessons/52'
+    },
+    {
+      title: 'विकल्पः',
+      sl_num: '53',
+      to: '/lessons/53'
+    },
+    {
+      title: 'समुच्चयः',
+      sl_num: '54',
+      to: '/lessons/54'
+    },
+    {
+      title: 'कारकदीपकम्',
+      sl_num: '55',
+      to: '/lessons/55'
+    },
+    {
+      title: 'समाधिः',
+      sl_num: '56',
+      to: '/lessons/56'
+    },
+    {
+      title: 'प्रत्यनीकम्',
+      sl_num: '57',
+      to: '/lessons/57'
+    },
+    {
+      title: 'काव्यार्थपत्तिः',
+      sl_num: '58',
+      to: '/lessons/58'
+    },
+    {
+      title: 'काव्यलिंगम्',
+      sl_num: '59',
+      to: '/lessons/59'
+    },
+    {
+      title: 'अर्थान्तरन्यासः',
+      sl_num: '60',
+      to: '/lessons/60'
+    },
+    {
+      title: 'विकस्वरः',
+      sl_num: '61',
+      to: '/lessons/61'
+    },
+    {
+      title: 'प्रौढोक्तिः',
+      sl_num: '62',
+      to: '/lessons/62'
+    },
+    {
+      title: 'संभावना',
+      sl_num: '63',
+      to: '/lessons/63'
+    },
+    {
+      title: 'मिथ्याध्यवसितिः',
+      sl_num: '64',
+      to: '/lessons/64'
+    },
+    {
+      title: 'ललितम्',
+      sl_num: '65',
+      to: '/lessons/65'
+    },
+    {
+      title: 'प्रहर्षणम्',
+      sl_num: '66',
+      to: '/lessons/66'
+    },
+    {
+      title: 'विषादनम्',
+      sl_num: '67',
+      to: '/lessons/67'
+    },
+    {
+      title: 'उल्लासः',
+      sl_num: '68',
+      to: '/lessons/68'
+    },
+    {
+      title: 'अवज्ञालंकृतिः',
+      sl_num: '69',
+      to: '/lessons/69'
+    },
+    {
+      title: 'अनुक्षा',
+      sl_num: '70',
+      to: '/lessons/70'
+    },
+    {
+      title: 'लेशः',
+      sl_num: '71',
+      to: '/lessons/71'
+    },
+    {
+      title: 'मुद्रा',
+      sl_num: '72',
+      to: '/lessons/72'
+    },
+    {
+      title: 'उपमालङ्कारः',
+      sl_num: '73',
+      to: '/lessons/73'
+    },
+    {
+      title: 'तद्गुणाः',
+      sl_num: '74',
+      to: '/lessons/74'
+    },
+    {
+      title: 'उपमालङ्कारः',
+      sl_num: '75',
+      to: '/lessons/75'
+    },
+    {
+      title: 'अतद्गुणाः',
+      sl_num: '76',
+      to: '/lessons/76'
+    },
+    {
+      title: 'अनुगुणाः',
+      sl_num: '77',
+      to: '/lessons/77'
+    },
+    {
+      title: 'मिलितम्',
+      sl_num: '78',
+      to: '/lessons/78'
+    },
+    {
+      title: 'सामान्यम्',
+      sl_num: '79',
+      to: '/lessons/79'
+    },
+    {
+      title: 'उन्मीलितम् & विशेषकः',
+      sl_num: '80',
+      to: '/lessons/80'
+    },
+    {
+      title: 'उत्तरम्',
+      sl_num: '81',
+      to: '/lessons/81'
+    },
+    {
+      title: 'सूक्ष्मम्',
+      sl_num: '82',
+      to: '/lessons/82'
+    },
+    {
+      title: 'पिहितम्',
+      sl_num: '83',
+      to: '/lessons/83'
+    },
+    {
+      title: 'व्याजोक्तिः',
+      sl_num: '84',
+      to: '/lessons/84'
+    },
+    {
+      title: 'गूढोक्तिः',
+      sl_num: '85',
+      to: '/lessons/85'
+    },
+    {
+      title: 'विवृतोक्तिः',
+      sl_num: '86',
+      to: '/lessons/86'
+    },
+    {
+      title: 'युक्तिः',
+      sl_num: '87',
+      to: '/lessons/87'
+    },
+    {
+      title: 'लोकोक्तिः',
+      sl_num: '88',
+      to: '/lessons/89'
+    },
+    {
+      title: 'छेकोत्किः',
+      sl_num: '90',
+      to: '/lessons/90'
+    },
+    {
+      title: 'वक्रोक्तिः',
+      sl_num: '91',
+      to: '/lessons/91'
+    },
+    {
+      title: 'स्वभावोक्तिः',
+      sl_num: '92',
+      to: '/lessons/92'
+    },
+    {
+      title: 'भाविकम्',
+      sl_num: '93',
+      to: '/lessons/93'
+    },
+    {
+      title: 'उदात्तम्',
+      sl_num: '94',
+      to: '/lessons/94'
+    },
+    {
+      title: 'अत्युक्तिः',
+      sl_num: '95',
+      to: '/lessons/95'
+    },
+    {
+      title: 'निरुक्तिः',
+      sl_num: '96',
+      to: '/lessons/96'
+    },
+    {
+      title: 'प्रतिषेधः',
+      sl_num: '97',
+      to: '/lessons/98'
+    },
+    {
+      title: 'विधिः',
+      sl_num: '98',
+      to: '/lessons/98'
+    },
+    {
+      title: 'हेतुः',
+      sl_num: '99',
+      to: '/lessons/99'
+    }
   ]
 })
 
