@@ -110,7 +110,7 @@
   <v-flex xs12 mb-3>
         <div class="text-xs-center mt-3">
           <h3>Types: {{lesson.types}}</h3>
-        <v-btn @click="nexttab">next tab</v-btn>
+        <v-btn @click="nexttab">next type</v-btn>
     </div>
     <v-tabs
       v-model="active"
