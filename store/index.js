@@ -2571,7 +2571,7 @@ export const state = () => ({
       ]
     },
     {
-      title_sans: 'उपमालङ्कारः',
+      title_sans: 'रत्नावली',
       title_eng: 'रत्नावली-The Jewelled Necklace',
       id: 73,
       slokas: [
@@ -2617,7 +2617,7 @@ export const state = () => ({
       ]
     },
     {
-      title_sans: 'उपमालङ्कारः',
+      title_sans: 'पूर्वरूपम्',
       title_eng: 'पूर्वरूपम् -The Original',
       id: 75,
       slokas: [
@@ -3617,7 +3617,7 @@ export const state = () => ({
       to: '/lessons/72'
     },
     {
-      title: 'उपमालङ्कारः',
+      title: 'रत्नावली',
       sl_num: '73',
       to: '/lessons/73'
     },
@@ -3627,7 +3627,7 @@ export const state = () => ({
       to: '/lessons/74'
     },
     {
-      title: 'उपमालङ्कारः',
+      title: 'पूर्वरूपम्',
       sl_num: '75',
       to: '/lessons/75'
     },
