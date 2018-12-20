@@ -9,7 +9,6 @@ export const state = () => ({
         {
           sloka: 'अमरीकबरीभारभ्रमरीमुखरीकृतम् ।<br>दूरीकरितु दुरितं गीरीचरणापङ्कजम् ॥',
           sloka_explanation: {
-            sans: '',
             eng: 'May the foot- lotus of Gauri made resonant by the female bees in the masses of braided hairs of the prostrating goddesses!'
           }
         },
@@ -42,7 +41,7 @@ export const state = () => ({
             {
               text: 'हंसीव इत्युदाहरणम्‌। ',
               explanation: {
-                sans: '<p>इयं च पूर्णोपमा इत्युच्यते। <br>हंसी कीर्तिः स्वर्गङ्गावगाहनमिव शब्दश्चेत् एतेषाम् उपमान-उपमेय-साधारण-धर्मोपमा-वाचकानां चतुर्णामपि उपादानात्‌। </p>',
+                sans: '<p>इयं च पूर्णोपमा इत्युच्यते। तत्रोपमानोपमेय साधारणधर्मोपमावाचकानां चतुर्णां प्रयोगे पूर्णेत्युच्यते <br>हंसी कीर्तिः स्वर्गङ्गावगाहनमिव शब्दश्चेत् एतेषाम् उपमान-उपमेय-साधारण-धर्मोपमा-वाचकानां चतुर्णामपि उपादानात्‌। </p>',
                 eng: '<p>O Krishna, thy fame like a she-swan enters the celestial Ganges (or pervades the celestial regions and this earth).</p><p>This is an example of ‘simile complete’; for, it contains all the four essentials of comparison,which are –</p><table><thead><th></th><th></th><th>In the present example</th></thead><tr><td>1. उपमेयम्, वर्ण्यम् or विषयः</td><td>The object compared, i.e, the subject of comparison, such as face etc.</td><td>कीर्तिः - Fame</td></tr><tr><td>2. उपमानम्, अवर्ण्यम् or विषयी</td><td>The object compared to, i.e, the standard of comparison, such as moon, lotus etc.</td><td>हंसी - swan </td></tr><tr><td>3. साधारणधर्मः or सामान्यधर्मः or simply धर्मः </td><td>The common attribute, i.e, the characteristic resemblance between the two objects (the object compared and the object compared to); or the quality of the said two objects that occasions their similitude such as charmingness or the like.</td><td>अवगाहते i.e, अवगाहनक्रिया - ‘The act of entering or pervading’ – the common attribute</td></tr><tr><td>4. उपमावाचकः or simply वाचकः </td><td>The word implying comparison, such as इव ‘as’ or the like.</td><td>इव - like</td></tr></table><br><p>कीर्तिः ‘fame’, यशस् ‘reputation’ and हासः ‘laughter’ are always described as white according to the convention of the poets. Hence, the fame of Krishna is compared to a swan which is of white colour.</p>'
               }
             }
@@ -154,13 +153,6 @@ export const state = () => ({
                 sans: '',
                 eng: '(Lady ! ) The lotus is like thy eyes ; and the moon is like thy face.'
               }
-            },
-            {
-              text: 'यत्त्वन्नेत्रसमानकान्ति सलिले मग्नं तदिन्दीवरं<br>          मेघैरन्तरितः प्रिये! तव मुखच्छायानुकारी शशी।<br>येऽपि त्वद्गमनानुसारिगतयस्ते राजहंसा गता-<br>स्त्वत्सादृश्यविनोदमात्रमपि मे दैवेन न क्षम्यते॥',
-              explanation: {
-                sans: '',
-                eng: ''
-              }
             }
           ]
         }
@@ -168,19 +160,16 @@ export const state = () => ({
       types: 4,
       type: [
         {
-          sloka: 'अन्योपमेयलाभेन वर्ण्यस्यानादरश्च तत्‌।<br>अलं गर्वेण ते वक्त्र! कान्त्या चन्द्रोऽपि तादृशः॥',
+          sloka: 'अन्योपमेयलाभेन वर्ण्यस्यानादरश्च तत्‌।',
           sloka_explanation: {
             sans: '<p>अत्युत्कृष्टगुणतया वर्ण्यमानस्यान्यत्र स्वसादृश्यमसहमानस्योपमेयं किंचित्प्रदर्श्य तावता तस्य तिरस्कारो द्वितीयं प्रतीपं पूर्वस्मादपि विच्छित्तिविशेषशालि।</p>',
-            eng: '<h3>Word meanings</h3><table><tr><td>अन्योपमेयलाभेन - </td><td>By reason of gain of another, i.e., the object compared to as the object compared</td></tr><tr><td>वर्ण्यस्य - </td><td>Of the object on hand (face & c)</td></tr><tr><td>अनादरः - </td><td>Disregard</td></tr><tr><td>च</td><td>Also</td></tr><tr><td>तत् - </td><td>That i.e., the figure converse</td></tr><tr><td>वक्त्र! - </td><td>Face!</td></tr><tr><td>ते - </td><td>Thy</td></tr><tr><td>गर्वेण - </td><td>By the pride</td></tr><tr><td>अलम् - </td><td>Enough</td></tr><tr><td>कान्त्या - </td><td>In splendor</td></tr><tr><td>चन्द्रः - </td><td>The moon</td></tr><tr><td>भवादृशः - </td><td>Like thee</td></tr></table><h3>Definition</h3><p>When the subject on hand (face &c.) is disregarded by reason-of the gain of another object (i.e., moon &c.) which is not the subject under discourse it is also termed Converse.</p>'
+            eng: '<h3>Word meanings</h3><table><tr><td>अन्योपमेयलाभेन - </td><td>By reason of gain of another, i.e., the object compared to as the object compared</td></tr><tr><td>वर्ण्यस्य - </td><td>Of the object on hand (face & c)</td></tr><tr><td>अनादरः - </td><td>Disregard</td></tr><tr><td>च</td><td>Also</td></tr><tr><td>तत् - </td><td>That i.e., the figure converse</td></tr></table><h3>Definition</h3><p>When the subject on hand (face &c.) is disregarded by reason-of the gain of another object (i.e., moon &c.) which is not the subject under discourse it is also termed Converse.</p>'
           },
           examples: [
             {
               text: 'अलं गर्वेण ते वक्त्र! कान्त्या चन्द्रोऽपि तादृशः॥',
               explanation_sans: '',
-              explanation_eng: 'O Face! enough of thy pride ; (there is) the moon equal to thee in splendor.'
-            },
-            {
-              text: 'गर्वमसंवाह्यमिमं लोचनयुगलेन किं वहसि भद्रे! ।<br>सन्तीदृशानि दिशि दिशि सर;सु ननु नीलनलिनानि॥'
+              explanation_eng: '<h3>Word meanings</h3><table><tr><td>वक्त्र! - </td><td>Face!</td></tr><tr><td>ते - </td><td>Thy</td></tr><tr><td>गर्वेण - </td><td>By the pride</td></tr><tr><td>अलम् - </td><td>Enough</td></tr><tr><td>कान्त्या - </td><td>In splendor</td></tr><tr><td>चन्द्रः - </td><td>The moon</td></tr><tr><td>भवादृशः - </td><td>Like thee</td></tr></table>O Face! enough of thy pride ; (there is) the moon equal to thee in splendor.'
             }
           ]
         },
@@ -195,9 +184,6 @@ export const state = () => ({
               text: 'कः क्रौर्यदर्पस्ते मृत्यो त्वत्तुल्याः सन्ति हि स्त्रियः',
               explanation_sans: '',
               explanation_eng: '<p>O death! wherefore dost thou bear the pride on account of cruelty; because, there are (many) Women equal to thee (in cruelty).</p>'
-            },
-            {
-              text: 'अहमेव गुरुः सुदारुणानामिति हालाहल! तात ! मा स्म दृप्यः।<br>ननु सन्ति भवादृशानि भूयो भुवनेऽस्मिन्वचनानि दुर्जनानाम्‌॥'
             }
           ]
         },
@@ -212,9 +198,6 @@ export const state = () => ({
               text: 'मिथ्यावादो हि मुग्धाक्षि ! त्वन्मुखाभं किलांबुजम् ॥',
               explanation_sans: 'उदाहरणे मुदापवादत्वोक्त्योपमित्यनिष्पत्तिरुद्धाटिता।',
               explanation_eng: 'O beautiful-eyed lady! The assertion that the lotus has the likeness of thy face is an untrue one. Hence, we see here that the resemblance between the two objects lotus and face being stated as untrue becomes an unaccomplished one and so it is the Converse.'
-            },
-            {
-              text: 'आकर्णय सरोजाक्षी वचनीयमिदं भुवि।<br>शशाङ्कस्त्वव वक्त्रेण पामरैरुपमीयते॥'
             }
           ]
         },
@@ -229,12 +212,6 @@ export const state = () => ({
               text: 'दृष्टं चेद्वदनं तन्व्याः किं पद्मेन किमिन्दुना ॥',
               explanation_sans: '',
               explanation_eng: 'When the face of that slender lady was seen, what is the use of the lotus or of the moon.'
-            },
-            {
-              text: 'तदोजसस्तद्यशसः स्थिताविमौ वृथेति चित्ते कुरुते यदा यदा।<br>तनोति भानोः परिवेषकैतवा- त्तदा विधिः कुण्डलनाम विधोरपि॥'
-            },
-            {
-              text: 'केचिदनन्वयोपमेयोपमाप्रतीपानामुपमाविशेषत्वेन तदन्तर्भावं मन्यते।<br>अन्ये तु पञ्चमं प्रतीपमुपमानाक्षेपरुपत्वादाक्षेपालङ्कारमाहुः॥'
             }
           ]
         }
@@ -283,14 +260,12 @@ export const state = () => ({
             {
               text: 'साध्वीयमपरा लक्ष्मीरसुधासागरोदिता।',
               explanation: {
-                sans: '',
                 eng: '<h3>न्यूनताद्रूप्यरूपकम् </h3><h3>Word meanings</h3><table><tr><td>इयं साध्वौ - </td><td>This virtuous women</td></tr><tr><td>असुधासागरोदिता - </td><td>Not born of the Milky Sea.</td></tr><tr><td>अपरा - </td><td>A second</td></tr><tr><td>लक्ष्मीः - </td><td>Goddess of fortune</td></tr></table><p>This virtuous woman is a second Lakshmi (Goddess of fortune) not born of the Milky Sea. </p><p>Here, two different objects, the virtuous woman and the Goddess of fortune, are represented as identical with an inferiority in as much as the former is not born of the Milky Sea and We have therefore here the example of Rupaka No.5.</p>'
               }
             },
             {
               text: 'अयम कलङ्किनश्चन्द्रान्मुखचन्द्रोऽतिरिच्यते॥',
               explanation: {
-                sans: '',
                 eng: '<h3>अधिकताद्रूप्यरूपकम् </h3><h3>Word meanings</h3><table><tr><td>अयम्</td><td>This</td></tr><tr><td>मुखचन्द्रः - </td><td>Face –moon</td></tr><tr><td>कलंकिनः - </td><td>Spotted</td></tr><tr><td>चन्द्रात् - </td><td>From the moon</td></tr><tr><td>अतिरिच्यते - </td><td>Is superior to</td></tr></table><p>This face-moon (of this lovely woman) is superior to the spotted moon.</p><p>Here, we have the ‘superiority expressed in the example which needs no comment.</p>'
               }
             }
@@ -376,21 +351,18 @@ export const state = () => ({
             {
               text: 'पङ्कजं पश्यतः कान्तामुखं मे गाहते मनः॥',
               explanation: {
-                sans: '',
                 eng: '<h3>Example of Reminiscence</h3><h3.Word meanings</h3><table><tr><td>पंकजम् - </td><td>Lotus</td></tr><tr><td>पश्यतः - </td><td>Seeing</td></tr><tr><td>मे मनः - </td><td>My mind</td></tr><tr><td>कांतामुखम् - </td><td>The face of the beloved</td></tr><tr><td>गाहते - </td><td>Enters, i.e., recollects</td></tr></table><h3>Meaning</h3><p>Seeing this lotus, my mind recollects the face of my beloved.</p>'
               }
             },
             {
               text: 'अयं प्रमत्तमधुपस्त्वन्मुखं वेत्ति पङ्कजम् ।',
               explanation: {
-                sans: '',
                 eng: '<h3>Example of the Mistaker</h3><h3>Word meanings</h3><table><tr><td>अयम् - </td><td>this</td></tr><tr><td>प्रमत्तमधुपः - </td><td>Intoxicated bee</td></tr><tr><td>त्वन्मुखम् - </td><td>Thy face</td></tr><tr><td>पंकजम् - </td><td>Lotus</td></tr><tr><td>वेत्ति - </td><td>Understands</td></tr></table><h3>Meaning</h3><p> (Lady ! ) this intoxicated bee understands thy face to be the lotus (through mistake). </p><p>The difference between this figure and the Rupaka (V) is, that, in the latter, we identify the face with the lotus without mistaking the one for the other, whereas, in this figure, the mistake is clearly expressed as in the foregoing example.</p>'
               }
             },
             {
               text: 'पङ्कजं वा सुधांशुर्वेत्यस्माकं तु न निर्णयः ।',
               explanation: {
-                sans: '',
                 eng: '<h3>Example of Doubt</h3><h3>Word meanings</h3><table><tr><td>अस्माकम् - </td><td>To us</td></tr><tr><td>पंकजम् - </td><td>Lotus</td></tr><tr><td>वा - </td><td>Or</td></tr><tr><td>सुधांशुः - </td><td>Moon</td></tr><tr><td>वा - </td><td>Or</td></tr><tr><td>इति - </td><td>So</td></tr><tr><td>निर्णयः - </td><td>Decision</td></tr><tr><td>न - </td><td>Not.</td></tr></table><h3>Meaning</h3><p>We are not able to decide whether (the object before us) is the lotus or the moon nectar-rayed.</p><p>Thus, we sec that these three figures are founded upon the close resemblance, of the objects seen and experienced before, that gave rise to a recollection, mistake or doubt.</p>'
               }
             }
@@ -421,7 +393,6 @@ export const state = () => ({
         {
           sloka: '<h3>हेत्वपह्नुतिः- Concealment with a reason</h3>स एव युक्तिपूर्वश्चेदुच्यते हेत्वपह्नुतिः।<br>नेन्दुस्तीव्रो न निश्यर्कः सिन्धोरौर्वोऽयमुत्थितः॥',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word Meanings</h3><table><tr><td>सः (धर्मनिह्नवः) - </td><td>The same i.e., the denial of the character</td></tr><tr><td>युक्तिपूर्वः - </td><td>Based upon the reasoning</td></tr><tr><td>चेत् - </td><td>If</td></tr><tr><td>हेत्वपह्नुतिः - </td><td>Concealment with a reason</td></tr><tr><td>उच्यते - </td><td>Is called</td></tr><tr><td>अयम् - </td><td>This</td></tr><tr><td>इन्दुः - </td><td>Moon</td></tr><tr><td>न - </td><td>Not</td></tr><tr><td>तीव्रः - </td><td>Hot</td></tr><tr><td>निशि - </td><td>At night</td></tr><tr><td>अर्कः - </td><td>Sun</td></tr><tr><td>न - </td><td>Not</td></tr><tr><td>सिन्धोः - </td><td>Not from the ocean</td></tr><tr><td>उत्थितः - </td><td>Sprung up</td></tr><tr><td>और्वः - </td><td>The submarine fire.</td></tr></table><h3>Definition</h3><p>The above, i.e., the ‘Concealment pure’ when based upon a reasoning, is termed हेत्वपह्नुतिः ।</p>'
           },
           examples: [
@@ -449,7 +420,6 @@ export const state = () => ({
         {
           sloka: '<h3>भ्रान्तापह्नुतिः - Concealment under a mistake</h3>भ्रान्तापह्नुतिरन्यस्य शंकायां भ्रान्तिवारणे ।<br>तापं करोति सोत्कम्पं, ज्वरः किं? न सखि स्मरः ॥',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>अन्यस्य - </td><td>Of another person</td></tr><tr><td>शंकायाम् - </td><td>In doubt</td></tr><tr><td>भ्रान्तिवारणे - </td><td>In the removal of the mistake</td></tr><tr><td>भ्रान्तापह्नुतिः - </td><td>It is Concealment under a mistake</td></tr><tr><td>सोत्कंपम् - </td><td>Accompanied by trembling</td></tr><tr><td>तापम् - </td><td>Heat</td></tr><tr><td>करोति - </td><td>Produces</td></tr><tr><td>ज्वरः किम् - </td><td>Is it fever?</td></tr><tr><td>सखि - </td><td>Friend !</td></tr><tr><td>न - </td><td>No </td></tr><tr><td>स्मरः - </td><td>The God of love.</td></tr></table><h3>Definition</h3><p> When a person is in doubt (i.e., under a mistaken notion as to the real character of an ‘object on hand) and when that doubt is warded of (by the mention of the real thing), it is Bhrantapahnuti.</p>'
           },
           examples: [
@@ -477,7 +447,6 @@ export const state = () => ({
         {
           sloka: '<h3>कैतवापह्नुतिः - Concealment of the deceitful</h3>कैतवापह्नुतिर्व्यक्तौ व्याजाद्यैर्निह्नुतेः पदैः।<br>निर्यान्ति स्मरनाराचाः कान्तादृक्पातकैतवात्‌॥',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>व्याजादौः निह्नुतैः पदैः - </td><td>By words of denial व्याजः &c.</td></tr><tr><td>व्यक्तौ - </td><td>If expressed</td></tr><tr><td>कैतवापह्नुतिः - </td><td>Concealment of the deceitful</td></tr><tr><td>कान्तादृक्पातकैतवात् - </td><td>Under the semblance of the glances of a damsel</td></tr><tr><td>स्मरनाराचाः - </td><td>The arrows of the God of love</td></tr><tr><td>निर्यान्ति - </td><td>Issue forth</td></tr></table><h3>Definition</h3><p>When (the denial of the real character of an object on hand) is clearly expressed by the words of denial व्याज (under the semblance of, under the pretext of) etc., it is the Concealment of the deceitful.</p><p>etc. includes such other words मिष, कपट, छल, छद्म. कैतव ।</p>'
           },
           examples: [
@@ -598,7 +567,6 @@ export const state = () => ({
         {
           sloka: '<h3>भेदकातिशयोक्तिः - Hyperbole Asserting a difference</h3>भेदकातिशयोक्तिस्तु तस्यैवान्यत्ववर्णनम्‌।<br>अन्यदेवास्य गाम्भीर्यमन्यद्धैर्यं महीपतेः॥',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>तस्यैव - </td><td>Of the object described</td></tr><tr><td>अन्यत्ववर्णनम् - </td><td>Description as another</td></tr><tr><td>भेदकातिशयोक्तिः - </td><td>Hyperbole asserting a difference</td></tr><tr><td>अस्य - </td><td>Of this (king)</td></tr><tr><td>गांभीर्यम् - </td><td>Profundity</td></tr><tr><td>अन्यदेव - </td><td>(is regarded) as another i.e., strange or extraordinary</td></tr><tr><td>धैर्यम् - </td><td>Courage</td></tr><tr><td>अन्यत् - </td><td>(is regarded) as another, i.e., strange</td></tr></table><h3>Definition</h3><p>When the thing described is comprehended as another, i.e., as extraordinary or strange or peculiar, it is called भेदकातिशयोक्तिः ।</p>'
           },
           examples: [
@@ -612,13 +580,11 @@ export const state = () => ({
         {
           sloka: '<h3>संबन्धातिशयोक्तिः - Hyperbole Asserting a connection</h3>संबन्धातिशयोक्तिः स्यादयोगे योगकल्पनम्‌।<br>सौधाग्राणि पुरस्यास्य स्पृशन्ति विधुमण्डलम्‌॥',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>अयोगे - </td><td>When there is no connection</td></tr><tr><td>योगकल्पनम् - </td><td>Assertion of a connection</td></tr><tr><td>संबंधाक्तिः - </td><td>Hyperbole asserting a connection</td></tr><tr><td>स्यात् - </td><td>Is (called)</td></tr><tr><td>अस्य पुरस्य - </td><td>Of this town</td></tr><tr><td>सौधाग्राणि - </td><td>Tops of the mansions</td></tr><tr><td>विधुमण्डलम् - </td><td>The disc of the moon</td></tr><tr><td>स्पृशन्ति - </td><td>Touch or kiss</td></tr></table><h3>Definition</h3><p>When a connection is asserted where there is really none, it is called संबंधातिशयोक्तिः । </p>'
           },
           examples: [
             {
               text: 'सौधाग्राणि पुरस्यास्य स्पृशंति विधुमंडलम् ।',
-              explanation_sans: '',
               explanation_eng: '<p>The tops of the mansions of this town kiss the disc of the moon.</p><p>Here, the tops do not really touch the disc of the moon ; still they are asserted to do so on account of their extraordinary height. </p>'
             }
           ]
@@ -626,7 +592,6 @@ export const state = () => ({
         {
           sloka: '<h3>असंबन्धातिशयोक्तिः - Hyperbole Asserting a disconnection</h3>योगेऽप्ययोगोऽसंबन्धातिशयोक्तिरितीर्यते।<br>त्वयि दातरि राजेन्द्र! स्वर्द्रुमान्नाद्रियामहे॥',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>योगे अपि - </td><td>Though there is connection</td></tr><tr><td>अयोगः - </td><td>(the assertion of) disconnection</td></tr><tr><td>असंबंधाक्तिः - </td><td>Hyperbole asserting a disconnection</td></tr><tr><td>राजेन्द्र - </td><td>O best of kings!</td></tr><tr><td>त्वयि दातरि - </td><td>When thou art a donor</td></tr><tr><td>खर्द्रुमान् - </td><td>The trees of the paradise</td></tr><tr><td>न आद्रियामहे - </td><td>We wont devote to.</td></tr></table><h3>Definition</h3><p>Denial of connection where there is really a connection is called असंबन्धातिशयोक्तिः ।</p>'
           },
           examples: [
@@ -640,7 +605,6 @@ export const state = () => ({
         {
           sloka: '<h3>अक्रमातिशयोक्तिः - Hyperbole Asserting a want of order</h3>अक्रमातिशयोक्तिः स्यात् सहते हेतुकार्ययोः।<br>आलिङ्गन्ति समं देव! ज्यां शराश्च पराश्च ते॥',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>हेतुकार्ययोः - </td><td>Of the cause and effect</td></tr><tr><td>सहत्वे - </td><td>In the simultaneously</td></tr><tr><td>अक्रमाक्तिः - </td><td>Hyperbole asserting a want of order</td></tr><tr><td>देव - </td><td>O king !</td></tr><tr><td>ते - </td><td>Thy</td></tr><tr><td>शराश्च - </td><td>Arrows</td></tr><tr><td>पराश्च - </td><td>Foes</td></tr><tr><td>ज्याम् - </td><td>(1)bow-string (2)earth</td></tr><tr><td>समम् - </td><td>Simultaneously</td></tr><tr><td>आलिंगन्ति - </td><td>Clasp</td></tr></table><h3>Definition</h3><p>When the cause and effect are said to have taken place simultaneously, or, in other words, when the effect is said to co-exist with the cause, it is called अक्रमातिशयोक्तिः ।</p>'
           },
           examples: [
@@ -654,7 +618,6 @@ export const state = () => ({
         {
           sloka: '<h3>चपलातिशयोक्तिः - Hyperbole Asserting fickleness</h3>चपलातिशयोक्तिस्तु कार्ये हेतुप्रसक्तिजे।<br>यास्यामीत्युदिते तन्व्या वलयोऽभवदूर्मिका॥',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>कार्ये - </td><td>The effect</td></tr><tr><td>हेतुप्रसक्तिजे - </td><td>When the cause was under discussion</td></tr><tr><td>चपलाक्तिः - </td><td>Hyperbole asserting fickleness</td></tr><tr><td>यस्यामि इत्युदिते - </td><td>When said (by the lover) “I go”</td></tr><tr><td>तन्व्याः - </td><td>Of the slender lady</td></tr><tr><td>ऊर्मिका - </td><td>Ring</td></tr><tr><td>वलयः - </td><td>Bracelet</td><td>अभवत् - </td><td>Became</td></tr></table><h3>Definition</h3><p>If the effect is described to have taken place without the cause, or, literally,‘ if the effect is said to have taken place when the cause was under discussion, i.e., not yet begun, it is then called चपलातिशयोक्तिः ।</p>'
           },
           examples: [
@@ -668,13 +631,11 @@ export const state = () => ({
         {
           sloka: '<h3>अत्यन्तातिशयोक्तिः - Hyperbole Of the highest degree</h3>अत्यन्तातिशयोक्तिस्तु पौर्वापर्यव्यतिक्रमे।<br>अग्रे मानो गतः पश्चादनुनीता प्रियेण सा॥',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>तत्-पौर्वापर्य-व्यतिक्रमे - </td><td>When there is a violation of the priority and posteriority of those (i.e., of the cause and effect)</td></tr><td>अत्यक्तिः - </td><td>Hyperbole of the highest degree</td></tr><tr><td>अग्रे - </td><td>In the beginning, i.e., previously</td></tr><tr><td>मानः - </td><td>Anger</td></tr><tr><td>गतः - </td><td>Subsided</td></tr><tr><td>सा - </td><td>She</td></tr><tr><td>प्रियेण - </td><td>By her lover</td></tr><tr><td>पश्चात् - </td><td>Afterwards</td></tr><tr><td>अनुनीता - </td><td>Was conciliated</td></tr></table><h3>Definition</h3><p> When the relation of priority and posteriority is violated, i.e., when the due order is inverted, or in other words, when the effect is said to have preceded the cause, it is अत्यन्तातिशयोक्तिः ।</p>'
           },
           examples: [
             {
               text: 'अग्रे मानो गतः पश्चादनुनीता प्रियेण सा ॥',
-              explanation_sans: '',
               explanation_eng: '<p>The anger (of the beloved lady) had previously subsided. Afterwards, she was conciliated by her lover. </p><p>Here, a lady’ angry, through love, at the absence of her lover removed her anger at the moment the lover came before her. The lover not knowing the subsidence of the anger of the lady excused himself of his absence which was unnecessary at that stage.</p>'
             }
           ]
@@ -703,7 +664,6 @@ export const state = () => ({
             {
               text: 'त्वदङ्गमार्दवे दृष्टे कस्य चित्ते न भासते।<br>मालतीशसभृल्लेखाकदलीनां कठोरता ॥',
               explanation: {
-                sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>त्वदंगमार्दवे दृष्टे - </td><td>When the softness of thy limbs was perceived</td></tr><td>कस्य चित्ते - </td><td>In whose mind</td></tr><tr><td>मालती- कदलीनाम् - </td><td>Of the jasamine, moon’s ray and the plantain</td></tr><tr><td>कठोरता - </td><td>Hardness</td></tr><tr><td>न भासते - </td><td>Will not become manifest</td></tr></table><p>Lady ! In whose mind will not the hardness of the jasamine, the lunar ray and the plantain be manifest when the softness of thy limbs was perceived?</p><p>Here, the jasamine &c., the objects unconnected with the subject, are associated with one and the same attribute, that is, the quality of hardness.</p>'
               }
             }
@@ -729,7 +689,6 @@ export const state = () => ({
         {
           sloka: '<h3>Equal Pairing, third kind</h3>गुणोत्कृष्टे समीकृत्य वचोऽन्या तुल्ययोगिता।<br>लोकपालो यमः पाशी श्रीदः शक्रो भवानपि॥',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>गुणात्कृष्टैः - </td><td>With those possessed of superior qualities</td></tr><tr><td>समीकृत्य - </td><td>Having placed on the same footing</td></tr><tr><td>वचः - </td><td>Description</td></tr><tr><td>अन्या - </td><td>Another</td></tr><tr><td>तुल्ययोगिता - </td><td>Equal Pairing</td></tr><tr><td>यमः - </td><td>God of death</td></tr><tr><td>पाशी - </td><td>Varuna</td></tr><tr><td>श्रीदः - </td><td>Kubera</td></tr><tr><td>शक्रः - </td><td>Indra</td></tr><tr><td>भवान् अपि - </td><td>As well as thyself</td></tr><tr><td>लोकपालः - </td><td>A regent of the quarter (and the ruler of the earth)</td></tr></table><h3>Definition</h3><p>The description of placing one object on a footing of equality with those possessed of superior qualities is termed a third kind of Equal Pairing.</p>'
           },
           examples: [
@@ -780,21 +739,18 @@ export const state = () => ({
             {
               text: 'वर्षत्यम्बुदमालेयं वर्षत्येषा च शर्वरी॥',
               explanation: {
-                sans: '',
                 eng: '<p>This range of clouds rains and this night looks like a year.</p><p>This is the example of No. 1 पदावृत्ति ।  Here, the verb वर्षति, a. पद, is repeated though with different significations. The first is the form of the third person, singular number, present tense of the root 515; ‘to rain’, and the second is the form of the third person, singular number, present tense of the nominal verb derived from the noun वर्ष ‘a year’.</p>'
               }
             },
             {
               text: '<h3>Example of No. 2. अर्थावृत्ति ।</h3>उन्मीलन्ति कदम्बानि स्फुटन्ति कुटजोद्गमाः।',
               explanation: {
-                sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>कदंबानि - </td><td>Kadamba flowers</td></tr><tr><td>उन्मीलन्ति - </td><td>Blossom</td></tr><tr><td>कुटकद्रुमाः - </td><td>Kutaja creepers</td></tr><tr><td>स्फुटन्ति - </td><td>Bloom forth</td></tr></table><p>The kadamba ﬂowers blossom and the kutaja creepers bloom forth.</p><p>उन्मीलन्ति and स्फुटन्ति mean the same thing and we have here a repetition of signification.</p>'
               }
             },
             {
               text: '<h3>Example of No. 3. उभयावृत्ति ।</h3>माद्यन्ति चातकास्तृप्ता माद्यन्ति च शिखावलाः॥',
               explanation: {
-                sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>तृप्ताः - </td><td>Satiated</td></tr><tr><td>चातकाः - </td><td>Chataka birds</td></tr><tr><td>माद्यन्ति - </td><td>Rejoice</td></tr><tr><td>शिखावलाः - </td><td>Peacocks</td></tr><tr><td>माद्यन्ति - </td><td>Rejoice</td></tr></table><p>The satiated chataka. birds rejoice and the peacocks also rejoice (at the sight of the clouds).</p><p>Here, the same word माद्यन्ति  is repeated in the same meaning and hence it is called उभयावृत्तिदीपकम् ।</p>'
               }
             }
@@ -856,7 +812,6 @@ export const state = () => ({
         {
           sloka: '<h3>First kind</h3>वाक्यार्थयोः सदृशयोरैक्यारोपो निदर्शना।<br>यद्दातुः सौम्यता सेयं पूर्णेन्दोरकलङ्कता॥',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>सदृशयोः - </td><td>similar</td></tr><tr><td>वाक्यार्थयोः - </td><td>In the significations of two sentences</td></tr><tr><td>ऐक्यारोपः - </td><td>Attribution of identity</td></tr><tr><td>निदर्शना - </td><td>Illustration</td></tr><tr><td>या - </td><td>Which</td></tr><tr><td>दातुः - </td><td>Of a donor</td></tr><tr><td>सौम्यता - </td><td>Mildness</td></tr><tr><td>सेयम् - </td><td>That itself</td></tr><tr><td>पूर्णेन्दोः - </td><td>Of the full moon</td></tr><tr><td>अकलंकता - </td><td>Stainlessness</td></tr></table><h3>Definition</h3><p>A description, resulting in the identity of the significations, of two sentences, which are similar, i.e., which terminate in a. comparison or similarity, is called Illustration.</p>'
           },
           examples: [
@@ -875,7 +830,6 @@ export const state = () => ({
         {
           sloka: '<h3>2nd kind of Illustration</h3>पदार्थवृत्तिमप्येके वदन्त्यां निदर्शनाम्‌।<br>तन्नेत्रयुगलं धत्ते नीलाम्बुजन्मनोः॥',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>एके - </td><td>Certain writers on Rhetoric</td></tr><tr><td>पदार्थवृत्तिम्- पदार्थे - </td><td>In a thing</td></tr><tr><td>वृत्तिम् ऐक्यारोपस्थितिम् - </td><td>The state of being identical</td></tr><tr><td>अन्याम् निदर्शनाम् - </td><td>Another kind of Illustration</td></tr><tr><td>वदन्ति - </td><td>Say</td></tr><tr><td>त्वन्नेचयुगलम् - </td><td>Thy two eyes</td></tr><tr><td>नीलांबुजन्मनोः - </td><td>Of the two blue lotuses</td></tr><tr><td>लीलाम् - </td><td>Charmingness</td></tr><tr><td>धत्ते - </td><td>Bears</td></tr></table><h3>Definition</h3><p>If a thing is described as bearing the property of another, then it is another kind of Illustration according to certain writers on Rhetoric.</p>'
           },
           examples: [
@@ -915,14 +869,12 @@ export const state = () => ({
         {
           sloka: 'व्यतिरेकोविशेषश्चेदुपमानोपमेययोः।',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>उपमानोपमेययोः - </td><td>Between the object compared to and that compared</td></tr><tr><td>विशेषः - </td><td>Any peculiarity</td></tr><tr><td>चेत् - </td><td>If asserted</td></tr><tr><td>व्यतिरेकः - </td><td>Dissimilitude or Contrast</td></tr></table><h3>Definition</h3><p>If any characteristic difference is asserted between the object compared to and that compared, then it is called Dissimilitude or Contrast.</p>'
           },
           examples: [
             {
               text: 'शैलाइवोन्नताःसन्तःकिंतुप्रकृतिकोमलाः॥',
               explanation: {
-                sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>संतः - </td><td>Good people</td></tr><tr><td>शैलाः इव - </td><td>As mountains</td></tr><tr><td>उन्नताः - </td><td>Are high</td></tr><tr><td>किंतु - </td><td>But</td></tr><tr><td>प्रकृतिकोमलाः - </td><td>Are delicate by nature</td></tr></table><p>Good men are as high as mountains ; but they (good men) are delicate by nature.</p><p>Here, we see a similitude between the good men, upameya, and the mountains, upamana, in one respect and a dissimilitude in another respect.</p>'
               }
             }
@@ -945,7 +897,6 @@ export const state = () => ({
             {
               text: ' दिगन्तमगमत्तस्यकीर्तिःप्रत्यर्थिभिःसह॥',
               explanation: {
-                sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>तस्य - </td><td>Of that (king)</td></tr><tr><td>कीर्त्तिः - </td><td>Fame</td></tr><tr><td>प्रत्यर्थिभिः सह - </td><td>Together with (his) foes</td></tr><tr><td>दिगंतम् - </td><td>To the end of the quarter</td></tr><tr><td>अगमत् - </td><td>Reached</td></tr></table><p>The fame of that king has reached the end of the quarters together with his foes.</p><p>Here, the reaching of the fame to the end of the quarters is directly expressed and that of the foes is indirectly expressed by the word सह । सह  denotes simultaneity of two actions that are of one and the same kind. The idea. conveyed in the present example is that both the king’s fame and the enemies reached the end of the quarters at the same time. Thus we see that this figure consists in the description of simultaneous action connected with सह ।</p>'
               }
             }
@@ -961,7 +912,6 @@ export const state = () => ({
         {
           sloka: 'विनोक्तिश्चेद्विनाकिंचित्प्रस्तुतंहीनमुच्यते।',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>चेत् - </td><td>if</td></tr><tr><td>किंचिड्बिना - </td><td>In the absence of some other thing</td></tr><tr><td>प्रस्तुतम् - </td><td>The object on hand</td></tr><tr><td>हीनम् - </td><td>As inferior</td></tr><tr><td>उच्यते - </td><td>Is represented</td></tr><tr><td>विनोक्तिः - </td><td>Speech of Absence</td></tr></table><h3>Definition</h3><p>When an object on hand is represented as inferior in the absence of some other object, it is termed the Speech of Absence.</p>'
           },
           examples: [
@@ -980,13 +930,11 @@ export const state = () => ({
         {
           sloka: 'तच्चोत्किंचिद्विनारम्यंविनोक्तिःसापिकथ्यते।',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>चेत् - </td><td>if</td></tr><tr><td>तत् - </td><td>The object on hand</td></tr><tr><td>किंचिद्विना - </td><td>Without some thing else</td></tr><tr><td>रम्यम् - </td><td>As charming</td></tr><tr><td>सापि - </td><td>That too</td></tr><tr><td>विनोक्तिः - </td><td>Speech of Absence</td></tr><tr><td>कथ्यते - </td><td>Is termed</td></tr></table><h3>Definition</h3><p>When an object on hand is represented as charming in the absence of some other object, it is also called Speech of Absence.</p>'
           },
           examples: [
             {
               text: 'विनाखलैर्विभात्येषाराजेन्द्रभवतःसभा॥',
-              explanation_sans: '',
               explanation_eng: '<h3>Word meanings</h3><table><tr><td>राजेंद्र - </td><td>O best of kings!</td></tr><tr><td>एषा - </td><td>This</td></tr><tr><td>भवतः - </td><td>Of thy honour</td></tr><tr><td>सभा - </td><td>Council hall</td></tr><tr><td>खलैः विना - </td><td>In the absence of wicked persons</td></tr><tr><td>विभाति - </td><td>Shines</td></tr></table>O best of kings 1 Thy council hall shines splendid in the absence of wicked persons.'
             }
           ]
@@ -1001,14 +949,12 @@ export const state = () => ({
         {
           sloka: 'समासोक्तिःपरिस्फूर्त्तिःप्रस्तुतेऽप्रस्तुतस्यचेत्।',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>चेत् - </td><td>if</td></tr><tr><td>प्रस्तुते - </td><td>In the description of an object on hand</td></tr><tr><td>अप्रस्तुतस्य - </td><td>Of an object not on hand</td></tr><tr><td>परिस्फूर्त्तिः - </td><td>Apprehension</td></tr><tr><td>समासोक्तिः - </td><td>Speech of Brevity</td></tr></table><h3>Definition</h3><p>If, by the description of an object on hand, an object not on hand is apprehended, or in other words, when the description of an object on hand conveys a reference to an object, not on hand, it is called Modal Metaphor.</p>'
           },
           examples: [
             {
               text: 'अयमैन्द्रीमुखंपश्यरक्तश्चुम्बतिचन्द्रमाः॥',
               explanation: {
-                sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>अयम् - </td><td>This</td></tr><tr><td>चंद्रमाः - </td><td>The moon</td></tr><tr><td>रक्ताः - </td><td>Red</td></tr><tr><td>ऐंद्रीमुखं - </td><td>The face of the castern quarter</td></tr><tr><td>चुंबति - </td><td>Kisses</td></tr><tr><td>पश्य - </td><td>See !</td></tr></table><p>My beloved ! see, this moon becoming red kisses the face of the Eastern (Indra’s) quarter.</p><p>Here, by the use of the words-(1) चुम्बति the action of which belongs to a human being, (2) चन्द्रमाः in the masculine gender and (3) ऐन्द्री in the feminine gender, we understand that a lover, the subject of discourse, out of passion, kisses the face of some beautiful damsel residing in the east.</p>'
               }
             }
@@ -1024,14 +970,12 @@ export const state = () => ({
         {
           sloka: 'अलंकारःपरिकरःसाभिप्रायेविशेषणे।',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>विशेषणे - </td><td>If the epithet</td></tr><tr><td>साभिप्राये - </td><td>Signifying the import</td></tr><tr><td>परिकरः - </td><td>Insinuator</td></tr><tr><td>अलंकारः - </td><td>Figure</td></tr></table><h3>Definition</h3><p>A speech with epithets signifying the import (of the speaker) is termed Insinuator.</p>'
           },
           examples: [
             {
               text: 'सुधांशुकलितोत्तंसस्तापंहरतुवःशिवः॥',
               explanation: {
-                sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>सुधांशुकलितोत्तंसः - </td><td>Whose crest has been adorned by the moon</td></tr><tr><td>शिवः - </td><td>The God “Siva”</td></tr><tr><td>वः तापम् - </td><td>Your misery</td></tr><tr><td>हरतु - </td><td>Remove</td></tr></table><p>Let God Siva whose crest has been adorned with nectar-rayed (moon) remove your misery (lit. mental heat).</p><p>Here, the charming epithet सुधांशुकलितोत्तंसः  suggests that the heat is removable. This‘ figure occurs even when only one epithet is employed and when that epithet invests the verse with as peculiar charm agreeable to the effect like the present one.</p>'
               }
             }
@@ -1047,14 +991,12 @@ export const state = () => ({
         {
           sloka: 'साभिप्रायेविशेष्येतुभवेत्परिकरांकुरः।',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>विशेष्येतु - </td><td>When the noun itself</td></tr><tr><td>साभिप्राये - </td><td>Signifying the import</td></tr><tr><td>परिकरांकुरः - </td><td>Sprout of an Insinuator</td></tr><tr><td>भवेत् - </td><td>Is</td></tr></table><h3>Definition</h3><p>When the noun itself (i.e., Without epithets) signifies the import of the speaker, it is called the Sprout of an Insinuator.</p>'
           },
           examples: [
             {
               text: 'चतुर्णांपुरुषार्थानांदातादेवश्चतुर्भुजः॥',
               explanation: {
-                sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>चतुर्भुजो देवः - </td><td>The four armed God Vishnu</td></tr><tr><td>चतुर्णां पुरूषार्थानां - </td><td>Of the four objects of human life</td></tr><tr><td>दाता - </td><td>Giver</td></tr></table><p>The four-armed God (Vishnu) is the giver of the four principal objects of life.</p><p>Four objects of life are धर्मः - ‘merit’, अर्थः - ‘wealth’, कामः - ‘enjoyment’ and मोक्षः - ‘liberation’.</p><p>“Here, the word चतुर्भुजः is one of the thousand names of the Lord Vishnu and is used here without epithets, The import of the speaker is that God Vishnu alone (being -four-armed) is able to distribute the four objects of life.</p>'
               }
             }
@@ -1070,27 +1012,23 @@ export const state = () => ({
         {
           sloka: 'नानार्थसंश्रयःश्लोषोवर्ण्यावर्ण्योभयाश्रितः (वर्ण्यावर्ण्योभयास्पदः) ।',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>वर्ण्यावर्ण्योभयास्पदः - </td><td>Relating to 1. An object on hand, 2. An object not on hand and 3. both</td></tr><tr><td>नानार्थसंश्रयः - </td><td>Depending upon words having many meanings</td></tr><tr><td>श्लेषः - </td><td>Paronomasia</td></tr></table><h3>Definition</h3><p>Paronomasia is the expression by words having more than one signification referring: <ol><li> to an object on hand, </li><li> to an object not on hand and </li><li> to both.</li></ul></p>'
           },
           examples: [
             {
               text: 'सर्वदोमाधवःपायात्सयोगंगामदोधरत् (योऽगंगामदीधरत्) ॥',
               explanation: {
-                sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>सर्वदः - </td><td>All-giver</td></tr><tr><td>स माधवः - </td><td>The husband of मा  Lakshmi, the Lord Vishnu</td></tr><tr><td>पायात् - </td><td>May protect</td></tr><tr><td>यः - </td><td>Who</td></tr><tr><td>अगम् - </td><td>The mountain Govardhana</td></tr><tr><td>गाम् - </td><td>The earth</td></tr><tr><td>अदीधरत् - </td><td>Head up</td></tr><tr><td>सर्वदा - </td><td>Always</td></tr><tr><td>सः उमाधवः - </td><td>The husband of Uma, the Lord Shiva</td></tr><tr><td>पायात् - </td><td>May protect</td></tr><tr><td>यः - </td><td>Who</td></tr><tr><td>गंगाम् - </td><td>The river Ganges</td></tr><tr><td>अदीधरत् - </td><td>Bore (on his head)</td></tr></table><p>The all-giver Madhava who held up the mountain (Govardhana on his head) and the earth may protect (you).</p><p>The husband of Uma (Siva) who bore (on his head) the river Ganges may protect (you)</p><p>सर्वदो माधवः may be split into: <ol><li>सर्वदः माधवः </li><li>सर्वदा उमाधवः ।</li></ol></p><p>यो गंगाम्  may be split into: <ol><li> –यः अगं </li><li>यः गंगाम् ।</li></ol><p>Here both Madhava and Umadhava are objects on hand and this is therefore the Example of No. 1</p>'
               }
             },
             {
               text: '<h3>Example of No. 2</h3>अब्जेनत्वन्मुखंतुल्यंहरिणाहितसक्तिना।',
               explanation: {
-                sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>त्वन्मुखम् - </td><td>Thy face</td></tr><tr><td>हरिणाहितसक्तिना हरिणेन - </td><td>by the deer आहिता effected सक्तिः attachment येन having the attachement effected by the deer in the form of the spot</td></tr><tr><td>अब्जेन - </td><td>By the moon</td></tr><tr><td>तुल्यम् - </td><td>Is equal</td></tr></table><p>Or</p></table><p>(Lady !) thy face resembles the moon having an attachment effected by the deer (in the form of the spot).</p><p>Or</p><p>(Lady !) thy face resembles the lotus having an attachment effected by the sun (in the act of blooming at the dawn).</p><p>Here, अब्ज “moon” and  अब्ज  “lotus” which are upamanas are both objects not on hand.</p>'
               }
             },
             {
               text: '<h3>Example of No. 3.</h3>उच्चरद्भूरिकीलालःशुशुभेवाहिनीपतिः॥',
-              explanation_sans: '',
               explanation_eng: '<h3>Word meanings</h3><table><tr><td>उच्चरड्भूरिकीलालः - </td><td>Having profuse effusion of blood</td></tr><tr><td>वाहिनीपतिः - </td><td>The commander of the army (Bhishma)</td></tr><tr><td>शुशुभे - </td><td>shone</td></tr></table><p>or</p><table><tr><td>उच्चरड्भूरिकीलालः - </td><td>having a vast expanse of water</td></tr><tr><td>वाहिनीपतिः - </td><td>The lord of the rivers (ocean)</td></tr><tr><td>शुशुभे - </td><td>shone</td></tr></table><p>The commander of the army, Bhishma, shone by the profuse effusion of blood</p><p>or</p><p>The Lord of the rivers, the ocean, shone by the vast expanse of water.</p><p>Here, the commander Bhishma is the object on. hand and the ocean is the object not on hand.</p>'
             }
           ]
@@ -1105,14 +1043,12 @@ export const state = () => ({
         {
           sloka: 'अप्रस्तुतप्रशंसास्यात्सायत्रप्रस्तुताश्रया।',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>यत्र - </td><td>where</td></tr><tr><td>सा - </td><td>That (description of an object not on hand)</td></tr><tr><td>प्रस्तुताश्रया - </td><td>Referring to an object on hand</td></tr><tr><td>अप्रस्तुतप्रशंसा स्यात् - </td><td>Is called Indirect Description</td></tr></table><h3>Definition</h3><p>When the description of an object not on hand conveys a reference to an object on hand, it is called Indirect Description.</p>'
           },
           examples: [
             {
               text: 'एकःकृतीशकुन्तेषुयोऽन्यंशक्रान्नयाचते॥',
               explanation: {
-                sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>शकुन्तेषु - </td><td>Among the birds</td></tr><tr><td>एकः - </td><td>One only</td></tr><tr><td>(चातकः) - </td><td>Chataka bird</td></tr><tr><td>कृती - </td><td>Fortunate one</td></tr><tr><td>यः - </td><td>Who</td></tr><tr><td>शक्रादन्यं - </td><td>Other than Indra</td></tr><tr><td>न याचते - </td><td>Never begs</td></tr></table><p>(The chataka bird) is the only fortunate one, among the birds, which never begs of any other than Indra.</p><p>It is a known fact that chataka bird lives on rain drops and that Indra is the bestower of rain.</p><p>Here, the object in question is a noble man who never begs of any man except the Indra -like king and this is conveyed through the description of a chataka bird which is not the object on hand.</p><p>This is not समासोक्ति where a description of an object on hand conveys a reference to an object not on hand ; whilst, in this figure, it is quite contrary.</p>'
               }
             }
@@ -1128,14 +1064,12 @@ export const state = () => ({
         {
           sloka: 'प्रस्तुतेनप्रस्तुतस्यद्योतनेप्रस्तुताङ्कुरः।',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>प्रस्तुतेन - </td><td>By (description of) an object on hand</td></tr><tr><td>प्रस्तुतस्य - </td><td>Of (another) object on hand</td></tr><tr><td>द्योतने - </td><td>In the apprehension</td></tr><tr><td>प्रस्तुतांकुरः - </td><td>(it is) the Sprout of Direct Description</td></tr><h3>Definition</h3><p>When the description of an object on hand conveys a, reference to another object on hand, it is called Prastutankura.</p>'
           },
           examples: [
             {
               text: 'किंभृंगसत्यांमालत्यांकेतक्याकण्टकेद्धया॥',
               explanation: {
-                sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>भृंग ! - </td><td>O bee !</td></tr><tr><td>मालत्यां सत्यां -When there is the Malati flower</td></tr><tr><td>कण्टकेड्बया - </td>Full of thorns</td></tr><tr><td>केतक्या - </td><td>By the Ketaki</td></tr><tr><td>किं - </td><td>What is the use.</td></tr></table><p>O Bee! What (is the use of thy amusement) with the (un blown) Ketaki full of thorns while thou hast here the Malati (Jasamine) flower.</p><p>Here, a lady, by the description of the bee’s act with the unblown  Ketaki bud witnessed by her in her pleasure garden indirectly intimates the same to her lover, the subject of discourse, who is at present in love with a maiden who has not yet arrived at puberty. </p><p>N. B. The bee and the lover are both objects on hand. </p>'
               }
             }
@@ -1151,15 +1085,13 @@ export const state = () => ({
         {
           sloka: 'पर्यायोक्तंतुगम्यस्यवचोभङ्ग्यन्तराश्रयम्।',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>गम्यस्य - </td><td>Of the fact intended to be expressed</td></tr><tr><td>भंग्यंतराश्रयम् - </td><td>Referring to another by a turn of speech</td></tr><tr><td>वचः तु - </td><td>The description</td></tr><tr><td>पर्य्यायोक्तम् - </td><td>Periphrasis</td></tr></table><h3>Definition</h3><p>When a fact intended to be intimated is conveyed by a. circumlocutory speech, or in other words, when a fact intended to be described is expressed by a turn of speech, or if the intended fact is expressed in a different manner it is Periphrasis.</p>'
           },
           examples: [
             {
               text: 'नमस्तस्मैकृतौयेनमुधाराहुवधूकुचौ॥',
               explanation: {
-                sans: '',
-                eng: '<h3>Word meanings</h3><table><tr><td>तस्मै - </td><td>To him</td></tr><tr><td>नमः - </td><td>Homage</td></tr><tr><td>येन - </td><td>By whom</td></tr><tr><td>राहुवधूकुचौ - </td><td>The breast of Rahu’s spouse</td></tr><tr><td>सुधा - </td><td>Useless</td></tr><tr><td>कृतौ - </td><td>Were made</td></tr></table><p>Homage to him (God Vishnu) by Whom the breasts of R5.hu’s spouse were rendered useless.</p><p>Here, the intended fact is that homage is to the God Vishnu only, because he was the killer of Rahu and thus rendered the breasts of Rahu’s spouse useless and this fact has been expressed by a turn of speech, i.e., by different words which do not express it but by words which suggest it, simply for the purpose of giving a particular strikingness to the description.</p>'
+                eng: '<h3>Word meanings</h3><table><tr><td>तस्मै - </td><td>To him</td></tr><tr><td>नमः - </td><td>Homage</td></tr><tr><td>येन - </td><td>By whom</td></tr><tr><td>राहुवधूकुचौ - </td><td>The breast of Rahu’s spouse</td></tr><tr><td>सुधा - </td><td>Useless</td></tr><tr><td>कृतौ - </td><td>Were made</td></tr></table><p>Homage to him (God Vishnu) by Whom the breasts of Rahu’s spouse were rendered useless.</p><p>Here, the intended fact is that homage is to the God Vishnu only, because he was the killer of Rahu and thus rendered the breasts of Rahu’s spouse useless and this fact has been expressed by a turn of speech, i.e., by different words which do not express it but by words which suggest it, simply for the purpose of giving a particular strikingness to the description.</p>'
               }
             }
           ]
@@ -1170,13 +1102,11 @@ export const state = () => ({
         {
           sloka: '<h3>Periphrasis- A second kind</h3>पर्यायोक्तंतदप्याहुर्यद्व्याजेनेष्टसाधनम्।',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>व्याजिन - </td>Under a pretext</td></tr><tr><td>यत् इष्टसाधनम् - </td><td>The fulfillment of one’s own wish</td></tr><tr><td>तदपि - </td><td>Even that</td></tr><tr><td>पर्य्यायोक्तम् - </td><td>Periphrasis</td></tr><tr><td>आहुः - </td><td>(some) call</td></tr><tr><td>अहम् - </td><td>I</td></tr><tr><td>चूतलताम् - </td><td>The mango creeper</td></tr><tr><td>यामि - </td>Go</td></tr><tr><td>युवाभ्याम् - </td><td>By you both</td></tr><tr><td>इह - </td><td>Here</td></tr><tr><td>आस्यताम् - </td><td>Shall be stayed</td></tr></table><h3>Definition</h3><p>Even the fulfillment of one’s own wish under an artful pretext of doing some thing else is also called Periphrasis by some.</p>'
           },
           examples: [
             {
               text: 'यामिचूतलतांद्रष्टुंयुवाभ्यामास्यतामिह॥',
-              explanation_sans: '',
               explanation_eng: '<h3>Word meanings</h3><table><tr><td>अहम् - </td><td>I</td></tr><tr><td>चूतलताम् - </td><td>The mango creeper</td></tr><tr><td>द्रष्टुं - </td><td>to see</td></tr><tr><td>यामि - </td>Go</td></tr><tr><td>युवाभ्याम् - </td><td>By you both</td></tr><tr><td>इह - </td><td>Here</td></tr><tr><td>आस्यताम् - </td><td>Shall be stayed</td></tr></table><p>Lovers! I depart hence for the purpose of seeing (my) mango creeper and it shall be stayed here by you both.</p><p>Here, the speaker is a female messenger who having united her mistress with her intended lover departs from that place under the pretext of seeing her own chuta creeper so that the couple may freely enjoy in the absence of a third person.</p>'
             }
           ]
@@ -1191,21 +1121,18 @@ export const state = () => ({
         {
           sloka: 'उक्तिर्व्याजस्तुतिर्निन्दास्तुतिभ्यांस्तुतिनिन्दयोः।',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>निंदास्तुतिभ्याम् - </td><td>By (apparent) censure and praise</td></tr><tr><td>स्तुतिनिंदयोः - </td><td>Of the praise and censure</td></tr><tr><td>उक्तिः - </td><td>speech</td></tr><tr><td>व्याजस्तुतिः - </td><td>Artful Praise</td></tr><tr><td>स्वर्धुनि ! - </td><td>Celestial Ganges !</td></tr><tr><td>ते - </td><td>Thy</td></tr><tr><td>विवेकः - </td><td>Judgment</td></tr><tr><td>कः - </td><td>What</td></tr><tr><td>यत् - </td><td>Because</td></tr><tr><td>पापिनः - </td><td>The sinners</td></tr><tr><td>दिवम् - </td><td>To the heaven</td></tr><tr><td>नयसे - </td><td>Take</td></tr></table><h3>Definition</h3><p>when (1) the praise is understood by apparent censure and (2) censure by apparent praise, it is termed Artful Praise.</p>'
           },
           examples: [
             {
               text: '<h3>Example of No. 1 - when the praise is understood by apparent censure</h3>कःस्वर्धुनि! विवेकस्तेपापिनोनयसेदिवम्॥',
               explanation: {
-                sans: '',
                 eng: '<p>O celestial river Ganga! Thou art devoid of judgment in that thou conveyest the sinners to the heaven.</p><p>Here, the real praise has resulted by the apparent censure and it consists in representing the Ganga as taking the sinners to heaven provided they once bathe in her waters.</p><p>N.B. - व्याजस्तुतिः = व्याजेन स्तुतिः  Praise by an artifice-when praise is understood by apparent censure.</p><p>When censure is understood by apparent praise, व्याजस्तुतिः  is explained as व्याजरूपा स्तुतिः  praise consisting in an artifice or a pretended praise.</p>'
               }
             },
             {
               text: 'साधुदूतिपुनःसाधुकर्तव्यंकिमतःपरम्।<br>यन्मदर्थेविलूनासिदन्तैरपिनखैरपि॥',
               explanation: {
-                sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>दूति! - </td><td>Messenger !</td></tr><tr><td>साधु - </td><td>Well</td></tr><tr><td>अतःपरम् - </td><td>Than this</td></tr><tr><td>किम् - </td><td>What other</td></tr><tr><td>साधु - </td><td>Good</td></tr><tr><td>पुनः - </td><td>Again</td></tr><tr><td>कर्तव्यम् - </td><td>To be done</td></tr><tr><td>यत् - </td><td>Because</td></tr><tr><td>मदर्थे - </td><td>On my account</td></tr><tr><td>दंतैरपि - </td><td>Even by the teeth</td></tr><tr><td>नखैरपि - </td><td>Even by the nails</td></tr><tr><td>विलूना असि - </td>Wast injured</td></tr></table><h3>Well (done) messenger ! What other good than this can again be done; because thou, on my account, wast injured even by (my lover’s) teeth and nails.</p><p>Here, the speaker a lady pining under separation sent her maid-servant as a messenger to her lover and on seeing her returning with marks, in her body, of her having toyed with her (lady‘s) lord, censures her under pretext of Praise saying that she (lady) was saved by her (the maid servant) from the injury by her lord’s teeth and nails ; whereas in fact she was angry when she saw her servant coming single without her lord and was more angry when she observed on her body the marks of sexual intercourse with her own lord. Hence a censure resulted in the apparent praise.</p><p>N. B.-This is not अप्रस्तुतप्रशंसा (XXVII),  for, in it, there is no strikingness consisting either in censure or praise.</p>'
               }
             }
@@ -1221,14 +1148,12 @@ export const state = () => ({
         {
           sloka: 'निन्दायानिन्दयाव्यक्तिर्व्याजनिन्देतिगीयते।',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>निंदया - </td><td>By censure</td></tr><tr><td>निंदायाः - </td><td>Of censure</td></tr><tr><td>व्यक्तिः - </td><td>Manifestation</td></tr><tr><td>व्याजनिंदा - </td><td>Artful Censure</td></tr><tr><td>इति - </td><td>As</td></tr><tr><td>गीयते - </td><td>Is called</td></tr></table><h3>Definition</h3><p>When an apparent censure (of an object not on hand) results in the censure (of an object not on hand), it is Artful Censure.</p>'
           },
           examples: [
             {
               text: 'विधेसनिन्द्योयस्तेप्रागेकमेवाहरच्छिरः॥',
               explanation: {
-                sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>विधे - </td><td>Creator !</td></tr><tr><td>सः - </td><td>He</td></tr><tr><td>निम्द्यः - </td><td>Is to be censured</td></tr><tr><td>यः - </td><td>who</td></tr><tr><td>ते - </td><td>Thy </td></tr><tr><td>प्राक् - </td><td>Formerly</td></tr><tr><td>एकमेव - </td><td>Only one</td></tr><tr><td>शिरः - </td><td>Head</td></tr><tr><td>अहरत् - </td><td>Took away</td></tr></table><p>O Creator 1 he (Siva) is to be censured-he that has lopped off only one head of thine formerly.</p><p>Here, the speaker, a poor man in very distressed circumstances, fancies himself that, if all the five heads of the God Brahmi were lopped off by Siva, then both the creator and the sufferings of the created would have been simultaneously put an end to. </p><p>Instead of directly censuring the God Brahma, the creator, the object on hand, the speaker censured the God Siva, the object not on hand, in having imprudently suffered the other four heads of Brahmi to remain.</p>'
               }
             }
@@ -1244,14 +1169,12 @@ export const state = () => ({
         {
           sloka: 'आक्षेपःस्वयमुक्तस्यप्रतिषेधोविचारणात्।',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>स्वयम् -</td><td>By self</td></tr><tr><td>उक्तस्य - </td><td>Told or expressed</td></tr><tr><td>विचारणात् - </td><td>On deliberation</td></tr><tr><td>प्रतिषेधः - </td><td>Denial</td></tr><tr><td>आक्षेपः - </td><td>Hint</td></tr></table><h3>Definition</h3><p>A denial, after some deliberation, of what has been expressed, is called Hint. </p>'
           },
           examples: [
             {
               text: 'चन्द्र ! संदर्शयात्मानमथवास्तिप्रियामुखम्॥',
               explanation: {
-                sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>चंद्र ! - </td><td>O moon !</td></tr><tr><td>आत्मानम् - </td><td>Self</td></tr><tr><td>संदर्शय - </td><td>Show or discover</td></tr><tr><td>अथवा - </td><td>Or, or why</td></tr><tr><td>प्रियामुखम् - </td><td>Face of (my) beloved</td></tr><tr><td>अस्ति - </td><td>Is</td></tr></table><p>O moon ! Discover thy self (to me). Why? Here is the face of (my) beloved.</p><p>Here, we see only a semblance of denial. This figure is distinct from the Concealment (XI) Where the property of an object on hand is denied and that of another not on hand is superimposed upon it.</p>'
               }
             }
@@ -1263,13 +1186,11 @@ export const state = () => ({
         {
           sloka: '<h3>A second kind of Hint</h3>निषेधाभासमाक्षेपंबुधाःकेचनमन्वते।',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>केचन - </td><td>Some poets</td></tr><tr><td>बुधाः - </td><td>Learned people</td></tr><tr><td>निषेधाभासम् - </td><td>Semblance of a denial</td></tr><tr><td>आक्षेपम् - </td><td>Hint</td></tr><tr><td>अन्वते - </td><td>Regard</td></tr><h3>Definition</h3><p>Some learned people regard the semblance of a denial as the figure Hint.</p>'
           },
           examples: [
             {
               text: 'नाहंदूतीतनोस्तापस्तस्याह्कालानलोपमः॥',
-              explanation_sans: '',
               explanation_eng: '<h3>Word meanings</h3><table><tr><td>अहम् - </td><td>I</td></tr><tr><td>दूतौ - </td><td>Go- between</td></tr><tr><td>न - </td><td>Not</td></tr><tr><td>तस्याः - </td><td>Of her</td></tr><tr><td>तनोः - </td><td>Of the body</td></tr><tr><td>कालानलोपमः - </td><td>Resembling the destructive fire at the end of the world</td></tr><tr><td>तापः - </td><td>Fever of separation</td></tr></table><p>I am no go-between but the love-fever (residing in ) her (mistress) body, resembling the destructive fire at the end of the world.</p><p>Here, the character of a person- that of the go- between, is denied. The fact of excessive hardship, experienced by the lady under the pangs of separation, which was intended to be conveyed by the go-between, the speaker, is suppressed in order to suggest more strikingly that the lady is sure to die if her lover delays even for a moment in meeting her.</p>'
             }
           ]
@@ -1277,13 +1198,11 @@ export const state = () => ({
         {
           sloka: '<h3>A third kind of Hint</h3>आक्षेपोऽन्योविधौव्यक्तेनिषेधेचतिरोहिते।',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>विधौ - </td><td>Command or permission</td></tr><tr><td>व्यक्ते - </td><td>When apparent</td></tr><tr><td>निषेधे च - </td><td>And the denial</td></tr><tr><td>तिरोहिते - </td><td>When hidden</td></tr><tr><td>अन्यः - </td><td>Another kind</td></tr><tr><td>आक्षेपः - </td><td>Hint</td></tr><h3>Definition</h3><p>When the permission (to do some thing) is apparent (in words) but the denial (to do that thing) is hidden, it is a third kind of Hint.</p>'
           },
           examples: [
             {
               text: 'गच्छगच्छसिचेत्कान्ततत्रैवस्याज्जनिर्मम॥',
-              explanation_sans: '',
               explanation_eng: '<h3>Word meanings</h3><table><tr><td>कांत ! - </td><td>Lover !</td></tr><tr><td>गच्छसि चेत् - </td><td>If thou goest</td></tr><tr><td>गच्छ - </td><td>Goest</td></tr><tr><td>मम - </td><td>My</td></tr><tr><td>जनिः - </td><td>Birth</td></tr><tr><td>तत्रैव - </td><td>In that same place</td></tr><tr><td>स्यात् - </td><td>May be</td></tr></table><p>Departest (thou), my love, if thou art determined to go, and may my rebirth take place in that same place (where thou hast gone).</p><p>Here, the apparent permission of going granted by the lady suggests a clear prohibition, the meaning conveyed thereby being that the lover ought to desist from departing from her presence.</p>'
             }
           ]
@@ -1292,7 +1211,7 @@ export const state = () => ({
     },
     {
       title_sans: 'विरोधाभासः',
-      title_eng: 'विरोधाभासः  or विरोधः -   Contradiction',
+      title_eng: 'विरोधाभासः or विरोधः - Contradiction',
       id: 32,
       slokas: [
         {
@@ -1305,7 +1224,6 @@ export const state = () => ({
             {
               text: 'विनापितन्वि !हारेणवक्षोजौतवहारिणौ॥',
               explanation: {
-                sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>तन्वि ! - </td><td>O slender woman !</td></tr><tr><td>तव - </td><td>thy</td></tr><tr><td>वक्षोजौ - </td><td>Breasts</td></tr><tr><td>हारेणा - </td><td>By the pearl- necklace</td></tr><tr><td>विनापि - </td><td>Though devoid of</td></tr><tr><td>हारिणौ - </td><td>Are charming or lit. possesses of necklace</td></tr></table><p>O slender lady ! thy breasts though devoid of pearl necklace are yet possessed of pearl necklaces, i.e., are yet charming.</p><p>Here, the apparent contradiction is to be explained by taking the word हारिणौ in the sense of ‘charming’ only.</p>'
               }
             }
@@ -1321,14 +1239,12 @@ export const state = () => ({
         {
           sloka: 'विभावनाविनापिस्यात्कारणंकार्यजन्मचेत्।',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>कारणम् विना अपि - </td><td>Though without cause</td></tr><tr><td>कार्यजन्म चेत् - </td><td>If the production of the  effect take place</td></tr><tr><td>विभावना - </td><td>Peculiar Causation</td></tr><tr><td>स्यात् - </td><td>Is called</td></tr><h3>Definition</h3><p>When the production of an effect is represented as being without cause, it is Peculiar Causation.</p>'
           },
           examples: [
             {
               text: 'अपिलाक्षारसासिक्तंरक्तंत्वच्चरणद्वयम्॥',
               explanation: {
-                sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>त्वच्चरणाड्बयम् - </td><td>Thy two feet</td></tr><tr><td>लाक्षारसासिक्तम् अपि - </td><td>Though not dyed with red lac</td></tr><tr><td>रक्तम् - </td><td>Red</td></tr></table><p>Lady! thy two feet are red though they were not dyed with red lac.</p><p>Here, the contradiction in the red feet without its cause, the lac, is due to the redness of the lady’s feet being natural. Therefore, we see that the production of an effect in the absence of its cause is not inconsistent in as much as the denial of a known cause suggests that the effect produced must be natural or is due to some other hidden cause.</p>'
               }
             }
@@ -1340,13 +1256,11 @@ export const state = () => ({
         {
           sloka: '<h3>A second kind of Peculiar Causation </h3>हेतूनामसमग्रत्वेकार्योत्पत्तिश्चसामता।',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>हेतूनाम् - </td><td>Of the causes</td></tr><tr><td>अमग्रत्वे - </td><td>When incomplete</td></tr><tr><td>कार्य्योत्पत्तिः - </td><td>The production of an effect</td></tr><tr><td>च - </td><td>Also</td></tr><tr><td>सा मता - </td><td>Is termed that Peculiar Causation</td></tr><h3>Definition</h3><p>When the production of an effect is represented as having taken place while its causes are apparently incomplete, (to produce such an effect), then it is the second kind of Peculiar Causation.</p>'
           },
           examples: [
             {
               text: 'अस्त्रैरतीक्ष्णकठिनैर्जगज्जयतिमन्मथः॥',
-              explanation_sans: '',
               explanation_eng: '<h3>Word meanings</h3><table><tr><td>मन्मथः - </td><td>God of love</td></tr><tr><td>अतीक्ष्णाकठिनैः - </td><td>Neither sharp nor hard</td></tr><tr><td>अस्त्रैः - </td><td>By weapons</td></tr><tr><td>अगत् - </td><td>The world</td></tr><tr><td>जयति - </td><td>Conquers</td></tr></table><p>By weapons, neither sharp nor hard, the God of love conquers the whole world.</p><p>Here, the conquest of the world by the God of love is represented as having taken place though his weapons are neither sharp nor hard (being only five flowers) and are therefore quite inadequate to produce such an effect. The contradiction here must be removed by the supposition of some superhuman cause specially gifted by the Supreme Spirit.</p>'
             }
           ]
@@ -1354,13 +1268,11 @@ export const state = () => ({
         {
           sloka: '<h3>A third kind of Peculiar Causation.</h3> कार्योत्पत्तिस्तृतीयासासत्यपिप्रतिबन्धके।',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>प्रतिबंधके - </td><td>When an impediment</td></tr><tr><td>सत्यपि - </td><td>Though present</td></tr><tr><td>कार्य्योत्पत्तिः - </td><td>Production of an effect</td></tr><tr><td>तृतीया - </td><td>Third kind</td></tr><tr><td>सा - </td><td>That - “ Peculiar Causation”</td></tr><h3>Definition</h3><p>When the production of an effect is said to have taken place though there was an impediment (to such an effect), it is the third kind of Peculiar Causation.</p>'
           },
           examples: [
             {
               text: 'नरेन्द्रानेवतेराजन्दशत्यसिभुजङ्गमः॥',
-              explanation_sans: '',
               explanation_eng: '<h3>Word meanings</h3><table><tr><td>राजन् - </td><td>O king !</td></tr><tr><td>ते - </td><td>Thy</td></tr><tr><td>असिभुजंगमः - </td><td>Sword serpent i.e., the serpent in the form of thy sword</td></tr><tr><td>नरेंद्रान् एव - </td><td>Only the cures of poisons or kings</td></tr><tr><td>दशति - </td><td>Bites</td></tr></table><p>O king! thy sword-serpent bites only Narendran, i.e., curers of poisons only (lit. kings).</p><p>नरेन्द्र = king =dealer in antidotes. Here, serpent biting the curers of poison implies an impediment to the effect.</p>'
             }
           ]
@@ -1368,13 +1280,11 @@ export const state = () => ({
         {
           sloka: '<h3>ourth kind of Peculiar Causation. </h3>अकारणात्कार्यजन्मचतुर्थीस्याद्विभावना।',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>अकारणात् - </td><td>From a different cause</td></tr><tr><td>कार्यजन्म - </td><td>Production of an effect</td></tr><tr><td>चतुर्थी - </td><td>Fourth kind</td></tr><tr><td>विभावना - </td><td>Peculiar Causation</td></tr><tr><td>स्यात् - </td><td>Is</td></tr></table><h3>Definition</h3><p>When the production of an effect is represented as being from a different cause, or, more literally, from a similar cause, it is the fourth kind of Peculiar Causation.</p>'
           },
           examples: [
             {
               text: 'शङ्खाद्वीणानिनादोऽयमुदेतिमहदद्भुतम्॥',
-              explanation_sans: '',
               explanation_eng: '<h3>Word meanings</h3><table><tr><td>शंखात् - </td><td>From a conch- shell</td></tr><tr><td>अयम् - </td><td>This</td></tr><tr><td>वीणानिनादः - </td><td>Sound of a lute</td></tr><tr><td>उदेति - </td><td>Proceeds</td></tr><tr><td>महदद्भुतम् - </td><td>Great wonder</td></tr></table><p>It is a great wonder that this musical sound of a lute proceeds from a. conch- shell(i.e., conch-shell-like neck of a damsel).</p><p>We know that a conch-shell cannot produce the sound of a lute and therefore this is a. Peculiar Causation.</p><p>N.B.- We have a Metaphorical Hyperbole in शंख , the upamana, because it was used For its upameya, the neck of a damsel.</p>'
             }
           ]
@@ -1382,13 +1292,11 @@ export const state = () => ({
         {
           sloka: '<h3>Fifth kind of Peculiar Causation. </h3>विरुद्धात्कार्यसंपत्तिर्दृष्टाकाचिद्विभावना।',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>विरुड्वात् - </td><td>From an incongruous cause</td></tr><tr><td>कार्यसंपत्तिः - </td><td>Production of an effect</td></tr><tr><td>काचित् - </td><td>A certain kind</td></tr><tr><td>विभावना - </td><td>Peculiar Causation</td></tr><tr><td>दृष्टा - </td><td>Is seen</td></tr><tr><td>हंत - </td><td>Alas !</td></tr></table><h3>Definition</h3><p>When the production of an effect is produced from an incongruous cause, i.e., from a cause quite opposite to the real one, it is the fifth kind of Peculiar Causation.</p>'
           },
           examples: [
             {
               text: 'शीतांशुकिरणास्तन्वींहन्तसंतापयन्तिताम्॥',
-              explanation_sans: '',
               explanation_eng: '<h3>Word meanings</h3><table><tr><td>शीतांशुकिरणाः - </td><td>Moon’s (cool-rayed) rays</td></tr><tr><td>ताम् - </td><td>That</td></tr><tr><td>तन्वीम् - </td><td>The slender lady</td></tr><tr><td>संतापयन्ति - </td><td>Inflame</td></tr></table><p>Alas ! the rays of the moon (lit. cool-rayed) inflame that slender lady.</p><p>This is the state of a damsel, the object on hand, pining under separation from her lover. The rays of the moon have a peculiar charm of exciting the passions of such women and therefore it is said so.</p>'
             }
           ]
@@ -1396,13 +1304,11 @@ export const state = () => ({
         {
           sloka: 'Sixth kind of Peculiar Causation. कार्यात्कारणजन्मापिदृष्टाकाचिद्विभावना।',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>कार्यात् - </td><td>From an effect</td></tr><tr><td>कारणजन्म - </td><td>Production of a cause</td></tr><tr><td>अपि - </td><td>Also</td></tr><tr><td>काचित् - </td><td>A certain kind</td></tr><tr><td>विभावना - </td><td>Peculiar Causation</td></tr><tr><td>दृष्टा - </td><td>Is seen</td></tr><h3>Definition</h3><p>When the cause is said to have been produced from its effect, it is also termed Peculiar Causation.</p>'
           },
           examples: [
             {
               text: 'यशःपयोराशिरभूत्करकल्पतरोस्तव॥',
-              explanation_sans: '',
               explanation_eng: '<h3>Word meanings</h3><table><tr><td>तव - </td><td>Thy</td></tr><tr><td>करकल्पतरोः - </td><td>Hand-kalpa-tree i.e., wish-yielding tree in the form of the hand</td></tr><tr><td>यशः पयोराशिः - </td><td>Ocean of fame</td></tr><tr><td>अभूत् - </td><td>Is produced</td></tr></table><p>O king! An ocean of fame has been formed out of thy hand-kalpataru (wish-yielding tree in the form of thy hand).</p><p>Here, the king referred to is Karna renowned for his liberal donations.</p><p>The kalpa tree was produced from the ocean at the time of churning. Here, the kalpa tree in the form of the king’s hand is said to be the cause of the ocean in the form of the kings fame for his unusual liberality.</p>'
             }
           ]
@@ -1417,14 +1323,12 @@ export const state = () => ({
         {
           sloka: 'कार्याजनिर्विशेषोक्तिःसतिपुष्कलकारणे।',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>पुष्कलकारणे - </td><td>Abundant cause</td></tr><tr><td>सति - </td><td>When there is</td></tr><tr><td>कार्याजनिः - </td><td>Non-production of an effect</td></tr><tr><td>विशेषोक्तिः - </td><td>Peculiar Allegation</td></tr><h3>Definition</h3>The non-production of an effect when there existed abundant cause (for the same) is called Peculiar Allegation.</p>'
           },
           examples: [
             {
               text: 'हृदिस्नेहक्षयोनाभूत्स्मरदीपेज्वलत्यपि॥',
               explanation: {
-                sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>स्मरदीपे - </td><td>Cupid-lamp</td></tr><tr><td>हृदि - </td><td>In the heart</td></tr><tr><td>ज्वलत्यपि - </td><td>Though burning</td></tr><tr><td>स्नेहक्षयः - </td><td>Diminution of oil (affection)</td></tr><tr><td>न अभूत - </td><td>Did not take place</td></tr></table><p> The diminution of oil (lit affection) did not take place in the heart (of this lady pining under separation) even though the cupid lamp is burning (there).</p><p>Here, the burning of the cupid-lamp, the cause, is present and yet the effect, the diminution of oil, is represented as not taking place. The contradiction can, however, be removed by explaining the Word स्नेह in the sense of ‘affection’ only.</p>'
               }
             }
@@ -1440,7 +1344,6 @@ export const state = () => ({
         {
           sloka: 'असंभवोऽर्थनिष्पत्तेरसंभाव्यत्ववर्णनम्।',
           sloka_explanation: {
-            sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>अर्थनिष्पत्तेः - </td><td>Of the accomplishment of an object</td></tr><tr><td>असंभाव्यत्ववर्णनम् - </td><td>The description of impossibility</td></tr><tr><td>असंभवः - </td><td>Improbability</td></tr><h3>Definition</h3><p>Improbability is the description of the accomplishment of a truly impossible act.</p>'
           },
           examples: [
@@ -1988,14 +1891,14 @@ export const state = () => ({
       id: 51,
       slokas: [
         {
-          sloka: '',
+          sloka: 'परिवृत्तिर्विनिमयो न्यूनाभ्यधिकयोर्मिथः ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>न्यूनाभ्यधिकयोः - </td><td>Of lesser and greater things</td></tr><tr><td>मिथः - </td><td>Mutual</td></tr><tr><td>विनिमयः - </td><td>Exchange</td></tr><tr><td>परिवृत्तिः - </td><td>The return</td></tr></table><p>The Return is a mutual exchange of things lesser or greater.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'जग्राहैकं शरं मुक्त्वा कटाक्षात्स रिपुश्रियम् ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>(स राजा) - </td><td>That king</td></tr><tr><td>एकम् शरम् - </td><td>One arrow</td></tr><tr><td>मुक्त्वा - </td><td>Having discharged</td></tr><tr><td>रिपुश्रियः - </td><td>Of the enemy’s Goddess of wealth</td></tr><tr><td>कटाक्षात् - </td><td>(many) side-glances</td></tr><tr><td>जग्राह - </td><td>Received</td></tr></table><p>The king discharged (i.e., gave) one arrow and received (in turn, many) side-glances of the Goddess of wealth of his foes.<p><p>Here, we have an exchange for what is greater, i.e. giving the lesser (शरम्) for the greater (कटाक्षान्).</p>'
@@ -2011,14 +1914,14 @@ export const state = () => ({
       id: 52,
       slokas: [
         {
-          sloka: '',
+          sloka: 'परिसंख्या  निषिध्यैकमेकस्मिन्वस्तुयन्त्रणम् ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>एकस्मिन् - </td><td>In one object on hand</td></tr><tr><td>एकम् वस्तु - </td><td>One object</td></tr><tr><td>निषिध्य - </td><td>Having denied</td></tr><tr><td>यन्त्रणाम् - </td><td>Restriction</td></tr><tr><td>परिसङ्ख्या - </td><td>The Special Mention</td></tr></table><p>The denial of the existence of something in a certain object and the restriction of its existence in another object constitutes the ﬁgure the Special Mention.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'स्नेहक्षयः प्रदीपेषु न स्वान्तेषु नतभ्रुवाम् ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>स्नेहक्षयः - </td><td>Diminution of oil</td></tr><tr><td>                प्रदीपेषु - </td><td>In the lamps</td></tr><tr><td>नतभ्रुवाम् - </td><td>Of women of curved eye-brows</td></tr><tr><td>स्वान्तेषु - </td><td>In the hearts</td></tr><tr><td>न - </td><td>Not</td></tr></table><p>The diminution of oil (i.e. aﬁection) was in the lamps and not in the hearts of Women of curved eye-brows.</p>'
@@ -2034,14 +1937,14 @@ export const state = () => ({
       id: 53,
       slokas: [
         {
-          sloka: '',
+          sloka: 'विरोधे तुल्यबलयोर्विकल्पालंकृतिर्मता ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>तुल्यबलयोः - </td><td>Of equal probability</td></tr><tr><td> विरोधे - </td><td>When there is opposition</td></tr><tr><td>विकल्पालंकृतिः - </td><td>The Alternative</td></tr><tr><td>मता - </td><td>Is considered</td></tr></table><p>When there is an opposition of two things of equal probability, or, in other words, when the performance of two such things becomes impossible at the same time and thus restricts the agent to have recourse to only one of them, it is called the Alternative. </p>'
           },
           examples: [
             {
-              text: '',
+              text: 'सद्यः शिरांसि चापान्वा नमयन्तु महीभुजः ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>महीभुजः - </td><td>The kings</td></tr><tr><td>सद्यः - </td><td>At once</td></tr><tr><td> शिरांसि - </td><td>Their heads</td></tr><tr><td>नमयन्तु - </td><td>Let bend</td></tr><tr><td>चापान् वा - </td><td>Or their bows</td></tr></table><p>Let the kings bend at once their heads or their bows.</p><p>Here, we see the impossibility of simultaneous action of the bending of the heads and that of the bows which are opposed to each other, the former being the mark of surrender and the latter, of war.</p>'
@@ -2059,12 +1962,12 @@ export const state = () => ({
         {
           sloka: '',
           sloka_explanation: {
-            sans: '',
+            sans: 'बहूनां युगपद्मावभाजां गुम्फः समुच्चयः ।',
             eng: '<h3>Word meanings</h3><table><tr><td>यगपड्भावभाजाम् - </td><td>Of actions of simultaneously</td></tr><tr><td>वड्वनाम् - </td><td>Of many</td></tr><tr><td>गुम्फः - </td><td>Combination</td></tr><tr><td>समुच्चयः - </td><td>The Conjunction</td></tr></table><p>The Conjunction is a combination of many actions that are described as being simultaneously produced.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'नश्यन्ति पश्चात्पश्यन्ति त्रस्यन्ति च भवद्द्विषः ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>नश्यन्ति - </td><td>Take flight</td></tr><tr><td>पश्चात् - </td><td>On back</td></tr><tr><td> पश्यन्ति - </td><td>See</td></tr><tr><td>भ्रश्यन्ति च - </td><td>And fall down</td></tr></table><p>O King! thy enemies ﬂee, turning their backs, see thee and fall down.</p><p>Here, though the actions of ﬂeeing, seeing, falling down took place in succession, yet we have the simulteniety of those actions considering their speedy performance.</p><p>Compare the celebrated laconic report which Caesar sent to Rome concerning his victory over Pharnaces at Tela ‘I came, saw, conquered’ (veni, vedi, vici).</p>'
@@ -2076,14 +1979,14 @@ export const state = () => ({
       types: 1,
       type: [
         {
-          sloka: '',
+          sloka: 'अहंप्राथमिकाभाजामेककार्यान्वयेऽपि सः ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>अहंप्राथमिकाभाजाम् - </td><td>Of things with emulation</td></tr><tr><td>एककार्यान्वयः - </td><td>That go to effect one thing</td></tr><tr><td> अपि - </td><td>Also</td></tr><tr><td>सः - </td><td>That i.e., the conjunction</td></tr></table><p>A combination of many things that go to effect a thing with emulation or competition, is also termed the Conjunction. Or, in other words, a combination of many things independent of each other but represented as simultaneously producing the same common effect is called the Conjunction.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'कुलं रूपं वयो विद्या धनं च मदयन्त्यमुम् ॥',
               explanation_sans: '',
               explanation_eng: '<h3>Word meanings</h3><table><tr><td>कुलम् - </td><td>Noble birth</td></tr><tr><td>रूपम् - </td><td>Handsome appearance</td></tr><tr><td>वयः - </td><td>The pime of youth</td></tr><tr><td>विद्या - </td><td>Learning</td></tr><tr><td>धनं च - </td><td>And the wealth</td></tr><tr><td>असुम् - </td><td>Him</td></tr><tr><td>मदयन्ति - </td><td>Exhilarate</td></tr></table><p>Noble birth, handsome appearance, the prime of youth, learning and the wealth exhilarate him.</p>'
             }
@@ -2097,14 +2000,14 @@ export const state = () => ({
       id: 55,
       slokas: [
         {
-          sloka: '',
+          sloka: 'क्रमिकैकगतानां तु गुम्फः कारकसीपकम् ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>क्रमिकैकगतानाम् - </td><td>Of actions connected with one Karaka in succession</td></tr><tr><td>गुम्फः - </td><td>Combination</td></tr><tr><td>कारकदीपकम् - </td><td>The Case-Illuminator</td></tr></table><p>Acombination of actions that are successively connected with one Karaka (case-noun) is called कारकदीपकम्. Or, in other words, when the same Karaka. (case-noun) is connected with many verbs in succession, it is कारकदीपकम्.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'गच्छत्यागच्छति पुनः पान्थः पश्यति पृच्छति ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>पान्थः - </td><td>Traveler</td></tr><tr><td>गच्छति - </td><td>Goes</td></tr><tr><td>पुनः - </td><td>Again</td></tr><tr><td>आगच्छति - </td><td>Comes</td></tr><tr><td>पश्यति - </td><td>Sees</td></tr><tr><td> पृच्छति - </td><td>Asks</td></tr></table><p>The traveller goes, again comes, sees and asks (something).</p><p>Here, पान्थः -a noun in the nominative case, is connected with 4 verbs गच्छति, etc, in Succession but not simultaneously as in the preceding ﬁgure समुच्चयः where simultaniety is desired.</p>'
@@ -2120,14 +2023,14 @@ export const state = () => ({
       id: 56,
       slokas: [
         {
-          sloka: '',
+          sloka: 'समाधिः कार्यसौकर्यं कारणान्तरसंनिधेः ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>कारणान्तरसन्निधेः - </td><td>Through the presence of some other cause</td></tr><tr><td>कार्य्यसौकर्य्यम् - </td><td>Facility of an act</td></tr><tr><td>समाधिः - </td><td>The Convenience</td></tr></table><p>When the accomplishment of an act is facilitated by the presence of some other cause, or in other Words, when the facilitation of an act is obtained through the accidental operation of another agency, it is called the Convenience.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'उत्कण्ठिता च तरुणी जगामास्तं च भानुमान् ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>तरुणी - </td><td>Young lady</td></tr><tr><td>उत्कण्ठिता - </td><td>Lodged for (her lover)</td></tr><tr><td>भानुमान् - </td><td>The sun</td></tr><tr><td>अस्तम् जगाम - </td><td>Set in</td></tr></table><p>No sooner did this young lady long for her lover than the sun set in.</p><p>Here, we see the simultaneous occurrence of two actions-the lady’s longing for her lover and the sun’s setting (expressed by the two च in the two sentences).</p><p>The lady longed for her lover and was about to go to meet him; and this was easily accomplished by the accidental operation of another cause-the ,setting of the sun, which enabled the lady to set out freely under the protecting mantle of the dark.</p>'
@@ -2143,14 +2046,14 @@ export const state = () => ({
       id: 57,
       slokas: [
         {
-          sloka: '',
+          sloka: 'प्रत्यनीकं बलवतः शत्रोः पक्षे पराक्रमः ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>बलवतः - </td><td>strong</td></tr><tr><td>शत्रोः - </td><td>Of the enemy</td></tr><tr><td>पक्षे - </td><td>On any partisan</td></tr><tr><tdपराक्रमः - </td><td>Attempt</td></tr><tr><td>प्रत्यनीकम् - </td><td>The Rivalry</td></tr></table><h3>Definition</h3><p>When any act of injury or mortiﬁcation is attempted on a partisan of one’s powerful enemy (by somebody who is unable to avenge himself directly on his enemy), it is called the Rivalry.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'जैत्रनेत्रानुगौ कर्णावुत्पलाभ्यामधःकृतौ ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>उत्पलाभ्याम् - </td><td>By the lilies</td></tr><tr><td>जैत्रनेत्रानुगौ - </td><td>The servants of the victorious eyes</td></tr><tr><td> कर्णौ - </td><td>The ears</td></tr><tr><td>अधः कृतौ - </td><td>Made to bow down</td></tr></table><p>The ears, the servants (lit. neighbours) of the victorious eyes, have been made to bow down by the lilies. Women’s eyes and lilies are often compared to each other, the one excelling the other in beauty.</p><p>Here, the lilies unable to conquer the eyes avenge themselves on their neighbours, the ears, by making them bend down.</p><p>N.B.-The lilies are usually worn as ornaments on the ears which bend by their weight. </p>'
@@ -2166,14 +2069,14 @@ export const state = () => ({
       id: 58,
       slokas: [
         {
-          sloka: '',
+          sloka: 'कैमुत्येनार्थसंसिद्धिः काव्यार्थापत्तिरिष्यते ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>कैमुत्येन - </td><td>By the expression how much more</td></tr><tr><td>अर्थसंसिड्विः - </td><td>Accomplishment of an act</td></tr><tr><td>काव्यार्थापत्तिः - </td><td>The Necessary conclusion in the province of Poetry</td></tr><tr><td>इष्यते - </td><td>Is called</td></tr></table><p>The accomplishment of an act founded upon the popular maxim कैमुतिकन्यायः ‘argument with a stronger reason’, is termed the Necessary Conclusion.</p><p>कैमुत्य is the abstract noun of किमुत ‘how much more’. कैमुतिकन्यायः is usually called दण्डापूपन्यायः  the maxim of the stick and the cakes. When a stick and some cakes are tied together and, when the stick has been eaten away by a rat, we are naturally led to believe that the cakes also have been eaten by the rat, the two things being so closely connected. Thus, when we say something of the one of two such things, the same naturally applies to the other thing also. </p>'
           },
           examples: [
             {
-              text: '',
+              text: 'स जितर्स्त्वन्मुखेनेन्दुः का वार्ता सरसीरुहाम् ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>त्वन्मुखेन - </td><td>By thy face</td></tr><tr><td>सः इन्दुः - </td><td>That moon</td></tr><tr><td>जितः - </td><td>Was conquered</td></tr><tr><td>सरसीरूहाम् - </td><td>Of the lotuses</td></tr><tr><td>का - </td><td>What</td></tr><tr><td>वार्ता - </td><td>Mention</td></tr></table><p>(Lady !) That moon has been conquered by thy face. What necessity is there to speak of (or why we speak of ) lotuses.</p><p>It is an acknowledged fact that lotuses begin to shrink and become faded on the rise of the moon. When that moon, the subduer of the lotuses, has been conquered, the fact that lotuses too have been conquered much more becomes a necessary conclusion.</p>'
@@ -2189,14 +2092,14 @@ export const state = () => ({
       id: 59,
       slokas: [
         {
-          sloka: '',
+          sloka: 'समर्थनीयस्यार्थस्य काव्यलिङ्गं समर्थनम् ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>समर्थनीयस्य - </td><td>To be established</td></tr><tr><td>अर्थस्य - </td><td>Of a fact</td></tr><tr><td>समर्थनम् - </td><td>Justifying</td></tr><tr><td>काव्यलिंगम् - </td><td>The Poetical Reason</td></tr></table><p>The Poetical Reason is a reason justifying a statement which requires to be established.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'जितोऽसि मन्द कन्दर्प मच्चित्तेऽस्ति त्रिलोचनः ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>मन्द - </td><td>Foolish</td></tr><tr><td>कन्दर्प - </td><td>Cupid</td></tr><tr><td>जितः असि - </td><td>Thou hast been conquered</td></tr><tr><td>मच्चित्ते - </td><td>In my mind</td></tr><tr><td>विलोचनः - </td><td>Three-eyed God Siva</td></tr><tr><td>अस्ति - </td><td>Resides</td></tr></table><p>O foolish God of love ! Thou hast been conquered (by me). For, in my mind, there resides the three-eyed God Siva.</p><p>Here, the fact of the presence of the God Siva. in the mind of the speaker is a reason for the speaker’s conquest of the God of Love who has once been burnt by Siva. </p>'
@@ -2211,23 +2114,23 @@ export const state = () => ({
       id: 60,
       slokas: [
         {
-          sloka: '',
+          sloka: 'उक्तिरर्थान्तरन्यासः स्यात्सामान्यविशेषयोः ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>सामान्यविशेषयोः - </td><td>Of a universal proposition and a particular instance</td></tr><tr><td>उक्तिः - </td><td>assertion</td></tr><tr><td>अर्थान्तरन्यासः - </td><td>The Transition</td></tr></table><p>The assertion of a universal (proposition) and a particular (instance) is termed the Transition. Or, in other words, when a universal proposition is introduced to support a particular instance, or a particular instance to support a universal proposition, it is called the Transition.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'हनूमानब्धिमतरद्दुष्करं किं महात्मनाम् ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>हनूमान् - </td><td>The monkey- God Hanuman</td></tr><tr><td>अब्धिम् - </td><td>The ocean</td></tr><tr><td>अतरर् - </td><td>Crossed</td></tr><tr><td>महात्मनाम् - </td><td>Of great men</td></tr><tr><td>दुष्करम् - </td><td>Impossible</td></tr><tr><td>किम् - </td><td>What</td></tr></table><p>Hanuman crossed the ocean ; what is impossible for great men ?</p><p>Here, a particular instance is conﬁrmed by a universal proposition.</p><p>Example of a universal proposition supported by a particular instance.</p>'
               }
             },
             {
-              text: '',
+              text: 'गुणवद्वस्तुसंसर्गाद् याति स्वल्पोऽपि गौरवम् ।<br>पुष्पमालानुषंगेण सूत्रं शिरसि धार्यते ॥',
               explanation: {
-                sans: 'गुणवद्वस्तुसंसर्गाद् याति स्वल्पोऽपि गौरवम् ।<br>पुष्पमालानुषंगेण सूत्रं शिरसि धार्यते ॥',
+                sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>गुणवद्वस्तुसंसर्गाद् - </td><td>By association of the meritorious</td></tr><tr><td>स्वल्पोऽपि - </td><td>Even the meanest creature</td></tr><tr><td>गौरवम् - </td><td>Greatness</td></tr><tr><td>याति - </td><td>Attains</td></tr><tr><td>पुष्पमालानुषंगेण - </td><td>By the union with a wreath of flowers</td></tr><tr><td>सूत्रं - </td><td>Thread</td></tr><tr><td>शिरसि - </td><td>On the head</td></tr><tr><td>धार्यते - </td><td>Is worn</td></tr></table><p>Even the meanest creature, by the association of the meritorious, attains to the greatness. A thread united with a wreath of ﬂowers is worn on the head.</p><p>Here, a universal proposition is conﬁrmed by a particular instance.</p>'
               }
             }
@@ -2241,14 +2144,14 @@ export const state = () => ({
       id: 61,
       slokas: [
         {
-          sloka: '',
+          sloka: 'यस्मिन्विशेषसामान्यविशेषाः स विकस्वरः ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>यस्मिन् - </td><td>In which</td></tr><tr><td>विशेषसामान्यविशेषाः - </td><td>Particular, general and particular assertions</td></tr><tr><td>सः - </td><td>That</td></tr><tr><td>विकस्वरः - </td><td>The Expansion</td></tr></table><p>When a particular is supported by a general which again is supported by a particular, it is called the Expansion. Or, in other words, when a Transition in which a particular instance is supported by a general proposition with a Simile, it is termed the Expansion (of the Transition).</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'स न जिग्ये महान्तो हि दुर्धर्षोः सागरा इव ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>सः - </td><td>That (King)</td></tr><tr><td>न जिग्ये - </td><td>Was not conquered</td></tr><tr><td>हि - </td><td>Because</td></tr><tr><td>महान्तः - </td><td>Great men</td></tr><tr><td>सागरा इव - </td><td>Like the oceans</td></tr><tr><td> दुर्ड्वर्षाः - </td><td>Unassailable</td></tr></table><p>That (king) was not conquered (by his enemies). For the great men are as unassailable as the oceans.</p>'
@@ -2264,14 +2167,14 @@ export const state = () => ({
       id: 62,
       slokas: [
         {
-          sloka: '',
+          sloka: 'प्रौढोक्तिरुत्कर्षाहेतौ तद्धेतुत्वप्रकल्पनम् ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>उत्कर्षाहेतौ - </td><td>Which connot form as a cause of excellence</td></tr><tr><td>तड्वेतुत्वप्रकल्पनम् - </td><td>Attribution of a certain cause to it</td></tr><tr><td>प्रौढोक्तिः - </td><td>The Bold Speech</td></tr></table><p>The attribution of a certain cause, to a statement asserted, which cannot form the cause of excellence (of the object described) is called the Bold Speech.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'कचाः कलिन्दजातीरतमालस्तोममेचकाः ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>कचाः - </td><td>The tresses</td></tr><tr><td>कलिन्दजातीरतमालस्तोममेचकाः - </td><td>As black as the Tamala group grown on the bank of the Yamuna river.</td></tr></table><p>The tresses (of the Lord Krishna) are as black as the group of tamala trees grown on the banks of Kalinda’s daughter Yamuna.</p><p>The water of the Yamuna is naturally black as also the tamala trees. The blackness of the tamala trees cannot therefore be attributed to their having grown on the banks of the Yamuna river. Still, it is asserted to be so here. Hence it is called the Bold Speech.</p>'
@@ -2287,14 +2190,14 @@ export const state = () => ({
       id: 63,
       slokas: [
         {
-          sloka: '',
+          sloka: 'संभावना यदीत्थं स्यादित्यूहोऽन्यस्य सिद्धये ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>अन्यस्य - </td><td>Of another act</td></tr><tr><td>सिड्बये - </td><td>For the accomplishment</td></tr><tr><td>यदि इत्थं स्यात् - </td><td>If it were so</td></tr><tr><td>इति - </td><td>So</td></tr><tr><td>ऊहः - </td><td>Conjecture</td></tr><tr><td>संभावना - </td><td>The Supposition</td></tr></table><p>A conjecture assumed through the use of the expression ‘if it were so’ for the accomplishment of another (impossible) act, is termed the Supposition.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'यदि शेषो भवेद्वक्ता कथिताः स्युर्गुणास्तव ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>यदि - </td><td>If</td></tr><tr><td>शेषः - </td><td>Lord of serpents</td></tr><tr><td>वक्ता - </td><td>Narrater</td></tr><tr><td>भवेत् - </td><td>Happen</td></tr><tr><td>तव - </td><td>Thy</td></tr><tr><td>गुणाः - </td><td>Merits</td></tr><tr><td>कथिताः स्युः - </td><td>Would have been described</td></tr></table><p>O God! If the Lord of the serpents were to be the narrater, then all thy merits would have been described. </p><p>This form of supposition introduced by a subjunctive clause is reckoned by the author of Kavyaprakasa as the third kind of अतिशयोक्ति.</p>'
@@ -2310,14 +2213,14 @@ export const state = () => ({
       id: 64,
       slokas: [
         {
-          sloka: '',
+          sloka: 'किंचिन्मिथ्यात्वसिद्ध्यर्थं मिथ्यार्थान्तरकल्पनम् ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>किञ्चिन्मिथ्यात्वसिड्ब्यर्थं - </td><td>For the purpose of establishing false assertion</td></tr><tr><td>मिथ्यार्थान्तरकल्पनम् - </td><td>A statement of another absolute false thing</td></tr></table><p>When, for purposes of establishing a false assertion, another absolute false one is introduced, or, in other words, if one false assertion is made to depend upon another absolute false one, then it "is called the False Determination. (Reductio ad absurdum= reducing a position to an absurdity).</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'मिथ्याध्यवसितिर्विश्यां वशयेत्खस्रजं वहन् ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>मिथ्याध्यवसितिः - </td><td>The False Determination</td></tr><tr><td>खस्रजम् - </td><td>Garland of sky-flowers</td></tr><tr><td>वहन् - </td><td>Wearing</td></tr><tr><td>वेश्याम् - </td><td>The prostitute</td></tr><tr><td>वशयेत् - </td><td>Can win over.</td></tr></table><p>Wearing a garland of sky-ﬂowers, one can Win over a prostitute.</p><p>Sky-ﬂower is an absolute nonentity and does not exist in any period, past, present or future. So the winning over a prostitute becomes also a non-entity. This ornament is also reckoned as one of the kinds of अतिशयोक्ति by the author of K. P.</p>'
@@ -2333,14 +2236,14 @@ export const state = () => ({
       id: 65,
       slokas: [
         {
-          sloka: '',
+          sloka: 'वर्ण्ये स्याद्वर्णवृत्तान्तप्रतिबिम्बस्य वर्णनम् ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>वर्ण्ये - </td><td>In the object on hand</td></tr><tr><td>वर्ण्यवृत्तान्तप्रतिबिम्बस्य - </td><td>Of the reflective representation of an incident on hand</td></tr><tr><td>वर्णनम् - </td><td>Delineation</td></tr><tr><td>ललितम् स्यात् - </td><td>Is the Artful Indication</td></tr></table><p>ललितम् is a delineation of an incident not on hand which ends in a reﬂective comparison to an incident on hand.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'ललितं निर्गते नीरे सेतुमेषा चिकीर्षति ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>एषा - </td><td>This (maiden)</td></tr><tr><td>नीरे - </td><td>When water</td></tr><tr><td>निर्गते - </td><td>Had gone out</td></tr><tr><td>सेतुम् - </td><td>Bund</td></tr><tr><td>चिकीर्षति - </td><td>Wishes</td></tr></table><p>This (maiden) wishes to raise a bund when all the water had gone out. </p><p>This is said by a maid to her mistress who wanted to send for her once neglected lover. The maid instead of telling her mistress that she missed the opportunity and now foolishly wants to bring her lover who has now fallen in love with another lady indirectly intimates the same meaning which is reﬂectively represented in the expression given in the text</p><p>The sending for the lover who once came to the lady and was neglected by  is the same as the raising of at bund after all the water had gone out.</p>'
@@ -2356,14 +2259,14 @@ export const state = () => ({
       id: 66,
       slokas: [
         {
-          sloka: '',
+          sloka: 'उत्कण्ठितार्थसंसिद्धिर्विना यत्नं प्रहर्षणम् ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>यत्नम् विना - </td><td>without an effort</td></tr><tr><td>उत्कण्ठितार्थसंसिड्बिः - </td><td>Accomplishment of a thing longed for</td></tr><tr><td>प्रहर्षणम् - </td><td>The Enrapturing</td></tr></table><p>When the accomplishinent of a. thing eagerly longed for takes place without any effort for it, or, in other words, when the desired object is obtained by chance, it is called the Enrapturing.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'तामेव ध्यायते तस्मै निसृष्टा सैव दूतिका ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>ताम् एव - </td><td>Only her</td></tr><tr><td>ध्यायते तस्मै - </td><td>To him thinking</td></tr><tr><td>सैव दूतिका - </td><td>That same messenger</td></tr><tr><td>निसृष्टा - </td><td>Was sent</td></tr></table><p>That same messenger-a conﬁdante-was sent (by a, lady) to him (her lover) who was thinking of her only.</p><p>This incident took place without any effort on the part of the lover. He was thinking that her lady would send him a disagreeable messenger and, when he saw his own conﬁdante coming as a messenger to him, he could not contain for joy and hence this is called the Enrapturing—the delight beyond measure.</p>'
@@ -2375,28 +2278,28 @@ export const state = () => ({
       types: 2,
       type: [
         {
-          sloka: 'The Second kind of the Enrapturing.',
+          sloka: '<h3>The Second kind of the Enrapturing.</h3>वाञ्छितादधिकार्थस्य संसिद्धिश्च प्रहर्षणम् ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>वाच्छितात् - </td><td>Than the desired</td></tr><tr><td>अधिकार्थस्य - </td><td>Of something more</td></tr><tr><td>संसिड्विः - </td><td>Attainment</td></tr><tr><td>प्रहर्षणम् - </td><td>The Enrapturing</td></tr></table><p>The attainment of something more than what was desired is called the second kind of the Enrapturing.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'दीपमुद्द्योजयेद्यावत्तावदभ्युदितो रविः ॥',
               explanation_sans: '',
               explanation_eng: '<h3>Word meanings</h3><table><tr><td>यावत् - </td><td>No sooner</td></tr><tr><td>दीपम् - </td><td>The lamp</td></tr><tr><td>उद्योजयेत् - </td><td>Kindle</td></tr><tr><td>तावत् - </td><td>Than</td></tr><tr><td>रविः - </td><td>The sun</td></tr><tr><td>अभ्युदितः - </td><td>Rose</td></tr></table><p> No sooner did she kindle the lamp, than the sun rose.</p><p>Here the lady rose and wanted to kindle the lamp and, when she came out of her room, she saw the sun risen. This is more than what was desired.</p>'
             }
           ]
         },
         {
-          sloka: 'Third kind of the Enrapturing.',
+          sloka: '<h3>Third kind of the Enrapturing.</h3>यत्नादुपायसिद्ध्यर्थात्साक्षाल्लाभः फलस्य च । ',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>उपायसिड्व्यर्थात् - </td><td>to get the object desired</td></tr><tr><td>यत्नात् - </td><td>Attainment of a means</td></tr><tr><td>साक्षात् फलस्य - </td><td>Of the object itself</td></tr><tr><td>लाभः च - </td><td>Attainment also</td></tr></table><p>When, by an effort made for the attainment of a means to get the object desired, the desired object itself is obtained, it is the third kind of the Enrapturing.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'निध्यञ्जनौषधीमूलं खनता साधितो निधिः ॥',
               explanation_sans: '',
               explanation_eng: '<h3>Word meanings</h3><table><tr><td>निध्यंजनौषधीमूलम् - </td><td>The root of a magic plant</td></tr><tr><td>खनता - </td><td>By a digger</td></tr><tr><td>निधिः - </td><td>Treasure</td></tr><tr><td>साधितः - </td><td>Was obtained</td></tr></table><p>By him who dug the root of the magic plant for the purpose of discovering the treasure hidden under the earth, the treasure itself was obtained.</p>'
             }
@@ -2410,14 +2313,14 @@ export const state = () => ({
       id: 67,
       slokas: [
         {
-          sloka: '',
+          sloka: 'इष्यमाणविरुद्धार्थसंप्राप्तिस्तु विषादनम् ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>इष्यमाणविरुड्वार्थसंप्राप्तिः तु - </td><td>The attainment of a thing opposed to what was desired</td></tr><tr><td>विषादनम् - </td><td>The Despondency</td></tr></table><p>The attainment of a thing quite opposed to what was desired is termed the Despondency.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'दीपमुद्योजयेद्यावन्निर्वाणस्तावदेव सः ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>यावत् - </td><td>No sooner</td></tr><tr><td>दीपम् - </td><td>The lamp</td></tr><tr><td>उद्योजयेत् - </td><td>Kindles</td></tr><tr><td>तावदेव - Than</td></tr><tr><td>सः - That</td></tr><tr><td>निर्वाणः - </td><td>Extinguished</td></tr></table><p>No sooner did she kindle the lamp, than it extinguished.</p>'
@@ -2433,35 +2336,35 @@ export const state = () => ({
       id: 68,
       slokas: [
         {
-          sloka: '',
+          sloka: 'एकस्य गुणदोषाभ्यामुल्लासोऽन्यस्य तौ यदि ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>एकस्य - </td><td>Of one object</td></tr><tr><td>गुणादोषाभ्याम् - </td><td>By merit and demerit</td></tr><tr><td>अन्यस्य - </td><td>Of another object</td></tr><tr><td>यदि तौ - </td><td>If those two</td></tr><tr><td>उल्लासः - </td><td>Abandonment</td></tr></table><p>If the delineation of merit and demerit of one object conveys a reference to the merit and demerit of another object, or, in other words, if: <ol><li>the merit of one object refer to the merit of another object</li><li>the demerit, to the demerit</li><li>the merit, to the demerit,</li><li>the demerit, to the merit, then it is called the Abandonment</li></ol></p.'
           },
           examples: [
             {
-              text: '<h3>1. The merit of one object refer to the merit of another object</h3>',
+              text: '<h3>1. The merit of one object refer to the merit of another object</h3>अपि मां पावयेत्साध्वी स्नात्वेतीच्छति जाह्नवी ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>साध्वी - </td><td>Chaste woman</td></tr><tr><td>स्नात्वा - Having bathed</td></tr><tr><td>माम् अपि - </td><td>Me also</td></tr><tr><td>पावयेत् - </td><td>May purify</td></tr><tr><td>इति - </td><td>So</td></tr><tr><td>जाह्नवी - </td><td>The river Ganga</td></tr><tr><td>इच्छति - </td><td>Desires</td></tr></table><p>‘Will not a chaste woman (come and) bathe (in my waters) and purify me also’, so the river Ganga desires.</p><p>Here the merit-the purificating character of a chaste woman refers to the merit of the Ganga who prays for purification. Hence this is the example of  No. 1 merit referring to a merit.</p>'
               }
             },
             {
-              text: '<h3>(2) Demerit reffering to a demerit.</h3>',
+              text: '<h3>(2) Demerit reffering to a demerit.</h3>काठिन्यं कुचयोः स्रष्टुं वाञ्छन्त्यः पादपद्मयोः ।<br>निन्दन्ति च विधातारं त्वद्धटीष्वरियोषितः ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>कुचयोः - </td><td>Of the bosoms</td></tr><tr><td>काठिन्यम् - </td><td>Hardness</td></tr><tr><td>पादपद्मयोः - </td><td>Lotus like feet</td></tr><tr><td>सृष्टम् - </td><td>Created</td></tr><tr><td>वाच्छन्त्यः - </td><td>Desiring</td></tr><tr><td>अरियोषितः - </td><td>The women of (thy) foes</td></tr><tr><td>त्वड्वाटीषु - </td><td>In thy cavalry</td></tr><tr><td>विधातारम् - </td><td>The Creator</td></tr><tr><td>निन्दंति - </td><td>Censure</td></tr></table><p>O king ! the widows of thy foemen desiring, (when they are pursued by) thy cavalry, the hardness created for their bosoms to be created for their lotus- like feet censure the Creator (Brahma).</p><p>Here, the widows of the foemen censure the creator for not having created the hardness of their bosoms in their soft feet, the former being useless because of their Widow-hood and the latter being now useful to enable them to flee away from the pursuing cavalry of the king. The demerit of the bosoms in their widow-hood refers to the demerit of their soft feet unfit for fleeing away from the enemy.</p>'
               }
             },
             {
-              text: '<h3>3. Merit referring to at demerit</h3>',
+              text: '<h3>3. Merit referring to at demerit</h3>तदभाग्यं धनस्यैव यन्नाश्रयति सज्जनम् ।',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>यत् - </td><td>because</td></tr><tr><td>सज्जनम् - </td><td>The good man</td></tr><tr><td>न आश्रयति - </td><td>Does not resort to</td></tr><tr><td>तत् - </td><td>that</td></tr><tr><td>धनस्य एव - </td><td>Of the riches only</td></tr><tr><td>अभाग्यम् - </td><td>Misfortune</td></tr></table><p>It is the misfortune of riches themselves in that they do not resort to the good people.</p><p>Here, the merit of the good people refers to the demerit of the riches in their not resorting to the good people.</p>'
               }
             },
             {
-              text: '<h3>4. Demerit reffering to a merit</h3>',
+              text: '<h3>4. Demerit reffering to a merit</h3>लाभोऽयमेव भूपालसेवकानां न चेद्वधः ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>चेत् - </td><td>if</td></tr><tr><td>भूपालसेवकानाम् - </td><td>Of the servants of the king</td></tr><tr><td>वधः - </td><td>Killing</td></tr><tr><td>न - </td><td>Not</td></tr><tr><td>अयम् एव - </td><td>This itself</td></tr><tr><td>लाभः - </td><td>A boon</td></tr></table><p>If the servants of this king are not killed, then it itself is a boon (to them).</p><p>The king referred to is such a cruel man that non- killing his servants is considered a great boon even if they do not get their pay. Here, the cruelty, the demrit of the king, refers to the merit on the part of his servants, i.e., their continuance without being killed.</p>'
@@ -2477,14 +2380,14 @@ export const state = () => ({
       id: 69,
       slokas: [
         {
-          sloka: '',
+          sloka: 'ताभ्यां तौ यदि न स्यातामवज्ञालंकृतिस्तु सा ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>यदि - </td><td>if</td></tr><tr><td>ताभ्याम् - </td><td>By those two</td></tr><tr><td>तौ - </td><td>Those two</td></tr><tr><td>न स्याताम् - </td><td>Do not occur</td></tr><tr><td>सा - </td><td>That</td></tr><tr><td>अवज्ञालंकृतिः - </td><td>Non- Abandonment</td></tr></table><p>If, by the delineation of them, i.e., merit and demerit of one object, they-the merit and demerit of another object-do not occur, then it is called the Non-Abandonment.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'स्वल्पमेवाम्बु लभते प्रस्थं प्राप्यापि सागरम् ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>प्रस्थम् - </td><td>A measure</td></tr><tr><td>सागरम् - </td><td>Ocean</td></tr><tr><td>प्राप्यापि - </td><td>Though reached</td></tr><tr><td>स्वल्पमेव - </td><td>Only a small quantity</td></tr><tr><td>अंबु - </td><td>Water</td></tr><tr><td>लभते - </td><td>Gets</td></tr></table><p>This measure (of 32 palas) gets only a small quantity into it even though it reached the ocean. </p><p>The particular measure holds the same quantity of water even in the ocean which is the receptacle of immense water and which is not able to supply more water.</p><p>Here, the merit of the measure refers to no merit of the ocean.</p>'
@@ -2507,14 +2410,14 @@ export const state = () => ({
       id: 70,
       slokas: [
         {
-          sloka: '',
+          sloka: 'दोषस्याभ्यर्थनानुज्ञा तत्रैव गुणदर्शनात् ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>दोषस्य - </td><td>Of an undesired object</td></tr><tr><td>अभ्यर्थना - </td><td>Praying for</td></tr><tr><td>तत्रैव - </td><td>In itself</td></tr><tr><td>गुणदर्शनात् - </td><td>On account of the result of good qualities</td></tr><tr><td>अनुज्ञा - </td><td>The Permission</td></tr></table><p>The praying for an undesired object on the ground of the acquirement of virtuous qualities resulting from it, is called the Permission.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'विपदः सन्तु नः शश्वद्यासु संकीर्त्यते हरिः ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>नः - </td><td>To us</td></tr><tr><td>शश्वत् - </td><td>Always</td></tr><tr><td>विपदः - </td><td>Calamities</td></tr><tr><td>सन्तु - </td><td>Let occur</td></tr><tr><td>यासु - </td><td>In which</td></tr><tr><td>हरिः - </td><td>God Vishnu</td></tr><tr><td>संकीर्त्यते - </td><td>Is glorified</td></tr></table><p>Lord Krishna ! Let calamities always occurto us-the calamities in which the God Hari is gloriﬁed.</p><p>This is a request made to Krishna by Kunti, the mother of the Pandavas.</p>'
@@ -2530,14 +2433,14 @@ export const state = () => ({
       id: 71,
       slokas: [
         {
-          sloka: '',
+          sloka: 'लेशः स्याद्दोषगुणयोर्गुणदोषत्वकल्पनम् ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>दोषगुणयोः - </td><td>Of demerit and merit</td></tr><tr><td>गुणादोषत्वकल्पनम् - </td><td>Attribution of merit and demerit</td></tr><tr><td>लेशः स्यात् - </td><td>Is the suggestion</td></tr><tr><td>लेशः - </td><td>is a ﬁgure in which the merit and demerit of one thing are respectively construed to be the demerit and merit of the other.</td></tr></table>'
           },
           examples: [
             {
-              text: '',
+              text: 'अखिलेषु विहङ्गेषु हन्त स्वच्छन्दचारिषु ॥ <br>शुक पञ्जरबन्धस्ते मधुराणां गिरां फलम् ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>हन्त - </td><td>Alas !</td></tr><tr><td>अखिलेषु विहंगेषु - </td><td>When all the birds</td></tr><tr><td>स्वच्छन्दचारिषु - </td><td>Freely wander</td></tr><tr><td>शुक ! - </td><td>Parrot !</td></tr><tr><td>ते - </td><td>Thy</td></tr><tr><td>पञ्चरबन्धः - </td><td>Confinement in a cage</td></tr><tr><td>मधुराणाम् - </td><td>Melodious</td></tr><tr><td>गिराम् - </td><td>Of songs</td></tr><tr><td>फलम् - </td><td>Result</td></tr></table><p>Alas ! parrot ! when all other birds freely wander about at their will, thy confinement in the cage is the result of thy melodious songs. </p><p>Here, the utterance of melodious sounds is construed to be a demerit in a parrot and the non-utterance is construed to be a merit in other birds.</p>'
@@ -2553,14 +2456,14 @@ export const state = () => ({
       id: 72,
       slokas: [
         {
-          sloka: '',
+          sloka: 'सूच्यार्थसूचनं मुद्रा प्रकृतार्थपरैः पदैः ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>प्रकृतार्थपरैः - </td><td>Serving the sense on hand</td></tr><tr><td>पदैः - </td><td>By words</td></tr><tr><td>सूच्यार्थसूचनम् - </td><td>Intimation of the object to be hinted at</td></tr><tr><td>मुद्रा - </td><td>The Sealing</td></tr></table><p>If the words that serve to signify the sense on hand intimate also the object to be hinted at, than it is called the Sealing.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'नितम्बगुर्वी तरुणी दृग्युग्मविपुला च सा ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>सा तरुणी - </td><td>That young maiden</td></tr><tr><td>नितंबगिर्वीं - </td><td>Having large buttocks</td></tr><tr><td>दृग्युग्मविपुला च - </td><td>Having a couple of spacious eyes</td></tr></table><p>This maiden has large buttocks and a couple of spacious eyes.</p><p>Here, युग्मविपुला serves to signify the sense required for the description of the lady the subject on hand. The same word is also the name of a metre of अनुष्टुम् class containing 8 syllables for each quarter wherein the seventh syllable of the 2nd and 4th quarters must be short. Thus, we see that the same word that served the purpose on hand- the description of the lady-also names the metre of the verse to be hinted at by the poet, the stanza being the illustration of that metre. </p><p>It is usual among the Sanskrit prosodians to illustrate a metre, deﬁned, by a stanza containing the name of that metre which will also serve to explain the sense contained in the stanza. Hence the ﬁgure is called मुद्रा an expression of things by their right names.</p>'
@@ -2576,14 +2479,14 @@ export const state = () => ({
       id: 73,
       slokas: [
         {
-          sloka: '',
+          sloka: 'क्रमिकं प्रकृतार्थानां न्यासं रत्नावलीं विदुः ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>प्रकृतार्थानाम् - </td><td>Of the words serving the sense on hand </td></tr><tr><td>क्रमिकं - </td><td>Serial</td></tr><tr><td>न्यासम् - </td><td>Putting</td></tr><tr><td>रत्नावलीम् - </td><td>The Jewelled Necklace</td></tr><tr><td>विदुः - </td><td>(poets) know</td></tr></table><p>Ratnavali is a ﬁgure containing a number of  words serving the sense on hand but put in an established order of succession (with reference to objects not on hand).</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'चतुरास्यः पतिर्लक्ष्म्याः सर्वज्ञस्त्वं महीपते ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>महीपते - </td><td>O king !</td></tr><tr><td>त्वम् - </td><td>Thou</td></tr><tr><td>चतुराम्यः - </td><td>Having handsome face or four headed God Brahma</td></tr><tr><td>लक्ष्म्याः - </td><td>Of riches = of Goddess Lakshmi</td></tr><tr><td>पतिः - </td><td>Lord                सर्वज्ञः - </td><td>Omniscient or God Siva.</td></tr></table><p>O Lord of earth! thou hast a handsome face (art god Brahma) ; thou art the lord of wealth (the Lord Vishnu) ; thou art omniscient (Lord Siva).</p><p>Here, the words चतुरास्यः etc., serve the sense on hand in describing the king and are also names of <br> चतुरं आस्यं यस्य सः <br> चत्वारि आस्यानि यस्य सः<br>The Hindu Triad, in their order-Brahma, Vishnu and Siva, the objects not on hand to which the king is identiﬁed in succession.</p><p>The difference between this ﬁgure and the ﬁgure मुद्रा is that in this figure the sense of the words referring to objects not on hand - i. e. the sense to be hinted at—also serves to explain the sentence in another way under a pun, but it is not so in the Mudra.</p>'
@@ -2594,19 +2497,19 @@ export const state = () => ({
       ]
     },
     {
-      title_sans: 'तद्गुणाः',
-      title_eng: 'तद्गुणाः -The Borrower',
+      title_sans: 'तद्गुणः ',
+      title_eng: 'तद्गुणः  -The Borrower',
       id: 74,
       slokas: [
         {
-          sloka: '',
+          sloka: 'तद्गुणः स्वगुणत्यागादन्यदीयगुणग्रहः ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>स्वगुणात्यागात् - </td><td>By quitting one’s own quality</td></tr><tr><td>            अन्यदीयगुणाग्रहः - </td><td>Assuming the quality of another</td></tr><tr><td>तद्गुणाः - </td><td>The Borrower</td></tr></table><p>When a thing quits its own quality and assumes that of another (excellent one), it is the Borrower.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'पद्मरागायते नासामौक्तिकं तेऽधरत्विषा ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>ते - </td><td>Thy </td></tr><tr><td>नासामौक्तिकम् - </td><td>Nose-pearl</td></tr><tr><td>अधरत्विषा - </td><td>By the luster of the lower lip.</td></tr><tr><td> पद्मरागायते - </td><td>Becomes Padmaraga (ruby of lotus colour)</td></tr></table><p>O Lady! The pearl of the nose-ornament becomes a padmaraga ruby by coming in contact with the luster of thy (red) lower lip.</p><p>Here, the colour of the lady’s lower lip, being superior, makes the white pearl of her nose ornament appear like a padmaraga ruby. </p><p>The pearl has been eclipsed by the lady’s lip.</p>'
@@ -2622,14 +2525,14 @@ export const state = () => ({
       id: 75,
       slokas: [
         {
-          sloka: '',
+          sloka: 'पुनः स्वगुणसंप्राप्तिः पूर्वरूपमुदाहृतम् ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>पुनः - </td><td>again</td></tr><tr><td>स्वगुणासंप्राप्तिः - </td><td>Assumption of one’s own quality</td></tr><tr><td>पूर्वरूपम् - </td><td>The original</td></tr><tr><td>उदाहृतम् - </td><td>Is called</td></tr></table><p>When an object that has quitted its form as in the preceding figure is again restored to its original state by the presence of some other agency, it is called the Original.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'हरकण्ठांशुलिप्तोऽपि शेषस्त्वद्यशसा सितः ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>हरकण्ठांशुलिप्तोऽपि - </td><td>Though covered with the luster of Siva’s neck</td></tr><tr><td>शेषः - </td><td>The present lord</td></tr><tr><td>त्वद्यशसा - </td><td>By thy fame</td></tr><tr><td>सितः - </td><td>White</td></tr></table><p>O king! The lord of the serpents शेषः, though covered with the lustre of Siva’s neck, is made white by thy fame.</p><p>Here, the serpentlord worn round Siva’s neck of dark-blue colour-on account of the existence of the Kalakuta poison in it-changed his colour and thus became a borrower and by the operation of another agency- the white fame of the king-he is restored to his former state.</p>'
@@ -2641,14 +2544,14 @@ export const state = () => ({
       types: 1,
       type: [
         {
-          sloka: 'Second kind of the Original.',
+          sloka: '<h3>Second kind of the Original.</h3>पूर्वावस्थानुवृत्तिश्च विकृते सति वस्तुनि ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>वस्तुनि - </td><td>An object</td></tr><tr><td>विकृते सति - </td><td>When disappeared</td></tr><tr><td>पूर्वावस्थानुवृत्तिः - </td><td>Continuity of the original state</td></tr><tr><td>च - </td><td>Also</td></tr></table><p>The continuity of the original condition, not with standing the disappearance of an object the cause of such continuance, by the operation of another agency, is called the second kind of the Original.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'दीपे निर्वापितेऽप्यासीत्काञ्चीरत्नैर्महन्महः ॥',
               explanation_sans: '',
               explanation_eng: '<h3>Word meanings</h3><table><tr><td>दीपे - </td><td>Lamp</td></tr><tr><td>निर्वापिते अपि - </td><td>Though extinguished</td></tr><tr><td>कांचीरत्नैः - </td><td>By the jems inlaid in the girdle of a lady</td></tr><tr><td>महत् - </td><td>Ample </td></tr><tr><td>महः - </td><td>Light</td></tr><tr><td>आसीत् - </td><td>Was</td></tr></table><p> Although the lamp was put out (by a lady in the bed chamber), still there was ample light issuing from the jerns of the girdle (of that lady).</p><p>Here, a pretty young maiden but an artless one ( मुग्धा ) put out the lamp of the bed chamber through bashfulness; still the light continued as before by the lustre of the jems inlaid in the girdle of that maiden.</p>'
             }
@@ -2662,14 +2565,14 @@ export const state = () => ({
       id: 76,
       slokas: [
         {
-          sloka: '',
+          sloka: 'संगतान्यगुणानङ्गीकारमाहुरतद्गुणम् ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>संगतान्यगुणानंमीकारम् - </td><td>Non-assuming the quality of another object though connected with it.</td></tr><tr><td>अतद्गुणम् - </td><td>Non-Borrower</td></tr><tr><td>आहः - </td><td>Call</td></tr></table><p>The non-assuming, by an object, of the quality of another though connected with it (or in other words, when an object does not borrow the quality of another object, it) is called the Non- Borrower.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'चिरं रागिणि मच्चित्ते निहितोऽपि न रञ्जसि ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>चिरम् - </td><td>For a long time</td></tr><tr><td>रागिणि - </td><td>Red (affectionate)</td></tr><tr><td>मच्चित्ते - </td><td>In my mind</td></tr><tr><td>निहितोऽपि - </td><td>Though seated</td></tr><tr><td>न रञ्जसि - </td><td>Dost not become red (affectionate)</td></tr></table><p>O Lover! though seated long in my red (affectionate) mind, yet thou dost not become red (affectionate).</p><p>The strikingness of this example rests upon the use of the word राग which means both redness and affection.</p><p>Here, the lover does not become red (affectionate) though he is seated in the red (more affectionate) mind of the lady. Hence it is the Non Borrower</p>'
@@ -2685,14 +2588,14 @@ export const state = () => ({
       id: 77,
       slokas: [
         {
-          sloka: '',
+          sloka: 'प्रक्सिद्धत्वगुणोत्कर्षोऽनुगुणः परसंनिधेः ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>परसन्निधेः - </td><td>By the presence of another object</td></tr><tr><td>प्राक्सिड्वस्वगुण्त्कर्षः - </td><td>The pre-eminence of one’s own previously settled quality</td></tr><tr><td>अनुगुणाः - </td><td>The Conformity</td></tr></table><p>The pre-eminence, of ones own previously settled quality, by the presence of another agency, (or, in other words, when the original quality of an oject is made pre-eminent by the proximity of another object, it) is called the Conformity</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'नीलोत्पलानि दधते कटाक्षैरतिनीलनम् ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>नीलोत्पलानि - </td><td>Blue lotuses</td></tr><tr><td>कटाक्षैः - </td><td>By the side-glances</td></tr><tr><td>अतिनीलताम् - </td><td>Extreme blueness</td></tr><tr><td>दधते - </td><td>Bear</td></tr><tr><td>The blue lotuses attain more blueness by the side-glances (of a lady falling on them)</td></tr></table><p>Here, the dark blue lustre of the lotuses is increased by the pre-eminent blue side-glances. of the lady falling on them.</p>'
@@ -2708,14 +2611,14 @@ export const state = () => ({
       id: 78,
       slokas: [
         {
-          sloka: '',
+          sloka: 'मीलितं यदि सादृश्याद्भेद एव न लक्ष्यते ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>यदि - </td><td>if</td></tr><tr><td>सादृश्यात् - </td><td>On account of resemblance</td></tr><tr><td>भेदः - </td><td>A distinction</td></tr><tr><td>एव - </td><td>Alone</td></tr><tr><td>न लक्ष्यते - </td><td>Is not perceived</td></tr><tr><td>मीलितम् - </td><td>The Lost</td></tr></table><p>When distinction alone p is net perceived (between two objects on hand) on account of their resemblance, then it is the Lost.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'रसो नालक्षि लाक्षायाश्चरणे सहजारुणे ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>सहजारुणे - </td><td>Naturally red</td></tr><tr><td>चरणे - </td><td>In the foot</td></tr><tr><td>लाक्षायाः - </td><td>Of the red lac</td></tr><tr><td>रसः - </td><td>Dye</td></tr><tr><td>न अलक्षि - </td><td>Was not perceived</td></tr></table><p>The dye of the red lac was not perceived in the naturally red feet (of this beautiful maiden).</p><p>Here, we see the disappearance of the dye of the red lac on account of its having been eclipsed by the natural redness of the maiden’s feet.</p>'
@@ -2731,14 +2634,14 @@ export const state = () => ({
       id: 79,
       slokas: [
         {
-          sloka: '',
+          sloka: 'सामान्यं यदि सादृश्याद्विशेषो नोपलक्ष्यते ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>यदि - </td><td>if</td></tr><tr><td>सादृश्यात् - </td><td>On account of resemblance</td></tr><tr><td>विशेषः - </td><td>Distinguishable peculiarity</td></tr><tr><td>नैव लक्ष्यते - </td><td>Is not at all perceived</td></tr><tr><td>सामान्यम् - </td><td>The Sameness</td></tr></table><p>When any distinguishable peculiarity what- ever is not perceived (between two objects coming in contact) on account of their close resemblance, it is called the Sameness.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'पद्माकरप्रविष्टानां मुखं नालक्षि सुभ्रुवाम् ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>पद्माकरप्रविष्टानाम् - </td><td>That entedred the lotus-pool</td></tr><tr><td>सुभ्रुवाम् - </td><td>Of women of beautiful eye-brows</td></tr><tr><td>मुखम् - </td><td>Face</td></tr><tr><td>न अलक्षि - </td><td>Was not perceived</td></tr></table><p>The faces of the women of beautiful eye-brows that entered the lotus-pool are not perceived.</p><p>Here, the faces of the women were not distinguishable from the lotuses in the absence of any dis- criminative quelity between the two which are spoken of as having become identical.</p><p>In the मिलित (LXXLX), one of the objects is inferior in quality and is not apprehended by its being eclipsed by the superior quality of the other.</p><p>In this ﬁgure, the two objects could not be discriminated through their close resemblance. In the मीलित, the inferior object gives up its own quality. Here both the objects do not give up their qualities.</p><p>Hence, this ﬁgure is different from the मीलित.</p>'
@@ -2754,21 +2657,21 @@ export const state = () => ({
       id: 80,
       slokas: [
         {
-          sloka: '',
+          sloka: 'भेदवैशिष्ट्ययोः स्फूर्तावुन्मूलितविशेषकौ ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>भेदवैशिष्ट्ययोः - </td><td>Of any distinction and of any discriminating peculiarity</td></tr><tr><td>स्फूर्तौ - </td><td>In the manifestation</td></tr><tr><td>उन्मीलित विशेषकौ - </td><td>The Un-Lost and The Un-Sameness</td></tr></table><h3>Definition</h3><p>If any distinction prohibited in the मीलित(LXXIX) become manifest afterwards, it is called the उन्मीलितम्.</p><h3>Definition</h3><p>If any discriminating peculiarity prohibited in the सामान्य become manifest afterwards, it is called the विशेषकः .</p>'
           },
           examples: [
             {
-              text: 'example of the figure उन्मीलित',
+              text: '<h3>Example of the figure उन्मीलित</h3>हिमाद्रिं त्वद्यशो मग्नं सुराः शीतेन जानते ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>सुराः - </td><td>The celestial beings</td></tr><tr><td>त्वद्यशोमग्नम् - </td><td>Eclipsed by thy fame</td></tr><tr><td>हिमाद्रिम् - </td><td>The Himalaya mountain</td></tr><tr><td>शीतेन - </td><td>By chilliness</td></tr><tr><td>जानते - </td><td>Recognize</td></tr></table><p>O king ! The celestial beings recognize the Himalaya mountain, eclipsed by thy (all-pervading) fame, through its chillness.</p><p>Here, the Himalaya which is white was lost in the whiter fame of the king and was afterwards recognized by the Gods on account of its chillness.</p>'
               }
             },
             {
-              text: 'example of the figure विशेषकः ',
+              text: '<h3>Example of the figure विशेषकः </h3>लक्षितान्युदिते चन्द्रे पद्मानि च मुखानि च ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>चन्द्रे उदिते - </td><td>When the moon had risen</td></tr><tr><td>पद्मानि - </td><td>Lotuses</td></tr><tr><td>मुखानि च - </td><td>And the faces</td></tr><tr><td>लक्षितानि - </td><td>Became distinguishable</td></tr></table><p>After the rise of the moon, the lotuses and the faces of the damsels became distinguishable.</p><p>In the सामान्य, the faces of the damsels that entered the lotus-pool were undistinguishable from the lotuses on account of their likeness but after the rise of the moon the lotuses faded and the faces began to appear more beautiful and hence they became discriminated.</p>'
@@ -2784,14 +2687,14 @@ export const state = () => ({
       id: 81,
       slokas: [
         {
-          sloka: '',
+          sloka: 'किंचिदाकूतसहितं स्याद्गूढोत्तरमुत्तरम् ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>किंचिदाकूतसहितम् - </td><td>Containing some import</td></tr><tr><td>गूढोत्तरम् - </td><td>A secret reply</td></tr><tr><td>उत्तरं स्यात् - </td><td>Is The Reply</td></tr><tr><td>पान्थ ! - </td><td>O traveler !</td></tr></table><p>A secret reply containing some indirect import (of the speaker) is called the Reply. Or, in other words, when the speaker indirectly expresses his or her own intention in a reply made to a query previously put by some person (which query is to be inferred from the answer), it is called the Reply.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'यत्रासौ वेतसी पान्थ तत्रेयं सुतरा सरित् ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>यत्र - </td><td>Where</td></tr><tr><td>असौ वेतसौ - </td><td>That rattan</td></tr><tr><td>तत्र - </td><td>There</td></tr><tr><td>इयं सरित् - </td><td>This river</td></tr><tr><td>सुतरा - </td><td>Is fordable</td></tr></table><p>O Traveller! (the place) where that ratan is seen-there this river is fordable.</p><p>From this, we understand theta traveller has asked the speaker, a lady here, the place where a particular river can be crossed. The lady becoming enumoured of him makes this reply by showing a particular place which was also indirectly named by her as a place of assignatiou for their meeting.</p>'
@@ -2803,14 +2706,14 @@ export const state = () => ({
       types: 1,
       type: [
         {
-          sloka: 'Second kind of  the Reply.',
+          sloka: '<h3>Second kind of the Reply.</h3>पश्नोत्तरान्तराभिन्नमुत्तरं चित्रमुच्यते ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>प्रश्न+उत्तरान्तर+अभिन्नम् - </td><td>Consisting of same words of the query and its two replies</td></tr><tr><td>चित्रमुत्तरम् - </td><td>A skilful reply</td></tr><tr><td>उत्तरम् - </td><td>The Reply</td></tr></table><p>When a skilful reply is not different from the query, or in other words, when a reply made consists of the same words of the question asked, and when one reply made serves for two queries asked, then it is called also the Reply.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'के दारपोषणरताः के खेटाः किं चलं वयः ॥',
               explanation_sans: '',
               explanation_eng: '<h3>Word meanings</h3><table><tr><td>के - </td><td>Who</td></tr><tr><td>दारपोषणरताः - </td><td>Those that are engaged in maintaining their wives</td></tr><tr><td>केदारपोषणरताः - </td><td>Those that are bent upon bringing the lands to perfection= husbandmen</td></tr><tr><td>के खेटाः - </td><td>Who move in the air</td></tr><tr><td>किं चलम् - </td><td>Which is transitory</td></tr><tr><td>वयः - </td><td>(1) Birds (2) the age</td></tr></table><p>Q. Who are those that are engaged in maintaining their wives ?</p><p>R. Those that are bent upon bringing the lands to perfection or husbandmen.</p><p>Q. Who move in the air and which is transitory-</p><p>R. वयः (1) birds (2) age.</p><p>केदारः = a ﬁeld. The ﬁrst question के दारपोषणरताः and its answer केदारपोषणरताः consist of the same words (lit. letters). वयः is the one reply made to the two questions asked. वयः when it means, ‘birds’ is the nominative plural of the word वि; and when it means ‘the age’ it is the nominative singular of the neuternoun वयस्. Hence these are styled the skilful replies. </p>'
             }
@@ -2824,14 +2727,14 @@ export const state = () => ({
       id: 82,
       slokas: [
         {
-          sloka: '',
+          sloka: 'सूक्ष्मं पराशयाभिज्ञे तरसाकूतचेष्टितम् ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>परा+चेष्टितम् - </td><td>Skilled in understanding the import of another</td></tr><tr><td>इतरः - </td><td>A second person</td></tr><tr><td>तस्य - </td><td>His</td></tr><tr><td>साकूतचेष्टितम् - </td><td>A significant act</td></tr><tr><td>सूक्ष्मम् - </td><td>The Subtle</td></tr></table><p>A signiﬁcant act or gesture, of a person, intimated to another who is able to understand such gestures of others is called the Subtle.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'मयि पश्यति सा केशैः सीमन्तमणिमावृणोत् ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>सा - </td><td>That (maiden)</td></tr><tr><td>मयि पश्यति - </td><td>When I was looking</td></tr><tr><td>केशैः - </td><td>By the tresses</td></tr><tr><td>सीमन्तमणिम् - </td><td>The crest-jewel</td></tr><tr><td>आवृणोत् - </td><td>Concealed</td></tr></table><p>( Friend ! ) When I was seeing (her anxiously for time of assignation), she concealed her crest jewel under her tresses.</p><p>Here, the time of assignation eagerly inquired for by the lover is guessed from the lady’s act of concealing her bright crest-jewel under her dark tresses-a mark indicating the time of night when the bright sun is concealed under the darkness of the night.</p>'
@@ -2847,14 +2750,14 @@ export const state = () => ({
       id: 83,
       slokas: [
         {
-          sloka: '',
+          sloka: 'पिहितं परवृत्तान्ताज्ञातुः साकूतचेष्टितम् ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>परवृत्तान्तज्ञातुः - </td><td>Of one that knows the secret of the other</td></tr><tr><td>साकूतचेष्टितम् - </td><td>Significant act or an insinuation</td></tr><tr><td>पिहितम् - </td><td>The Covering</td></tr></table><p>A signiﬁcant act or an insinuation of a person that he or she knows the secret of another is called The Covering.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'प्रिये गृहागते प्रातः कान्ता तल्पमकल्पयत् ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>प्रातः - </td><td>In the morning</td></tr><tr><td>प्रिये गृहागते - </td><td>When the lover came to the house</td></tr><tr><td>कान्ता - </td><td>The lady</td></tr><tr><td>तल्पम् - </td><td>The bed</td></tr><tr><td>अकल्पयत् - </td><td>Prepared</td></tr></table><p>Early in the morning, when the lover came to the house, his lady prepared bed (for him).</p><p>Here, a lady when she saw her husband coming to her house in the morning with the marks of his having toyed with another lady, a rival one, at once prepared bed for his rest thus intimating to him that she has known his secrets.</p>'
@@ -2870,14 +2773,14 @@ export const state = () => ({
       id: 84,
       slokas: [
         {
-          sloka: '',
+          sloka: 'व्याजोक्तिरन्यहेतूक्त्या यदाकारस्य गोपनम् ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>अन्यहेतूक्त्या - </td><td>By an attribution to a different cause</td></tr><tr><td>यत् - </td><td>Which</td></tr><tr><td>आकारस्य - </td><td>Of the appearance</td></tr><tr><td>गोपनम् - </td><td>Concealment</td></tr><tr><td>व्याजोक्तिः - </td><td>The Disembler</td></tr></table><h3>Definition</h3><p>The Disembler is the dissimulation of ones appearance hy attributing to a different cause.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'सखि पश्य गृहारामपरागैरस्मि धूसरा ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>सखि! - </td><td>Friend !</td></tr><tr><td>पश्य - </td><td>See</td></tr><tr><td>गृहारामपरागैः - </td><td>By the pollens of the house-garden</td></tr><tr><td>धूसरा अस्मि - </td><td>I am made grayish</td></tr></table><p>Friend ! See I am made grayish by the pollens of (my) house-garden. </p><p>Here, a lady, the speaker, having her body made dirty by the dust in her toying with her lover, artfully conceals the same by saying that she was made greyish by the pollens, i.e., by attributing it to some different cause. Her first state was not expressed and then denied and so this is different from the ornament of Concealment (XI) where an object is ﬁrst mentioned by a person who then conceals it.</p>'
@@ -2893,14 +2796,14 @@ export const state = () => ({
       id: 85,
       slokas: [
         {
-          sloka: '',
+          sloka: 'गूढोक्तिरन्योद्देश्यं चेद्यदन्यं प्रति कथ्यते ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>चेद् - </td><td>if</td></tr><tr><td>अन्योद्देश्यम् - </td><td>Intended for another</td></tr><tr><td>अन्यम् प्रति - </td><td>To another</td></tr><tr><td>कथ्यते - </td><td>Is told</td></tr><tr><td>गूढोक्तिः - </td><td>The Secrecy</td></tr></table><p>When a speech intended to be communicated to a particular person is addressed to another whoyis also before the speaker, and when that speech conveys also the intended meaning of the speaker, it is termed the Secret Speech.</p> '
           },
           examples: [
             {
-              text: '',
+              text: 'वृषापेहि परक्षेत्रादायाति क्षेत्ररक्षकः ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>वृष ! - </td><td>O bull ! or luster !</td></tr><tr><td>परक्षेत्रात् - </td><td>From another’s field or wife</td></tr><tr><td>अपेहि - </td><td>Begone</td></tr><tr><td>क्षेत्ररक्षकः - </td><td>The land-lord or husband</td></tr><tr><td>मायाति - </td><td>Comes</td></tr></table><p>O bull! begone, yonder comes the land-lord.</p><p>This speech is intended to be communicated to a person toying with the wife of another person and this is addressed to the bull that was grazing in a third man’s field. The intended meaning to be conveyed is :-</p><p>O Luster ! begone, yonder comes the husband of the lady with whom thou art boldly toying.</p>'
@@ -2916,14 +2819,14 @@ export const state = () => ({
       id: 86,
       slokas: [
         {
-          sloka: '',
+          sloka: 'विवृतोक्तिः श्लिष्टगुप्तं कविनाविष्कृतं यदि ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>श्लिष्टगुप्तम् - </td><td>Hidden under a pun</td></tr><tr><td>कविना - </td><td>By the poet</td></tr><tr><td>आविष्कृतम् यदि - </td><td>If purposely expressed</td></tr><tr><td>विहितोक्तिः - </td><td>Open Speech</td></tr></table><p>Open Speech is that which is hidden under spun as in the preceding figure but purposely expressed by the poet by some kind of indication.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'वृषापेहि परक्षेत्रादिति वक्ति ससूचनम् ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>वृष ! - </td><td>Bull ! or luster !</td></tr><tr><td>परक्षेत्रात् - </td><td>From another’s field or wife</td></tr><tr><td>अपेहि - </td><td>Begone</td></tr><tr><td>इति - </td><td>So</td></tr><tr><td>ससूचनम् - </td><td>With a gesticulation</td></tr><tr><td>वक्ति - </td><td>(he) speakes</td></tr></table><p>“O bull! begone from another’s ﬁeld", so the speaker speaks with a gesticulation.</p><p>By use of the word वृषापेहि, this is also hidden under a pun; and, by the employment of the word ससूचनम्, in the example by the poet, the secrecy becomes expressed. </p>'
@@ -2939,14 +2842,14 @@ export const state = () => ({
       id: 87,
       slokas: [
         {
-          sloka: '',
+          sloka: 'युक्तिः पराभिसन्धानं क्रियया मर्मगुप्तये ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>मर्मगुप्तये - </td><td>For concealment of one’s own design</td></tr><tr><td>क्रियया - </td><td>By an act</td></tr><tr><td>परातिसंधानम् - </td><td>Deception played upon another</td></tr><tr><td>युक्तिः - </td><td>Covert speech</td></tr></table><p>Covert Speech is a deception of a. person by an act played upon another for concealment of his or her own design.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'त्वामालिखन्ती दृष्ट्वान्यं धनुः पौष्पं करेऽलिखत् ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>त्वाम् - </td><td>Thee</td></tr><tr><td>आलिखन्ती - </td><td>painting</td></tr><tr><td>अन्यं दृष्ट्वा - </td><td>Seeing another (lady)</td></tr><tr><td>पौष्पं धनुः - </td><td>Flowery bow</td></tr><tr><td>करे - </td><td>In the hand</td></tr><tr><td>अलिखत् - </td><td>Draw</td></tr></table><p>Lover! Thy lady painted thee and, seeing another person coming to her at that time, drew the ﬁgure of a flowery bow in the hand, thus intimating to that stranger than she painted the cupid and not thee.</p><p>This is said by a go-between.</p>'
@@ -2962,14 +2865,14 @@ export const state = () => ({
       id: 88,
       slokas: [
         {
-          sloka: '',
+          sloka: 'लोकप्रवादानुकृतिर्लोकोक्तिरिति भण्यते ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>लोकप्रवादानुकृतिः - </td><td>Resembling a pro- verb</td></tr><tr><td> लोकोक्तिरिति - </td><td>Popular Saying</td></tr><tr><td>भण्यते - </td><td>Is called</td></tr></table><p>An expression resembling a proverb is called the Popular Saying.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'सहत्व कतिचिन्मासान्मीलयित्वा विलोचने ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>विलोचने - </td><td>The eyes</td></tr><tr><td> मीलयित्वा - </td><td>Having closed</td></tr><tr><td> कतिचित् मासान् - </td><td>A few months</td></tr><tr><td>सहस्व - </td><td>Wait or be patient</td></tr></table><p>Lady ! wait for a few months with thy eyes closed.</p><p>This is one of the messages sent by a separated lover to his lovely wife. The Full meaning is :-</p><p>“Lady ! Let a few months be spent unmarked by thee ; and then we shall both meet, and have full scope to reward our desires entertained in our separation, “</p><p>With thy eyes closed is even now more current in the sphere of the lovers and distressed people.</p>'
@@ -2985,14 +2888,14 @@ export const state = () => ({
       id: 89,
       slokas: [
         {
-          sloka: '',
+          sloka: 'छेकोक्तिर्यदि लोकोक्तेः स्यादर्थान्तरगर्भिता ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>लोकोक्तेः - </td><td>Of the Popular Saying</td></tr><tr><td>अर्थान्तरगर्भिता - </td><td>Containing another sense</td></tr><tr><td>यदि स्यात् - </td><td>If</td></tr><tr><td>छेकोक्तिः - </td><td>Skilful Speech</td></tr></table><p>If the Popular Saying were to contain another sense, then it is called the Skilful Speech.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'भुजङ्ग एव जानीते भुजङ्गचरणं सखे ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>सखे ! - </td><td>Friend !</td></tr><tr><td>भुजंगः एव - </td><td>Only the serpent or villain</td></tr><tr><td>भुजंगचरणम् - </td><td>The feet of the serpent or the behavior of a villain</td></tr><tr><td>जानीते - </td><td>Knows</td></tr></table><p>A serpent alone knows the feet of a serpent.</p><p>Another sense is - A villain alone knows the behaviour of a villain.</p>'
@@ -3008,14 +2911,14 @@ export const state = () => ({
       id: 90,
       slokas: [
         {
-          sloka: '',
+          sloka: 'वक्रोक्तिः श्लेषकाकुभ्यामपरार्थप्रकल्पनम् ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>श्लेषकाकुभ्याम् - </td><td>By means of a pun or by an affected change of voice</td></tr><tr><td>अपरार्थ प्रकल्पनम् - </td><td>Construing one’s speech differently</td></tr><tr><td>वक्रोक्तिः - </td><td>The Crooked Speech</td></tr></table><p>When a person construes aspeech of another in a different sense by means of a pun or by an affected change of voice, it is called the Crooked Speech.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'मुञ्च मानं दिनं प्राप्तं नेह नन्दी हरान्तिके ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>मुञ्च मानम् - </td><td>Remove thy anger</td></tr><tr><td> दिनं प्राप्तम् - </td><td>Day appeared</td></tr><tr><td>इह - </td><td>Here</td></tr><tr><td>नन्दी न - </td><td>No Nandin</td></tr><tr><td> हरान्तिके - </td><td>Near the God Siva</td></tr></table><p> Lady! Remove thy anger as day has appeared.</p><p>Here the lady construing it otherwise by at division of words मानं दिनम् into मा नन्दिनम् and reading it thus "मुञ्च मा नन्दिनं प्राप्तम् =leavest not the Nandin that has arrived here ” angrily replies thus, “No Nandin here; but he is near the God Siva."</p>'
@@ -3031,14 +2934,14 @@ export const state = () => ({
       id: 91,
       slokas: [
         {
-          sloka: '',
+          sloka: 'स्वभावोक्तिः स्वभावस्य जात्यादिस्थस्य वर्णनम् ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>जात्यादिस्थस्य - </td><td>Belonging to a genus &c., i.e., quality, an action and a subastance</td></tr><tr><td>            स्वभावस्य - </td><td>Of one’s own state</td></tr><tr><td>            वर्णनम् - </td><td>Description</td></tr><tr><td>            स्वभावोक्तिः - </td><td>Description of Nature</td></tr></table><p>        Description of Nature is the delineation of of a peculiar state of an object belonging to a genus etc., i.e., a quality, an action and a substance.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'कुरङ्गैरुत्तरङ्गाक्षैः स्तब्धकर्णैरुदीक्ष्यते ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>उत्तरङ्गाक्षैः - </td><td>Tremulous eyes</td></tr><tr><td>                स्तब्धकर्णैः - </td><td>Pricking up ears</td></tr><tr><td>                कुरङ्गः - </td><td>By antelopes</td></tr><tr><td>                उदीक्ष्यतं - </td><td>Is looked at</td></tr></table><p>             These antelopes having tremulous eyes and pricking up their ears behold !</p><p>As the term ‘antelopes’ denotes many, we have here the description of nature of a genus.</p><p>Another name of this ﬁgure is जातिः according to Dandi. This kind of description is considered the best by the poets.</p>'
@@ -3054,14 +2957,14 @@ export const state = () => ({
       id: 92,
       slokas: [
         {
-          sloka: '',
+          sloka: 'भाविकं भूतभाव्यर्थसाक्षात्कारस्य वर्णनम् ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>भूत भावि अर्थ-साक्षात्कारस्य - </td><td>Of perception of things pas or future</td></tr><tr><td>            वर्णनम् - </td><td>Description</td></tr><tr><td>            भाविकम् - </td><td>The vision</td></tr></table><p>          When something past or future is delineated by a poet in such a manner as can bring the subject of descviption vividly before the mind’s eye, it is called the Vision.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'अहं विलोकयेऽद्यापि युध्यन्तेऽत्र सुरासुराः ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>अत्र - </td><td>In this place</td></tr><tr><td>                सुरासुराः - </td><td>The gods and demons</td></tr><tr><td>                युध्यन्ते - </td><td>Fight</td></tr><tr><td>                अहम् - </td><td>I</td></tr><tr><td>                अद्यापि - </td><td>Even now</td></tr><tr><td>                विलोकये - </td><td>Behold</td></tr><tr></table><p>The gods and demons ﬁght in this place-even now I seem to behold it!</p>'
@@ -3077,14 +2980,14 @@ export const state = () => ({
       id: 93,
       slokas: [
         {
-          sloka: '',
+          sloka: 'उदात्तमृद्धेश्चरितं श्लाघ्यं चान्योपलक्षणम् ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>ऋड्वेः - </td><td>Of prosperity</td></tr><tr><td>            चरितम् - </td><td>Description</td></tr><tr><td>            उदात्तम् - </td><td>The Exalted</td></tr><tr><td>            च - </td><td>Also</td></tr><tr><td>            श्लाघ्यम् - </td><td>Commendable action</td></tr><tr><td>            अन्यस्य - </td><td>of another</td></tr><tr><td>            उपलक्षणम् - </td><td>Indirect representation of importance</td></tr></table><p>        A description of prosperity of an object is termed the Exalted. </p><p>And any commendable action of some great personage represented indirectly or collaterally to the object under delineation is termed also the Exalted. </p>'
           },
           examples: [
             {
-              text: '',
+              text: 'सानौ यस्याभवद्युद्धं तद्धूर्जटिकिरीटिनोः ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>यस्य - </td><td>Of which (Himalaya mountain)</td></tr><tr><td>               सानौ - </td><td>In the summit</td></tr><tr><td>                तत् - </td><td>That= celebrated</td></tr><tr><td>                धूर्जटिकिरीटिनोः - </td><td>Between God Siva and Arjuna</td></tr><tr><td>                युड्वम् - </td><td>Fight</td></tr><tr><td>                अभवत् - </td><td>Took place</td></tr></table><p>         This is that Himalaya Mountain in whose summit that celebrated fight between the God Siva and Arjuna took place.</p><p>Here, the celebrated fight of the great God Siva. with Arjuna is represented collaterally to the Himalaya Mountain-the object under delineation.</p><p>This kind of representation attaches much importance to the subject on hand-now the Himalaya Mountain.</p>'
@@ -3100,14 +3003,14 @@ export const state = () => ({
       id: 94,
       slokas: [
         {
-          sloka: '',
+          sloka: 'अत्युक्तिरद्भुतातथ्यशौर्यौदार्यादिवर्णनम् ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>अद्भुत - </td><td>marvellous</td></tr><tr><td>अतथ्य - </td><td>False</td></tr><tr><td>शौर्य - </td><td>Valour</td></tr><tr><td>औदार्यादि - </td><td>Generosity etc</td></tr><tr><td>वर्णनम् - </td><td>Description</td></tr><tr><td>अत्युक्तिः - </td><td>Exaggeration</td></tr></table><p>A description of marvellous and also false statement of ones valour, generosity, etc., is called the Exaggeration.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'त्वयि दातरि राजेन्द्र याचकाः कल्पशाखिनः ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>राजेन्द्र ! - </td><td>O King !</td></tr><tr><td> त्वयि दातरि - </td><td>When thou art a donor</td></tr><tr><td> कल्पशाखिनः - </td><td>Kalpa tree</td></tr><tr><td>   याचकाः - </td><td>Mendicants</td></tr><tr><td>   भवन्ति - </td><td>Become</td></tr></table><p>O king! When thou art a donor, even the wish-yielding (kalpa) trees of paradise become thy mendicants.</p><p>This is a false exaggeration of a king’s liberal munificence. </p>'
@@ -3123,14 +3026,14 @@ export const state = () => ({
       id: 95,
       slokas: [
         {
-          sloka: '',
+          sloka: 'निरुक्तिर्योगतो नाम्नामन्यार्थत्वप्रकल्पनम् ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>नाम्नाम् - </td><td>Of words</td></tr><tr><td>योगतः - </td><td>By derivation</td></tr><tr><td> अन्यार्थत्वप्रकल्पनम् - </td><td>Construing in a sense different from what is intended</td></tr><tr><td>निरुक्तिः - </td><td>Exposition</td></tr></table><p>Exposition consists in construing words, in a sense different from what is intended, by an artificial derivation of those Words.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'ईदृशैश्चरितैर्जाने सत्यं दोषाकरो भवान् ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>चन्द्र ! - </td><td>O moon !</td></tr><tr><td> ईदृशैः - </td><td>These</td></tr><tr><td>  चरितैः - </td><td>By acts of thine</td></tr><tr><td>भवान् - </td><td>Thy honour</td></tr><tr><td>दोषाकरः - </td><td>Maker of night or faulty</td></tr><tr><td> सत्यम् - </td><td>Verily</td></tr><tr><td> जाने - </td><td>I know</td></tr></table><p>O Moon! By these acts of thine, I know, truly, as much that thou art faulty (lit. the mine of faults).</p><p>This is addressed to the moon by a damsel pining under separation.</p>'
@@ -3146,14 +3049,14 @@ export const state = () => ({
       id: 96,
       slokas: [
         {
-          sloka: '',
+          sloka: 'प्रतिषेधः प्रसिद्धस्य निषेधस्यानिकीर्तनम् ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>प्रसिड्वस्य - </td><td>Well-known</td></tr><tr><td>निषेधस्य - </td><td>Of prevention</td></tr><tr><td>अनुकीर्तनम् - </td><td>Announcement</td></tr><tr><td>प्रतिषेधः - </td><td>Prohibition</td></tr></table><p>Prohibition is the announcement of preven- tion of a well-known act. </p>'
           },
           examples: [
             {
-              text: '',
+              text: 'न द्यूतमेतत्कितव क्रीडनं निशितैः शरैः ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>कितव ! - </td><td>Gambler !</td></tr><tr><td>एतत् द्यूतम् न - </td><td>This is not the playing at dice</td></tr><tr><td> निशितैः शरैः - </td><td>By sharpened arrows</td></tr><tr><td> क्रीडनम् - </td><td>Playing</td></tr></table><p>O Gambler Sakuni ! This is not the playing at dice but this is the playing by sharpened arrows (the famous battle of Kurukshetra).</p><p>This is addressed by a true warrior to Sakuni, the uncle of Duryodhana, who at the celebrated gambling match threw the dice, won the game and obliged the good Pandavas to go into exile and thus became the cause of that dreadful war. The statement that this is not the place of gambling but of war-an expression of a true fact-conveys the intended meaning of the speaker that Sakuni could do well at the gambling and not at this battle ﬁeld.</p>'
@@ -3169,14 +3072,14 @@ export const state = () => ({
       id: 97,
       slokas: [
         {
-          sloka: '',
+          sloka: 'सिद्धस्यैव विधानं यत्तदाहुर्विध्यलंकृतिम् ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>यत् - </td><td>which</td></tr><tr><td>सिड्वस्य एव - </td><td>Of that thing previously effected</td></tr><tr><td>विधानम् - </td><td>Declaration</td></tr><tr><td>तत् - </td><td>That</td></tr><tr><td>विधि+अलंकृतिम् - </td><td>The figure Fitness</td></tr><tr><td>आहुः - </td><td>The learned call</td></tr></table><p>A declaration of a thing previously effected, the learned call as the figure Fitness.</p> '
           },
           examples: [
             {
-              text: '',
+              text: 'पञ्चमोदञ्चने काले कोकिलः कोकिलोऽभवत् ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>पञ्चम+उदञ्जने काले - </td><td>In the spring season</td></tr><tr><td>कोकिलः - </td><td>Kokila bird or the Indian cuckoo</td></tr><tr><td>कोकिलः - </td><td>Kokila, i.e., charming</td></tr><tr><td>भवेत् - </td><td>Shall become</td></tr></table><p>Only in the spring season, the kokila bird shall become a kokila, i.e., charming.</p><p>Here, the re-declaration of kokila bird, a thing already effected, is to show its extreme charmingness in the spring season-a season for singing in the panchama tone.</p>'
@@ -3192,14 +3095,14 @@ export const state = () => ({
       id: 98,
       slokas: [
         {
-          sloka: '',
+          sloka: 'हेतोर्हेतुमता सार्धं वर्णनं हेतुरुच्यते ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>हेतोः - </td><td>Of a cause हेतुमता सार्धम् - </td><td>Along with its effect</td></tr><tr><td>वर्णनम् - </td><td>Description</td></tr><tr><td>हेतुः - </td><td>The cause</td></tr><tr><td>उच्यते - </td><td>Is termed</td></tr></table><p>The description of a cause along with its intended effect is termed the Cause.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'असावुदेति शीतांशुर्मानच्छेदाय सुभ्रुवाम् ॥',
               explanation: {
                 sans: '',
                 eng: '<h3>Word meanings</h3><table><tr><td>असौ शीतांशुः - </td><td>That moon</td></tr><tr><td>सुभ्रुवाम् - </td><td>Of women of beautiful eye-brows</td></tr><tr><td>मानच्छेदाय -</td><td>For quelling the pride</td></tr><tr><td>उदेति - </td><td>Rises</td></tr></table><p>That moon rises for quelling the pride of women of beautiful eye-brows.</p>'
@@ -3211,14 +3114,14 @@ export const state = () => ({
       types: 1,
       type: [
         {
-          sloka: 'Second sort of  हेतुः',
+          sloka: '<h3>Second sort of  हेतुः</h3>हेतुहेतुमतोरैक्यं हेतुं केचित्प्रचक्षते ।',
           sloka_explanation: {
             sans: '',
             eng: '<h3>Word meanings</h3><table><tr><td>हेतुहेतुमतोः - </td><td>Of cause and effect</td></tr><tr><td>ऐक्यम् - </td><td>Identity</td></tr><tr><td>प्रचक्षते - </td><td>Call</td></tr><tr><td>केचित् - </td><td>Certain rhetoricians</td></tr><tr><td>हेतुम् - </td><td>As the figure Reason</td></tr></table><p>The identity of a cause with its effect is reckoned by some as the figure the Cause.</p>'
           },
           examples: [
             {
-              text: '',
+              text: 'लक्ष्मीविलासा विदुषां कटाक्षा वेङ्कटप्रभोः ॥',
               explanation_sans: '',
               explanation_eng: '<h3>Word meanings</h3><table><tr><td>वेङ्कटप्रभोः - </td><td>Of the Lord of the mount Venkata</td></tr><tr><td>कटाक्षाः - </td><td>Glances</td></tr><tr><td>विदुषाम् - </td><td>Of learned poets</td></tr><tr><td>लक्ष्मीविलासाः - </td><td>Graces of the Goddess of Fortune</td></tr></table><p>The glances of the God Vishnu (lit. the Lord of the Mount Venkata) are the graces of the Goddess of Furtune to the learned.</p><p>Here, the glance, the cause, is mentioned as identical with its effect, the graces of the Goddess of Fortune. This representation rests on the complete identiﬁcation and indicates the speedy simultaneous effect.</p>इत्थं शतमलंकारा लक्षयित्वा निदर्शिताः ।<br>प्राचामाधुनिकानां च मतान्यालोच्य सर्वशः ॥<p>These one hundred figures of speech have been thus defined and exemplified (by the author) after having studied all the dogmas of the rhetoricians, ancient as well as modern.</p><p>Or the King Venkata, the patron of our author Appaya Dikshita.</p>'
             }

@@ -120,7 +120,7 @@
     >
       <v-tab
         v-for="m in lesson.types"
-        :key="lesson.types"
+        :key="m"
         ripple
         class="font-weight-bold"
       >
