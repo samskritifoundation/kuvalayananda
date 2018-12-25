@@ -169,6 +169,11 @@
 </v-layout>
   </div>
   </v-card>
+  <v-layout row >
+  <v-btn color="accent darken-2" :ripple="{ class: 'error--text' }"  :to=previous><b>Previous</b></v-btn>
+  <v-spacer></v-spacer>
+  <v-btn color="accent darken-2" :ripple="{ class: 'error--text' }" :to=next><b>Next</b></v-btn>
+  </v-layout>
 </v-container>
 </template>
 
