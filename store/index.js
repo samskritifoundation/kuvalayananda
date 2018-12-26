@@ -1211,12 +1211,14 @@ export const state = () => ({
         {
           sloka: 'आक्षेपःस्वयमुक्तस्यप्रतिषेधोविचारणात्।',
           sloka_explanation: {
+            sans: 'स्वयमुक्तस्य स्वेनैवोक्तस्य अर्थस्य विचारणात्प्रतिषेदः विचारं कृत्या प्रतिषेद इत्यर्थः – ल्यच्लोपे पंचमीन आक्षेपोलंकार इत्यर्थः – कश्चित्कंचिदर्धं पूर्वं संप्रार्थ्यपुनस्स्वयमेव अन्यस्यसत्त्वेन तद्वैयर्थ्यं विचार्यतं निषेधतीति यदयमाक्षेप इति इष्कर्षः ',
             eng: '<h3>Word meanings</h3><table><tr><td>स्वयम् -</td><td>By self</td></tr><tr><td>उक्तस्य - </td><td>Told or expressed</td></tr><tr><td>विचारणात् - </td><td>On deliberation</td></tr><tr><td>प्रतिषेधः - </td><td>Denial</td></tr><tr><td>आक्षेपः - </td><td>Hint</td></tr></table><h3>Definition</h3><p>A denial, after some deliberation, of what has been expressed, is called Hint. </p>'
           },
           examples: [
             {
               text: 'चन्द्र ! संदर्शयात्मानमथवास्तिप्रियामुखम्॥',
               explanation: {
+                sans: 'हे सखेत्व मात्मानं मां चंद्रं संदर्शययधाहं चंद्रं पश्येयं तथा कुर्वित्यर्थः – श्वगृहदश्यांद्विकर्मकत्वादात्मानमिति द्वितीया वस्तु वस्तु चंद्र संदर्शयेति पायात्मानमधवास्ति प्रयामुखम् ॥',
                 eng: '<h3>Word meanings</h3><table><tr><td>चंद्र ! - </td><td>O moon !</td></tr><tr><td>आत्मानम् - </td><td>Self</td></tr><tr><td>संदर्शय - </td><td>Show or discover</td></tr><tr><td>अथवा - </td><td>Or, or why</td></tr><tr><td>प्रियामुखम् - </td><td>Face of (my) beloved</td></tr><tr><td>अस्ति - </td><td>Is</td></tr></table><p>O moon ! Discover thy self (to me). Why? Here is the face of (my) beloved.</p><p>Here, we see only a semblance of denial. This figure is distinct from the Concealment (XI) Where the property of an object on hand is denied and that of another not on hand is superimposed upon it.</p>'
               }
             }
@@ -1228,11 +1230,13 @@ export const state = () => ({
         {
           sloka: '<h3>A second kind of Hint</h3>निषेधाभासमाक्षेपंबुधाःकेचनमन्वते।',
           sloka_explanation: {
+            sans: 'केचनबुधाः निषेधाभासं आभासरूपं निषेधमाक्षेपं मन्वते अंगीकुर्वंतीत्यर्धः – तेषामाशयः स निषेधमात्रमाक्षेपः चमत्काराभवात्- किंतुयोनिषेधोबाधितत्वेन आभास स्सन् अर्धांतरेपर्यवस्यन् कथं चिद्विशेष माक्षिपतिन अक्षेप इति ',
             eng: '<h3>Word meanings</h3><table><tr><td>केचन - </td><td>Some poets</td></tr><tr><td>बुधाः - </td><td>Learned people</td></tr><tr><td>निषेधाभासम् - </td><td>Semblance of a denial</td></tr><tr><td>आक्षेपम् - </td><td>Hint</td></tr><tr><td>अन्वते - </td><td>Regard</td></tr><h3>Definition</h3><p>Some learned people regard the semblance of a denial as the figure Hint.</p>'
           },
           examples: [
             {
               text: 'नाहंदूतीतनोस्तापस्तस्याह्कालानलोपमः॥',
+              explanation_sans: 'कयाचिद्विरहतप्तया प्रेषिताकाचिच्चातुर्यशालिनी दूतीकंचिन्नायकमुद्दिश्याह- हे नायक अहं दूतीनास्मि वक्ष्यमाण वाग्विषये दूतीनभवामि- अतो मयायद्वक्ष्यते तत्सर्वं सत्यमेव- अत इयं दूतीत्वात्तत्कालोचित मृषावादिनीति शंकान कार्येति भावः – अथवक्तव्यांशमाह- तनोरिति- तस्यास्त्वत्प्रियायाः तनोश्शरीरस्य तापः विरहसंतापः कालानलोपमः प्रळयकालवह्नितुल्यः अत्रदूत्युक्तावेवनाहं दूतीतिनिषेधः – बाधितत्वाभा सरूपस्सन् अहमनुनय कालोचितकैतवादिनीन भवामि- किंतु तथ्यवादिन्येवास्मीत्यर्धे पर्यवस्यन्निदानी मेवागत्यत्व याजीवनीया अन्यधामृतिमीयादिति विशेष माक्षिपतीतिभवत्याक्षेपः ॥',
               explanation_eng: '<h3>Word meanings</h3><table><tr><td>अहम् - </td><td>I</td></tr><tr><td>दूतौ - </td><td>Go- between</td></tr><tr><td>न - </td><td>Not</td></tr><tr><td>तस्याः - </td><td>Of her</td></tr><tr><td>तनोः - </td><td>Of the body</td></tr><tr><td>कालानलोपमः - </td><td>Resembling the destructive fire at the end of the world</td></tr><tr><td>तापः - </td><td>Fever of separation</td></tr></table><p>I am no go-between but the love-fever (residing in ) her (mistress) body, resembling the destructive fire at the end of the world.</p><p>Here, the character of a person- that of the go- between, is denied. The fact of excessive hardship, experienced by the lady under the pangs of separation, which was intended to be conveyed by the go-between, the speaker, is suppressed in order to suggest more strikingly that the lady is sure to die if her lover delays even for a moment in meeting her.</p>'
             }
           ]
@@ -1240,11 +1244,13 @@ export const state = () => ({
         {
           sloka: '<h3>A third kind of Hint</h3>आक्षेपोऽन्योविधौव्यक्तेनिषेधेचतिरोहिते।',
           sloka_explanation: {
+            sans: 'विधौविधानेव्यक्तेस्फुटे सति- निषेधे प्रतिषेधे तिरोहिते अस्फुटे सति अव्य आक्षेपः – यत्राभिमतनिषेधानुद्घाटन पूर्वकमनभिमतं विधिं प्रकटीकृत्यभंग्यंतरेणाभिमत प्रतिषेधोगर्भीकृतस्स्यात् तत्राक्षेप उच्यत इत्यर्धः',
             eng: '<h3>Word meanings</h3><table><tr><td>विधौ - </td><td>Command or permission</td></tr><tr><td>व्यक्ते - </td><td>When apparent</td></tr><tr><td>निषेधे च - </td><td>And the denial</td></tr><tr><td>तिरोहिते - </td><td>When hidden</td></tr><tr><td>अन्यः - </td><td>Another kind</td></tr><tr><td>आक्षेपः - </td><td>Hint</td></tr><h3>Definition</h3><p>When the permission (to do some thing) is apparent (in words) but the denial (to do that thing) is hidden, it is a third kind of Hint.</p>'
           },
           examples: [
             {
               text: 'गच्छगच्छसिचेत्कान्ततत्रैवस्याज्जनिर्मम॥',
+              explanation_sans: 'काचित्स्वाकांतगमनमनिच्छतीत्व यानगंतव्यमितिकं रतोनुक्त्वेवस्वोक्ति चातुर्येण तद्गमननिषेधं सूचयति- हेतां तत्वंगच्छ- अहंगच्छामि चेत्तवमरणं भवेदतोगृहंगच्छेय मित्याशंकायामाह ॥ गच्छसिचेदिति॥ त्वंगच्छसिचेत्तत्रैवत्वदुद्देश्य देश एवमजनिः जन्मस्यात् भवेत्- प्रार्धनायां लिङ् तस्मिन् देशे पुनर्जन्म प्रारयामीत्यर्थः – मृत्वास्यन्यस्मिन् जन्मनितवैव प्रियास्यां नान्यस्येतिभावः – अतो मरणान्निबि भेमीत्यनेनस्व मरनसूचकवचनेन मज्जीवुतमिच्छसिचेत्त्वं मागच्छेति निषेधोगर्भीकृतः – अत्रगमन निषेधं प्रच्छाद्यविधेरेव स्फुटीकरणादाक्षेपः ॥',
               explanation_eng: '<h3>Word meanings</h3><table><tr><td>कांत ! - </td><td>Lover !</td></tr><tr><td>गच्छसि चेत् - </td><td>If thou goest</td></tr><tr><td>गच्छ - </td><td>Goest</td></tr><tr><td>मम - </td><td>My</td></tr><tr><td>जनिः - </td><td>Birth</td></tr><tr><td>तत्रैव - </td><td>In that same place</td></tr><tr><td>स्यात् - </td><td>May be</td></tr></table><p>Departest (thou), my love, if thou art determined to go, and may my rebirth take place in that same place (where thou hast gone).</p><p>Here, the apparent permission of going granted by the lady suggests a clear prohibition, the meaning conveyed thereby being that the lover ought to desist from departing from her presence.</p>'
             }
           ]
@@ -1259,12 +1265,14 @@ export const state = () => ({
         {
           sloka: 'आभासत्वेविरोधस्यविरोधाभासइष्यते।',
           sloka_explanation: {
+            sans: 'विरोधन्याभासत्वे भाधेसति - सः विरोधाभास उच्यते- यत्रापाततो हारेणवक्षोजौतवहारिणौ ॥ अकारणात्कार्यजन्म चतुर्धिस्यानुस्फुरतो विरोधस्य पर्यवसाने परिहारः क्रियते तत्र विरोधाभास इति निष्कर्षः ',
             eng: '<h3>Word meanings</h3><table><tr><td>विरोधस्य - </td><td>Of incongruity</td></tr><tr><td>आभासत्वे - </td><td>When apparent</td></tr><tr><td>विरोधाभासः - </td><td>Contradiction</td></tr><tr><td>इष्यते - </td><td>Is called</td></tr></table><h3>Definition</h3><p>When an incongruity (between two things) is apparent (in Words), then it is called Contradiction.</p>'
           },
           examples: [
             {
               text: 'विनापितन्वि !हारेणवक्षोजौतवहारिणौ॥',
               explanation: {
+                sans: 'हेतन्वि सुंदरि- तववक्षोजौकुचौ- हारेणमुक्ताहारेन विनापि- हारिणौहारवंतौ हृद्यौ च भवतः – अत्रहाररहितावपि हारसहितावित्यापाततः – प्रतीतस्य विरोधस्य हाररहितावपि मनोहारावितिश्लेषभंग्यार्थांतर स्वीकारेन परिहृतत्वाद्विरोधाभासः ॥',
                 eng: '<h3>Word meanings</h3><table><tr><td>तन्वि ! - </td><td>O slender woman !</td></tr><tr><td>तव - </td><td>thy</td></tr><tr><td>वक्षोजौ - </td><td>Breasts</td></tr><tr><td>हारेणा - </td><td>By the pearl- necklace</td></tr><tr><td>विनापि - </td><td>Though devoid of</td></tr><tr><td>हारिणौ - </td><td>Are charming or lit. possesses of necklace</td></tr></table><p>O slender lady ! thy breasts though devoid of pearl necklace are yet possessed of pearl necklaces, i.e., are yet charming.</p><p>Here, the apparent contradiction is to be explained by taking the word हारिणौ in the sense of ‘charming’ only.</p>'
               }
             }
@@ -1280,12 +1288,14 @@ export const state = () => ({
         {
           sloka: 'विभावनाविनापिस्यात्कारणंकार्यजन्मचेत्।',
           sloka_explanation: {
+            sans: 'कारणं विनाकार्यजन्मकार्योत्पत्तिर्वर्ण्यते चेद्विभावनास्यात्',
             eng: '<h3>Word meanings</h3><table><tr><td>कारणम् विना अपि - </td><td>Though without cause</td></tr><tr><td>कार्यजन्म चेत् - </td><td>If the production of the  effect take place</td></tr><tr><td>विभावना - </td><td>Peculiar Causation</td></tr><tr><td>स्यात् - </td><td>Is called</td></tr><h3>Definition</h3><p>When the production of an effect is represented as being without cause, it is Peculiar Causation.</p>'
           },
           examples: [
             {
               text: 'अपिलाक्षारसासिक्तंरक्तंत्वच्चरणद्वयम्॥',
               explanation: {
+                sans: ' हे कांतेत्वच्चरणद्वयं अलाक्षारसापिक्तं लाक्षारसलेपन लहितमपिरक्तं लोहितं जातं लक्षारसलेपनकारणं विनाकांतापादयुगळे रक्तिमरूपकार्योत्पत्ति वर्णनाद्विभावना- लौहित्यं नैसर्गिकमितिविरोधपरिहारः ॥',
                 eng: '<h3>Word meanings</h3><table><tr><td>त्वच्चरणाड्बयम् - </td><td>Thy two feet</td></tr><tr><td>लाक्षारसासिक्तम् अपि - </td><td>Though not dyed with red lac</td></tr><tr><td>रक्तम् - </td><td>Red</td></tr></table><p>Lady! thy two feet are red though they were not dyed with red lac.</p><p>Here, the contradiction in the red feet without its cause, the lac, is due to the redness of the lady’s feet being natural. Therefore, we see that the production of an effect in the absence of its cause is not inconsistent in as much as the denial of a known cause suggests that the effect produced must be natural or is due to some other hidden cause.</p>'
               }
             }
@@ -1297,11 +1307,13 @@ export const state = () => ({
         {
           sloka: '<h3>A second kind of Peculiar Causation </h3>हेतूनामसमग्रत्वेकार्योत्पत्तिश्चसामता।',
           sloka_explanation: {
+            sans: 'हेतूनां कारणानाम समग्रत्वेपि अपूर्णत्वेपि विकलत्वेपीतियावत्- कार्योत्पत्तिश्चकार्योत्पत्तिरपि- साविभावनामता कविसम्मता॥ ',
             eng: '<h3>Word meanings</h3><table><tr><td>हेतूनाम् - </td><td>Of the causes</td></tr><tr><td>अमग्रत्वे - </td><td>When incomplete</td></tr><tr><td>कार्य्योत्पत्तिः - </td><td>The production of an effect</td></tr><tr><td>च - </td><td>Also</td></tr><tr><td>सा मता - </td><td>Is termed that Peculiar Causation</td></tr><h3>Definition</h3><p>When the production of an effect is represented as having taken place while its causes are apparently incomplete, (to produce such an effect), then it is the second kind of Peculiar Causation.</p>'
           },
           examples: [
             {
               text: 'अस्त्रैरतीक्ष्णकठिनैर्जगज्जयतिमन्मथः॥',
+              explanation_sans: 'मन्मथः अतीक्ष्णकठिनैरतीक्ष्णैरकठिनैश्च अस्त्रैररविंदादिभिः पंचभिः बाणैः – जगल्लोकं जयतिवशीकरोतीत्यर्धः – लोकतीक्ष्णकठिनान्येव जय संपूर्णसाधनानि- अत्रत्वनंगस्यचास्त्राणि अनिशितमृदुत्वाद्विकलानि तथापि जगज्जयरूपकार्यवर्णनाद्विभवना ॥',
               explanation_eng: '<h3>Word meanings</h3><table><tr><td>मन्मथः - </td><td>God of love</td></tr><tr><td>अतीक्ष्णाकठिनैः - </td><td>Neither sharp nor hard</td></tr><tr><td>अस्त्रैः - </td><td>By weapons</td></tr><tr><td>अगत् - </td><td>The world</td></tr><tr><td>जयति - </td><td>Conquers</td></tr></table><p>By weapons, neither sharp nor hard, the God of love conquers the whole world.</p><p>Here, the conquest of the world by the God of love is represented as having taken place though his weapons are neither sharp nor hard (being only five flowers) and are therefore quite inadequate to produce such an effect. The contradiction here must be removed by the supposition of some superhuman cause specially gifted by the Supreme Spirit.</p>'
             }
           ]
@@ -1309,23 +1321,27 @@ export const state = () => ({
         {
           sloka: '<h3>A third kind of Peculiar Causation.</h3> कार्योत्पत्तिस्तृतीयासासत्यपिप्रतिबन्धके।',
           sloka_explanation: {
+            sans: 'प्रतिबंधके सत्यपि कार्योत्पत्तिस्स्याच्चेत्वातृतीया विभावनेत्यर्थः ',
             eng: '<h3>Word meanings</h3><table><tr><td>प्रतिबंधके - </td><td>When an impediment</td></tr><tr><td>सत्यपि - </td><td>Though present</td></tr><tr><td>कार्य्योत्पत्तिः - </td><td>Production of an effect</td></tr><tr><td>तृतीया - </td><td>Third kind</td></tr><tr><td>सा - </td><td>That - “ Peculiar Causation”</td></tr><h3>Definition</h3><p>When the production of an effect is said to have taken place though there was an impediment (to such an effect), it is the third kind of Peculiar Causation.</p>'
           },
           examples: [
             {
               text: 'नरेन्द्रानेवतेराजन्दशत्यसिभुजङ्गमः॥',
+              explanation_sans: 'हे राजन् रामचंद्र- तेतव असिः खड्ग एव भुजंगमः सर्पः – नरेंद्रान् राज्ञः विषवैद्यांश्च ॥ नरेंद्रोविषवैद्योनीति रत्नमालायां- दशतितद्दशनंकरोति- अत्र श्लेषेनमणिमंत्रौषध शालिनामपि विषवैद्यानां सर्पदष्टतावर्ण्यते- लोकेमणिमंत्रादिभिस्सर्पदशनं प्रतिबध्यते- इहतु तेषुप्रतिबंधकेषु सत्स्वपि सर्वदशनरूपकार्योत्पत्ति वर्णनाद्विभावना॥',
               explanation_eng: '<h3>Word meanings</h3><table><tr><td>राजन् - </td><td>O king !</td></tr><tr><td>ते - </td><td>Thy</td></tr><tr><td>असिभुजंगमः - </td><td>Sword serpent i.e., the serpent in the form of thy sword</td></tr><tr><td>नरेंद्रान् एव - </td><td>Only the cures of poisons or kings</td></tr><tr><td>दशति - </td><td>Bites</td></tr></table><p>O king! thy sword-serpent bites only Narendran, i.e., curers of poisons only (lit. kings).</p><p>नरेन्द्र = king =dealer in antidotes. Here, serpent biting the curers of poison implies an impediment to the effect.</p>'
             }
           ]
         },
         {
-          sloka: '<h3>ourth kind of Peculiar Causation. </h3>अकारणात्कार्यजन्मचतुर्थीस्याद्विभावना।',
+          sloka: '<h3>Fourth kind of Peculiar Causation. </h3>अकारणात्कार्यजन्मचतुर्थीस्याद्विभावना।',
           sloka_explanation: {
+            sans: 'अकारणात्कारणभिन्नादपि- कार्यजन्मकार्योत्पत्तिश्चेत्सा चतुर्थीविभावनेत्यर्थः',
             eng: '<h3>Word meanings</h3><table><tr><td>अकारणात् - </td><td>From a different cause</td></tr><tr><td>कार्यजन्म - </td><td>Production of an effect</td></tr><tr><td>चतुर्थी - </td><td>Fourth kind</td></tr><tr><td>विभावना - </td><td>Peculiar Causation</td></tr><tr><td>स्यात् - </td><td>Is</td></tr></table><h3>Definition</h3><p>When the production of an effect is represented as being from a different cause, or, more literally, from a similar cause, it is the fourth kind of Peculiar Causation.</p>'
           },
           examples: [
             {
               text: 'शङ्खाद्वीणानिनादोऽयमुदेतिमहदद्भुतम्॥',
+              explanation_sans: 'अत्र कामिनी कंठः शंखत्वेन तदीयगानं च वीणानादत्वेनाध्ववसेयते- हे सखि शंखात्कंबोः द्विभावना। शंखाद्वीणानिनादो यमुदेति महदद्भुतम् ॥',
               explanation_eng: '<h3>Word meanings</h3><table><tr><td>शंखात् - </td><td>From a conch- shell</td></tr><tr><td>अयम् - </td><td>This</td></tr><tr><td>वीणानिनादः - </td><td>Sound of a lute</td></tr><tr><td>उदेति - </td><td>Proceeds</td></tr><tr><td>महदद्भुतम् - </td><td>Great wonder</td></tr></table><p>It is a great wonder that this musical sound of a lute proceeds from a. conch- shell(i.e., conch-shell-like neck of a damsel).</p><p>We know that a conch-shell cannot produce the sound of a lute and therefore this is a. Peculiar Causation.</p><p>N.B.- We have a Metaphorical Hyperbole in शंख , the upamana, because it was used For its upameya, the neck of a damsel.</p>'
             }
           ]
@@ -1333,11 +1349,13 @@ export const state = () => ({
         {
           sloka: '<h3>Fifth kind of Peculiar Causation. </h3>विरुद्धात्कार्यसंपत्तिर्दृष्टाकाचिद्विभावना।',
           sloka_explanation: {
+            sans: 'विरुद्धाद्विरुद्धकारणात् कार्यनिष्पत्तिः कार्योत्पत्तिरपि काचिद्विभावना- दृष्टाप्रसिद्धेत्यर्थः ॥ ',
             eng: '<h3>Word meanings</h3><table><tr><td>विरुड्वात् - </td><td>From an incongruous cause</td></tr><tr><td>कार्यसंपत्तिः - </td><td>Production of an effect</td></tr><tr><td>काचित् - </td><td>A certain kind</td></tr><tr><td>विभावना - </td><td>Peculiar Causation</td></tr><tr><td>दृष्टा - </td><td>Is seen</td></tr><tr><td>हंत - </td><td>Alas !</td></tr></table><h3>Definition</h3><p>When the production of an effect is produced from an incongruous cause, i.e., from a cause quite opposite to the real one, it is the fifth kind of Peculiar Causation.</p>'
           },
           examples: [
             {
               text: 'शीतांशुकिरणास्तन्वींहन्तसंतापयन्तिताम्॥',
+              explanation_sans: 'शीतांशुकिरणाश्चंद्रकराः – तांतन्वींसुंदरीं संतापयति परितप्तां कुर्वंति हंतेतिविषादे- अत्र तापनिवर्तकत्वेन तापविरुद्धैश्शीतांशुः किरणैः तपोत्पत्तिकथनाद्विभावना॥',
               explanation_eng: '<h3>Word meanings</h3><table><tr><td>शीतांशुकिरणाः - </td><td>Moon’s (cool-rayed) rays</td></tr><tr><td>ताम् - </td><td>That</td></tr><tr><td>तन्वीम् - </td><td>The slender lady</td></tr><tr><td>संतापयन्ति - </td><td>Inflame</td></tr></table><p>Alas ! the rays of the moon (lit. cool-rayed) inflame that slender lady.</p><p>This is the state of a damsel, the object on hand, pining under separation from her lover. The rays of the moon have a peculiar charm of exciting the passions of such women and therefore it is said so.</p>'
             }
           ]
@@ -1345,11 +1363,13 @@ export const state = () => ({
         {
           sloka: 'Sixth kind of Peculiar Causation. कार्यात्कारणजन्मापिदृष्टाकाचिद्विभावना।',
           sloka_explanation: {
+            sans: 'कार्यात्कारणजन्मापि कारणोत्पत्तिरपिकाचि द्विभावनादृष्टा- लोके कारणात्कार्यजन्मेति मर्यादा- तामुल्लंघ्यकार्यादेवकारणोत्पर्वर्णिता चेद्विभावनाकाचिद्दृष्टेत्यर्थः ',
             eng: '<h3>Word meanings</h3><table><tr><td>कार्यात् - </td><td>From an effect</td></tr><tr><td>कारणजन्म - </td><td>Production of a cause</td></tr><tr><td>अपि - </td><td>Also</td></tr><tr><td>काचित् - </td><td>A certain kind</td></tr><tr><td>विभावना - </td><td>Peculiar Causation</td></tr><tr><td>दृष्टा - </td><td>Is seen</td></tr><h3>Definition</h3><p>When the cause is said to have been produced from its effect, it is also termed Peculiar Causation.</p>'
           },
           examples: [
             {
               text: 'यशःपयोराशिरभूत्करकल्पतरोस्तव॥',
+              explanation_sans: 'हे राजन् तवकर एवकल्पतरुः – तस्माद्य्श एवपयोराशिः अंबुधिरभूत्- समुद्रात्कल्पतरूत्पत्तेश्शास्त्र प्रसिद्धत्वात्समुद्रः कारणं कल्पवृक्षः कार्यं- अत्रतुकार्यभूत कल्पतरोरेवकारणभूत समुद्रोत्पत्तिवर्णनाद्विभावना॥',
               explanation_eng: '<h3>Word meanings</h3><table><tr><td>तव - </td><td>Thy</td></tr><tr><td>करकल्पतरोः - </td><td>Hand-kalpa-tree i.e., wish-yielding tree in the form of the hand</td></tr><tr><td>यशः पयोराशिः - </td><td>Ocean of fame</td></tr><tr><td>अभूत् - </td><td>Is produced</td></tr></table><p>O king! An ocean of fame has been formed out of thy hand-kalpataru (wish-yielding tree in the form of thy hand).</p><p>Here, the king referred to is Karna renowned for his liberal donations.</p><p>The kalpa tree was produced from the ocean at the time of churning. Here, the kalpa tree in the form of the king’s hand is said to be the cause of the ocean in the form of the kings fame for his unusual liberality.</p>'
             }
           ]
@@ -1551,11 +1571,13 @@ export const state = () => ({
         {
           sloka: '<h3>Third kind of  समम् ।</h3>विनानिष्टं च तत्सिद्धिर्यमर्थंकर्तुमुद्यतः ।',
           sloka_explanation: {
+            sans: 'यदर्थं यत्कार्यसिद्ध्यर्थं कर्तुरुद्यमः प्रयत्नः अनिष्टं विनातस्य सिद्धिर्यदितदपि सममित्यर्थः – यत्कार्यसिद्ध्यर्थं कर्ता प्रवर्तते- तत्कार्यमनिष्टं विनासीध्यति चेत्तदपि सममितिनिष्कर्षः ',
             eng: '<h3>Word meanings</h3><table><tr><td> यम् अर्थम् - </td><td>Which thing</td></tr><tr><td>कर्तुम् - </td><td>To do</td></tr><tr><td>उद्यमः - </td><td>Endeavour</td></tr><tr><td>अनिष्टम् विना - </td><td>Without an obstacle</td></tr><tr><td>तत्सिड्विः - </td><td>The accomplishment of that</td></tr><tr><td>समम् - </td><td>The equal</td></tr></table><h3>Definition</h3><p>The accomplishment, without any obstacle, of an object for which an effort has been made, is termed a third kind of Sama.</p>'
           },
           examples: [
             {
               text: 'युक्तोवारणलाभोऽयंस्यान्नतेवारणार्थिनः ॥',
+              explanation_sans: 'मह्यं वारणं देहीति चिरात्प्रभृति राजानुवर्तनशीलं द्वारिदार्स्थैः कृतनिवारणं स्यालकंदृष्ट्वा राज्ञस्सोपहान वचनमिदं- हे स्यालवारणार्धिनः गजार्थिनः निवारणार्धिनश्चते तवायं वारणालाभः युक्तः चिरेण भवत्प्रार्थितस्य वारणस्य अनायासेनैवलब्धस्यै वेप्सितवारणरूपकत्वा दनिष्टं विनातल्लाभाच्च समम् ॥',
               explanation_eng: '<h3>Word meanings</h3><table><tr><td>वारणार्थिनः - </td><td>Seeking for an elephant</td></tr><tr><td>ते - </td><td>Thy</td></tr><tr><td>अयम् - </td><td>This </td></tr><tr><td>वारणालाभः - </td><td>Attainment of वारणा (impediment)</td></tr><tr><td>युक्तः स्यात् न - </td><td>Is it not worthy</td></tr></table><p>Friend! Is not this acquisition of (वारणा) impediment worthy of thee that sought for an elephant (वारणा).</p><p>This is possible only under a pun.</p><p>The speaker here is a person that went to his king for an elephant. He was obstructed by the door- keeper of the king’s palace and this was addressed in jest by his (speaker’s) brother-in-law who accompanied him saying that this वारणा (impediment) is equal to hat वारणा (elephant) sought for.</p>'
             }
           ]
@@ -1570,14 +1592,14 @@ export const state = () => ({
         {
           sloka: 'विचित्रंतत्प्रयत्नश्चेद्विपरीतःफलेच्छया ।',
           sloka_explanation: {
-            sans: '',
+            sans: 'विपरीत फलेफ्सया विपरीतफलं प्राप्तुमिच्छया प्रयत्नश्चेत्प्रवृत्तिर्यदिति प्रवर्तनं चित्रमित्यर्थः – यद्वातत्प्रयत्नः तद्विपरीतफलं प्राप्तुमिति यत्रवर्ण्यते तत्र चित्रमितिनिष्कर्षः ',
             eng: '<h3>Word meanings</h3><table><tr><td>चेत् विपरीतफलेच्छया - </td><td>With a desire to obtain its opposite effect</td></tr><tr><td>प्रयत्नः - </td><td>An Endeavour</td></tr><tr><td>तत् - </td><td>That</td></tr><tr><td>विचित्रम् - </td><td>Strange</td></tr></table><h3>Definition</h3><p>If an endeavour is made by a person desiring to attain the exact opposite effect, it is called the Strange.</p>'
           },
           examples: [
             {
               text: 'नमन्तिसन्तस्त्रैलोक्यादपिलब्धुंसमुन्नतिम् ॥',
               explanation: {
-                sans: '',
+                sans: 'नंतस्सत्पुरुषाः- त्रैलोक्यात् त्रैलोक्याधिपत्यादपि समुन्नति मौन्नत्यं लब्धुं प्राप्तुं- नमंति प्रणमं तिनम्रीभवंति च- अत्र नमनं प्रयत्नविषयः तस्यतुफलमथोदेश संयोगः त्रैलोक्याधिकौन्नत्यंतु तद्विपरीतफलं तत्प्राप्तुमिच्छयान मनमिति वर्णितत्वाद्भवतिचित्रम् । औद्धत्यं विहाय श्रीरामचंद्र प्रवणामेत्युन्नत पदप्राप्तिर्भवेदन्य धाधोगतिरितिविवेकेन सत्पुरुषान्तं प्रणमंतीति तात्पर्यम् ',
                 eng: '<h3>Word meanings</h3><table><tr><td>संतः - </td><td>Good people</td></tr><tr><td>त्रिलोक्यादपि - </td><td>Higher than the tripled world</td></tr><tr><td>समुन्नतिम् - </td><td>Exalted position</td></tr><tr><td>लब्धुम् - </td><td>To attain</td></tr><tr><td>नमन्ति - </td><td>Bow down</td></tr></table><p>The good people bow down for the purpose of attaining an exalted position higher than’ the triple World.</p><p>Here, the act is bowing down and the desired effect is elevation over the triple world.</p>'
               }
             }
@@ -1593,14 +1615,14 @@ export const state = () => ({
         {
           sloka: 'अधिकंपृथुलाधारादाधेयाधिक्यवर्णनम् ।',
           sloka_explanation: {
-            sans: '',
+            sans: 'पृथुलाधारादति विस्तृतत्वेन प्रसिद्धाधारादाधेयस्य तदाश्रितस्याधिक्य वर्णनमिति यत्तदधिकमित्यर्थः ॥ ',
             eng: '<h3>Word meanings</h3><table><tr><td> पृथुलाधारात् - </td><td>Than the more spacious containment</td></tr><tr><td>आधेयाधिक्यवर्णनम् - </td><td>The description of the contained as greater</td></tr><tr><td>अधिकम् - </td><td>The exceeding</td></tr><tr><td>यत्र जले - </td><td>In which water</td></tr><tr><td>ब्रह्मांडानि - </td><td>The mundane worlds</td></tr><tr><td>तत्र - </td><td>In that</td></tr><tr><td>ते - </td><td>Thy</td></tr><tr><td>गुणाः - </td><td>Merits</td></tr><tr><td>न मांति - </td><td>Do not contain</td></tr></table><h3>Definition</h3><p>When the object contained is described as vaster than the containant itself (which is really more spacious), it is termed the Exceeding.</p>'
           },
           examples: [
             {
               text: 'ब्रह्माण्डानिजलेयत्रतत्रमान्ति न तेगुणाः ॥ ',
               explanation: {
-                sans: '',
+                sans: 'हे रामयत्र जले ब्रह्मांडा निवर्तंते बुद्बुदप्रायाणि तिष्ठंति तत्र महाजलेतवगुणा अनंतकळ्याणगुणाः नमांतिन निलीयंते तत्परिच्छिन्नान भवंतीत्यर्धः – तादृश जलप्यापर्याप्तत्वात्कियंत एवगुणास्तत्र नमांतिकिं पुनस्सर्वे गुणा इत्यर्धः – अत्र पृथुलत्वेन प्रसिद्ध जलरूपाधारादाधेयानां गुणानामाधिक्यवर्णनात्प्रधमाधिकभेदः ॥',
                 eng: '<p>Lord ! The waters which contain these mundane worlds could not contain (within themselves all) thy good qualities.</p>'
               }
             }
@@ -1612,13 +1634,13 @@ export const state = () => ({
         {
           sloka: '<h3>Second kind of Exceeding.</h3>पृथ्वाधेयाद्यदाधाराधिक्यंतदपितन्मतम् ।',
           sloka_explanation: {
-            sans: '',
+            sans: 'अति पृथुलत्वेन प्रसिद्धादाधेयादाधारस्य तदाश्रयस्याधिक्य वर्णनमितिय दधिकं मतम् ॥ ',
             eng: '<h3>Word meanings</h3><table><tr><td>पृथ्वाधेयात् - </td><td>Than the vast contained</td></tr><tr><td>यत् - </td><td>Which</td></tr><tr><td>आधाराधिक्यम् - </td><td>The description of the containant as exceeding</td></tr><tr><td>तदपि - </td><td>It too</td></tr><tr><td> तत् - </td><td>That i.e., Exceeding</td></tr><tr><td>मतम् - </td><td>Is regarded</td></tr></table><h3>Definition</h3><p>When the containant itself is described as vaster than the vast contained, then we have a second kind of Exceeding.</p>'
           },
           examples: [
             {
               text: 'कियद्वाग्ब्रह्मयत्रैतेविश्राम्यन्तिगुणास्तव ॥ ',
-              explanation_sans: '',
+              explanation_sans: 'हे सीताधीश वाग्ब्रह्म कियत्परिद्वाब्रह्म यत्रैते विश्राम्यंतिगुणा स्तव ',
               explanation_eng: '<h3>Word meanings</h3><table><tr><td>यत्र - </td><td>Where</td></tr><tr><td>एते - </td><td>These</td></tr><tr><td>तव - </td><td>Thy</td></tr><tr><td>गुणाः - </td><td>Good qualities</td></tr><tr><td> विश्राम्यंति - </td><td>Come to an end</td></tr><tr><td>वाग्ब्रह्म - </td><td>The speech Brahman= Vedas</td></tr><tr><td>कियत् - </td><td>How great</td></tr></table><p>How great is the speech Brahman =Vedas, where all these thy good qualities come to an end, i.e., become completely described.</p>'
             }
           ]
@@ -1633,14 +1655,14 @@ export const state = () => ({
         {
           sloka: 'अल्पंतुसूक्ष्मादाधेयाद्यदाधारस्यसूक्ष्मता ।',
           sloka_explanation: {
-            sans: '',
+            sans: 'सूक्ष्मादल्पत्वेन प्रसिद्धादाधेयादाधारस्य सूक्ष्मता वर्णनमिति यत्तदल्पं ',
             eng: '<h3>Word meanings</h3><table><tr><td>सूक्ष्मात् - </td><td>Small</td></tr><tr><td>आधेयात् - </td><td>Than the object contained</td></tr><tr><td>यत् - </td><td>Which</td></tr><tr><td>आधारस्य - </td><td>Of the containant</td></tr><tr><td>सूक्ष्मता - </td><td>Smallness</td></tr><tr><td>अल्पम् - </td><td>Smallness</td></tr></table><h3>Def. When the containant is described as smaller than the object contained which is really very small, it is called Smallness.</p>'
           },
           examples: [
             {
               text: 'मणिमालोर्मिकातेऽद्यकरेजपवटीयते ॥',
               explanation: {
-                sans: '',
+                sans: 'विरहिणी प्रतिसखी वचनमिदं- हे सखितेमणीमालोर्मिकामणि मायंगुळीयकम्- अद्यास्मिन्विरह कालेकरेभवत्पाणौ जपपटायते जपमाले वाचरति- पूर्वं रत्नमालोर्मिकांगुळु परित्छेन्नत्वात्सूक्ष्मा इदानींतु करेणपरिच्छिन्ना तत्रापि जपमालेयमितिविज्ञेयम् ॥',
                 eng: '<h3>Word meanings</h3><table><tr><td>अद्य - </td><td>To-day</td></tr><tr><td>ते - </td><td>Thy</td></tr><tr><td>करे - </td><td>In the hand</td></tr><tr><td>मणिमालोर्मिका - </td><td>Ring inlaid with precious stones</td></tr><tr><td>जपमालायते - </td><td>Becomes a rosary</td></tr></table><p>Lady I Thy ring inlaid with precious stones has become to-day a rosary in thy hand.</p><p>Here, the thinness of the hand or the finger which contained the ring is meant. The lady under description was suffering from the pangs of separation from her lover on a certain day and so her hand or finger, the containant, became so thin that the ring, the object contained, became greater than the hand, the containant, and served as a rosary.</p>'
               }
             }
@@ -1656,14 +1678,14 @@ export const state = () => ({
         {
           sloka: 'अन्योन्यंनामयत्रस्यादुपकारःपरस्परम् ।',
           sloka_explanation: {
-            sans: '',
+            sans: 'यत्र परस्वरमुपकारोवर्ण्यते तत्रान्योन्यं नामालंकारः ',
             eng: '<h3>Word meanings</h3><table><tr><td> यत्र - </td><td>where</td></tr><tr><td>परस्परम् - </td><td>Mutual</td></tr><tr><td>उपकारः - </td><td>Benefit</td></tr><tr><td>स्यात् - </td><td>Is</td></tr><tr><td>(तत्र) - </td><td>There</td></tr><tr><td>अन्योन्यम् नाम - </td><td>The figure called Reciprocal</td></tr></table><h3>Definition</h3><p>When two things benefit each other (by doing the same act causing each other’s beauty), it is the Reciprocal.</p>'
           },
           examples: [
             {
               text: 'त्रियामाशशिनाभातिशशीभातित्रियामया ॥',
               explanation: {
-                sans: '',
+                sans: 'शशिना चंद्रेण प्रयामारात्रिः भाति- त्रियामाया शशीभाति- अत्र शशिनारात्रिरुपकृतातयाशशी- एवम् परस्परमुपकार वर्णनादन्योन्यालंकारः ॥',
                 eng: '<h3>Word meanings</h3><table><tr><td>त्रियामा - </td><td>the night</td></tr><tr><td>शशिना - </td><td>By the moon</td></tr><tr><td>भाति - </td><td>Looks splendid</td></tr><tr><td> शशी - </td><td>The moon</td></tr><tr><td>     त्रियामया - </td><td>By the night</td></tr><tr><td>भाति - </td><td>Looks splendid</td></tr></table><p>The night is splendid by (the presence of ) the moon and the moon looks splendid on account of the night.</p><p>Here, the night and the moon beautify each other. The night is the cause of the moon looking splendid and the moon is the cause of the night looking splendid.</p>'
               }
             }
@@ -1679,14 +1701,14 @@ export const state = () => ({
         {
           sloka: 'विशेषःख्यातमाधारंविनाप्याधेयवर्णनम् ।',
           sloka_explanation: {
-            sans: '',
+            sans: 'ख्यातं प्रसिद्धमाधारं विनाप्यादेयवर्णनं दाधेयस्य यत्रकुत्र चित् स्थितिवर्णन स विशेष उच्यत इत्यर्धः ॥ ',
             eng: '<h3>Word meanings</h3><table><tr><td>ख्यातम् - </td><td>Well-known</td></tr><tr><td>आधारम् - </td><td>The containant</td></tr><tr><td>विनापि - </td><td>Even without</td></tr><tr><td>आधेयवर्णनम् - </td><td>The description of the object contained</td></tr><tr><td>विशेषः - </td><td>Extraordinary</td></tr></table><h3>Definition</h3><p>The description of something dependent, i,e., the object contained as existing without its well-known supporter, i.e., the containant, or in other words, the representation of the independent existence of the object contained without its supporter on which it depends, is termed the Extraordinary.</p>'
           },
           examples: [
             {
               text: 'गतेऽपिसूर्येदीपस्थास्तमश्छिन्दन्तितत्कराः ॥',
               explanation: {
-                sans: '',
+                sans: 'सूर्येगते अस्तंगते सत्यपिदीपस्थाः दीपाश्रितास्संतः तत्करास्सूर्यकिरणास्तमस्तिमिरं छिंदंतिनाशयंति- अत्र प्रसिद्धस्य सूर्यरूपाधारस्य अभावेपितत्किरणानां दीपसमाश्रितत्वोक्त्या विशेष प्रभेदः॥',
                 eng: '<h3>Word meanings</h3><table><tr><td>सूर्ये - </td><td>The sun</td></tr><tr><td>गते अपि  - </td><td>Though set</td></tr><tr><td>दीपस्थाः - </td><td>Abiding in the lamp</td></tr><tr><td>तत्कराः - </td><td>Its (sun’s) rays</td></tr><tr><td>तमः - </td><td>The darkness</td></tr><tr><td>छिंदंति - </td><td>Expel</td></tr></table><p>Though the sun has set in, yet its rays abiding in the lamp expel the darkness.</p><p>The statement that lamps expel the darkness only by the rays of the sun which has gone to the other side of the earth is Extraordinary.</p><p>N.B.-The Vedas declare that the lustre of the sun enters the ﬁre in the evening. Compare Raghu-vansa, IV. 1.</p><p>स राज्यं गुरूणादत्तं प्रतिपद्याधिकं बभौ ।<br>दिनान्ते निहितं तेजः सवित्रेव हुताशनः ॥</p><p>He (Raghu) obtained the kingdom given by (his) father and shone the more just as the ﬁre that got the lustre deposited with (it) by the sun at the close of the day.</p>'
               }
             }
@@ -1698,13 +1720,13 @@ export const state = () => ({
         {
           sloka: '<h3>Second kind of the Extraordinary.</h3>विशेषःसोऽपियद्येकंवस्त्वनेकत्रवर्ण्यते ।',
           sloka_explanation: {
-            sans: '',
+            sans: 'एकमेव वस्तु अनेकत्रवर्ण्यते यदि- सोपितद्वर्णमपि विशेष प्रभेद एवेत्यर्थः ',
             eng: '<h3>Word meanings</h3><table><tr><td>यदि - </td><td>if</td></tr><tr><td>एकं - </td><td>One</td></tr><tr><td>वस्तु - </td><td>Object</td></tr><tr><td>अनेकत्र - </td><td>In many places</td></tr><tr><td>वर्ण्यते - </td><td>Is described</td></tr><tr><td>सोऽपि - </td><td>That too</td></tr><tr><td>विशेषः - </td><td>The Extraordinary</td></tr></table><h3>Definition</h3><p>If one and the same object is described as existing in many places, it is also termed the Extraordinary.</p>'
           },
           examples: [
             {
               text: 'अन्तर्बहिःपुरःपश्चात्सर्वदिक्ष्वपिसैवमे ॥',
-              explanation_sans: '',
+              explanation_sans: 'कस्यचिद्विरहिणो वचनमिदं- मेमम अंतरभ्यंतरे- बहिर्बाह्य देशेपुरः पूर्वभागेपश्चात्पृष्ठ देशेतधासर्वदिक्ष्यपि समस्ताशान्वपिनैव प्रियैव दृश्यते नाव्यदित्यर्थ अत्रैकस्या एवकारितायाः सकलदेष्वपिस्थितिवर्णनाद्विशेष भेदः ॥',
               explanation_eng: '<h3>Word meanings</h3><table><tr><td> अंतः - </td><td>In</td></tr><tr><td>बहिः - </td><td>Out</td></tr><tr><td> पुरः - </td><td>In the front</td></tr><tr><td>पश्चात् - </td><td>Behind</td></tr><tr><td>मे सर्वदिक्षु अपि - </td><td>In all the directions</td></tr><tr><td> सैव - </td><td>Only she</td></tr></table><p>In my mind, in the outside, in the front, behind my back, in all the directions too (wherever I turn my face), only she (my beloved) appears (to me).</p><p>Here, one single object is said to exist uniformly in many places.</p><p>N.B.- A1though these as well as certain other representations are impossible and opposed to ordinary experience, yet they are said to have been represented as possible only metaphorically.</p>'
             }
           ]
@@ -1712,13 +1734,13 @@ export const state = () => ({
         {
           sloka: '<h3>Third kind of the Extraordinary.</h3>किंचिदारम्भतोऽशक्यवस्त्वन्तरकृतिश्चसः ।',
           sloka_explanation: {
-            sans: '',
+            sans: 'किंचित् यत्किंचित्क्रियामारभतः उपक्रममाणस्य अशक्यवस्त्वंतर कृतिरसाध्य कार्यांतरकरणं च विशेषः- यत्र यत्किंचित्कार्यसिद्ध्यर्थं प्रवृत्तस्य दैवादसाध्यवस्त्वंतरकरणं च य लब्धं कल्पवृक्ष निरीक्षणम् ॥',
             eng: '<h3>Word meanings</h3><table><tr><td>किंचित् - </td><td>A certain (act)</td></tr><tr><td>आरंभतः - </td><td>Commencing to do</td></tr><tr><td>अशक्यस्त्वंतरकृतिश्च - </td><td>Even the performance of another impossible act</td></tr><tr><td>सः - </td><td>The Extraordinary</td></tr></table><h3>Definition</h3><p>When some one who has commenced to do an act chances to do another impossible act (unconnected with the former), it is the third kind of the Extraordinary.</p>'
           },
           examples: [
             {
               text: 'त्वांपश्यतामयालब्धंकल्पवृक्षनिरीक्षणम् ॥',
-              explanation_sans: '',
+              explanation_sans: 'हे राजन् त्वां पश्यतामयाकल्पवृक्ष निरीक्षणमपि- लब्धं प्राप्तं- त्वद्दर्शनार्थं मयिप्रवृत्ते सति अतिवितरणशालिभूपतावेव कल्पवृक्षत्वाध्यवसायात्तिद्धर्शने नैव अर्थाद्दुर्लभ कल्पवृक्षदर्शनमपि निष्पन्नमित्यर्धः – अत्र राजदर्शनोद्देशेन प्रवृत्तस्य दैनादसाध्यकल्पतरुदर्शन प्राप्ति वर्णनाद्विशेषभेदः- अतस्सोयं त्रिविध इति विज्ञेयः ॥',
               explanation_eng: '<h3>Word meaning</h3><table><tr><td>त्वां - </td><td>Thee</td></tr><tr><td>पश्यता - </td><td>Seeing</td></tr><tr><td>मया - </td><td>By me</td></tr><tr><td>कल्पद्रुमनिरीक्षणम् - </td><td>The sight of the Kalpa tree</td></tr><tr><td>लब्धम् - </td><td>Was got</td></tr></table><p>By seeing you, (O king !) I got the sight of the Wish-yielding tree of the paradise.</p><p>Here, the speaker who ﬁrst commenced to do an act, i.e., seeing the king, the liberal donor, says that he has seen the kalpa tree (instead of seeing the king himself who has now been identiﬁed by the speaker with the kalpa tree) of the paradise very difﬁcult to obtain.</p>'
             }
           ]
@@ -1733,14 +1755,14 @@ export const state = () => ({
         {
           sloka: 'स्याद्व्याधातोऽन्यथाकारितथाकारिक्रियेतचेत् ।',
           sloka_explanation: {
-            sans: '',
+            sans: 'तथाकारि तथाभूतकार्यसाधनं अतधाकारि अभूतकार्यसाधनं क्रियेत चेद्व्याघातस्स्यात्- यद्वायद्यत्साधनतया केवचिदुपात्तं तदेवान्येन तत्प्रतिभटेन तद्विरुद्धसाधनं क्रियते चेत्सोपि व्याघात इति निष्कर्षः – आद्यमुदाहरति॥ ',
             eng: '<h3>Word meanings</h3><table><tr><td></td>चेत् - <td></td>if</td></tr><tr><td>तथाकारि - </td><td>The thing which produces its natural effect</td></tr><tr><td>अन्यथाकारि - </td><td>As the one which produces another effect</td></tr><tr><td>क्रियेत - </td><td>Is represented</td></tr><tr><td>व्याघातः स्यात् - </td><td>It is Frustration</td></tr></table><h3>Definition</h3><p>When a thing which produces the established result, i.e., the effect natural to its cause is represented to have produced the exact opposite result, it is called Frustration.</p>'
           },
           examples: [
             {
               text: 'यैर्जगत्प्रीयतेहन्तितैरेवकुसुमायुधः ॥',
               explanation: {
-                sans: '',
+                sans: 'यैः कुसुमैः जगल्लोकः प्रीयते तृप्तिमत्क्रियते- तैरेजगदानंददकरै रेवकुसुमैः- कुसुमायुधह् जगत् हंतिबाधते- अत्रजगत्प्रीति साधनान्येव कुसुमानिमन्मथेन तद्विरुद्ध जगत्पीडासाधना निकृतानीति प्रथमव्याघात भेदः ॥',
                 eng: '<h3>Word meanings</h3><table><tr><td>यैः (पुष्पैः) - </td><td>By which (flowers)</td></tr><tr><td>जगत् - </td><td>The world</td></tr><tr><td>प्रीयते - </td><td>Is pleased</td></tr><tr><td>तैः एव - </td><td>By the same (flowers)</td></tr><tr><td>कुसुमायुधः - </td><td>The flower-shafted God of love</td></tr><tr><td>हंति - </td><td>Torments</td></tr></table><p>By the (same) ﬂowers by which the people of the world become pleased, Cupid (lit. ﬂower-shafted God of love) torments the world.</p><p>Here, the effect, i.e., tormenting is produced by the ﬂowers- the cause, which are well-known to produce a quite opposite one, i.e., pleasure. Hence this is called Frustration on account of the frustration of an established effect already fulﬁlled in an object.</p>'
               }
             }
@@ -1752,13 +1774,13 @@ export const state = () => ({
         {
           sloka: '<h3>Second kind of Frustration</h3>सौकर्येणनिबद्धापिक्रियाकार्यविरोधिनी ।',
           sloka_explanation: {
-            sans: '',
+            sans: 'कार्यस्यनियुक्त कार्यस्य विरोधिनी क्रियाकरणं- निबद्धाचेत्सोपि व्याघात इति॥ अयमर्थः- येन साधनेन यत्कार्यक्रियाकेन चिद्धृढीकृता- तेनैवसाधनेन तत्कार्यविरोधिक्रियै वसुकरसमर्धिता चेत्सोपिव्याघात एवेति॥ ',
             eng: '<h3>Word meanings</h3><table><tr><td></td>सौकर्येण - </td><td>With facility</td></tr><tr><td>निबड्वा - </td><td>Begun</td></tr><tr><td>क्रिया - </td><td>An act</td></tr><tr><td>कार्यविरोधिनी - </td><td>The contrary of that act</td></tr><tr><td>अपि - </td><td>(here)also</td></tr><tr><td>(व्याघातः) - </td><td>Frustration</td></tr></table><h3>Definition</h3><p>If a certain act commenced (by one) on the ground of its being facile turns out contrary, it is the second kind of Frustration.</p>'
           },
           examples: [
             {
               text: 'दयाचेद्वालइतिमय्यपरित्याज्यएवते ॥ ',
-              explanation_sans: '',
+              explanation_sans: ' केनचिज्जैत्रयात्रोन्मुखेन राज्ञाबालत्वाद्युवराजं राज्य एवसंस्थाप्य गंतुं प्रयत्नेन कृतेसति- बालत्वादहंन परित्याज्यः- किंतु सहैवनेतव्य इति तद्वियोगा सहिष्णोर्युवराजस्य वचनमिदं- हे राजन् बाल इति तेतवमयिदया चेत्तर्हि आहंते अपरित्याज्यः किंतु सहैवनेतव्यः प्रत्युतविचार्यमणे एतावत्पर्यंत मवियुक्तस्य परित्याग एवनयुक्तः – अतोमत् स्थापनं त्वन्मनसि कथंरोचत इति वाक्य तात्पर्यं- अत्र राज्ञोबालत्व हेतुनायुवराजस्य राज्यस्थापने निष्कष्टे सतिते नैमय्य परित्व्याज्य एवर्ते ॥ ',
               explanation_eng: '<h3>Word meaning</h3><table><tr><td>मयि - </td><td>On me</td></tr><tr><td>बाल इति - </td><td>On account of being a boy</td></tr><tr><td>दया चेत् - </td><td>It (thou hast) compassion</td></tr><tr><td>ते - </td><td>By thee</td></tr><tr><td>अपरित्याज्य एव - </td><td>Cannot be abandoned</td></tr></table><p>O King! If thou hast compassion on me, then I, being a. boy, should not be abandoned here (now by thee going to battle-ﬁeld).</p><p>This is said by a crown-prince to this king going to war. The king seems to have asked him to stay at home for he being a boy could not bear the terrible toils of a battle ﬁeld. The crown-prince mentions the same reason to accompany the king for he being a youth must go to the war and become skilled in the arts of war, or, as one commentator says, he (the youth) could not bear the separation from the king. Thus We see the frustration of the object which the king had at ﬁrst.</p>'
             }
           ]
@@ -1773,14 +1795,14 @@ export const state = () => ({
         {
           sloka: 'गुम्फःकारणमालास्याद्यथाप्राक्प्रान्तकारणैः ।',
           sloka_explanation: {
-            sans: '',
+            sans: 'प्राक्प्रांतौ पूर्वोत्ततदेशौ अनतिक्रम्य यथा प्राक्प्रांतं यानिकारणानितैर्गुंभः ग्रंधनं कारणमालेत्युच्यते- उत्तरोत्तरकारणभूतैः पूर्वपूर्ववस्तुभिः पूर्वपूर्वकारणभूतैरुत्तरोत्तर वस्तुभिर्वाक्यतो यस्संदर्भस्साकारण मालेत्युच्यत इति निश्कर्षः',
             eng: '<h3>Word meanings</h3><table><tr><td></td>यथाप्राक्प्रांतकारणैः - </td><td>By the causes in which a preceding object is spoken of as the cause of the succeeding one</td></tr><tr><td>गुंफः - </td<td>Arrangement</td></tr><tr><td> कारणमाला - </td><td>Garland of causes</td></tr><tr><td> स्यात् - </td><td>Is called</td></tr></table><h3>Definition</h3><p>When a preceding object is spoken of as the cause of one succeeding it, which in turn is spoken of as the cause of what comes next and so on, it is termed the Garland of Causes.</p>'
           },
           examples: [
             {
               text: 'नयेनश्रीःश्रियात्यागस्त्यागेनविपुलंयशः ॥',
               explanation: {
-                sans: '',
+                sans: 'नयेननीत्याश्रीः लक्ष्मीः बह्वतीतिविशेषः – श्रीयात्यागः वितरणं विद्यत  इतीशेषः त्यागेन विपुलं विस्तृतं यशः विद्यत इति विशेषः – अत्र नयन्यस्वोत्तर श्रीहेतुत्वाच्छ्रियस्स्वोत्तर वितरण हेतुत्वाद्वितरणस्य स्वोत्तरयशोहेतुत्वादुत्तरोत्तर कारण पूर्वपूर्वगुंभः सकारणमालाभेदः ॥',
                 eng: '<h3>Word meanings</h3><table><tr><td>नयेन - </td><td>By morality</td></tr><tr><td>श्रीः - </td><td.Wealth</td></tr><tr><td>श्रिया - </td><td>By wealth</td></tr><tr><td> त्यागः - </td><td>Donation</td></tr><tr><td>त्यागेन - </td><td>By donation</td></tr><tr><td> विपुलं यशः - </td><td>Wide fame</td></tr></table><p>From morality wealth (is acquired); from wealth, the donation ; from donation, the wide fame.</p><p>Here, the morality mentioned ﬁrst is spoken of as the cause of the succeeding object, the Wealth, which in turn is spoken of as the cause of donation, etc.</p><p>This ﬁgure occurs also when one object, mentioned afterwards, is spoken of as the cause of what precedes and so on.</p><p>Ex . भवन्ति नरकाः पापात् पाप दारिद्रासंभवम् ।<br>दारिद्रामप्रदानेन तस्माद्दानपरो भव ॥</p><p>(People) go to hell on account of (their) sin; sin results from poverty; poverty from non giving. Therefore (friend) be always muniﬁcient.</p>'
               }
             }
@@ -1796,22 +1818,15 @@ export const state = () => ({
         {
           sloka: 'गृहीतमुक्तरीत्यार्थश्रेणिरेकावलिर्मता ।',
           sloka_explanation: {
-            sans: '',
+            sans: 'उत्तरोत्तरस्य पूर्वपूर्वविशेषणत्वं पूर्वपूर्वस्यवा उत्तरोत्तरविशेषणत्वं गृहीतमुक्तरीतिः तया अर्थ श्रेणिः पदार्थपङ्क्तिः- सा एकावळी मता- ततः उत्तरोत्तरस्यपूर्वपूर्वविशेषणत्वं यत्रवर्ण्यते तत्र एकापूर्वपूर्वस्य उत्तरोत्तर विशेषणत्वं यत्रवर्ण्यते तत्रान्येतिद्विधाभवति- तत्राद्यामेवसार्थ श्लोकेनोदाहरति॥ ',
             eng: '<h3>Word meanings</h3><table><tr><td></td>गृहीतमुक्तरीत्यार्थश्रेणिः - </td><td>A series of statements in which each succeeding thing is taken as an attribute of each preceding thing and then made to cease as such</td></tr><tr><td>एकाकली मता - </td><td>Is considered the Necklace</td></tr></table><h3>Definition</h3><p>A successive series of statements made in a manner in which each succeeding thing is taken (गृहीत  as an attribute of each preceding thing and that thing which was ﬁrst taken as an attribute is made to cease (मुक्त )  as such by being afterwards made a. subject and qualiﬁed by another succeeding thing and so on, it is the Necklace.</p>'
           },
           examples: [
             {
               text: 'नेत्रेकर्णान्तविश्रान्तेकर्णौदोःस्तम्भदोलितौ ॥<br>दोस्तम्भौजानुपर्यन्तप्रलम्बनमनोहरौ ।<br>जानुनीरत्नमकुराकारेतस्यहिभूभुजः ॥',
               explanation: {
-                sans: '',
+                sans: 'नेत्रे इति॥ तस्यमहीभुजः श्रीरामचंद्रस्य नेत्रेकर्णांतयोः विश्रांते- तत्पर्यंतं अयते इत्यर्थः – कर्णौदोस्तंभडोलिनौ भुजपर्यंतं लंबमानावित्यर्धः ॥<br> दोस्त्संभाविति॥ दोस्त्संभौ- जानुपर्यंत प्रलंबनेन तत्पर्यंतमायतत्वेन मनोहरौ- जानुनीरत्न मुकुराकारेमणिदर्पण सदृशे विद्येते इतिशेषः अत्रपूर्वेनेत्रे प्रत्युत्तरयोः कर्णयोर्विशेषणत्वं- कर्णौ प्रतिदोस्तंभयोर्विशेषत्वं दोस्तंभौ प्रतिजानुनोर्विशेषणत्वं जानुनी प्रतिरत्नमुकुरयोर्विशेषणत्व मित्येवोत्तरोत्तरस्य पूर्वपूर्वविशेषणत्वादाद्यैकावळिः लंबनोमनोहरौ । ',
                 eng: '<h3>Word meanings</h3><table><tr><td></td>तस्य महीभुजः - </td><td>Of that king</td></tr><tr><td>नेत्रे - </td><td>Eyes</td></tr><tr><td>कर्णां तविश्रांते - </td><td>Extending as far as the ears</td></tr><tr><td>कर्णौ - </td><td>Ears</td></tr><tr><td>दोस्तंभदोलितौ - </td><td>Extending as far as the post-like arms</td></tr><tr><td>दोस्तभौ - </td><td>Post-like arms</td></tr><tr><td>जानुपर्यंतप्रलंबनमनोहरौ - </td><td>Charming on account of their extension as far as the knees</td></tr><tr><td>जानुनौ - </td><td>Knees</td></tr><tr><td>रत्नमुकुराकारे - </td><td>Appearing like jeweled mirrors</td></tr></table><p>The eyes of that king extend as far as the ears. His ears extend as far as his post-like arms. His post-like arms are charming by their extension as far his knees. And his kness are, in appearance, jewelled mirrors.</p><p>Here, the ears are taken as an attribute of the preceding thing, the eyes; arms, of the ears; knees, of arms; and the mirrors, of the knees.</p><p>In this example, a preceding thing is qualiﬁed by the succeeding thing aﬂirmatively. In the following example, the thing mentioned ﬁrst is qualiﬁed negatively by what follows.</p>'
-              }
-            },
-            {
-              text: 'न तज्जलं यन्न सुचारूपङ्कजं<br>न पङ्कजं तद् यदलीनषट्पदम् ।<br>न षट्पदोऽसौ न जुगुञ्ज यः कलं<br> न गुञ्जितं तन्न जहार यन्मनः ॥<br> Bhatti Kavya, II. 19.',
-              explanation: {
-                sans: '',
-                eng: '<p> There was no water on which there were no beautiful lotusses; there was not a lotus in the interior of which there was not a bee reposing; there was not a bee which hummed not sweetly ; and there was not a hum which did not attract the mind.</p><p>Here, of water, lotuses must be considered as denied; of lotuses, bees; of bees, humming; and of humming, attraction.</p>'
               }
             }
           ]
@@ -1826,14 +1841,14 @@ export const state = () => ({
         {
           sloka: 'दीपकैकावलीयोगान्मालादीपकमिष्यते ।',
           sloka_explanation: {
-            sans: '',
+            sans: 'दीपकैकावळ्योर्योगान्मालादीपक मुच्यते- पंडितैरंगीक्रियते इत्यर्थः – यत्र दीपकैकावळ्योरलंकारयोः लक्षणेसंभवतः तत्रमालादीपकं नामालंकार इति निष्कर्षः ॥ ',
             eng: '<h3>Word meanings</h3><table><tr><td></td>दीपकैकावलीयोगात् - </td><td>From a combination of the figures the Illuminator and the Necklace</td></tr><tr><td>मालादीपकम् - </td><td>The Serial Illuminator</td></tr><tr><td>उच्यते - </td><td>Is called</td></tr></table><h3>Definition</h3><p>A combination of the ﬁgures, दीपकम् (Illuminator XV) and एकावली (Necklace XLII), is called the Serial Illuminator.Or, in other words, the Serial Illuminator is that wherein a number of different objects is successively associated with one and the same attribute.</p>'
           },
           examples: [
             {
               text: 'स्मरेणहृदयेतस्यास्तेनत्वयिकृतास्थितिः ॥',
               explanation: {
-                sans: '',
+                sans: 'काचित्प्रियया प्रेषितातत्प्रियं प्रत्याह- तस्याः भवत्प्रियायाः हृदये स्मरेस्थितिः कृतात्वद्विरहात्तस्याः महती मन्मथपीडा जातेत्यर्थः – तेन प्रियाहृदयेनत्वयिस्थितिः कृतामन्मथपरवशा सतीत्वय्येवमनो निवेशितवतीत्यर्थः – अत्र पूर्वोत्तरवाक्ययोस्थितिरेक एवधर्म इतिवर्ण्यावर्ण्यतोरेक धर्मान्वय रूपं दीपकम्- गृहीतमुक्तरीति सद्भावादेकावळिश्च- तयोर्योगान्मालादीपकम् ॥',
                 eng: '<h3>Word meanings</h3><table><tr><td></td>स्मरेण - </td><td>By Cupid</td></tr><tr><td>तस्याः हृदये - </td><td>In her heart</td></tr><tr><td>थितिः - </td><td>Setting one’s foot</td></tr><tr><td>कृता - </td><td>Was made</td></tr><tr><td>तेन - </td><td>By him</td></tr><tr><td>त्वयि - </td><td>In thee</td></tr></table><p>Cupid set his foot in the heart of that lady, and by it, i.e., the heart of the lady, in thee.</p><p> This is addressed to a lover by a go-between sent by her mistress pining under separation.</p><p>Here, the one and the same attribute स्थितिः कृता being associated with two objects प्रकृत and अप्रकृत, it is the Illuminator ; and by गृहीतमुक्तरीत्या of the lady’s heart, it is the Necklace (see the preceding ﬁgure). Thus, we have a blending of the two.</p>'
               }
             }
@@ -1849,14 +1864,14 @@ export const state = () => ({
         {
           sloka: 'उत्तरोत्तरमुत्कर्षःसारइत्यभिधीयते ।',
           sloka_explanation: {
-            sans: '',
+            sans: 'पूर्वापूर्वापेक्षया उत्तरोत्तरं प्रत्युत्कर्षोवर्ण्यते चेत्तर्हिसार इत्यभिधीयते- सार इत्यलंकारः कविभिरंगीकृत्यत इत्यर्थः – यत्रपूर्वपूर्वापेक्षया उत्तरोत्तरस्य उत्कर्षः प्रतिपाद्यते- तत्र सारालंकार इति निष्कर्षः ॥ ',
             eng: '<h3>Word meanings</h3><table><tr><td>उत्तरोत्तरम् - </td><td>successively</td></tr><tr><td>उत्कर्षः - </td><td> Excellence</td></tr><tr><td>सार इति - </td><td> The figure Climax</td></tr><tr><td>अभिधीयते - </td><td> Is called</td></tr></table><h3>Definition</h3><p>Excellence (rising) successively is termed the Climax.</p>'
           },
           examples: [
             {
               text: 'मधुरंमधुतस्माच्चसुधातस्याःकवेर्वचः ॥',
               explanation: {
-                sans: '',
+                sans: 'मधुक्षौद्रंमधुरं मधुररस संयुक्तं – तस्मान्मधुनः पीय्यूषममृतं मधुरम्- तस्मापियूषात्कवेर्वचो मधुरम्- अत्रपूर्वपूर्वापेक्षया उत्तरोइत्तरस्य उत्कर्षवर्णनात्सारालंकारः ॥',
                 eng: '<h3>Word meanings</h3><table><tr><td>मधु - </td><td>Honey</td></tr><tr><td>मधुरम् - </td><td>Sweet</td></tr><tr><td>तस्मात् - </td><td>Than that</td></tr><tr><td>पीयुषम् - </td><td>The nectar</td></tr><tr><td>तस्मात् - </td><td>Than that</td></tr><tr><td>कवेः वचः - </td><td>Poet’s speech</td></tr></table><p>The honey is sweet ; the nectar is sweeter than that ; and, than that, poet’s speech.</p><p>Here, each succeding thing, nectar etc., rises gradually in excellence.</p>'
               }
             }
@@ -1872,14 +1887,14 @@ export const state = () => ({
         {
           sloka: 'यथासंख्यंक्रमेणैवक्रमिकाणांसमन्वयः ।',
           sloka_explanation: {
-            sans: '',
+            sans: 'यत्रत्रमिकाणां समान संख्याकानाम्- क्रमेण प्रथमं प्रथमेन द्वितीयेनेत्यादि क्रमेण समन्वयोवर्ण्यंते तत्र यथासंख्यालंकारः',
             eng: '<h3>Word meanings</h3><table><tr><td>क्रमिकाणाम् - </td><td>of serial objects</td></tr><tr><td>क्रमेणैव - </td><td>In due order</td></tr><tr><td>समन्वयः - </td><td>Mitual connection</td></tr><tr><td>यथासंख्यम् - </td><td>The relative order</td></tr><tr></table><h3>Definition</h3><p> The Relative Order is a mutual connection of a series of objects mentioned in their due order.</p>'
           },
           examples: [
             {
               text: 'शत्रुंमित्रंविपत्तिं च जयरञ्जयभञ्जय ॥ ',
               explanation: {
-                sans: '',
+                sans: 'हे राजन् त्वंशत्रुंजयमित्रं रंजय आनंदय- विपत्तिंभंजयनिवारय- अत्रक्रमिकानां यथाक्रमेण वर्णनाद्यथासंख्यम्॥',
                 eng: '<h3>Word meanings</h3><table><tr><td>शत्रुम् - </td><td>The foe</td></tr><tr><td>जव - </td><td>Conquer</td></tr><tr><td>मित्रम् - </td><td>The friend</td></tr><tr><td>रंजय - </td><td>Gratify</td></tr><tr><td>विपत्तिम् - </td><td>The calamity</td></tr><tr><td>भंजय - </td><td>Destroy</td></tr></table><p> O king! Conquer, gratify, destroy (thy) foe, friend and the calamity respectively.</p><p>Here, a series of objects शत्रुम्, मित्रम् and विपत्तिम् is respectively connected with जय, रञ्जय and भञ्जय in their due order.</p>'
               }
             }
@@ -1895,14 +1910,14 @@ export const state = () => ({
         {
           sloka: 'पर्यायोयदिपर्यायेणैकस्यानेकसंश्रयः ।',
           sloka_explanation: {
-            sans: '',
+            sans: 'एकस्यैववस्तुनः पर्यायेणानेक संश्रयः अनेकाश्रयवर्णनं यदितर्हि पर्यायालंकारः ',
             eng: '<h3>Word meanings</h3><table><tr><td>यदि - </td><td>if</td></tr><tr><td>एकस्य - </td><td>Of one object</td></tr><tr><td>पर्यायेण - </td><td> In succession</td></tr><tr><td>अनेकसंशयः - </td><td> Residing in many places</td></tr><tr><td>पर्यायः - </td><td> The Sequence</td></tr></table><h3>Definition</h3><p>When one object is described as residing in many places in succession, it is termed the Sequence.</p>'
           },
           examples: [
             {
               text: 'पद्मंमुक्त्वागताचन्द्रंकामिनीवदनोपमा ॥',
               explanation: {
-                sans: '',
+                sans: ' कामिनीवदन प्रभासुंदरीमुखकांतिः – पद्मं मुक्त्वाचंद्रं गता प्राप्ता- अत्रैकस्या एवकामिनी वदनप्रभायाह् क्रमेणपद्म चंद्ररूपानेकाश्रय वर्णनात्पर्यायः – यद्यपि प्रभायाः पद्माश्रयणंकं रतोनोक्तम्- तथापि पद्मं मुक्त्वागतेत्युक्त्या प्राक्पद्माश्रयणं लभ्यते वियोगस्य प्राप्तिपूर्वकत्वात्- अतोह्निपद्मेस्थित्वारात्रौ चंद्रं गतेत्यर्थः ',
                 eng: '<h3>Word meanings</h3><table><tr><td>कामिनीवदनप्रभा - </td><td>The lusture of this lovely woman’s face</td></tr><tr><td>पद्मम् - </td><td>The lotus</td></tr><tr><td>मुक्त्वा - </td><td>Having left</td></tr><tr><td>चंद्र - </td><td> The moon</td></tr><tr><td>गता - </td><td>Resorted to.</td></tr></table><p>Having left the lotus, the lustre of this lovely wornarfs face now resorted to the moon.</p><p>Here, the lustre which is stated as one is said to reside in many places in succession.,</p>'
               }
             }
@@ -1914,13 +1929,13 @@ export const state = () => ({
         {
           sloka: '<h3>Second kind of the Sequence</h3>एकस्मिन्यद्यनेकंवापर्यायःसोऽपिसंमतः ।',
           sloka_explanation: {
-            sans: '',
+            sans: 'एकस्मिन्नादारे क्रमेणवाक्रमेणैव अनेक माधेयं भवति यदिसोपि पर्यायस्सम्मतः – यत्र एकस्मिन्नाधारे क्रमेणानेकाधेया निवर्ण्यंते- तत्र पर्यायभेद इतिनिष्कर्षः ॥',
             eng: '<h3>Word meanings</h3><table><tr><td>यदि वा - </td><td>Or if</td></tr><tr><td>एकस्मिन् - </td><td> In one object</td></tr><tr><td>अनेकम् - </td><td>Many</td></tr><tr><td>सोऽपि - </td><td>That too</td></tr><tr><td>पर्यायः - </td><td>The sequence</td></tr><tr><td>संमतः - </td><td>Is regarded</td></tr></table><p>Or, if many objects are said to reside in one and the same place in succession, that too is regarded as the Sequence.</p>'
           },
           examples: [
             {
               text: 'अधुनापुलिनंतत्रयत्रस्रोतःपुराजनि ॥ ',
-              explanation_sans: '',
+              explanation_sans: 'यत्रनद्यां स्रोतः प्रवाहः पुराजनितत्रनद्यां- अधुनापुलिनं दृष्टं अत्र एकस्यामेवनद्यां क्रमेणस्रोतः पुलिनरूपाधेय वर्णनात्पर्यायभेदः ॥',
               explanation_eng: '<h3>Word meanings</h3><table><tr><td>यत्र - </td><td>Where</td></tr><tr><td>पुरा - </td><td>Formerly</td></tr><tr><td>सोतः - </td><td>Water</td></tr><tr><td>अजनि - </td><td>Was</td></tr><tr><td>अधुना - </td><td>Now</td></tr><tr><td>तत्र - </td><td>There</td></tr><tr><td>पुलिनम् - </td><td>Sand bank</td></tr></table><p>Sand bank is now seen in the place where there was water formerly.</p><p>Here, the water and the sand bank are said to be successively residing in the same place.</p>'
             }
           ]
@@ -1935,14 +1950,14 @@ export const state = () => ({
         {
           sloka: 'परिवृत्तिर्विनिमयो न्यूनाभ्यधिकयोर्मिथः ।',
           sloka_explanation: {
-            sans: '',
+            sans: 'न्यूनाभ्यधिकयोः अल्पाधिकयोस्तु- मिथोन्योन्यं विनिमयः परिवृत्तिः – यत्रस्वल्पव्ययेन अधिकस्वीकरणं अधिकव्ययेन स्वल्पस्वीकरणं- किंचसमेन समस्वीकरणंवा वर्ण्यते तत्र परिवृत्तिनामालंकार इतिनिष्कर्षः ',
             eng: '<h3>Word meanings</h3><table><tr><td>न्यूनाभ्यधिकयोः - </td><td>Of lesser and greater things</td></tr><tr><td>मिथः - </td><td>Mutual</td></tr><tr><td>विनिमयः - </td><td>Exchange</td></tr><tr><td>परिवृत्तिः - </td><td>The return</td></tr></table><p>The Return is a mutual exchange of things lesser or greater.</p>'
           },
           examples: [
             {
               text: 'जग्राहैकं शरं मुक्त्वा कटाक्षात्स रिपुश्रियम् ॥',
               explanation: {
-                sans: '',
+                sans: 'सराजा एकमेवशरं बाणं मुक्त्वारिपुश्रियां कटाक्षान् जग्राह- एकबाणमोचन पूर्वकं शत्रुलक्ष्मीकटाक्षान् स्वीकृतवानित्यर्थः राज्~झोस्यपराक्रमशालित्वादेक बाणेनैवरणे शत्रून् हत्वातद्राज्यलक्ष्मीं प्रापेतिश्लोकतात्पर्यम्- अत्रैकबाणरूप स्वल्पवस्तुव्ययेन लक्ष्मीकटाक्षरूपाधिक वस्तुस्वीकरण वर्णनात्प्रथम परिवृत्तिः – एवम् द्वितीयतृतीयेज्ञेये ॥',
                 eng: '<h3>Word meanings</h3><table><tr><td>(स राजा) - </td><td>That king</td></tr><tr><td>एकम् शरम् - </td><td>One arrow</td></tr><tr><td>मुक्त्वा - </td><td>Having discharged</td></tr><tr><td>रिपुश्रियः - </td><td>Of the enemy’s Goddess of wealth</td></tr><tr><td>कटाक्षात् - </td><td>(many) side-glances</td></tr><tr><td>जग्राह - </td><td>Received</td></tr></table><p>The king discharged (i.e., gave) one arrow and received (in turn, many) side-glances of the Goddess of wealth of his foes.<p><p>Here, we have an exchange for what is greater, i.e. giving the lesser (शरम्) for the greater (कटाक्षान्).</p>'
               }
             }
@@ -1958,14 +1973,14 @@ export const state = () => ({
         {
           sloka: 'परिसंख्या  निषिध्यैकमेकस्मिन्वस्तुयन्त्रणम् ।',
           sloka_explanation: {
-            sans: '',
+            sans: 'एकम् वस्तुनिषिध्य एकत्र प्रतिषिध्य एकस्मिन्नन्यस्मन्नियंत्रणम् नियमनं यत्सापरिसंख्येत्यर्थः – यत्रैकमेव वस्तु एकनिषिध्य अन्यत्र नियम्यते तत्र परिसंख्यालंकार इति निष्कर्षः ॥ ',
             eng: '<h3>Word meanings</h3><table><tr><td>एकस्मिन् - </td><td>In one object on hand</td></tr><tr><td>एकम् वस्तु - </td><td>One object</td></tr><tr><td>निषिध्य - </td><td>Having denied</td></tr><tr><td>यन्त्रणाम् - </td><td>Restriction</td></tr><tr><td>परिसङ्ख्या - </td><td>The Special Mention</td></tr></table><p>The denial of the existence of something in a certain object and the restriction of its existence in another object constitutes the ﬁgure the Special Mention.</p>'
           },
           examples: [
             {
               text: 'स्नेहक्षयः प्रदीपेषु न स्वान्तेषु नतभ्रुवाम् ॥',
               explanation: {
-                sans: '',
+                sans: 'प्रदीपेषुदीप पात्रेषु स्नेहक्षयस्तैलनाशः अभिलाषनाशश्चनाभूत्- नतभ्रुवामंगनानां स्वांतेषु हृदयेषु स्नेहक्षयः प्रेमनाशः अभूत् अभिवृद्धिरेवाभूदित्यर्थः- अत्र श्लेषमूलाभेदध्यवसायेनैकस्यैव स्नेहस्यदीपेषु निषेधात्तस्यैव स्त्रीचित्तेषु नियमयनाच्च भवति परिसंख्या ॥',
                 eng: '<h3>Word meanings</h3><table><tr><td>स्नेहक्षयः - </td><td>Diminution of oil</td></tr><tr><td>                प्रदीपेषु - </td><td>In the lamps</td></tr><tr><td>नतभ्रुवाम् - </td><td>Of women of curved eye-brows</td></tr><tr><td>स्वान्तेषु - </td><td>In the hearts</td></tr><tr><td>न - </td><td>Not</td></tr></table><p>The diminution of oil (i.e. aﬁection) was in the lamps and not in the hearts of Women of curved eye-brows.</p>'
               }
             }
@@ -1981,14 +1996,14 @@ export const state = () => ({
         {
           sloka: 'विरोधे तुल्यबलयोर्विकल्पालंकृतिर्मता ।',
           sloka_explanation: {
-            sans: '',
+            sans: 'तुल्यबलयोस्सम प्रमाणकयोर्विरोधे सतियुगपत्कर्तुमशक्यत्वे सति- विकल्पालंकृतिर्मत्वा- यत्रतुल्य प्रमाणकयोः पदार्थयोर्युगपत्प्राप्तौ सत्यांतयोर्विरोधेन युगपत्कर्तुमशक्यत्वात्तयोरन्यतर एवार्थः कर्तव्यतयानिश्चीयते- तत्र विकल्पालंकार इति निष्कर्षः ',
             eng: '<h3>Word meanings</h3><table><tr><td>तुल्यबलयोः - </td><td>Of equal probability</td></tr><tr><td> विरोधे - </td><td>When there is opposition</td></tr><tr><td>विकल्पालंकृतिः - </td><td>The Alternative</td></tr><tr><td>मता - </td><td>Is considered</td></tr></table><p>When there is an opposition of two things of equal probability, or, in other words, when the performance of two such things becomes impossible at the same time and thus restricts the agent to have recourse to only one of them, it is called the Alternative. </p>'
           },
           examples: [
             {
               text: 'सद्यः शिरांसि चापान्वा नमयन्तु महीभुजः ॥',
               explanation: {
-                sans: '',
+                sans: 'महीभुजो राजानस्सद्यस्तत्क्षणे शिरांसिमस्तकान् चापान् धनूंषिवानमयंतु- संधिरभिमतश्चेन्नम्र शिरस्काभूत्वातूष्णीं तिष्ठंतु- युद्धमभिमतं चेदौद्धत्येन चापापारोप्य युद्धसन्नधाभवंत्वि त्रिसमुच्चयोयं वाक्यार्थः अत्रसंधिवशान्मान परित्यागपूर्वकं शिरोनमनस्य विग्रहवशात्साहंकारं धनुष्कोटौ र्विकल्पालंकृतिर्मता । सद्यश्शिरांसिचा पान्वानमयंतु महीभुजः ॥',
                 eng: '<h3>Word meanings</h3><table><tr><td>महीभुजः - </td><td>The kings</td></tr><tr><td>सद्यः - </td><td>At once</td></tr><tr><td> शिरांसि - </td><td>Their heads</td></tr><tr><td>नमयन्तु - </td><td>Let bend</td></tr><tr><td>चापान् वा - </td><td>Or their bows</td></tr></table><p>Let the kings bend at once their heads or their bows.</p><p>Here, we see the impossibility of simultaneous action of the bending of the heads and that of the bows which are opposed to each other, the former being the mark of surrender and the latter, of war.</p>'
               }
             }
@@ -2002,16 +2017,16 @@ export const state = () => ({
       id: 54,
       slokas: [
         {
-          sloka: '',
+          sloka: 'बहूनां युगपद्मावभाजां गुम्फः समुच्चयः ।',
           sloka_explanation: {
-            sans: 'बहूनां युगपद्मावभाजां गुम्फः समुच्चयः ।',
+            sans: 'युगपद्भावभाजांयौग पद्यार्हाणामविरुद्धानामिति यावत् तादृशां बहूनामनेक पदार्थानां गुंभस्संदर्भ स्समुच्चय स्स्यात्- यत्रविरुद्धाभावेन युगपत्संहर्तुमशक्यानां बहुपदार्थानामेकदा प्राप्तिवर्ण्यते तत्र समुच्चयालंकार इति निष्कर्षः ',
             eng: '<h3>Word meanings</h3><table><tr><td>यगपड्भावभाजाम् - </td><td>Of actions of simultaneously</td></tr><tr><td>वड्वनाम् - </td><td>Of many</td></tr><tr><td>गुम्फः - </td><td>Combination</td></tr><tr><td>समुच्चयः - </td><td>The Conjunction</td></tr></table><p>The Conjunction is a combination of many actions that are described as being simultaneously produced.</p>'
           },
           examples: [
             {
               text: 'नश्यन्ति पश्चात्पश्यन्ति त्रस्यन्ति च भवद्द्विषः ॥',
               explanation: {
-                sans: '',
+                sans: 'हे राजन् तवद्विषः नश्यंति- क्षयिष्णवोभवंति- तथापश्यंतीतिपलायन समये भूयः परावर्त्य- पश्यंतीत्यर्थः – तथाभ्रमंतिकांदिशीकास्संत स्सर्वत्रभ्रमणं कुर्वंतित्यर्थः – भ्रश्यंतीतिपाठे भ्रष्टाभवंतीत्यर्थः – अत्र शत्रुषुनाश पश्चादवलोकन भ्रमण क्रियाणां विरोधाभावेन युगपद्गुंभवर्णना द्भवतिसमुच्चयः ॥',
                 eng: '<h3>Word meanings</h3><table><tr><td>नश्यन्ति - </td><td>Take flight</td></tr><tr><td>पश्चात् - </td><td>On back</td></tr><tr><td> पश्यन्ति - </td><td>See</td></tr><tr><td>भ्रश्यन्ति च - </td><td>And fall down</td></tr></table><p>O King! thy enemies ﬂee, turning their backs, see thee and fall down.</p><p>Here, though the actions of ﬂeeing, seeing, falling down took place in succession, yet we have the simulteniety of those actions considering their speedy performance.</p><p>Compare the celebrated laconic report which Caesar sent to Rome concerning his victory over Pharnaces at Tela ‘I came, saw, conquered’ (veni, vedi, vici).</p>'
               }
             }
@@ -2023,13 +2038,13 @@ export const state = () => ({
         {
           sloka: 'अहंप्राथमिकाभाजामेककार्यान्वयेऽपि सः ।',
           sloka_explanation: {
-            sans: '',
+            sans: 'अहं प्रथमिकाभाजामहं पूर्विकाभाजां- अहमेव कारुअंकर्तुं शक्नोमीत्येवं प्रकारेण अहंकारयुक्तानामित्यर्थः – कारणानामितिशेषः – एककार्यान्वयोपि एकस्मिन्कार्ये साधनत्वेन अन्वयोपिन समुच्चयालंकारः – यत्रैकस्मिन् कारणेकार्यसिद्धि हेतुत्वेन प्रक्रांते सति अन्येपि हेतवोयद्यहमहमिकया खलेकपोतन्यायेन कार्यंसाधयंतीति वर्ण्यते तत्र समुच्चयस्स्यादिति निष्कर्षः ',
             eng: '<h3>Word meanings</h3><table><tr><td>अहंप्राथमिकाभाजाम् - </td><td>Of things with emulation</td></tr><tr><td>एककार्यान्वयः - </td><td>That go to effect one thing</td></tr><tr><td> अपि - </td><td>Also</td></tr><tr><td>सः - </td><td>That i.e., the conjunction</td></tr></table><p>A combination of many things that go to effect a thing with emulation or competition, is also termed the Conjunction. Or, in other words, a combination of many things independent of each other but represented as simultaneously producing the same common effect is called the Conjunction.</p>'
           },
           examples: [
             {
               text: 'कुलं रूपं वयो विद्या धनं च मदयन्त्यमुम् ॥',
-              explanation_sans: '',
+              explanation_sans: 'कुलंसद्वंशः रूपं सौंदर्यं- वयस्तारुण्यं- विद्यावेदशास्त्रादि संपत्तिः – धनं प्रभूतरत्न कनकादिकं च- अमुंपुरुषं मदयंतिदृप्तं कुर्वंति- अत्रमदरूपकार्येष्वाभि जात्यादिषु एकमेव संपूर्णं कारणम्- तादृशानामपिकारणानां अहमहमिकया मदरूपकार्यसाधनत्व वर्णनाद्भवति समुच्चयभेदः ॥',
               explanation_eng: '<h3>Word meanings</h3><table><tr><td>कुलम् - </td><td>Noble birth</td></tr><tr><td>रूपम् - </td><td>Handsome appearance</td></tr><tr><td>वयः - </td><td>The pime of youth</td></tr><tr><td>विद्या - </td><td>Learning</td></tr><tr><td>धनं च - </td><td>And the wealth</td></tr><tr><td>असुम् - </td><td>Him</td></tr><tr><td>मदयन्ति - </td><td>Exhilarate</td></tr></table><p>Noble birth, handsome appearance, the prime of youth, learning and the wealth exhilarate him.</p>'
             }
           ]
@@ -2044,14 +2059,14 @@ export const state = () => ({
         {
           sloka: 'क्रमिकैकगतानां तु गुम्फः कारकसीपकम् ।',
           sloka_explanation: {
-            sans: '',
+            sans: 'क्रमिकाः क्रमप्राप्ताः एकगताः एककार्यान्विताश्चयाः क्रियास्तासांगुंभः – ग्रधनंकारकदीपकम् – यत्रैक कारकमनेक क्रियाः क्रमेणानुयंति- तत्रकारकदीपकम्- यत्रयौगपद्येन बहूनामेकत्रान्वयः तत्र समुच्चय इतिभेदो द्रष्टव्यः – तत्सूवनायैवैतल्लक्षणेतु शब्दः',
             eng: '<h3>Word meanings</h3><table><tr><td>क्रमिकैकगतानाम् - </td><td>Of actions connected with one Karaka in succession</td></tr><tr><td>गुम्फः - </td><td>Combination</td></tr><tr><td>कारकदीपकम् - </td><td>The Case-Illuminator</td></tr></table><p>Acombination of actions that are successively connected with one Karaka (case-noun) is called कारकदीपकम्. Or, in other words, when the same Karaka. (case-noun) is connected with many verbs in succession, it is कारकदीपकम्.</p>'
           },
           examples: [
             {
               text: 'गच्छत्यागच्छति पुनः पान्थः पश्यति पृच्छति ॥',
               explanation: {
-                sans: '',
+                sans: 'पांथः प्रियांत्यक्त्वागंतुम सहमानः कश्चित्पथिकः – गच्छति यथाकथं चिद्व्रजति- पुनरागच्छतितद्विरह मसहमानः भूय एवागच्छति- ततः पश्यति प्रियामुखमनिमेपांधः पश्यतिपृच्छति ॥',
                 eng: '<h3>Word meanings</h3><table><tr><td>पान्थः - </td><td>Traveler</td></tr><tr><td>गच्छति - </td><td>Goes</td></tr><tr><td>पुनः - </td><td>Again</td></tr><tr><td>आगच्छति - </td><td>Comes</td></tr><tr><td>पश्यति - </td><td>Sees</td></tr><tr><td> पृच्छति - </td><td>Asks</td></tr></table><p>The traveller goes, again comes, sees and asks (something).</p><p>Here, पान्थः -a noun in the nominative case, is connected with 4 verbs गच्छति, etc, in Succession but not simultaneously as in the preceding ﬁgure समुच्चयः where simultaniety is desired.</p>'
               }
             }
@@ -2067,14 +2082,14 @@ export const state = () => ({
         {
           sloka: 'समाधिः कार्यसौकर्यं कारणान्तरसंनिधेः ।',
           sloka_explanation: {
-            sans: '',
+            sans: 'कारणांतरस्य आरंभकारणापेक्षया अन्यकारणस्य सन्निधेस्सन्निदाना त्कार्यस्यारब्ध कार्यस्य सौकर्यं सुलभत्वं समाधिरुच्यते- येनकेनचित्कारणेन एककार्यान्वयः – इहतु एकेनैव प्रकृत कार्यारंभे सतिकाकताळीया गतेन कारणांतरेण कार्यसौकर्यमात्र मितिभेदः ॥ ',
             eng: '<h3>Word meanings</h3><table><tr><td>कारणान्तरसन्निधेः - </td><td>Through the presence of some other cause</td></tr><tr><td>कार्य्यसौकर्य्यम् - </td><td>Facility of an act</td></tr><tr><td>समाधिः - </td><td>The Convenience</td></tr></table><p>When the accomplishment of an act is facilitated by the presence of some other cause, or in other Words, when the facilitation of an act is obtained through the accidental operation of another agency, it is called the Convenience.</p>'
           },
           examples: [
             {
               text: 'उत्कण्ठिता च तरुणी जगामास्तं च भानुमान् ॥',
               explanation: {
-                sans: '',
+                sans: 'कुलटाजारस्त्री उत्कंठितान्वतो गंतु मुत्सुकाभूत् अतोस्मिन्नेव समये भानुमांत्सूर्योप्यस्तं जगामास्तंगतोभूत् अत्र प्रियाभिसरणेकुलटोत्कंठैव पर्याप्तं कारणमत्रांतरे सूर्येस्तंगते सति अंधकारोदयादभिसरण सौकर्यं जातमितिसमाधिकलंकारः ॥',
                 eng: '<h3>Word meanings</h3><table><tr><td>तरुणी - </td><td>Young lady</td></tr><tr><td>उत्कण्ठिता - </td><td>Lodged for (her lover)</td></tr><tr><td>भानुमान् - </td><td>The sun</td></tr><tr><td>अस्तम् जगाम - </td><td>Set in</td></tr></table><p>No sooner did this young lady long for her lover than the sun set in.</p><p>Here, we see the simultaneous occurrence of two actions-the lady’s longing for her lover and the sun’s setting (expressed by the two च in the two sentences).</p><p>The lady longed for her lover and was about to go to meet him; and this was easily accomplished by the accidental operation of another cause-the ,setting of the sun, which enabled the lady to set out freely under the protecting mantle of the dark.</p>'
               }
             }
@@ -2090,14 +2105,14 @@ export const state = () => ({
         {
           sloka: 'प्रत्यनीकं बलवतः शत्रोः पक्षे पराक्रमः ।',
           sloka_explanation: {
-            sans: '',
+            sans: 'बलवतः प्रबलस्यशत्रोस्संबंधि निपक्षे मित्रादिसहाये पराक्रमः प्रत्यनीकमित्युच्यते- यत्र कश्चित्साक्षात्स्वशत्रौ पराक्रमितुमशक्तस्सन् तदनुवर्तिनं जनंतिरस्करोतीतिवर्ण्यते तत्र प्रत्यनीकालंकार इति निष्कर्षः ',
             eng: '<h3>Word meanings</h3><table><tr><td>बलवतः - </td><td>strong</td></tr><tr><td>शत्रोः - </td><td>Of the enemy</td></tr><tr><td>पक्षे - </td><td>On any partisan</td></tr><tr><tdपराक्रमः - </td><td>Attempt</td></tr><tr><td>प्रत्यनीकम् - </td><td>The Rivalry</td></tr></table><h3>Definition</h3><p>When any act of injury or mortiﬁcation is attempted on a partisan of one’s powerful enemy (by somebody who is unable to avenge himself directly on his enemy), it is called the Rivalry.</p>'
           },
           examples: [
             {
               text: 'जैत्रनेत्रानुगौ कर्णावुत्पलाभ्यामधःकृतौ ॥',
               explanation: {
-                sans: '',
+                sans: 'उत्पलाभ्यामिंदीवराभ्यां- जैत्रनेत्रानुगौ स्वबेतृ नयनानुवर्तिनौ कर्णौ अर्थःकृतौ अथः प्रदेशेकृतौ तिरस्कृतौ च – अत्र श्लेषमूलाध्यवसायेन उत्पलाभ्यां साक्षात्स्वजेतृ नेत्राभिभवे सामार्थ्या भावत्कर्णांत विश्रांत नेत्रानुसरण शीले शोत्रे अथः कृते इतिवर्णनाद्भवति प्रत्यनीकम् ॥',
                 eng: '<h3>Word meanings</h3><table><tr><td>उत्पलाभ्याम् - </td><td>By the lilies</td></tr><tr><td>जैत्रनेत्रानुगौ - </td><td>The servants of the victorious eyes</td></tr><tr><td> कर्णौ - </td><td>The ears</td></tr><tr><td>अधः कृतौ - </td><td>Made to bow down</td></tr></table><p>The ears, the servants (lit. neighbours) of the victorious eyes, have been made to bow down by the lilies. Women’s eyes and lilies are often compared to each other, the one excelling the other in beauty.</p><p>Here, the lilies unable to conquer the eyes avenge themselves on their neighbours, the ears, by making them bend down.</p><p>N.B.-The lilies are usually worn as ornaments on the ears which bend by their weight. </p>'
               }
             }
@@ -2113,14 +2128,14 @@ export const state = () => ({
         {
           sloka: 'कैमुत्येनार्थसंसिद्धिः काव्यार्थापत्तिरिष्यते ।',
           sloka_explanation: {
-            sans: '',
+            sans: 'कैमुत्येनकैमुतिकन्यायेन अर्धसंसिद्धिः वस्त्वंतर सिद्धिः काव्यार्थापत्तिरिष्यते ॥ यत्रदुस्साधार्धवर्णने अन्यस्यसुकर्त वस्तुनसिद्धिः दंडापूपिकान्यायेन वर्णिता चेत्तत्र काव्यार्धापत्तिर्नामालंकार इत्यर्थः ',
             eng: '<h3>Word meanings</h3><table><tr><td>कैमुत्येन - </td><td>By the expression how much more</td></tr><tr><td>अर्थसंसिड्विः - </td><td>Accomplishment of an act</td></tr><tr><td>काव्यार्थापत्तिः - </td><td>The Necessary conclusion in the province of Poetry</td></tr><tr><td>इष्यते - </td><td>Is called</td></tr></table><p>The accomplishment of an act founded upon the popular maxim कैमुतिकन्यायः ‘argument with a stronger reason’, is termed the Necessary Conclusion.</p><p>कैमुत्य is the abstract noun of किमुत ‘how much more’. कैमुतिकन्यायः is usually called दण्डापूपन्यायः  the maxim of the stick and the cakes. When a stick and some cakes are tied together and, when the stick has been eaten away by a rat, we are naturally led to believe that the cakes also have been eaten by the rat, the two things being so closely connected. Thus, when we say something of the one of two such things, the same naturally applies to the other thing also. </p>'
           },
           examples: [
             {
               text: 'स जितर्स्त्वन्मुखेनेन्दुः का वार्ता सरसीरुहाम् ॥',
               explanation: {
-                sans: '',
+                sans: 'हे सखिनः प्रसिद्धः जेतुमशक्य इतिभावः – इंदु स्त्वन्मुखेन जितः अभिभूतः – नरसीरुहां पद्मानां कावार्ताकाकथा- त्वन्मुखेन पद्मानिजितानीति किमुवक्तव्यमित्यर्थः – अत्र दुर्जयेंदु जयेवर्णिते सतिसुजयसरसीरुहाम् जयस्यकैमुत्यान्वये नैवलब्धत्वात्काव्यार्था पत्तिः काव्यपदं पिनोदेवदत्तः रात्रौभुङ्क्तै इत्याद्यर्थापत्ति निवारणायात्र प्रवृत्तम् ',
                 eng: '<h3>Word meanings</h3><table><tr><td>त्वन्मुखेन - </td><td>By thy face</td></tr><tr><td>सः इन्दुः - </td><td>That moon</td></tr><tr><td>जितः - </td><td>Was conquered</td></tr><tr><td>सरसीरूहाम् - </td><td>Of the lotuses</td></tr><tr><td>का - </td><td>What</td></tr><tr><td>वार्ता - </td><td>Mention</td></tr></table><p>(Lady !) That moon has been conquered by thy face. What necessity is there to speak of (or why we speak of ) lotuses.</p><p>It is an acknowledged fact that lotuses begin to shrink and become faded on the rise of the moon. When that moon, the subduer of the lotuses, has been conquered, the fact that lotuses too have been conquered much more becomes a necessary conclusion.</p>'
               }
             }
@@ -2136,14 +2151,14 @@ export const state = () => ({
         {
           sloka: 'समर्थनीयस्यार्थस्य काव्यलिङ्गं समर्थनम् ।',
           sloka_explanation: {
-            sans: '',
+            sans: 'अलि दुष्करत्वात्समर्धन सापेक्षः समर्थनीमर्थनम् । यः तस्यार्धस्य समर्थनं समर्थक हेतु प्रदर्शकं काव्यलिंगं दुष्करार्थमुपपाद्य तस्या संभाव्यत्वेन समर्थनापेक्ष यावाक्यार्थं पदार्थं वा हेतुं प्रदर्श्यसोर्थस्समर्थ्यते चेत्तत्काव्यलिंगमित्यर्थः – तथा च वाक्यार्थ हेतु कंपदार्थ  हेतुकं चेति काव्यलिंगालंकार स्यद्वैविध्यमबगंतव्यं ',
             eng: '<h3>Word meanings</h3><table><tr><td>समर्थनीयस्य - </td><td>To be established</td></tr><tr><td>अर्थस्य - </td><td>Of a fact</td></tr><tr><td>समर्थनम् - </td><td>Justifying</td></tr><tr><td>काव्यलिंगम् - </td><td>The Poetical Reason</td></tr></table><p>The Poetical Reason is a reason justifying a statement which requires to be established.</p>'
           },
           examples: [
             {
               text: 'जितोऽसि मन्द कन्दर्प मच्चित्तेऽस्ति त्रिलोचनः ॥',
               explanation: {
-                sans: '',
+                sans: 'हेमंद जडकंदर्प मन्मथजितोसि मयापराजितो सीत्यर्थः – कुतः – मच्चितैत्रिलोचनश्शिवोस्ति- त्वदीयदेहदाहक ल्प्चनशालि हरसन्निधानान्ममभवज्जयः क्रियानितिभावः – अत्र दुष्करमदन विजयस्वरूपार्थस्य मच्चित्तेस्ति त्रिलोचन इति वाक्यार्थेन समर्थनाद्भवति काव्यलिंगभेदः – एवं पदार्थ हेतुकमूह्यम् ॥',
                 eng: '<h3>Word meanings</h3><table><tr><td>मन्द - </td><td>Foolish</td></tr><tr><td>कन्दर्प - </td><td>Cupid</td></tr><tr><td>जितः असि - </td><td>Thou hast been conquered</td></tr><tr><td>मच्चित्ते - </td><td>In my mind</td></tr><tr><td>विलोचनः - </td><td>Three-eyed God Siva</td></tr><tr><td>अस्ति - </td><td>Resides</td></tr></table><p>O foolish God of love ! Thou hast been conquered (by me). For, in my mind, there resides the three-eyed God Siva.</p><p>Here, the fact of the presence of the God Siva. in the mind of the speaker is a reason for the speaker’s conquest of the God of Love who has once been burnt by Siva. </p>'
               }
             }
@@ -2158,21 +2173,21 @@ export const state = () => ({
         {
           sloka: 'उक्तिरर्थान्तरन्यासः स्यात्सामान्यविशेषयोः ।',
           sloka_explanation: {
-            sans: '',
+            sans: 'सामान्य विशेषयोरुक्रिरर्थांतरन्यासस्स्यात्- यत्र विशेषे प्रस्तुते सतितेन सह अप्रस्तुत सामान्यस्य अद्धांतरस्यन्यासः न्यसनम्- तथा सामान्ये प्रस्तुते सतितेन सहा प्रस्तुत विशेषस्यन्यसनंचयत्र भवति सर्वत्र समर्धनार्थमितिज्ञेयं तत्र द्विविधोर्धांतरन्यास इत्यर्थः ',
             eng: '<h3>Word meanings</h3><table><tr><td>सामान्यविशेषयोः - </td><td>Of a universal proposition and a particular instance</td></tr><tr><td>उक्तिः - </td><td>assertion</td></tr><tr><td>अर्थान्तरन्यासः - </td><td>The Transition</td></tr></table><p>The assertion of a universal (proposition) and a particular (instance) is termed the Transition. Or, in other words, when a universal proposition is introduced to support a particular instance, or a particular instance to support a universal proposition, it is called the Transition.</p>'
           },
           examples: [
             {
               text: 'हनूमानब्धिमतरद्दुष्करं किं महात्मनाम् ॥',
               explanation: {
-                sans: '',
+                sans: 'हनूमान् अब्धिं समुद्रं अतरत् व्यलंघयत्- एवम् प्रस्तुतं विशेषं दुःखेनापितरितुमशक्यं किंन किमपीत्यर्थः – अतो हनूमतो पिलोकाति क्रांतप्रधावत्वात्समुद्रतरणं तस्य क्रियदिति सामान्येन समर्थ्यत इति भवति प्रथमोर्थांतरन्यासः ॥',
                 eng: '<h3>Word meanings</h3><table><tr><td>हनूमान् - </td><td>The monkey- God Hanuman</td></tr><tr><td>अब्धिम् - </td><td>The ocean</td></tr><tr><td>अतरर् - </td><td>Crossed</td></tr><tr><td>महात्मनाम् - </td><td>Of great men</td></tr><tr><td>दुष्करम् - </td><td>Impossible</td></tr><tr><td>किम् - </td><td>What</td></tr></table><p>Hanuman crossed the ocean ; what is impossible for great men ?</p><p>Here, a particular instance is conﬁrmed by a universal proposition.</p><p>Example of a universal proposition supported by a particular instance.</p>'
               }
             },
             {
               text: 'गुणवद्वस्तुसंसर्गाद् याति स्वल्पोऽपि गौरवम् ।<br>पुष्पमालानुषंगेण सूत्रं शिरसि धार्यते ॥',
               explanation: {
-                sans: '',
+                sans: 'स्वल्पोपिनिकृष्टोपिगुणवद्वस्तु संसर्गात् गुणवदर्ध संपर्काद्गौरवं गुरुत्वं याति प्राप्नोति- तथाहि पुष्पमालानुषंगेण सुरभिमाल्यसंपर्केण सूत्रं तंतुः निर्गुणोपीतिभावः- शिरसाधार्यते शिरसावहनेन बहूक्रियत इत्यर्थः- अत्रगुणवदित्यादिना पूर्वार्थेन प्रस्तुतं सामान्यं निर्दिश्य तत्समर्धकत्वेन तेन सहपुष्पमलानुषंगेणेत्यत्र अप्रस्तुत विशेषस्यन्यसनमिति द्वितीयोर्थांतरन्यासः ॥',
                 eng: '<h3>Word meanings</h3><table><tr><td>गुणवद्वस्तुसंसर्गाद् - </td><td>By association of the meritorious</td></tr><tr><td>स्वल्पोऽपि - </td><td>Even the meanest creature</td></tr><tr><td>गौरवम् - </td><td>Greatness</td></tr><tr><td>याति - </td><td>Attains</td></tr><tr><td>पुष्पमालानुषंगेण - </td><td>By the union with a wreath of flowers</td></tr><tr><td>सूत्रं - </td><td>Thread</td></tr><tr><td>शिरसि - </td><td>On the head</td></tr><tr><td>धार्यते - </td><td>Is worn</td></tr></table><p>Even the meanest creature, by the association of the meritorious, attains to the greatness. A thread united with a wreath of ﬂowers is worn on the head.</p><p>Here, a universal proposition is conﬁrmed by a particular instance.</p>'
               }
             }
