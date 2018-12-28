@@ -2746,14 +2746,14 @@ export const state = () => ({
         {
           sloka: 'किंचिदाकूतसहितं स्याद्गूढोत्तरमुत्तरम् ।',
           sloka_explanation: {
-            sans: '',
+            sans: 'किंचिदाकूतेनाशयेन महितं च मत्कृतंयुदुत्तरं तद्गूढोत्तरं स्यादित्यर्थः – केनचित्किंचिद्विषयक प्रश्नेकृते सति तत्र केनचित्स्वाशय गर्भमुत्तरं दीयते चेत्तद्गूढोत्तरं स्यादित्यर्धः ',
             eng: '<h3>Word meanings</h3><table><tr><td>किंचिदाकूतसहितम् - </td><td>Containing some import</td></tr><tr><td>गूढोत्तरम् - </td><td>A secret reply</td></tr><tr><td>उत्तरं स्यात् - </td><td>Is The Reply</td></tr><tr><td>पान्थ ! - </td><td>O traveler !</td></tr></table><p>A secret reply containing some indirect import (of the speaker) is called the Reply. Or, in other words, when the speaker indirectly expresses his or her own intention in a reply made to a query previously put by some person (which query is to be inferred from the answer), it is called the Reply.</p>'
           },
           examples: [
             {
               text: 'यत्रासौ वेतसी पान्थ तत्रेयं सुतरा सरित् ॥',
               explanation: {
-                sans: '',
+                sans: 'अस्यास्सरितः कुत्रवातरणमार्ग इति पृच्छंतं पांथमुद्दिश्यतत्संगमे साभिलाषायाः कस्याश्चिदिदम्मुतरम् ॥ हे पांथ असावदूरे परिदृश्यमानः  वेतसोवंहुळकुंजः यत्रयस्मिदेशेवर्तते तत्र देशे इयं पुरोवर्तिनी सरित् नदीसुतरासुखेन तरितुं शक्या- तंदेशंगच्छ- जनसम्म द्गूढोत्तरमुत्तरम् । ',
                 eng: '<h3>Word meanings</h3><table><tr><td>यत्र - </td><td>Where</td></tr><tr><td>असौ वेतसौ - </td><td>That rattan</td></tr><tr><td>तत्र - </td><td>There</td></tr><tr><td>इयं सरित् - </td><td>This river</td></tr><tr><td>सुतरा - </td><td>Is fordable</td></tr></table><p>O Traveller! (the place) where that ratan is seen-there this river is fordable.</p><p>From this, we understand theta traveller has asked the speaker, a lady here, the place where a particular river can be crossed. The lady becoming enumoured of him makes this reply by showing a particular place which was also indirectly named by her as a place of assignatiou for their meeting.</p>'
               }
             }
@@ -2765,13 +2765,13 @@ export const state = () => ({
         {
           sloka: '<h3>Second kind of the Reply.</h3>पश्नोत्तरान्तराभिन्नमुत्तरं चित्रमुच्यते ।',
           sloka_explanation: {
-            sans: '',
+            sans: 'प्रश्नोत्तरांतराभिन्नं प्रश्नाभिन्नमुत्तरांतराभिन्नं च यदुत्तरंतच्चित्रोत्तरमित्यर्धः – केनचित्किंचिद्विषौअक प्रश्नेकृते सत्यन्येन चतुरजनेन तत्प्रश्नवाक्यमेवोत्तरत्वेन दत्तं चेत्तत्प्राश्नाभीन्नोत्तरमित्यर्थः – केनचिदर्धद्वय विषयक प्रश्नेकृते सतितस्योत्तरद्वये वाच्येन्येन निपुणजनेन एकमेवोत्तरमुत्तराभिन्नत्वेन दत्तं चेत्प्रश्नद्वयस्याप्येकमेव समर्थतिमुत्तरंदत्तं यदितदुत्तरांतराभिन्नोत्तरमित्युच्यत इत्यर्थः',
             eng: '<h3>Word meanings</h3><table><tr><td>प्रश्न+उत्तरान्तर+अभिन्नम् - </td><td>Consisting of same words of the query and its two replies</td></tr><tr><td>चित्रमुत्तरम् - </td><td>A skilful reply</td></tr><tr><td>उत्तरम् - </td><td>The Reply</td></tr></table><p>When a skilful reply is not different from the query, or in other words, when a reply made consists of the same words of the question asked, and when one reply made serves for two queries asked, then it is called also the Reply.</p>'
           },
           examples: [
             {
               text: 'के दारपोषणरताः के खेटाः किं चलं वयः ॥',
-              explanation_sans: '',
+              explanation_sans: 'केदारपोषणरताः भार्यापोषणासक्ताः केवास्युः अन्येतु केदारपोषणरता इत्यखंडमेव वाक्यं- केदाराणां व्रीह्याद्युत्पादक क्षेत्राणां पोषणेवर्थने येरताः आसक्ताह् कृषिजीवना इत्यर्थः – अत एवदारपोषण रता इत्युत्तरवाक्यार्धः – कृषितोनास्तिदुर्भिक्षमितिन्यायेन तेषामेवकुटुंबरक्षण शक्तिरित्यर्थः',
               explanation_eng: '<h3>Word meanings</h3><table><tr><td>के - </td><td>Who</td></tr><tr><td>दारपोषणरताः - </td><td>Those that are engaged in maintaining their wives</td></tr><tr><td>केदारपोषणरताः - </td><td>Those that are bent upon bringing the lands to perfection= husbandmen</td></tr><tr><td>के खेटाः - </td><td>Who move in the air</td></tr><tr><td>किं चलम् - </td><td>Which is transitory</td></tr><tr><td>वयः - </td><td>(1) Birds (2) the age</td></tr></table><p>Q. Who are those that are engaged in maintaining their wives ?</p><p>R. Those that are bent upon bringing the lands to perfection or husbandmen.</p><p>Q. Who move in the air and which is transitory-</p><p>R. वयः (1) birds (2) age.</p><p>केदारः = a ﬁeld. The ﬁrst question के दारपोषणरताः and its answer केदारपोषणरताः consist of the same words (lit. letters). वयः is the one reply made to the two questions asked. वयः when it means, ‘birds’ is the nominative plural of the word वि; and when it means ‘the age’ it is the nominative singular of the neuternoun वयस्. Hence these are styled the skilful replies. </p>'
             }
           ]
