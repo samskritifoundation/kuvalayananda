@@ -3187,9 +3187,8 @@ export const state = () => ({
       ]
     },
     {
-      title_eng: ' ',
-      id: 100,
-      common: '<a href="/exercises">Go to exercises</a>'
+      title_eng: 'Continue to Exercises ',
+      id: 99
     }
   ],
   titles: [
@@ -3633,57 +3632,57 @@ export const state = () => ({
     {
       title: 'लोकोक्तिः',
       sl_num: '88',
-      to: '/lessons/89'
+      to: '/lessons/88'
     },
     {
       title: 'छेकोत्किः',
+      sl_num: '89',
+      to: '/lessons/89'
+    },
+    {
+      title: 'वक्रोक्तिः',
       sl_num: '90',
       to: '/lessons/90'
     },
     {
-      title: 'वक्रोक्तिः',
+      title: 'स्वभावोक्तिः',
       sl_num: '91',
       to: '/lessons/91'
     },
     {
-      title: 'स्वभावोक्तिः',
+      title: 'भाविकम्',
       sl_num: '92',
       to: '/lessons/92'
     },
     {
-      title: 'भाविकम्',
+      title: 'उदात्तम्',
       sl_num: '93',
       to: '/lessons/93'
     },
     {
-      title: 'उदात्तम्',
+      title: 'अत्युक्तिः',
       sl_num: '94',
       to: '/lessons/94'
     },
     {
-      title: 'अत्युक्तिः',
+      title: 'निरुक्तिः',
       sl_num: '95',
       to: '/lessons/95'
     },
     {
-      title: 'निरुक्तिः',
+      title: 'प्रतिषेधः',
       sl_num: '96',
       to: '/lessons/96'
     },
     {
-      title: 'प्रतिषेधः',
-      sl_num: '97',
-      to: '/lessons/98'
-    },
-    {
       title: 'विधिः',
-      sl_num: '98',
-      to: '/lessons/98'
+      sl_num: '97',
+      to: '/lessons/97'
     },
     {
       title: 'हेतुः',
-      sl_num: '99',
-      to: '/lessons/99'
+      sl_num: '98',
+      to: '/lessons/98'
     }
   ]
 })
