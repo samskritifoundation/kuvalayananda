@@ -50,7 +50,7 @@ export default {
           align: 'left',
           value: 'serial'
         },
-        { text: 'Title', value: 'name' },
+        { text: 'Title', value: 'title' },
         { text: 'Link', value: 'link' }
       ]
     }
