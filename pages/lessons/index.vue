@@ -2,17 +2,36 @@
   <v-container class="mt-0 pt-0">
   <v-card color="accent lighten-4" class="bordered papyrus mt-0 pt-0">
     <v-card-title primary-title>
-      <h3 class="papyrus myheader">Learn Kuvalayananda</h3>
+      <h3 class="papyrus myheader">Learn Candrāloka</h3>
       </v-card-title>
   <v-container fluid grid-list-sm>
-    <!--
-          <v-layout row wrap>
-            <v-flex v-for="item,i in alankaras" :key="i" xs4>
-              <v-btn :to="item.to" large color="secondary" class="text-capitalize font-weight-bold" round>{{item.title}}</v-btn>
-            </v-flex>
-          </v-layout>
-          -->
-          <v-treeview :items="alankaras"></v-treeview>
+           <v-card>
+    <v-card-title>
+      <h3>List of all Lessons</h3>
+      <v-spacer></v-spacer>
+      <v-text-field
+        v-model="search"
+        append-icon="search"
+        label="Search"
+        single-line
+        hide-details
+      ></v-text-field>
+    </v-card-title>
+           <v-data-table
+            :headers="headers"
+            :items="alankaras"
+            :search="search"
+            class="elevation-1 defaultTable">
+            <template slot="items" slot-scope="props">
+              <td>{{props.item.sl_num}}</td>
+              <td>{{props.item.title}}</td>
+              <td><v-btn color="accent darken-2" :to="props.item.to">View</v-btn></td>
+            </template>
+            <v-alert slot="no-results" :value="true" color="error" icon="warning">
+        Your search for "{{ search }}" found no results.
+      </v-alert>
+           </v-data-table>
+           </v-card>
         </v-container>
   </v-card>
   </v-container>
@@ -23,7 +42,17 @@ export default {
   layout: 'lessons',
   data () {
     return {
-      alankaras: this.$store.state.titles
+      search: '',
+      alankaras: this.$store.state.titles,
+      headers: [
+        {
+          text: 'Sl num',
+          align: 'left',
+          value: 'serial'
+        },
+        { text: 'Title', value: 'name' },
+        { text: 'Link', value: 'link' }
+      ]
     }
   }
 }

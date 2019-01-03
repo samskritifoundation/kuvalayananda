@@ -46,6 +46,14 @@
         </v-list-tile>
       </v-list>
 
+      <v-text-field
+        v-model="searchlist"
+        append-icon="search"
+        label="Search"
+        single-line
+        class = "px-3"
+      ></v-text-field>
+
       <v-list class="pt-0" dense>
         <v-divider light></v-divider>
 
@@ -121,10 +129,22 @@
   export default {
     data () {
       return {
+        searchlist: '',
         drawer: null,
-        items: this.$store.state.titles,
+        titles: this.$store.state.titles,
         mini: false,
         right: null
+      }
+    },
+    computed: {
+      items () {
+        if (this.searchlist) {
+          return this.titles.filter(item => {
+            return item.title.includes(this.searchlist)
+          })
+        } else {
+          return this.titles
+        }
       }
     }
   }

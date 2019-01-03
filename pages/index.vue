@@ -5,17 +5,17 @@
 <sflogo title="संस्कृति-प्रतिष्ठानम्" subtitle1="Samskriti Foundation" subtitle2="presents" />
       </div>
       <v-card class = "bordered text-xs-center" color="primary" dark>
-        <v-card-title class="myheader2 devanagari text-xs-center"कुवलयानन्द-शिक्षकः - परस्परव्यवहारपूर्वकशिक्षणम्</v-card-title>
-        <v-card-title class="myheader2 papyrus text-xs-center">Interactive tutorial for Kuvalayananda</v-card-title>
+        <v-card-title class="myheader2 devanagari text-xs-center">चन्द्रालोक-शिक्षकः - परस्परव्यवहारपूर्वकशिक्षणम्</v-card-title>
+        <v-card-title class="myheader2 papyrus text-xs-center">Interactive tutorial for Candrāloka</v-card-title>
         <v-card-text>
           <p>Interactive self learning software for learning rhetorics used in Sanskrit poetry.</p>
           <hr class="my-3">
         </v-card-text>
         <v-card-actions>
           <v-dialog v-model="dialog" scrollable>
-          <v-btn slot="activator" round color="accent" class="text-capitalize font-weight-bold" large :ripple="{ class: 'error--text' }"> About <br> Kuvalayananda</v-btn>
+          <v-btn slot="activator" round color="accent" class="text-capitalize font-weight-bold" large :ripple="{ class: 'error--text' }"> About <br> Candrāloka</v-btn>
           <v-card color="info" class="papyrus bg1" light>
-            <v-card-title class="myheader papyrus">Kuvalayananda</v-card-title>
+            <v-card-title class="myheader papyrus">Candrāloka</v-card-title>
             <v-divider></v-divider>
             <v-card-text class="subheading papyrus font-weight-bold"></v-card-text>
             <v-divider></v-divider>

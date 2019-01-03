@@ -3196,12 +3196,14 @@ export const state = () => ({
     {
       title: 'Introduction',
       sl_num: '1',
-      to: '/lessons/1'
+      to: '/lessons/1',
+      value: false
     },
     {
       title: 'उपमालङ्कारः',
       sl_num: '2',
-      to: '/lessons/2'
+      to: '/lessons/2',
+      value: false
     },
     {
       title: 'अनन्वयालङ्कारः',
